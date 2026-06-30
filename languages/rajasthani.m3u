@@ -1,0 +1,24 @@
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz;https://i.mjh.nz/SamsungTVPlus/in.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz" 
+
+DD.Rajasthan.(Jaipur).in 538 jiotv
+#EXTINF:-1 tvg-id="DD.RAJASTHAN.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Rajasthan.png" group-title="ENTERTAINMENT" , DD RAJASTHAN
+https://cdn-1.pishow.tv/live/34/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/NDTV_Rajasthan.png" group-title="NEWS" , NDTV RAJASTHAN
+#https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8
+#https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/chunklist_2.m3u8
+#https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/chunklist_3.m3u8
+https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/chunklist_4.m3u8
+#https://vg-ndtvlive.akamaized.net/ptnr-yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-753641/main.m3u8
+#https://vg-ndtvyupp.akamaized.net/v1/vglive-sk-753641/019449ff84751ea506ec5cf4231ea/01944a59537e1ebd47043d27e72b61/main.m3u8
+#https://vg-ndtvyupp.akamaized.net/v1/vglive-sk-753641/019449ff84751ea506ec5cf4231ea/01944a59537e1ebd47043d27e72b61/ndtvrj_720p.m3u8
+
+#EXTINF:-1 tvg-id="NEWS18.RAJASTHAN.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/News18_Rajasthan.png" group-title="NEWS" , NEWS18 RAJASTHAN
+https://n18syndication.akamaized.net/bpk-tv/News18_Rajasthan_NW18_MOB/output01/master.m3u8
+
+#EXTINF:-1 tvg-id="ZEE.RAJASTHAN.NEWS.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Rajasthan.png" group-title="NEWS" , ZEE RAJASTHAN
+https://zati5.hasanhabibmottakin.workers.dev/0-9-zeerajasthannews/index.m3u8
+
+
+
+
