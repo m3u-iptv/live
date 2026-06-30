@@ -2,8 +2,8 @@
 
 Indian TV Channels All Languages List
 
-Assamese (অসমীয়া)
-Bengali (বাংলা)
+# Assamese (অসমীয়া)
+# Bengali (বাংলা)
 Bhojpuri (भोजपुरी)
 English
 Gujarati (ગુજરાતી)
