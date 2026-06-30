@@ -101,7 +101,7 @@ Same thing, but split up into separate files:
     <tr><td align="left">Nepali</td><td align="right">15</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/nep.m3u</code></td></tr>
     <tr><td align="left">Oriya (Odia)</td><td align="right">13</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/oriya.m3u</code></td></tr>
     <tr><td align="left">Punjabi</td><td align="right">39</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/punjabi.m3u</code></td></tr>
-        <tr><td align="left">Rajasthani</td><td align="right">39</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/Rajasthani.m3u</code></td></tr>
+        <tr><td align="left">Rajasthani</td><td align="right">39</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/rajasthani.m3u</code></td></tr>
     <tr><td align="left">Tamil</td><td align="right">125</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/tamil.m3u</code></td></tr>
     <tr><td align="left">Telugu</td><td align="right">72</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/telugu.m3u</code></td></tr>
     <tr><td align="left">Urdu</td><td align="right">77</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/urdu.m3u</code></td></tr>
