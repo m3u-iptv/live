@@ -54,10 +54,10 @@ https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01
 #https://9xjio.wiseplayout.com/9X_Jhakaas/master.m3u8
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s77447_ld_h15_aa.png" group-title="HINDI" , 9XM
+#EXTINF:-1 tvg-id="9XM.in" tvg-logo="https://dtil.tmsimg.com/assets/s77447_ld_h15_aa.png" group-title="HINDI" , 9XM
 #https://9xjio.wiseplayout.com/9XM/master.m3u8
 
-#EXTINF:-1 tvg-id="9X.TASHAN.in" tvg-logo="https://dtil.tmsimg.com/assets/s142504_ld_h15_aa.png" group-title="PUNJABI" , 9X THASHAN
+#EXTINF:-1 tvg-id="9X.Tashan.in" tvg-logo="https://dtil.tmsimg.com/assets/s142504_ld_h15_aa.png" group-title="PUNJABI" , 9X THASHAN
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8
 
 
