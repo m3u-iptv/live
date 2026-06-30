@@ -609,12 +609,12 @@ https://live-dangal2.akamaized.net/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s142774_ld_h15_aa.png" group-title="MALAYALAM" , DARSHANA
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s142651_ld_h15_aa.png" group-title="HINDI" , DHARM SANDESH
+#EXTINF:-1 tvg-id="Dharma.Sandesh.in" tvg-logo="https://dtil.tmsimg.com/assets/s142651_ld_h15_aa.png" group-title="HINDI" , DHARM SANDESH
 #https://aasthaott.akamaized.net/110923/smil:arihant.smil/index.m3u8
 https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8
 
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s142882_ld_h15_aa.png" group-title="BENGALI" , DHOOM MUSIC
+#Dhoom.Music.Bangla.in
+#EXTINF:-1 tvg-id="DHOOM.MUSIC.in" tvg-logo="https://dtil.tmsimg.com/assets/s142882_ld_h15_aa.png" group-title="BENGALI" , DHOOM MUSIC
 http://103.175.73.12:8080/live/378/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s159106_ld_h15_aa.png" group-title="ENGLISH" , DISCOVERY HD WORLD
@@ -857,7 +857,7 @@ https://cdn.ottlive.co.in/indiadailylive/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="HINDI" , INDIA NEWS GUJARAT
-http://103.175.73.12:8080/live/655/master.m3u8
+http://103.175.73.12:8080/live/653/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143192_ld_h15_aa.png" group-title="HINDI" , India News Haryana
 
@@ -1050,7 +1050,7 @@ https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/chunklist_4.m3u8
 http://103.175.73.12:8080/live/681/master.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143585_ld_h15_aa.png" group-title="HINDI" , NETWORK 10
+#EXTINF:-1 tvg-id="Network.10.in" tvg-logo="https://dtil.tmsimg.com/assets/s143585_ld_h15_aa.png" group-title="HINDI" , NETWORK 10
 http://103.175.73.12:8080/live/611/master.m3u8
 
 
@@ -1390,7 +1390,7 @@ http://202.70.146.135:8000/play/a00a/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143883_ld_h15_aa.png" group-title="ENGLISH" , SUPER HUNGAMA
 
 #EXTINF:-1 tvg-id="The.Q.in" tvg-logo="https://dtil.tmsimg.com/assets/s144002_ld_h15_aa.png" group-title="HINDI" , THE Q
-http://103.175.73.12:8080/live/298/master.m3u8
+http://103.175.73.12:8080/live/25/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s144008_ld_h15_aa.png" group-title="ENGLISH" , TIMES NOW HD
 
