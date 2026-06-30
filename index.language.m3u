@@ -109,7 +109,7 @@ https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b1928000.m3u8
 #https://aasthaott.akamaized.net/110923/smil:aasthagujrati.smil/index.m3u8
 https://aasthaott.akamaized.net/110923/smil:aasthagujrati.smil/chunklist_b1928000.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Aastha_Kannada_HD.png" group-title="KANNADA" , AASTHA KANNADA
+#EXTINF:-1 tvg-id="Aastha.Kannada.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Aastha_Kannada_HD.png" group-title="KANNADA" , AASTHA KANNADA
 #https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/index.m3u8
 https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/chunklist_b1928000.m3u8
 
@@ -117,11 +117,11 @@ https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/chunklist_b192800
 #https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/index.m3u8
 https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/chunklist_b2628000.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Aastha_Tamil_HD.png" group-title="TAMIL" , AASTHA TAMIL
+#EXTINF:-1 tvg-id="Aastha.Tamil.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Aastha_Tamil_HD.png" group-title="TAMIL" , AASTHA TAMIL
 #https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/index.m3u8
 https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/chunklist_b1928000.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Aastha_Telugu_HD.png" group-title="TELUGU" , AASTHA TELUGU
+#EXTINF:-1 tvg-id="Aastha.Telugu.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Aastha_Telugu_HD.png" group-title="TELUGU" , AASTHA TELUGU
 #https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/index.m3u8
 https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/chunklist_b1928000.m3u8
 
