@@ -1406,7 +1406,9 @@ http://103.175.73.12:8080/live/25/master.m3u8
 #KODIPROP:inputstream.adaptive.license_key=e48e7373d6be47ecab83a20849f6823e:513ce07a2ee24ffdbe667eff5a9d46a8
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Tlc2/default/manifest.mpd
 
-
+#EXTINF:-1 tvg-id="Total Bhakti.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Total_Bhakti.png" group-title="HINDI",TOTAL BHAKTI
+#https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8
+https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index_8.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s144015_ld_h15_aa.png" group-title="ENGLISH" , TRAVELXP HD
 
@@ -1456,7 +1458,7 @@ https://zati5.hasanhabibmottakin.workers.dev/0-9-channel_2105335046/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00358PX5.png" group-title="ENGLISH" , UNITE8 SPORTS 2
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s144069_ld_h15_aa.png" group-title="HINDI" , Vedic
+#EXTINF:-1 tvg-id="Vedic.TV.in" tvg-logo="https://dtil.tmsimg.com/assets/s144069_ld_h15_aa.png" group-title="HINDI" , Vedic
 #https://aasthaott.akamaized.net/110923/smil:vedic.smil/index.m3u8
 https://aasthaott.akamaized.net/110923/smil:vedic.smil/chunklist_b1928000.m3u8
 
@@ -1697,7 +1699,5 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zing/default/manifest.mpd
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/main.mpd
 #592 jiotv
 
-#EXTINF:-1 tvg-id="Total Bhakti.in" tvg-logo="" group-title="HINDI",Total Bhakti
-https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8
 
 
