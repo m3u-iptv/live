@@ -18,7 +18,7 @@ https://pbgangaur.wiseplayout.com/Gangaur/HD1080/HD1080.m3u8
 #EXTINF:-1 tvg-id="India.News.Rajasthan.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/India_News_Rajasthan.png" group-title="NEWS" , INDIA NEWS RAJASTHAN
 http://103.175.73.12:8080/live/601/master.m3u8
 
-#EXTINF:-1 tvg-id="1152" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/NDTV_Rajasthan.png" group-title="NEWS" , NDTV RAJASTHAN
+#EXTINF:-1 tvg-id="1152" tvg-name="NDTVRajasthan.in@SD" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/NDTV_Rajasthan.png" group-title="NEWS" , NDTV Rajasthan
 #https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8
 #https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/chunklist_2.m3u8
 #https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/chunklist_3.m3u8
