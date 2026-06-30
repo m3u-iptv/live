@@ -1,5 +1,5 @@
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_DISTROTV1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_DISTROTV1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz;https://i.mjh.nz/SamsungTVPlus/in.xml.gz" 
-#https://www.tsepg.cf/epg.xml.gz
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_DISTROTV1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_DISTROTV1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz;https://i.mjh.nz/SamsungTVPlus/in.xml.gz;https://www.tsepg.cf/epg.xml.gz" 
+
 
 #EXTINF:-1 tvg-id="144" tvg-chno="144" tvg-name="Colors HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_HD.png" tvg-language="Hindi" group-title="ENTERTAINMENT", COLORS HD
 #http://202.70.146.135:8000/play/a00b/index.m3u8
@@ -1696,4 +1696,8 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zing/default/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=86edec9e3b7d4042a4d4a1ca14f847ee:9def4315f0004019a3705bcb3cf30ca3
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/main.mpd
 #592 jiotv
+
+#EXTINF:-1 tvg-id="Total Bhakti.in" tvg-logo="" group-title="HINDI",Total Bhakti
+https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8
+
 
