@@ -1037,7 +1037,7 @@ https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/chunklist_5.
 #https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_4.m3u8
 https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/NDTV_Rajasthan.png" group-title="HINDI" , NDTV RAJASTHAN
+#EXTINF:-1 tvg-id="1152" tvg-name="NDTVRajasthan.in@SD" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/NDTV_Rajasthan.png" group-title="HINDI" , NDTV Rajasthan
 #https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8
 #https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/chunklist_2.m3u8
 #https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/chunklist_3.m3u8
