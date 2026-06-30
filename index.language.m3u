@@ -292,12 +292,12 @@ https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
 #http://103.175.73.12:8080/live/13/13_0.m3u8
 https://zati5.hasanhabibmottakin.workers.dev/0-9-bigmagic_1786965389/index.m3u8
 
-#EXTINF:-1 tvg-id="IN4000600Q" tvg-name="Bollygold" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000600Q_20260623T013733SQUARE.png" group-title="HINDI" , BOLLY GOLD
+#EXTINF:-1 tvg-id="IN4000600Q" tvg-name="Bollygold" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Bolly_Gold.png" group-title="HINDI" , BOLLY GOLD
 #https://jmp2.uk/stvp-IN4000600Q
 https://cc-4wnacsyr401vh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4wnacsyr401vh/v1/019c6f6ccfb71567ee931d808fa98f/019c6f7cedea1567ee931d808fa993/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="IN4000555E" tvg-name="Bollywood Masala" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000555E_20260623T013738SQUARE.png" group-title="HINDI" , BOLLYWOOD MASALA
+#EXTINF:-1 tvg-id="IN4000555E" tvg-name="Bollywood Masala" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Bollywood_Masala.png" group-title="HINDI" , BOLLYWOOD MASALA
 #https://jmp2.uk/stvp-IN4000555E
 https://cc-oocjjcprb2v3h.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-oocjjcprb2v3h/ptnr-samsung/title-Bollywood_Masala/sofastplayout/751631cf-7a0d-356e-676e-b84cfec03391_0_HLS/manifest.m3u8
 
@@ -424,7 +424,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2611/default_ott.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s142898_ld_h15_aa.png" group-title="HINDI" , COMEDY ACTIVE
 
 
-#EXTINF:-1 tvg-id="IN3600006RT" tvg-name="Comedy King" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3600006RT_20260623T014707SQUARE.png" group-title="HINDI" , COMEDY KING
+#EXTINF:-1 tvg-id="IN3600006RT" tvg-name="Comedy King" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Comedy_King.png" group-title="HINDI" , COMEDY KING
 #https://jmp2.uk/stvp-IN3600006RT
 https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-ck61vv76day3g.m3u8
 #https://d348ydbk2sf0eq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ttp5jxbr5oygy/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN3600006RT&ads.ssai_vendor=SSSLIVE&pb_type=pb-ttp5jxbr5oygy_cloudfront
@@ -834,6 +834,10 @@ http://103.175.73.12:8080/live/617/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143136_ld_h15_aa.png" group-title="TELUGU" , HM TV
 
+#EXTINF:-1 tvg-id="IN3800010SH" tvg-name="Hollywood Desi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Hollywood_Desi.png",Hollywood Desi
+#https://jmp2.uk/stvp-IN3800010SH
+https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-rjn26c9e07hof.m3u8
+#https://d21eryt9uyhipq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-1ogxxbupxxrp7/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN3800010SH&ads.ssai_vendor=SSSLIVE&pb_type=pb-1ogxxbupxxrp7_cloudfront
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s158301_ld_h15_aa.png" group-title="HINDI" , HOLLYWOOD INDIE ACTIVE
 
@@ -1154,6 +1158,16 @@ http://103.175.73.12:8080/live/610/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="ENGLISH" , NKH WORLD JAPAN
 http://103.175.73.12:8080/live/417/master.m3u8
 
+#EXTINF:-1 tvg-id="IN46000140Q" tvg-name="NH BollyFlix" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/NH_Bolly_Flix.png" group-title="HINDI" , NH BOLLY FLIX
+#https://jmp2.uk/stvp-IN46000140Q
+https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-cps28xjiqxcqi.m3u8
+#https://d1bnb20pevkrom.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-8xs28buuqfw19/BollyFlix_IN.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN46000140Q&ads.ssai_vendor=SSSLIVE&pb_type=pb-8xs28buuqfw19_cloudfront
+
+#EXTINF:-1 tvg-id="IN400061DB" tvg-name="NH Tamil Gold" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/NH_Tamil_Gold.png" group-title="TAMIL" , NH TAMIL GOLD
+https://jmp2.uk/stvp-IN400061DB
+https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-q6b5i9hiuzgr7.m3u8
+#https://d3arbp6l7f096k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-gv6wgpbb4mgwk/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN400061DB&ads.ssai_vendor=SSSLIVE&pb_type=pb-gv6wgpbb4mgwk_cloudfront
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143633_ld_h15_aa.png" group-title="ASSAMESE" , North East Live
 http://103.175.73.12:8080/live/674/master.m3u8
 
@@ -1326,6 +1340,11 @@ https://sl.vodep39240327.workers.dev/channel/SONY+MARATHI.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s157593_ld_h15_aa.png" group-title="ENGLISH" , SONY SPORTS TEN 5
 
 
+#EXTINF:-1 tvg-id="IN3800008CX" tvg-name="South Station" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/South_Station.png" group-title="HINDI" , SOUTH STATION
+#https://jmp2.uk/stvp-IN3800008CX
+https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-x37nhptwcba84.m3u8
+#https://d1rfqi6gr2lw4k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-fqu6rxobd50d5/SS_IN.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN3800008CX&ads.ssai_vendor=SSSLIVE&pb_type=pb-fqu6rxobd50d5_cloudfront
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143819_ld_h15_aa.png" group-title="BENGALI" , STAR JALSHA HD
 
 
@@ -1388,6 +1407,17 @@ http://202.70.146.135:8000/play/a00a/index.m3u8
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143883_ld_h15_aa.png" group-title="ENGLISH" , SUPER HUNGAMA
+
+
+#EXTINF:-1 tvg-id="IN38000072R" tvg-name="The Movie Club" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/The_Movie_Club.png" group-title="HINDI" , THE MOVIE CLUB
+#https://jmp2.uk/stvp-IN38000072R
+https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8
+#https://pb-dkdpz5so0aqqr.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-dkdpz5so0aqqr/TMC_IN.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN38000072R&ads.ssai_vendor=SSSLIVE&pb_type=pb-dkdpz5so0aqqr_akamai
+
+#EXTINF:-1 tvg-id="IN40000100Y" tvg-name="The Movie Club+2" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/The_Movie_Club_Plus_2.png" group-title="HINDI" , THE MOVIE CLUB PLUS 2
+#https://jmp2.uk/stvp-IN40000100Y
+https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-7bc7k87sjhz5z.m3u8
+#https://d3gnyty2vddhsg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ytipwjqub3kf8/TMC2_IN.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN40000100Y&ads.ssai_vendor=SSSLIVE&pb_type=pb-ytipwjqub3kf8_cloudfront
 
 #EXTINF:-1 tvg-id="The.Q.in" tvg-logo="https://dtil.tmsimg.com/assets/s144002_ld_h15_aa.png" group-title="HINDI" , THE Q
 http://103.175.73.12:8080/live/25/master.m3u8
@@ -1538,7 +1568,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd
 https://dwby15d04agvq.cloudfront.net/index_5.m3u8
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeebusiness/index.m3u8
 
-#EXTINF:-1 tvg-id="IN21000014R" tvg-name="Zee Cine Classic" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN21000014R_20260623T013323SQUARE.png" group-title="HINDI" , ZEE CINE CLASSIC
+#EXTINF:-1 tvg-id="IN21000014R" tvg-name="Zee Cine Classic" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Cine_Classic.png" group-title="HINDI" , ZEE CINE CLASSIC
 #https://jmp2.uk/stvp-IN21000014R
 https://amg00862-amg00862c8-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0016/playlist.m3u8
 
@@ -1569,7 +1599,7 @@ https://zati5.hasanhabibmottakin.workers.dev/0-9-9z5383488/index.m3u8
 
 
 
-#EXTINF:-1 tvg-id="IN2100002GD" tvg-name="Zee Comedy Nation" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2100002GD_20260623T013329SQUARE.png" group-title="HINDI" , ZEE COMEDY NATION
+#EXTINF:-1 tvg-id="IN2100002GD" tvg-name="Zee Comedy Nation" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Comedy_Nation.png" group-title="HINDI" , ZEE COMEDY NATION
 #https://jmp2.uk/stvp-IN2100002GD
 https://amg00862-amg00862c5-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0016/playlist.m3u8
 
@@ -1579,12 +1609,12 @@ https://zati5.hasanhabibmottakin.workers.dev/0-9-176/index.m3u8
 #EXTINF:-1 tvg-id="ZEE.DELHI.NCR.HARYANA.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0023166M.png" group-title="HINDI" , ZEE DELHI NCR HARYANA
 https://zati5.hasanhabibmottakin.workers.dev/0-9-zeekalinganews/index.m3u8
 
-#EXTINF:-1 tvg-id="IN2100003OJ" tvg-name="Zee Dil Se" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2100003OJ_20260623T013334SQUARE.png" group-title="HINDI" , ZEE DIL SE
+#EXTINF:-1 tvg-id="IN2100003OJ" tvg-name="Zee Dil Se" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Dil_Se.png" group-title="HINDI" , ZEE DIL SE
 #https://jmp2.uk/stvp-IN2100003OJ
 https://amg00862-amg00862c6-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-amg00862c6-amgplt0016/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="IN2100004C4" tvg-name="Zee Horror Nights" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN2100004C4_20260623T013340SQUARE.png" group-title="HINDI" , ZEE HORROR NIGHTS
+#EXTINF:-1 tvg-id="IN2100004C4" tvg-name="Zee Horror Nights" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Horror_Nights.png" group-title="HINDI" , ZEE HORROR NIGHTS
 #https://jmp2.uk/stvp-IN2100004C4
 https://amg00862-amg00862c7-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-amg00862c7-amgplt0016/playlist.m3u8
 
@@ -1638,6 +1668,10 @@ https://zati5.hasanhabibmottakin.workers.dev/0-9-zeerajasthannews/index.m3u8
 #EXTINF:-1 tvg-id="ZEE.SARTHAK.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00239YNG.png" group-title="ORIYA" , ZEE SARTHAK
 https://zati5.hasanhabibmottakin.workers.dev/0-9-sarthaktv/index.m3u8
 
+#EXTINF:-1 tvg-id="IN2100005T2" tvg-name="Zee South Flix" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_South_Flix.png" group-title="HIND" , ZEE SOUTH FLIX
+#https://jmp2.uk/stvp-IN2100005T2
+https://amg00862-amg00862c9-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0016/playlist.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00233W0W.png" group-title="MARATHI" , ZEE TALKIES HD
 https://zati5.hasanhabibmottakin.workers.dev/0-9-zeetalkies/index.m3u8
 
@@ -1677,23 +1711,37 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/main.mpd
 #EXTINF:-1 tvg-id="ZEE.UTTAR.PRADESH.UTTARAKHAND.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002317GQ.png" group-title="HINDI" , ZEE UTTAR PRADESH UTTARAKHAND
 https://zati5.hasanhabibmottakin.workers.dev/0-9-channel_265145625/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022S9FG.png" group-title="MARATHI" , ZEE YUVA
+#EXTINF:-1 tvg-id="ZEE.YUVA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Yuva.png" group-title="MARATHI" , ZEE YUVA
 https://zati5.hasanhabibmottakin.workers.dev/0-9-zeeyuva/index.m3u8
 
-#EXTINF:-1 tvg-id="Zee.Zest.HD.in" tvg-logo="https://i.ibb.co/SDmdBSn8/Picsart-26-06-29-22-31-24-560.png" group-title="HINDI" , ZEE ZEST HD
+#EXTINF:-1 tvg-id="Zee.Zest.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Zest_HD.png" group-title="HINDI" , ZEE ZEST HD
 https://zati5.hasanhabibmottakin.workers.dev/0-9-348/index.m3u8
 
-#EXTINF:-1 tvg-id="ZEE.ZEST.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZKWY.png" group-title="HINDI" , ZEE ZEST
+#EXTINF:-1 tvg-id="ZEE.ZEST.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Zest.png" group-title="HINDI" , ZEE ZEST
 
 
 
-#EXTINF:-1 tvg-id="Zing.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025L26R.png" group-title="HINDI" , Zing
+
+
+
+
+
+#ZING.in
+#EXTINF:-1 tvg-id="Zing.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zing.png" group-title="HINDI" , ZING
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f0fb14eebe474a6ab74c8301d55a7224:f9f8b2e30704458b8db844a285ce32be
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zing/default/manifest.mpd
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zing/index.m3u8
 
-#EXTINF:-1 tvg-id="ZOOM.in" tvg-logo="https://dtil.tmsimg.com/assets/s157600_ld_h15_aa.png" group-title="HINDI" , ZOOM
+
+
+#EXTINF:-1 tvg-id="ZING.HOME.D2H..in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zing_Home_D2H.png" group-title="HINDI" , ZING HOME D2H
+
+
+#EXTINF:-1 tvg-id="Zing.USA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zing.png" group-title="HINDI" , ZING USA
+
+
+#EXTINF:-1 tvg-id="ZOOM.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zoom.png" group-title="HINDI" , ZOOM
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=86edec9e3b7d4042a4d4a1ca14f847ee:9def4315f0004019a3705bcb3cf30ca3
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/main.mpd
