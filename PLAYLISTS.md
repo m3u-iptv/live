@@ -1,6 +1,5 @@
 ## Playlists
-
-There are several versions of playlists that differ in the way they are grouped. As of January 30th, 2024, we have stopped distributing NSFW channels. For more information, please look at [this issue](https://github.com/iptv-org/iptv/issues/15723).
+Indian TV Channels M3U Files 30 Jun 2026
 
 ### Grouped by category
 
@@ -67,7 +66,7 @@ Playlists in which channels are grouped by the language in which they are broadc
 <br>
 
 ```
-https://iptv-org.github.io/iptv/index.language.m3u
+https://m3u-iptv.github.io/live/index.language.m3u
 ```
 
 Same thing, but split up into separate files:
