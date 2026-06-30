@@ -10,7 +10,7 @@ Indian TV Channels All Languages List
 5. Gujarati (ગુજરાતી)
 6. Hindi (हिंदी)
 7. Haryanvi
-8. Kannada ()
+8. Kannada (ಕನ್ನಡ)
 9. Malayalam (മലയാള)
 10. Marathi (मराठी)
 11. Nepali (नेपाली)
