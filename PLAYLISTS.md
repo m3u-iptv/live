@@ -1,11 +1,6 @@
 ## Playlists
 Indian TV Channels M3U Files 30 Jun 2026
 
-<details>
-<summary>Expand</summary>
-<br>
-
-```
 Indian TV Channels All Languages List
 
 1. Assamese (অসমীয়া)
@@ -26,8 +21,6 @@ Indian TV Channels All Languages List
 16. Telugu (తెలుగు)
 17. Urdu (اردو)
 18. Others
-
-```
 
 ### Grouped by category
 
