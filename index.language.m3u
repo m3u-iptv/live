@@ -25,13 +25,13 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd/default/index.mpd
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictures/default/manifest.mpd
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-pictures/index.m3u8
 
-#EXTINF:-1 tvg-id="TV.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/And_TV_HD.png" group-title="HINDI" , &TV HD
+#EXTINF:-1 tvg-id="and.TV.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/And_TV_HD.png" group-title="HINDI" , &TV HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=67d18634ccb04875875c60fb8d9caaba:99a66471c09e4b8a8dc39a0de6803f75
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtvhd/default/manifest.mpd
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-tvhd_0/index.m3u8
 
-#EXTINF:-1 tvg-id="TV.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/And_TV.png" group-title="HINDI" , &TV
+#EXTINF:-1 tvg-id="and.TV.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/And_TV.png" group-title="HINDI" , &TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=26df86eeebb04d7fbc45c948f76e81fd:5f3a23f1a73c4c96ababce5fffe7b06b
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/main.mpd
@@ -47,17 +47,17 @@ https://mumbai-edge.smartplaytv.in/10TV/index.m3u8
 #EXTINF:-1 tvg-id="7X.Music.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/7X_Music.png" group-title="Music",7X Music
 #1881
 
-#EXTINF:-1 tvg-id="9XJalwa.in" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_JALWA/images/LOGO_HD/image.png" group-title="HINDI",9X JALWA
+#EXTINF:-1 tvg-id="9X.Jalwa.in" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_JALWA/images/LOGO_HD/image.png" group-title="HINDI",9X JALWA
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjalwa-samsungin/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s90012_ld_h15_aa.png" group-title="MARATHI" , 9X JHAKAAS
+#EXTINF:-1 tvg-id="9X.JHAKAAS.in" tvg-logo="https://dtil.tmsimg.com/assets/s90012_ld_h15_aa.png" group-title="MARATHI" , 9X JHAKAAS
 #https://9xjio.wiseplayout.com/9X_Jhakaas/master.m3u8
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s77447_ld_h15_aa.png" group-title="HINDI" , 9XM
 #https://9xjio.wiseplayout.com/9XM/master.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s142504_ld_h15_aa.png" group-title="PUNJABI" , 9X THASHAN
+#EXTINF:-1 tvg-id="9X.TASHAN.in" tvg-logo="https://dtil.tmsimg.com/assets/s142504_ld_h15_aa.png" group-title="PUNJABI" , 9X THASHAN
 https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8
 
 
@@ -70,13 +70,13 @@ https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01
 #EXTINF:-1 tvg-id="Aaj.Ki.Khabar.in" tvg-logo="https://dtil.tmsimg.com/assets/s142506_ld_h15_aa.png" group-title="HINDI" , AAJ KI KHABAR
 https://live.legitpro.co.in/aajkikhabar/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="AajTak.in" tvg-logo="https://i.ibb.co/sJsC24nm/channels4-profile.png" group-title="HINDI" , AAJ TAK HD
+#EXTINF:-1 tvg-id="Aaj.Tak.in" tvg-logo="https://i.ibb.co/sJsC24nm/channels4-profile.png" group-title="HINDI" , AAJ TAK HD
 #https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8
 #https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
 #https://aajtakhdlive-amd.akamaized.net/hls/live/2014415-b/aajtakhd/aajtakhdlive/live_1080p/chunks.
 https://aajtakhdlive-amd.akamaized.net/hls/live/2014415-b/aajtakhd/aajtakhdlive/live_1080p/chunks.m3u8
 
-#EXTINF:-1 tvg-id="AajTak.in" tvg-logo="https://dtil.tmsimg.com/assets/s142507_ld_h15_aa.png" group-title="HINDI" , AAJ TAK
+#EXTINF:-1 tvg-id="Aaj.Tak.in" tvg-logo="https://dtil.tmsimg.com/assets/s142507_ld_h15_aa.png" group-title="HINDI" , AAJ TAK
 #https://feeds.intoday.in/aajtak/api/master.m3u8
 https://aajtaklive-amd.akamaized.net/hls/live/2014416-b/aajtak/aajtaklive/live_720p/chunks.m3u8
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-aajtak/index.m3u8
