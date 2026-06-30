@@ -1,8 +1,22 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz;https://i.mjh.nz/SamsungTVPlus/in.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz" 
 
-DD.Rajasthan.(Jaipur).in 538 jiotv
+#DD.Rajasthan.(Jaipur).in 538 jiotv
 #EXTINF:-1 tvg-id="DD.RAJASTHAN.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Rajasthan.png" group-title="ENTERTAINMENT" , DD RAJASTHAN
 https://cdn-1.pishow.tv/live/34/master.m3u8
+
+#EXTINF:-1 tvg-id="First.India.News.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/First_India_News.png" group-title="NEWS" , FIRST INDIA NEWS
+https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8
+
+#EXTINF:-1 tvg-id="Gangaur.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Gangaur.png" group-title="ENTERTAINMENT" , GANGAUR
+#https://cdn-2.pishow.tv/live/1221/master.m3u8
+#https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8
+#https://pbgangaur.wiseplayout.com/Gangaur/SD360/SD360.m3u8
+#https://pbgangaur.wiseplayout.com/Gangaur/SD504/SD504.m3u8
+#https://pbgangaur.wiseplayout.com/Gangaur/HD720/HD720.m3u8
+https://pbgangaur.wiseplayout.com/Gangaur/HD1080/HD1080.m3u8
+
+#EXTINF:-1 tvg-id="India.News.Rajasthan.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/India_News_Rajasthan.png" group-title="NEWS" , INDIA NEWS RAJASTHAN
+
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/NDTV_Rajasthan.png" group-title="NEWS" , NDTV RAJASTHAN
 #https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8
@@ -16,6 +30,7 @@ https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/chunklist_4.m3u8
 #EXTINF:-1 tvg-id="NEWS18.RAJASTHAN.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/News18_Rajasthan.png" group-title="NEWS" , NEWS18 RAJASTHAN
 https://n18syndication.akamaized.net/bpk-tv/News18_Rajasthan_NW18_MOB/output01/master.m3u8
 
+#Zee.Rajasthan.in
 #EXTINF:-1 tvg-id="ZEE.RAJASTHAN.NEWS.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Rajasthan.png" group-title="NEWS" , ZEE RAJASTHAN
 https://zati5.hasanhabibmottakin.workers.dev/0-9-zeerajasthannews/index.m3u8
 
