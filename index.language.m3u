@@ -228,9 +228,9 @@ http://103.175.73.12:8080/live/675/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s142892_ld_h15_aa.png" group-title="HINDI" , Ayushmaan Active
 
 
-
+#B4U.Bhojpuri.in
 #B4u.Bhojpuri.in2
-#EXTINF:-1 tvg-id="B4U.Bhojpuri.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NLB4H.png" group-title="BHOJPURI" , B4U Bhojpuri
+#EXTINF:-1 tvg-id="2229" tvg-chno="2229" tvg-name="B4U Bhojpuri" tvg-language="Bhojpuri" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NLB4H.png" group-title="BHOJPURI" , B4U Bhojpuri
 http://103.175.73.12:8080/live/174/master.m3u8
 
 #EXTINF:-1 tvg-id="IN39000307N" tvg-name="B4U Bhojpuri" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NLB4H.png" group-title="BHOJPURI" , B4U BHOJPURI PLUS
@@ -250,14 +250,13 @@ https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/1080p/in
 
 #IN3900016WI
 #B4u.Movies.Tv.Channel.Today.Movies.in2
-#EXTINF:-1 tvg-id="B4u.Movies.Tv.Channel.Today.Movies.in2" tvg-name="B4U Movies" tvg-logo="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png" group-title="HINDI" , B4U Movies
+#EXTINF:-1 tvg-id="182" tvg-chno="182" tvg-name="B4U Movies" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png" group-title="HINDI" , B4U MOVIES
 #https://jmp2.uk/stvp-IN3900016WI
 #https://amg00877-amg00877c2-samsung-in-6975.playouts.now.amagi.tv/playlist/amg00877-b4unetworkeuropefast-b4umovies-samsungin/playlist.m3u8
 #http://103.175.73.12:8080/live/43/master.m3u8
 #https://cdn-2.pishow.tv/live/419/master.m3u8
 #https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8
 #https://cdnb4u.wiseplayout.com/B4U_Movies/HD1080/HD1080.m3u8
-#182
 #https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8
 https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/1080p/index.m3u8
 
