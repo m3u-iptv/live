@@ -229,15 +229,15 @@ http://103.175.73.12:8080/live/675/master.m3u8
 
 
 #B4U.Bhojpuri.in
-#B4u.Bhojpuri.in2
-#EXTINF:-1 tvg-id="2229" tvg-chno="2229" tvg-name="B4U Bhojpuri" tvg-language="Bhojpuri" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NLB4H.png" group-title="BHOJPURI" , B4U Bhojpuri
+#B4u.Bhojpuri.in2 ts729 2229
+#EXTINF:-1 tvg-id="ts729" tvg-chno="" tvg-name="B4U Bhojpuri" tvg-language="Bhojpuri" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NLB4H.png" group-title="BHOJPURI" , B4U Bhojpuri
 http://103.175.73.12:8080/live/174/master.m3u8
 
 #EXTINF:-1 tvg-id="IN39000307N" tvg-name="B4U Bhojpuri" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NLB4H.png" group-title="BHOJPURI" , B4U BHOJPURI PLUS
 #https://jmp2.uk/stvp-IN39000307N
 https://cc-t2mudtkmuz4wb.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t2mudtkmuz4wb/B4U_Bhojpuri/master.m3u8
 
-#B4u.Kadak.in2  IN39000187Z
+#B4u.Kadak.in2  IN39000187Z ts730
 #EXTINF:-1 tvg-id="B4u.Kadak.in2" tvg-name="B4U Kadak" tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png" group-title="HINDI" , B4U KADAK
 #https://jmp2.uk/stvp-IN39000187Z
 #https://amg00877-amg00877c4-samsung-in-6977.playouts.now.amagi.tv/playlist/amg00877-b4unetworkeuropefast-b4ukadak-samsungin/playlist.m3u8
