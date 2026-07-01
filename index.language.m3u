@@ -229,15 +229,16 @@ http://103.175.73.12:8080/live/675/master.m3u8
 
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NLB4H.png" group-title="BHOJPURI" , B4U Bhojpuri
+#B4u.Bhojpuri.in2
+#EXTINF:-1 tvg-id="B4U.Bhojpuri.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NLB4H.png" group-title="BHOJPURI" , B4U Bhojpuri
 http://103.175.73.12:8080/live/174/master.m3u8
 
 #EXTINF:-1 tvg-id="IN39000307N" tvg-name="B4U Bhojpuri" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NLB4H.png" group-title="BHOJPURI" , B4U BHOJPURI PLUS
 #https://jmp2.uk/stvp-IN39000307N
 https://cc-t2mudtkmuz4wb.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t2mudtkmuz4wb/B4U_Bhojpuri/master.m3u8
 
-B4u.Kadak.in2
-#EXTINF:-1 tvg-id="IN39000187Z" tvg-name="B4U Kadak" tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png" group-title="HINDI" , B4U KADAK
+#B4u.Kadak.in2  IN39000187Z
+#EXTINF:-1 tvg-id="B4u.Kadak.in2" tvg-name="B4U Kadak" tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png" group-title="HINDI" , B4U KADAK
 #https://jmp2.uk/stvp-IN39000187Z
 #https://amg00877-amg00877c4-samsung-in-6977.playouts.now.amagi.tv/playlist/amg00877-b4unetworkeuropefast-b4ukadak-samsungin/playlist.m3u8
 #http://103.175.73.12:8080/live/44/master.m3u8
@@ -247,8 +248,9 @@ B4u.Kadak.in2
 https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/playlist.m3u8
 https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/1080p/index.m3u8
 
+#IN3900016WI
 #B4u.Movies.Tv.Channel.Today.Movies.in2
-#EXTINF:-1 tvg-id="IN3900016WI" tvg-name="B4U Movies" tvg-logo="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png" group-title="HINDI" , B4U Movies
+#EXTINF:-1 tvg-id="B4u.Movies.Tv.Channel.Today.Movies.in2" tvg-name="B4U Movies" tvg-logo="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png" group-title="HINDI" , B4U Movies
 #https://jmp2.uk/stvp-IN3900016WI
 #https://amg00877-amg00877c2-samsung-in-6975.playouts.now.amagi.tv/playlist/amg00877-b4unetworkeuropefast-b4umovies-samsungin/playlist.m3u8
 #http://103.175.73.12:8080/live/43/master.m3u8
@@ -259,7 +261,7 @@ https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/1080p/in
 #https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8
 https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/1080p/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png" group-title="HINDI" , B4U MUSIC
+#EXTINF:-1 tvg-id="B4U.MUSIC.in" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png" group-title="HINDI" , B4U MUSIC
 http://103.175.73.12:8080/live/157/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png" group-title="ENGLISH" , BBC World News
