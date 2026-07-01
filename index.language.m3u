@@ -45,7 +45,7 @@ https://zati5.hasanhabibmottakin.workers.dev/0-9-209/index.m3u8
 #https://cdn-1.pishow.tv/live/391/master.m3u8
 https://mumbai-edge.smartplaytv.in/10TV/index.m3u8
 
-#EXTINF:-1 tvg-id="4.TV.in" tvg-name="4 TV" tvg-logo="https://iptv-epg.org/images/nXEdqlnyeESxIh9ipVe66yJQqyTPNYnWmPHXTQZ_-ptaNhI6RnvS6fXeQaZz80cKJre7vjq9lc97XFtMNpJ_7DsxX2LJ7C9QQFpogEk7lg" tvg-language="Hindi" group-title="HINDI , 4 TV
+#EXTINF:-1 tvg-id="4.TV.in" tvg-name="4 TV" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/4_TV.png" tvg-language="Hindi" group-title="HINDI , 4 TV
 https://cdn-4.pishow.tv/live/1007/master.m3u8
 
 #EXTINF:-1 tvg-id="7X.Music.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/7X_Music.png" group-title="Music",7X Music
