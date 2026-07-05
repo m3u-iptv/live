@@ -34,15 +34,18 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictures/default/manifest.mpd
 #EXTINF:-1 tvg-id="and.PRIVE.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/And_Prive_HD.png" group-title="ENGLISH" , &PRIVE HD
 
 
+#and.TV.HD.in
 #ts40
-#EXTINF:-1 tvg-id="and.TV.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/And_TV_HD.png" group-title="HINDI" , &TV HD
+#EXTINF:-1 tvg-id="40" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/And_TV_HD.png" group-title="HINDI" , &TV HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=67d18634ccb04875875c60fb8d9caaba:99a66471c09e4b8a8dc39a0de6803f75
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtvhd/default/manifest.mpd
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-tvhd_0/index.m3u8
+#http://202.70.146.135:8000/play/a06c/index.m3u8
 
+#and.TV.in
 #ts578
-#EXTINF:-1 tvg-id="and.TV.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/And_TV.png" group-title="HINDI" , &TV
+#EXTINF:-1 tvg-id="578" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/And_TV.png" group-title="HINDI" , &TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=26df86eeebb04d7fbc45c948f76e81fd:5f3a23f1a73c4c96ababce5fffe7b06b
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/main.mpd
@@ -499,7 +502,9 @@ http://202.70.146.135:8000/play/a04n/index.m3u8
 
 #ts1000
 #Colors.Cineplex.Bollywood.in2
-#EXTINF:-1 tvg-id="Colors.Cineplex.Bollywood.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Cineplex_Bollywood.png" group-title="HINDI" , COLORS CINEPLEX BOLLYWOOD
+#Colors.Cineplex.Bollywood.in
+#EXTINF:-1 tvg-id="1000" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Cineplex_Bollywood.png" group-title="HINDI" , COLORS CINEPLEX BOLLYWOOD
+http://202.70.146.135:8000/play/a058/index.m3u8
 
 #Colors.Cineplex.Superhit.in
 #Colors.Cineplex.Superhits.in
@@ -516,12 +521,16 @@ http://202.70.146.135:8000/play/a04n/index.m3u8
 #EXTINF:-1 tvg-id="COLORS.GUJARATI.CINEMA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Gujarati_Cinema.png" group-title="GUJARATI" , COLORS GUJARATI CINEMA
 
 
-#144 ts52
-#EXTINF:-1 tvg-id="COLORS.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_HD.png" group-title="HINDI" , COLORS HD
+#COLORS.HD.in
+#144 
+#ts52
+#EXTINF:-1 tvg-id="52" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_HD.png" group-title="HINDI" , COLORS HD
 http://202.70.146.135:8000/play/a00b/index.m3u8
 
-#1368 ts543
-#EXTINF:-1 tvg-id="COLORS.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors.png" group-title="HINDI" , COLORS
+#1368 
+#ts543
+#COLORS.in
+#EXTINF:-1 tvg-id="543" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors.png" group-title="HINDI" , COLORS
 
 
 #Colors Hindi HD.my   Colors Hindi HD 365.my
@@ -563,9 +572,9 @@ http://217.20.112.199/ColorsMarathi/index.m3u8
 
 #EXTINF:-1 tvg-id="COLORS.SUPER.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Super.png" group-title="KANNADA" , COLORS SUPER
 
-
-#EXTINF:-1 tvg-id="COLORS.TAMIL.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Tamil_HD.png" group-title="TAMIL" , COLORS TAMIL HD
-
+#COLORS.TAMIL.HD.in
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Tamil_HD.png" group-title="TAMIL" , COLORS TAMIL HD
+http://202.70.146.135:8000/play/a06o/index.m3u8
 
 #EXTINF:-1 tvg-id="Colors.Tamil.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Tamil.png" group-title="TAMIL" , COLORS TAMIL
 
@@ -799,8 +808,9 @@ https://cdn-1.pishow.tv/live/17/master.m3u8
 #EXTINF:-1 tvg-id="DD.YADAGIRI.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Yadagiri.png" group-title="TELUGU" , DD YADAGIRI
 https://cdn-1.pishow.tv/live/21/master.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/D_Tamil.png" group-title="TAMIL" , DTAMIL
-
+#ts99
+#EXTINF:-1 tvg-id="99" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/D_Tamil.png" group-title="TAMIL" , D TAMIL
+http://202.70.146.135:8000/play/a054/index.m3u8
 
 #ts51
 #EXTINF:-1 tvg-id="DANGAL.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Dangal.png" group-title="BHOJPURI;HINDI" , DANGAL
@@ -840,13 +850,20 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverychannel2/default/manifest.
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Discovery_Kids.png" group-title="ENGLISH" , DISCOVERY KIDS
 
 
-#EXTINF:-1 tvg-id="Discovery.Science.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Discovery_Science.png" group-title="ENGLISH" , DISCOVERY SCIENCE
+#Discovery.Science.in
+#EXTINF:-1 tvg-id="113" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Discovery_Science.png" group-title="ENGLISH" , DISCOVERY SCIENCE ENGLISH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5458f45efedb4d6f8aa6ac76c85b621b:dbf8a0a306a64525ba3012fd225370c0
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryscience2/default/manifest.mpd
 
-#EXTINF:-1 tvg-id="Discovery.Turbo.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Discovery_Trubo.png" group-title="ENGLISH" , DISCOVERY TURBO
+#ts113
+#EXTINF:-1 tvg-id="113" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Discovery_Science.png" group-title="HINDI" , DISCOVERY SCIENCE HINDI
+http://202.70.146.135:8000/play/a060/index.m3u8
 
+#Discovery.Turbo.in
+#ts228
+#EXTINF:-1 tvg-id="228" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Discovery_Trubo.png" group-title="ENGLISH" , DISCOVERY TURBO
+http://202.70.146.135:8000/play/a050/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Disney_Channel_HD.png" group-title="ENGLISH" , DISNEY CHANNEL HD
 
@@ -958,7 +975,7 @@ https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8
 http://202.70.146.135:8000/play/a05s/index.m3u8
 
 #ts693
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Euro_Sports.png" group-title="ENGLISH" , Eurosport
+#EXTINF:-1 tvg-id="693" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Euro_Sports.png" group-title="ENGLISH" , Eurosport
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Fakt_Marathi.png" group-title="MARATHI" , FAKT MARATHI
@@ -1100,13 +1117,16 @@ http://103.175.73.12:8080/live/617/master.m3u8
 https://cdn-1.pishow.tv/live/224/master.m3u8
 #http://103.175.73.12:8080/live/713/master.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Hindu_Dharmam.png" group-title="TELUGU" , HINDU DHARMAM
+#ts630
+#EXTINF:-1 tvg-id="630" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Hindu_Dharmam.png" group-title="TELUGU" , HINDU DHARMAM
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/History_TV18_HD.png" group-title="ENGLISH" , HISTORY TV18 HD
+#ts616
+#EXTINF:-1 tvg-id="616" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/History_TV18_HD.png" group-title="HINDI" , HISTORY TV18 HD
+http://202.70.146.135:8000/play/a065/index.m3u8
 
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/History_TV18.png" group-title="ENGLISH" , HISTORY CHANNEL
+#ts172
+#EXTINF:-1 tvg-id="172" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/History_TV18.png" group-title="ENGLISH" , HISTORY CHANNEL
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/HM_TV.png" group-title="TELUGU" , HM TV
@@ -1311,8 +1331,8 @@ https://mumt02.tangotv.in/MANTAVYA24X7NEWS/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/MNX_HD.png" group-title="ENGLISH" , MNX HD
 
 #ts234
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/MNX.png" group-title="ENGLISH" , MNX
-
+#EXTINF:-1 tvg-id="234" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/MNX.png" group-title="ENGLISH" , MNX
+http://202.70.146.135:8000/play/a052/index.m3u8
 
 #ts562
 #EXTINF:-1 tvg-id="151" tvg-name="Movies Now HD" tvg-type="Movies" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Movies_Now_HD.png" group-title="ENGLISH" , MOVIES NOW HD
@@ -1326,20 +1346,29 @@ http://202.70.146.135:8000/play/a057/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Nambikkkai.png" group-title="TAMIL" , NAMBIKKKAI
 
-
-#EXTINF:-1 tvg-id="Nandighosha.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Nandigosha_TV.png" group-title="ORIYA" , NANDIGOSHA TV
+#Nandighosha.in
+#ts805
+#EXTINF:-1 tvg-id="805" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Nandigosha_TV.png" group-title="ORIYA" , NANDIGOSHA TV
 https://cdn-4.pishow.tv/live/1486/master.m3u8
 
-#EXTINF:-1 tvg-id="NAT.GEO.WILD.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Nat_Geo_Wild_HD.png" group-title="ENGLISH" , NAT GEO WILD HD
+#NAT.GEO.WILD.HD.in
+#ts413
+#EXTINF:-1 tvg-id="413" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Nat_Geo_Wild_HD.png" group-title="ENGLISH" , NAT GEO WILD HD ENGLISH
 http://217.20.112.199:8080/natgeowild/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Nat_Geo_Wild.png" group-title="ENGLISH" , NAT GEO WILD
+#EXTINF:-1 tvg-id="413" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Nat_Geo_Wild_HD.png" group-title="ENGLISH" , NAT GEO WILD HD HINDI
+http://202.70.146.135:8000/play/a05j/index.m3u8
+
+#ts184
+#EXTINF:-1 tvg-id="184" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Nat_Geo_Wild.png" group-title="ENGLISH" , NAT GEO WILD
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/National_Geographic_HD.png" group-title="ENGLISH" , NATIONAL GEOGRAPHIC HD
+#ts605
+#EXTINF:-1 tvg-id="605" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/National_Geographic_HD.png" group-title="HINDI" , NATIONAL GEOGRAPHIC HD
+http://202.70.146.135:8000/play/a05o/index.m3u8
 
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/National_Geographic.png" group-title="ENGLISH" , NATIONAL GEOGRAPHIC
+#ts137
+#EXTINF:-1 tvg-id="137" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/National_Geographic.png" group-title="ENGLISH" , NATIONAL GEOGRAPHIC
 
 
 #EXTINF:-1 tvg-id="NDTV.24x7.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/NDTV_24x7.png" group-title="ENGLISH" , NDTV 24x7
@@ -1638,8 +1667,8 @@ https://cdn-4.pishow.tv/live/1233/master.m3u8
 
 
 #ts174
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Romedy_Now.png" group-title="ENGLISH" , ROMEDY NOW
-
+#EXTINF:-1 tvg-id="174" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Romedy_Now.png" group-title="ENGLISH" , ROMEDY NOW
+http://202.70.146.135:8000/play/a05x/index.m3u8
 
 #EXTINF:-1 tvg-id="Rongeen.TV.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Rongeen_TV.png" group-title="BENGALI" , RONGEEN TV
 #http://103.175.73.12:8080/live/202/master.m3u8
@@ -1779,7 +1808,8 @@ https://sl.vodep39240327.workers.dev/channel/SONY+AATH.m3u8
 #SONY.BBC.EARTH.HD.in
 #ts460
 #EXTINF:-1 tvg-id="460" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_BBC_Earth_HD.png" group-title="ENGLISH" , SONY BBC EARTH HD
-https://sl.vodep39240327.workers.dev/channel/SONY+BBC.m3u8
+http://202.70.146.135:8000/play/a067/index.m3u8
+#https://sl.vodep39240327.workers.dev/channel/SONY+BBC.m3u8
 
 #SONY.BBC.Earth.in
 #SONY.BBC.EARTH.in
@@ -1828,7 +1858,8 @@ https://sl.vodep39240327.workers.dev/channel/SONY+MAX+2.m3u8
 #MAX.HD.in
 #Sony.Max.Hd.Tv.Channel.Today.in2
 #EXTINF:-1 tvg-id="80" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Max_HD.png" group-title="HINDI" , SONY MAX HD
-https://sl.vodep39240327.workers.dev/channel/SONY+MAX+HD.m3u8
+http://202.70.146.135:8000/play/a005/index.m3u8
+#https://sl.vodep39240327.workers.dev/channel/SONY+MAX+HD.m3u8
 
 
 #ts132
@@ -1851,7 +1882,8 @@ http://202.70.146.135:8000/play/a0ac/index.m3u8
 #ts32
 #SONY.PIX.HD.in
 #EXTINF:-1 tvg-id="32" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Pix_HD.png" group-title="ENGLISH" , SONY PIX HD
-https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8
+http://202.70.146.135:8000/play/a06p/index.m3u8
+#https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8
 
 #ts558
 #SONY.PIX.in
@@ -1863,7 +1895,8 @@ https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8
 #Sony.SAB.HD.in
 #SAB.HD.in
 #EXTINF:-1 tvg-id="48" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_SAB_HD.png" group-title="HINDI" , SONY SAB HD
-https://sl.vodep39240327.workers.dev/channel/SAB.m3u8
+http://202.70.146.135:8000/play/a025/index.m3u8
+#https://sl.vodep39240327.workers.dev/channel/SAB.m3u8
 #https://sl.vodep39240327.workers.dev/channel/SONY.m3u8
 
 #ts559
@@ -1891,7 +1924,8 @@ https://sl.vodep39240327.workers.dev/channel/SONY+TEN+1.m3u8
 #SONY.SPORTS.TEN.2.HD.in
 #ts462
 #EXTINF:-1 tvg-id="462" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_2_HD.png" group-title="ENGLISH" , SONY SPORTS TEN 2 HD
-https://sl.vodep39240327.workers.dev/channel/SONY+TEN+2+HD.m3u8
+http://202.70.146.135:8000/play/a06n/index.m3u8
+#https://sl.vodep39240327.workers.dev/channel/SONY+TEN+2+HD.m3u8
 
 #Sony.Sports.Ten.2.in
 #SONY.SPORTS.TEN.2.in
@@ -1975,9 +2009,24 @@ http://202.70.146.135:8000/play/a02a/index.m3u8
 #EXTINF:-1 tvg-id="1072" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_2_HD.png" group-title="HINDI" , STAR GOLD 2 HD
 http://202.70.146.135:8000/play/a04q/index.m3u8
 
-#ts
+#ts163
 #EXTINF:-1 tvg-id="163" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_2.png" group-title="HINDI" , STAR GOLD 2
 http://202.70.146.135:8000/play/a02d/index.m3u8
+
+#ts493
+#EXTINF:-1 tvg-id="493" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_Romance.png" group-title="HINDI" , STAR GOLD ROMANCE
+http://202.70.146.135:8000/play/a044/index.m3u8
+
+#ts595
+#EXTINF:-1 tvg-id="595" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_Select_HD.png" group-title="HINDI" , STAR GOLD SELECT HD
+http://202.70.146.135:8000/play/a068/index.m3u8
+
+#ts461
+#EXTINF:-1 tvg-id="461" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_Select.png" group-title="HINDI" , STAR GOLD SELECT
+
+#ts494
+#EXTINF:-1 tvg-id="494" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_Thrills.png" group-title="HINDI" , STAR GOLD THRILLS
+http://202.70.146.135:8000/play/a024/index.m3u8
 
 #ts468
 #EXTINF:-1 tvg-id="468" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Jalsha_HD.png" group-title="BENGALI" , STAR JALSHA HD
@@ -1997,7 +2046,7 @@ http://202.70.146.135:8000/play/a02z/index.m3u8
 
 #ts560
 #EXTINF:-1 tvg-id="560" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Movies_HD.png" group-title="ENGLISH" , STAR MOVIES HD
-
+http://202.70.146.135:8000/play/a06r/index.m3u8
 
 #ts273
 #EXTINF:-1 tvg-id="273" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Movies.png" group-title="ENGLISH" , STAR MOVIES
@@ -2005,14 +2054,23 @@ http://202.70.146.135:8000/play/a02z/index.m3u8
 
 #ts593
 #EXTINF:-1 tvg-id="593" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Movies_Select_HD.png" group-title="ENGLISH" , STAR MOVIES SELECT HD
+http://202.70.146.135:8000/play/a06q/index.m3u8
 
 #ts1069
 #EXTINF:-1 tvg-id="1069" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Movies_Select.png" group-title="ENGLISH" , STAR MOVIES SELECT 
 
 
+#ts8
+#EXTINF:-1 tvg-id="8" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Plus_HD.png" group-title="HINDI" , STAR PLUS HD
+http://202.70.146.135:8000/play/a009/index.m3u8
+
+#ts
+#EXTINF:-1 tvg-id="550" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Plus.png" group-title="HINDI" , STAR PLUS 
+
+
 #ts469
 #EXTINF:-1 tvg-id="469" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Pravah_HD.png" group-title="MARATHI" , STAR PRAVAH HD
-
+http://202.70.146.135:8000/play/a049/index.m3u8
 
 #ts466
 #EXTINF:-1 tvg-id="466" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Pravah.png" group-title="MARATHI" , STAR PRAVAH 
@@ -2025,8 +2083,6 @@ http://202.70.146.135:8000/play/a02z/index.m3u8
 #ts985
 #EXTINF:-1 tvg-id="985" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Pravah_Pictures.png" group-title="MARATHI" , PRAVAH PICTURES
 
-
-#STAR PLUS HD TS8
 
 #ts78
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143837_ld_h15_aa.png" group-title="ENGLISH" , STAR SPORTS 1 HD
@@ -2045,7 +2101,15 @@ STAR SPORTS 1 HD HINDI
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="HINDI" , STAR SPORTS 2 HD HINDI
 http://202.70.146.135:8000/play/a04b/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143844_ld_h15_aa.png?lock=360x270" group-title="ENGLISH" , STAR SPORTS 2
+#ts11495
+#EXTINF:-1 tvg-id="1495" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_2_Tamil_HD.png" group-title="ENGLISH" , STAR SPORTS 2 TAMIL HD
+
+#ts1187
+#EXTINF:-1 tvg-id="1187" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_2_Tamil.png" group-title="ENGLISH" , STAR SPORTS 2 TAMIL
+http://202.70.146.135:8000/play/a026/index.m3u8
+
+
+
 
 #ts246
 #EXTINF:-1 tvg-id="246" tvg-logo="https://dtil.tmsimg.com/assets/s143849_ld_h15_aa.png" group-title="ENGLISH" , STAR SPORTS SELECT 1 HD
@@ -2059,6 +2123,14 @@ http://202.70.146.135:8000/play/a03c/index.m3u8
 http://202.70.146.135:8000/play/a03e/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143850_ld_h15_aa.png" group-title="ENGLISH" , STAR SPORTS SELECT 2
+
+#ts496
+#EXTINF:-1 tvg-id="496" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Vijay_HD.png" group-title="TAMIL" , STAR VIJAY HD
+
+
+#ts527
+#EXTINF:-1 tvg-id="527" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Vijay.png" group-title="TAMIL" , STAR VIJAY
+http://202.70.146.135:8000/play/a008/index.m3u8
 
 
 #ts1033
@@ -2080,6 +2152,14 @@ https://ott.livelegitpro.in/sudarshannews/sudarshannews/index.m3u8
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z0769.png" group-title="MARATHI" , SUN MARATHI
+
+
+#ts520
+#EXTINF:-1 tvg-id="520" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sun_Music_HD.png" group-title="TAMIL" , SUN MUSIC HD
+http://202.70.146.135:8000/play/a06k/index.m3u8
+
+#ts511
+#EXTINF:-1 tvg-id="511" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sun_Music.png" group-title="TAMIL" , SUN MUSIC
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143883_ld_h15_aa.png" group-title="ENGLISH" , SUPER HUNGAMA
