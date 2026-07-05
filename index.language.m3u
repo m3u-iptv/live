@@ -490,7 +490,7 @@ https://n18syndication.akamaized.net/bpk-tv/CNN_News18_NW18_MOB/output01/master.
 
 #ts61
 #EXTINF:-1 tvg-id="Colors.Cineplex.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Cineplex_HD.png" group-title="HINDI" , COLORS CINEPLEX HD
-
+http://202.70.146.135:8000/play/a04n/index.m3u8
 
 #ts53
 #Colors.Cineplex.in
@@ -828,8 +828,9 @@ https://cdn-2.pishow.tv/live/1455/master.m3u8
 #EXTINF:-1 tvg-id="DHOOM.MUSIC.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Dhoom_Music.png" group-title="BENGALI" , DHOOM MUSIC
 http://103.175.73.12:8080/live/378/master.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Discovery_HD_World.png" group-title="ENGLISH" , DISCOVERY HD WORLD
-
+#ts341
+#EXTINF:-1 tvg-id="341" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Discovery_HD_World.png" group-title="HINDI" , DISCOVERY HD WORLD
+http://202.70.146.135:8000/play/a05z/index.m3u8
 
 #EXTINF:-1 tvg-id="DISCOVERY.CHANNEL.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Discovery_Channel.png" group-title="HINDI" , DISCOVERY CHANNEL
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -853,8 +854,9 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryscience2/default/manifest.
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Disney_Channel.png" group-title="ENGLISH" , DISNEY CHANNEL
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Disney_INTL_HD.png" group-title="ENGLISH" , DISNEY INTL HD
-
+#ts265
+#EXTINF:-1 tvg-id="265" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Disney_INTL_HD.png" group-title="ENGLISH" , DISNEY INTL HD
+http://202.70.146.135:8000/play/a04p/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Disney_Junior.png" group-title="ENGLISH" , DISNEY JUNIOR
 
@@ -1933,39 +1935,59 @@ https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-x37nhptwcba84.m3u8
 #EXTINF:-1 tvg-id="STAR.GOLD.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_HD.png" group-title="HINDI" , STAR GOLD HD
 http://202.70.146.135:8000/play/a02a/index.m3u8
 
-#EXTINF:-1 tvg-id="STAR.GOLD.2.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_2.png" group-title="HINDI" , STAR GOLD 2
+#ts1072
+#EXTINF:-1 tvg-id="1072" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_2_HD.png" group-title="HINDI" , STAR GOLD 2 HD
+http://202.70.146.135:8000/play/a04q/index.m3u8
+
+#ts
+#EXTINF:-1 tvg-id="163" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_2.png" group-title="HINDI" , STAR GOLD 2
 http://202.70.146.135:8000/play/a02d/index.m3u8
 
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143819_ld_h15_aa.png" group-title="BENGALI" , STAR JALSHA HD
-
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143818_ld_h15_aa.png" group-title="BENGALI" , STAR JALSHA
+#ts468
+#EXTINF:-1 tvg-id="468" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Jalsha_HD.png" group-title="BENGALI" , STAR JALSHA HD
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143829_ld_h15_aa.png" group-title="ENGLISH" , STAR MOVIES HD
+#ts465
+#EXTINF:-1 tvg-id="465" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Jalsha.png" group-title="BENGALI" , STAR JALSHA
 
 
+#ts516,956
+#EXTINF:-1 tvg-id="516" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Maa_HD.png" group-title="TELUGU" , STAR MAA HD
+http://202.70.146.135:8000/play/a02z/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s140069_ld_h15_aa.png" group-title="ENGLISH" , STAR MOVIES
-
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143830_ld_h15_aa.png" group-title="ENGLISH" , STAR MOVIES SELECT HD
-
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s158863_ld_h15_aa.png" group-title="ENGLISH" , STAR MOVIES SELECT 
+#ts538
+#EXTINF:-1 tvg-id="538" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Maa.png" group-title="TELUGU" , STAR MAA 
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143834_ld_h15_aa.png" group-title="MARATHI" , STAR PRAVAH HD
+#ts560
+#EXTINF:-1 tvg-id="560" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Movies_HD.png" group-title="ENGLISH" , STAR MOVIES HD
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143833_ld_h15_aa.png" group-title="MARATHI" , STAR PRAVAH 
+#ts273
+#EXTINF:-1 tvg-id="273" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Movies.png" group-title="ENGLISH" , STAR MOVIES
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143676_ld_h15_aa.png" group-title="MARATHI" , PRAVAH PICTURES HD
+#ts593
+#EXTINF:-1 tvg-id="593" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Movies_Select_HD.png" group-title="ENGLISH" , STAR MOVIES SELECT HD
+
+#ts1069
+#EXTINF:-1 tvg-id="1069" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Movies_Select.png" group-title="ENGLISH" , STAR MOVIES SELECT 
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143675_ld_h15_aa.png" group-title="MARATHI" , PRAVAH PICTURES
+#ts469
+#EXTINF:-1 tvg-id="469" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Pravah_HD.png" group-title="MARATHI" , STAR PRAVAH HD
+
+
+#ts466
+#EXTINF:-1 tvg-id="466" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Pravah.png" group-title="MARATHI" , STAR PRAVAH 
+
+
+#ts1175
+#EXTINF:-1 tvg-id="1175" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Pravah_Pictures_HD.png" group-title="MARATHI" , PRAVAH PICTURES HD
+
+
+#ts985
+#EXTINF:-1 tvg-id="985" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Pravah_Pictures.png" group-title="MARATHI" , PRAVAH PICTURES
 
 
 #STAR PLUS HD TS8
@@ -2056,10 +2078,13 @@ http://103.175.73.12:8080/live/25/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s144006_ld_h15_aa.png" group-title="ENGLISH" , TIMES NOW
 
 
-#EXTINF:-1 tvg-id="TLC.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s123500_ld_h15_aa.png" group-title="ENGLISH" , TLC HD
+#ts480
+#TLC.HD.in
+#EXTINF:-1 tvg-id="480" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/TLC_HD.png" group-title="HINDI" , TLC HD
+http://202.70.146.135:8000/play/a05i/index.m3u8
 
-
-#EXTINF:-1 tvg-id="TLC.in" tvg-logo="https://dtil.tmsimg.com/assets/s158023_ld_h15_aa.png" group-title="HINDI" , TLC
+#TLC.in
+#EXTINF:-1 tvg-id="135" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/TLC.png" group-title="HINDI" , TLC
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e48e7373d6be47ecab83a20849f6823e:513ce07a2ee24ffdbe667eff5a9d46a8
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Tlc2/default/manifest.mpd
@@ -2394,6 +2419,7 @@ https://amg00862-amg00862c9-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-a
 #KODIPROP:inputstream.adaptive.license_key=65c3633157574361b191059e46e72968:78450b11381340c297d96c13183d3744
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetvhd/default/index.mpd
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeetvhd/index.m3u8
+#http://202.70.146.135:8000/play/a04g/index.m3u8
 
 #ts557
 #EXTINF:-1 tvg-id="Zee.TV.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_TV.png" group-title="HINDI" , ZEE TV
