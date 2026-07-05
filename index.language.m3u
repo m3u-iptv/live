@@ -1770,24 +1770,24 @@ https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sonic_Nic
 #Sony.aath.in
 #Sony.Aath.in
 #EXTINF:-1 tvg-id="SONY.AATH.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Aath.png" group-title="BENGALI" , SONY AATH
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Aath.png
+https://sl.vodep39240327.workers.dev/channel/SONY+AATH.m3u8
 
 #EXTINF:-1 tvg-id="SONY.BBC.EARTH.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_BBC_Earth_HD.png" group-title="ENGLISH" , SONY BBC EARTH HD
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_BBC_Earth_HD.png
+https://sl.vodep39240327.workers.dev/channel/SONY+BBC.m3u8
 
 #SONY.BBC.Earth.in
 #EXTINF:-1 tvg-id="SONY.BBC.EARTH.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_BBC_Earth.png" group-title="ENGLISH" , SONY BBC EARTH
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_BBC_Earth.png
+
 
 #ts15
 #EXTINF:-1 tvg-id="SET.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/SET_HD.png" group-title="HINDI" , SONY SET HD
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/SET_HD.png
+https://sl.vodep39240327.workers.dev/channel/SET.m3u8
 
 #ts556
 #Set.SD.in
 #Sony.Entertainment.Television.in
 #EXTINF:-1 tvg-id="SET.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/SET.png" group-title="HINDI" , SONY SET
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/SET.png
+
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Kal.png" group-title="HINDI" , SONY KAL
 https://wurlsonypicturestv.global.transmit.live/hls/68deeb1c0238cda82df543dd/v1/spt_sonykal_1/lg_us/latest/main/hls/playlist.m3u8
@@ -1799,27 +1799,28 @@ http://217.20.112.199:8080/sonymarathi/index.m3u8
 
 #Sony.Max.1.Tv.Channel.Today.in2
 #EXTINF:-1 tvg-id="SONY.MAX.1.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Max_1.png" group-title="HINDI" , SONY MAX 1
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Max_1.png
+
 
 #Sony.Max.2.in
 #Sony.MAX2.in ts120
 #Sony.Max.2.Tv.Channel.Today.in2
 #EXTINF:-1 tvg-id="SONY.MAX.2.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Max_2.png" group-title="HINDI" , SONY MAX 2
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Max_2.png
+https://sl.vodep39240327.workers.dev/channel/SONY+MAX+2.m3u8
 
 #ts80
 #Sony.Max.HD.in
 #MAX.HD.in
 #Sony.Max.Hd.Tv.Channel.Today.in2
 #EXTINF:-1 tvg-id="MAX.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Max_HD.png" group-title="HINDI" , SONY MAX HD
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Max_HD.png
+https://sl.vodep39240327.workers.dev/channel/SONY+MAX+HD.m3u8
+
 
 #ts132
 #Sony.Max.in
 #Sony.Max.SD.in
 #Sony.Max.Tv.Channel.Today.in2
 #EXTINF:-1 tvg-id="SONY.MAX.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Max.png" group-title="HINDI" , SONY MAX
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Max.png
+https://sl.vodep39240327.workers.dev/channel/SONY+MAX.m3u8
 
 #Sony.Pal.in
 #Sony.Pal.Entertainment.in2
@@ -1827,6 +1828,7 @@ https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Max.
 #ts554
 #EXTINF:-1 tvg-id="554" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Pal.png" group-title="HINDI" , SONY PAL
 http://202.70.146.135:8000/play/a0ac/index.m3u8
+#https://sl.vodep39240327.workers.dev/channel/SONY+PAL.m3u8
 
 #Sony.Pix.HD.in
 #ts32
@@ -1835,52 +1837,53 @@ https://sl.vodep39240327.workers.dev/channel/SONY+PIX+HD.m3u8
 
 #ts558
 #EXTINF:-1 tvg-id="SONY.PIX.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Pix.png" group-title="ENGLISH" , SONY PIX
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Pix.png
+
 
 #ts48
 #SAB.HD.in
 #Sony.SAB.HD.in
 #EXTINF:-1 tvg-id="SAB.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_SAB_HD.png" group-title="HINDI" , SONY SAB HD
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_SAB_HD.png
+https://sl.vodep39240327.workers.dev/channel/SAB.m3u8
+#https://sl.vodep39240327.workers.dev/channel/SONY.m3u8
 
 #ts559
 #Sony.SAB.in
 #EXTINF:-1 tvg-id="SONY.SAB.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_SAB.png" group-title="HINDI" , SONY SAB
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_SAB.png
+
 
 #Sony.Sports.Ten.1.HD.in
 #Sony.Ten.1.HD.in
 #ts81
 #EXTINF:-1 tvg-id="SONY.SPORTS.TEN.1.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_1_HD.png" group-title="ENGLISH" , SONY SPORTS TEN 1 HD
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_1_HD.png
+https://sl.vodep39240327.workers.dev/channel/SONY+TEN+1+HD.m3u8
 
 #Sony.Sports.Ten.1.in
 #Sony.Ten.1.in
 #ts150
 #EXTINF:-1 tvg-id="SONY.SPORTS.TEN.1.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_1.png" group-title="ENGLISH" , SONY SPORTS TEN 1
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_1.png
+https://sl.vodep39240327.workers.dev/channel/SONY+TEN+1.m3u8
 
 #Sony.Sports.Ten.2.HD.in
 #Sony.Ten.2.HD.in
 #ts462
 #EXTINF:-1 tvg-id="SONY.SPORTS.TEN.2.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_2_HD.png" group-title="ENGLISH" , SONY SPORTS TEN 2 HD
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_2_HD.png
+https://sl.vodep39240327.workers.dev/channel/SONY+TEN+2+HD.m3u8
 
 #Sony.Sports.Ten.2.in
 #ts170
 #EXTINF:-1 tvg-id="SONY.SPORTS.TEN.2.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_2.png" group-title="ENGLISH" , SONY SPORTS TEN 2
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_2.png
+https://sl.vodep39240327.workers.dev/channel/SONY+TEN+2.m3u8
 
 #Sony.Sports.Ten.3.HD.in
 #Sony.Ten.3.HD.Hindi.in
 #ts464
 #EXTINF:-1 tvg-id="SONY.SPORTS.TEN.3.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_3_HD_Hindi.png" group-title="HINDI" , SONY SPORTS TEN 3 HD HINDI
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_3_HD_Hindi.png
+https://sl.vodep39240327.workers.dev/channel/SONY+TEN+3+HD.m3u8
 
 #Sony.Ten.3.Hindi.in
 #ts171
 #EXTINF:-1 tvg-id="SONY.SPORTS.TEN.3.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_3_Hindi.png" group-title="HINDI" , SONY SPORTS TEN 3 HINDI
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_3_Hindi.png
+https://sl.vodep39240327.workers.dev/channel/SONY+TEN+3.m3u8
 
 #Sony.Sports.Ten.4.HD.in
 
@@ -1888,22 +1891,22 @@ https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Spor
 
 #Sony.Ten.4.Tamil.in
 #EXTINF:-1 tvg-id="SONY.SPORTS.TEN.4.TAMIL.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_4_Tamil.png" group-title="TAMIL" , SONY SPORTS TEN 4 TAMIL
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_4_Tamil.png
+https://sl.vodep39240327.workers.dev/channel/SONY+TEN+4.m3u8
 
 #Sony.Ten.4.HD.Telugu.in
 
 #EXTINF:-1 tvg-id="Sony.Ten.4.Telugu.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_4_Telugu.png" group-title="TELUGU" , SONY SPORTS TEN 4 TELUGU
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_4_Telugu.png
+https://sl.vodep39240327.workers.dev/channel/SONY+TEN+4+HD.m3u8
 
 #Sony.Ten.5.HD.in
 #ts35
 #EXTINF:-1 tvg-id="SONY.SPORTS.TEN.5.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_5_HD.png" group-title="ENGLISH" , SONY SPORTS TEN 5 HD
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_5_HD.png
+https://sl.vodep39240327.workers.dev/channel/SONY+TEN+5+HD.m3u8
 
 #Sony.Sports.Ten.5.in
 #Sony.Ten.5.in
 #EXTINF:-1 tvg-id="SONY.SPORTS.TEN.5.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_5.png" group-title="ENGLISH" , SONY SPORTS TEN 5
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_5.png
+https://sl.vodep39240327.workers.dev/channel/SONY+TEN+5.m3u8
 
 #Sony.Wah.in ts56
 #Sony.Wah.Today.List.Checkout.in2
