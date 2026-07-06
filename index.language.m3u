@@ -483,7 +483,7 @@ https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/master.m
 https://n18syndication.akamaized.net/bpk-tv/CNBC_Tv18_Prime_HD_NW18_MOB/output01/master.m3u8
 
 
-#EXTINF:-1 tvg-id="C.News.Bharat.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/C_News_Bharat.png" group-title="ENGLISH" , C NEWS BHARAT
+#EXTINF:-1 tvg-id="C.News.Bharat.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/C_News_Bharat.png" group-title="HINDI" , C NEWS BHARAT
 https://legitpro.co.in/cnews/cnews/index.fmp4.m3u8
 
 CN.HD+.English.in
@@ -630,7 +630,7 @@ http://103.175.73.12:8080/live/701/master.m3u8
 
 
 DD.Arunprabha.in 1328 jiotv
-#EXTINF:-1 tvg-id="DD.ARUN.PRABHA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Arunprabha.png" group-title="ENGLISH" , DD ARUN PRABHA
+#EXTINF:-1 tvg-id="DD.ARUN.PRABHA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Arunprabha.png" group-title="ENGLISH;HINDI" , DD ARUN PRABHA
 https://cdn-4.pishow.tv/live/32/master.m3u8
 #http://103.175.73.12:8080/live/203/master.m3u8
 
@@ -1451,7 +1451,7 @@ https://cdn-4.pishow.tv/live/1486/master.m3u8
 #EXTINF:-1 tvg-id="413" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Nat_Geo_Wild_HD.png" group-title="ENGLISH" , NAT GEO WILD HD ENGLISH
 http://217.20.112.199:8080/natgeowild/index.m3u8
 
-#EXTINF:-1 tvg-id="413" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Nat_Geo_Wild_HD.png" group-title="ENGLISH" , NAT GEO WILD HD HINDI
+#EXTINF:-1 tvg-id="413" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Nat_Geo_Wild_HD.png" group-title="HINDI" , NAT GEO WILD HD HINDI
 http://202.70.146.135:8000/play/a05j/index.m3u8
 
 #ts184
@@ -2388,7 +2388,7 @@ https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/in
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s144014_ld_h15_aa.png" group-title="ENGLISH" , TRAVEL XP (SD)
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="ENGLISH" , TRT WORLD HD
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/TRT_World.png" group-title="ENGLISH" , TRT WORLD HD
 http://103.175.73.12:8080/live/416/master.m3u8
 
 
