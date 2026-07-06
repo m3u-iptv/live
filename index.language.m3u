@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_DISTROTV1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz;https://i.mjh.nz/SamsungTVPlus/in.xml.gz;https://i.mjh.nz/Plex/us.xml;https://iptv-epg.org/files/epg-in.xml.gz;https://www.open-epg.com/files/india.xml.gz;https://www.tsepg.cf/jio.xml.gz;https://www.tsepg.cf/epg.xml.gz" catchup-type="shift"
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_DISTROTV1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz;https://i.mjh.nz/SamsungTVPlus/in.xml.gz;https://i.mjh.nz/Plex/au.xml.gz;https://i.mjh.nz/Plex/us.xml;https://iptv-epg.org/files/epg-in.xml.gz;https://www.open-epg.com/files/india.xml.gz;https://www.tsepg.cf/jio.xml.gz;https://www.tsepg.cf/epg.xml.gz" catchup-type="shift"
 
 
 tvg-chno="" tvg-language="Hindi"
@@ -1744,8 +1744,9 @@ https://d2vfwvjxwtwq1t.cloudfront.net/out/v1/6b24239d5517495b986e7705490c6e65/in
 
 
 
-#EXTINF:-1 tvg-id="ShemarooBollywood.uk" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Shemaroo_Bollywood.png" group-title="HINDI" , SHEMAROO BOLLYWOOD
+#EXTINF:-1 tvg-id="697140a85d851f5e69414688-62d1a58e520656fda09e609d" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Shemaroo_Bollywood.png" group-title="HINDI" , SHEMAROO BOLLYWOOD
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
+#https://jmp2.uk/plex-697140a85d851f5e69414688-62d1a58e520656fda09e609d.m3u8
 
 #EXTINF:-1 tvg-id="Shemaroo.Filmy.Gaane.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Shemaroo_Filmi_Gaane.png" group-title="HINDI" , SHEMAROO FILMI GAANE
 
