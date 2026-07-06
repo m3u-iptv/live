@@ -633,15 +633,18 @@ DD.Arunprabha.in 1328 jiotv
 #EXTINF:-1 tvg-id="DD.ARUN.PRABHA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Arunprabha.png" group-title="ENGLISH;HINDI" , DD ARUN PRABHA
 https://cdn-4.pishow.tv/live/32/master.m3u8
 #http://103.175.73.12:8080/live/203/master.m3u8
+#https://d2lk5u59tns74c.cloudfront.net/out/v1/308556d9fd1246adb479ef012a39bbfe/index_3.m3u8
 
 #ts331
 #EXTINF:-1 tvg-id="DD.North.east.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_North_East.png" group-title="ASSAMESE" , DD ASSAM
 #http://103.175.73.12:8080/live/672/master.m3u8
 https://cdn-4.pishow.tv/live/25/master.m3u8
+#https://d2lk5u59tns74c.cloudfront.net/out/v1/d380bf5c167b4319a46cdd8204bc26b2/index_3.m3u8
 
 #EXTINF:-1 tvg-id="DD.Bangla.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Bangla.png" group-title="BENGALI" , DD BANGLA
 #http://103.175.73.12:8080/live/197/master.m3u8
 https://cdn-4.pishow.tv/live/37/master.m3u8
+#https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index_3.m3u8
 
 DD.bharati.in 580 jiotv
 #EXTINF:-1 tvg-id="DD.BHARTI.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Bharati.png" group-title="HINDI" , DD BHARTI
@@ -657,10 +660,12 @@ DD.Bihar.in 539 jiotv
 #https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Ddbharti2/default/main.mpd
 https://cdn-4.pishow.tv/live/35/master.m3u8
 #http://103.175.73.12:8080/live/172/master.m3u8
+#https://d2lk5u59tns74c.cloudfront.net/out/v1/380b0765f87741a4812bc952ec6fbf21/index_3.m3u8
 
 #ts321
 #EXTINF:-1 tvg-id="DD.Chandana.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Chandana.png" group-title="KANNADA" , DD CHANDANA
 https://cdn-3.pishow.tv/live/28/master.m3u8
+#https://d2lk5u59tns74c.cloudfront.net/out/v1/0c980455d2fb4b69bcc6235745ee6039/index_3.m3u8
 
 #ts323
 #EXTINF:-1 tvg-id="DD.GIRNAR.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Girnar_HD.png" group-title="GUJARATI" , DD GIRNAR HD
@@ -668,7 +673,8 @@ https://cdn-4.pishow.tv/live/38/master.m3u8
 
 DD.Girnar.in 714 jiotv
 #EXTINF:-1 tvg-id="DD.GIRNAR.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Girnar.png" group-title="GUJARATI" , DD GIRNAR
-http://103.175.73.12:8080/live/368/master.m3u8
+#http://103.175.73.12:8080/live/368/master.m3u8
+https://d2lk5u59tns74c.cloudfront.net/out/v1/558fdb9aebb54bb5bbbf0ced03686148/index_3.m3u8
 
 #ts1215
 #EXTINF:-1 tvg-id="1215" tvg-name="DD Goa" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Goa.png" group-title="MARATHI" , DD GOA
@@ -682,30 +688,37 @@ https://cdn-6.pishow.tv/live/14/master.m3u8
 
 #ts1212
 #EXTINF:-1 tvg-id="1212" tvg-name="DD Haryana" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Haryana.png" group-title="PUNJABI" , DD HARYANA
-
+https://d2lk5u59tns74c.cloudfront.net/out/v1/950fc69666474351bde0a32b9600c804/index_3.m3u8
 
 #ts1217
 #EXTINF:-1 tvg-id="1217" tvg-name="DD Himachal" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Himachal.png" group-title="HINDI" , DD HIMACHAL
-
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/afd2e335b0ba40eb9bdf1096118c6ede/index_3.m3u8
 
 
 #ts324
 #EXTINF:-1 tvg-id="DD.INDIA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_India_HD.png" group-title="ENGLISH" , DD INDIA HD
 #http://103.175.73.12:8080/live/119/master.m3u8
 https://cdn-7.pishow.tv/live/20/master.m3u8
+#https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/ceda14583477426aa162a65392d8ea07/index_6.m3u8
+#https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/ceda14583477426aa162a65392d8ea07/index_4.m3u8
+#https://d2gvyg6lvauoko.cloudfront.net/230226/ddindia/chunks.m3u8
 
 #EXTINF:-1 tvg-id="DD.INDIA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_India.png" group-title="ENGLISH" , DD INDIA
 https://cdn-1.pishow.tv/live/23/master.m3u8
+#https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/ceda14583477426aa162a65392d8ea07/index_3.m3u8
 
 #ts1188
 #EXTINF:-1 tvg-id="1188" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Jharkhand.png" group-title="HINDI" , DD JHARKHAND
 https://cdn-1.pishow.tv/live/15/master.m3u8
+#https://cdn-1.pishow.tv/live/1617/master.m3u8
+#https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/e8c3741f8c154d3185831f4e31777fb2/index_3.m3u8
 
 #716 jiotv
 #ts325
 #EXTINF:-1 tvg-id="DD.Kashir.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Kashir.png" group-title="KASHMIRI" , DD KASHIR
 #http://103.175.73.12:8080/live/248/master.m3u8
 https://cdn-6.pishow.tv/live/16/master.m3u8
+#https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/8a59a828e80c49d0958925950cec0204/index_3.m3u8
 
 #ts326
 #EXTINF:-1 tvg-id="DD.Kisan.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Kisan.png" group-title="HINDI" , DD KISAN HD
@@ -714,18 +727,24 @@ https://cdn-6.pishow.tv/live/9/master.m3u8
 #EXTINF:-1 tvg-id="DD.Kisan.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Kisan.png" group-title="HINDI" , DD KISAN
 #http://103.175.73.12:8080/live/148/master.m3u8
 https://cdn-2.pishow.tv/live/223/master.m3u8
+#https://d2lk5u59tns74c.cloudfront.net/out/v1/4f053f2c12a24641bf701fb7f2376750/index_2.m3u8
 
 #ts328
 #EXTINF:-1 tvg-id="DD.MALAYALAM.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Malayalam.png" group-title="MALAYALAM" , DD MALAYALAM
 https://cdn-3.pishow.tv/live/27/master.m3u8
+#https://d2lk5u59tns74c.cloudfront.net/out/v1/c313674ffced4c9a90f1bba436df2b9b/index_3.m3u8
 
 #ts329
 #EXTINF:-1 tvg-id="DD.MANIPUR.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Manipur.png" group-title="MANIPURI" , DD MANIPUR
+#https://d2lk5u59tns74c.cloudfront.net/out/v1/8b75afc6576f450e8f554b6c877681d2/index.m3u8
+https://d2lk5u59tns74c.cloudfront.net/out/v1/8b75afc6576f450e8f554b6c877681d2/index_3.m3u8
 
 #ts991
 #EXTINF:-1 tvg-id="991" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Meghalaya.png" group-title="ENGLISH" , DD MEGHALAYA
-http://103.175.73.12:8080/live/204/master.m3u8
+#http://103.175.73.12:8080/live/204/master.m3u8
 #https://cdn-1.pishow.tv/live/33/master.m3u8 no 
+#https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/4f81bc8d13dd49b484da35988abb8729/index.m3u8
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/4f81bc8d13dd49b484da35988abb8729/index_3.m3u8
 
 #ts1211
 #EXTINF:-1 tvg-id="1211" tvg-name="DD Mizoram" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Mizoram.png" group-title="ENGLISH" , DD MIZORAM
@@ -736,14 +755,18 @@ DD.Madhya.Pradesh.in 536 jiotv
 #EXTINF:-1 tvg-id="DD.MP.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_MP.png" group-title="HINDI" , DD MP
 #http://103.175.73.12:8080/live/578/master.m3u8
 https://cdn-1.pishow.tv/live/31/master.m3u8
+#https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b5256b391a7c4ae6977535b73fd6f591/index_4.m3u8
 
 #ts1214
 #EXTINF:-1 tvg-id="1214" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Nagaland.png" group-title="ENGLISH" , DD NAGALAND
 http://103.175.73.12:8080/live/670/master.m3u8
+#https://d2lk5u59tns74c.cloudfront.net/out/v1/29c92e0bef954a6d9b0908d1be29c1f0/index_3.m3u8
 
 #EXTINF:-1 tvg-id="DD.National.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_National_HD.png" group-title="HINDI" , DD NATIONAL HD
 #http://103.175.73.12:8080/live/15/master.m3u8
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8
+#https://mumt01.tangotv.in/O5aw8Zn3DDNATIONALHD/index.m3u8
+#https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index_3.m3u8
 
 202 jiotv
 #ts191
@@ -765,8 +788,10 @@ https://cdn-2.pishow.tv/live/12/master.m3u8
 #ts333
 #EXTINF:-1 tvg-id="DD.ODIA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Odia_HD.png" group-title="ORIYA" , DD ODIA HD
 
-#EXTINF:-1 tvg-id="DD.ODIA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Odia.png" group-title="ORIYA" , DD ODIA
 
+#EXTINF:-1 tvg-id="DD.ODIA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Odia.png" group-title="ORIYA" , DD ODIA
+#https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/ef4ea632b77a480ebd77106968aa99a9/index.m3u8
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/ef4ea632b77a480ebd77106968aa99a9/index_3.m3u8
 
 #ts833
 DD PORT BLAIR
@@ -792,22 +817,27 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/5b6bbbf682b741ecbe279f75a4a9a3e6/in
 
 #EXTINF:-1 tvg-id="DD.SAHYADRI.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Sahyadri.png" group-title="MARATHI" , DD SAHYADRI
 https://cdn-3.pishow.tv/live/30/master.m3u8
+#https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/66dcc3ebe182447ba42837e746cf0c7c/index_2.m3u8
 
 #ts337
 #EXTINF:-1 tvg-id="DD.Saptagiri.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Saptagiri.png" group-title="TELUGU" , DD SAPTAGIRI
+#https://d2lk5u59tns74c.cloudfront.net/out/v1/26e915d6d12b4a06822c5e33c088ed56/index_3.m3u8
 https://cdn-1.pishow.tv/live/22/master.m3u8
+
 #ts223
 #EXTINF:-1 tvg-id="DD.Sports.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Sports.png" group-title="HINDI" , DD SPORTS HD
-http://103.175.73.12:8080/live/280/master.m3u8
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_7.m3u8
+#http://103.175.73.12:8080/live/280/master.m3u8
 
 #EXTINF:-1 tvg-id="DD.Sports.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Sports.png" group-title="HINDI" , DD SPORTS
 #https://cdn-7.pishow.tv/live/1161/master.m3u8
-https://cdn-6.pishow.tv/live/13/master.m3u8
+#https://cdn-6.pishow.tv/live/13/master.m3u8
 #http://103.175.73.12:8080/live/64/master.m3u8
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8
 
 #ts334
 #EXTINF:-1 tvg-id="DD.TAMIL.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Tamil.png" group-title="TAMIL" , DD TAMIL HD
-
+https://d2lk5u59tns74c.cloudfront.net/out/v1/abf46b14847e45499f4a47f3a9afe93d/index_6.m3u8https://d2lk5u59tns74c.cloudfront.net/out/v1/abf46b14847e45499f4a47f3a9afe93d/index_6.m3u8
 
 #EXTINF:-1 tvg-id="DD.TAMIL.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Tamil.png" group-title="TAMIL" , DD TAMIL
 https://cdn-2.pishow.tv/live/26/master.m3u8
@@ -820,20 +850,24 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/52b998e9510d41c29ad2ceca8ea3d849/in
 DD.Uttar.Pradesh.in 540 jiotv
 #EXTINF:-1 tvg-id="DD.UP.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_UP.png" group-title="HINDI" , DD UP
 #http://103.175.73.12:8080/live/263/master.m3u8
-https://cdn-1.pishow.tv/live/36/master.m3u8
+#https://cdn-1.pishow.tv/live/36/master.m3u8
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/70d4f6874fa64032a685e3123520f07d/index_3.m3u8
 
 DD.urdu.in 712 jiotv
 #EXTINF:-1 tvg-id="DD.URDU.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Urdu.png" group-title="HINDI" , DD URDU
 #http://103.175.73.12:8080/live/249/master.m3u8
 https://cdn-4.pishow.tv/live/8/master.m3u8
+#https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/9b91e9007e754db39a8b32c6bfc5b24a/index_3.m3u8
 
 #ts1213
 #EXTINF:-1 tvg-id="1213" tvg-name="DD Uttarakhand" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Uttarakhand.png" group-title="HINDI" , DD UTTARAKHAND
 https://cdn-1.pishow.tv/live/17/master.m3u8
+#https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/a70323c56ac647c2a8c8fc34e4c73912/index_3.m3u8
 
 #ts548
 #EXTINF:-1 tvg-id="DD.YADAGIRI.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Yadagiri.png" group-title="TELUGU" , DD YADAGIRI
 https://cdn-1.pishow.tv/live/21/master.m3u8
+#https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/c89fa6d6f5864ac29670d6f91cb7e32a/index_3.m3u8
 
 #ts99
 #EXTINF:-1 tvg-id="99" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/D_Tamil.png" group-title="TAMIL" , D TAMIL
