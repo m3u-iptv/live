@@ -2620,7 +2620,7 @@ https://amg00862-amg00862c9-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-a
 
 #ts63
 #Zee.TV.HD.in
-#EXTINF:-1 tvg-id="63" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_TV_HD.png" group-title="HINDI" , ZEE TV HD
+#EXTINF:-1 tvg-id="ts63" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_TV_HD.png" group-title="HINDI" , ZEE TV HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=65c3633157574361b191059e46e72968:78450b11381340c297d96c13183d3744
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetvhd/default/index.mpd
@@ -2629,7 +2629,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetvhd/default/index.mpd
 
 #ts557
 Zee.TV.in
-#EXTINF:-1 tvg-id="557" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_TV.png" group-title="HINDI" , ZEE TV
+#EXTINF:-1 tvg-id="ts557" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_TV.png" group-title="HINDI" , ZEE TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ed068cf84f0640ccbc7c0e395c0a272e:bb722190f2bb446391020411a7d0828b
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/main.mpd
