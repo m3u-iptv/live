@@ -1375,8 +1375,8 @@ http://103.175.73.12:8080/live/23/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Manoranjan_Movies.png" group-title="PUNJABI" , MANORANJAN MOVIES
 http://103.175.73.12:8080/live/47/master.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Manoranjan_Prime.png" group-title="HINDI" , MANORANJAN PRIME
-http://103.175.73.12:8080/live/47/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Manoranjan_Prime.png" group-title="BHOJPURI;HINDI" , MANORANJAN PRIME
+http://103.175.73.12:8080/live/345/master.m3u8
 
 #ts731
 #Manoranjan.TV.in
