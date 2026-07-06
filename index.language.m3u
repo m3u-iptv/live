@@ -2318,14 +2318,14 @@ https://server.zillarbarta.com/zillarbarta/index.m3u8
 #Zee.24.Ghanta.in
 #24.GHANTA.in
 #ts258
-#EXTINF:-1 tvg-id="258" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_24_Ghanta.png" group-title="BENGALI" , ZEE 24 GHANTA
+#EXTINF:-1 tvg-id="ts258" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_24_Ghanta.png" group-title="BENGALI" , ZEE 24 GHANTA
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-24ghantatv/index.m3u8
 
 #ZEE.24.KALAK.in
 #Zee.24.Kalak.in
 #ZEE.24.KALAK.in
 #ts507
-#EXTINF:-1 tvg-id="507" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_24_Kalak.png" group-title="GUJARATI" , ZEE 24 KALAK
+#EXTINF:-1 tvg-id="ts507" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_24_Kalak.png" group-title="GUJARATI" , ZEE 24 KALAK
 #https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/qwi5hJDH.png
 #https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zee24kalak/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/497f7199-758d-495d-9d2f-a5489231c428/14b7c8ec-16da-47f2-8d7e-5bbaec67b3e2/3.m3u8
 https://vg-zeefta.akamaized.net/vglive-sk-421675/main.m3u8
@@ -2334,7 +2334,7 @@ https://vg-zeefta.akamaized.net/vglive-sk-421675/main.m3u8
 #Zee.24.Taas.in
 #ZEE.24.TAAS.in
 #ts261
-#EXTINF:-1 tvg-id="261" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_24_Taas.png" group-title="MARATHI" , ZEE 24 TAAS
+#EXTINF:-1 tvg-id="ts261" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_24_Taas.png" group-title="MARATHI" , ZEE 24 TAAS
 https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zee24taas/index.m3u8
 
@@ -2343,7 +2343,7 @@ https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
 #ZEE.ACTION.in
 #Action.Cinema.in
 #ts100
-#EXTINF:-1 tvg-id="100" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Action.png" group-title="HINDI" , ZEE ACTION
+#EXTINF:-1 tvg-id="ts100" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Action.png" group-title="HINDI" , ZEE ACTION
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9d7a1917ee3244d198193cdd1ff1feae:3c3e8d0259f748f1830f713a769760e7
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeaction/default/manifest.mpd
@@ -2354,7 +2354,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeaction/default/manifest.mpd
 #ZEE.ANMOL.in
 #Zee.Anmol.Entertainment.in2
 #Zee.Anmol.in
-#EXTINF:-1 tvg-id="523" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Anmol.png" group-title="HINDI" , ZEE ANMOL
+#EXTINF:-1 tvg-id="ts523" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Anmol.png" group-title="HINDI" , ZEE ANMOL
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4023613457774cbeb71a62c339970e63:1c3e9fce5f014542be9cd1f749181204
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmol/default/main.mpd
@@ -2366,7 +2366,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmol/default/main.mpd
 #Zee.Anmol.Cinema.in
 #Zee.Anmol.Cinema.Today.Movies.in2
 #ts64
-#EXTINF:-1 tvg-id="64" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Anmol_Cinema.png" group-title="HINDI" , ZEE ANMOL CINEMA
+#EXTINF:-1 tvg-id="ts64" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Anmol_Cinema.png" group-title="HINDI" , ZEE ANMOL CINEMA
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=812411cba8bc42c79eb2b19cd78ad3f3:468a0b8d3d5d42d8a5c41bb875390a74
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmolcinema/default/manifest.mpd
@@ -2377,43 +2377,43 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmolcinema/default/manifest.mpd
 #Zee.Anmol.Cinema.2.in2
 #Zee.Anmol.Cinema.2.in2
 #ts12
-#EXTINF:-1 tvg-id="12" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Anmol_Cinema_2.png" group-title="HINDI" , ZEE ANMOL CINEMA 2
+#EXTINF:-1 tvg-id="ts12" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Anmol_Cinema_2.png" group-title="HINDI" , ZEE ANMOL CINEMA 2
 http://103.175.73.12:8080/live/257/master.m3u8
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-bigganga/index.m3u8
 
 #ts522
-#EXTINF:-1 tvg-id="522" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6DC.png" group-title="BENGALI" , ZEE BANGLA HD
+#EXTINF:-1 tvg-id="ts522" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6DC.png" group-title="BENGALI" , ZEE BANGLA HD
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeebangla/index.m3u8
 
 #ts253
-#EXTINF:-1 tvg-id="253" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6CT.png" group-title="BENGALI" , ZEE BANGLA
+#EXTINF:-1 tvg-id="ts253" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6CT.png" group-title="BENGALI" , ZEE BANGLA
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-9z5383484/index.m3u8
 
 #ts254
-#EXTINF:-1 tvg-id="254" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png" group-title="BENGALI" , ZEE BANGLA SONAR
+#EXTINF:-1 tvg-id="ts254" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png" group-title="BENGALI" , ZEE BANGLA SONAR
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeebanglacinema/index.m3u8
 
 #ts514
 #ZEE.BHARAT.in
-#EXTINF:-1 tvg-id="514" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230QBL.png" group-title="HINDI" , ZEE BHARAT
+#EXTINF:-1 tvg-id="ts514" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230QBL.png" group-title="HINDI" , ZEE BHARAT
 #https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/IvKQqtFg.png
 https://d1hp2yai3k4ork.cloudfront.net/index_4.m3u8
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeehindustan/index.m3u8
 
 #ts20
 #ZEE.BIHAR.JHARKHAND.in
-#EXTINF:-1 tvg-id="20" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230Y44.png" group-title="HINDI" , ZEE BIHAR JHARKHAND
+#EXTINF:-1 tvg-id="ts20" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230Y44.png" group-title="HINDI" , ZEE BIHAR JHARKHAND
 #https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/jQXo2Pqx.png
 https://d3vmwjy7v49lo5.cloudfront.net/index_4.m3u8
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeebiharjharkhand/index.m3u8
 
 #ts814
-#EXTINF:-1 tvg-id="814" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002397MC.png" group-title="BHOJPURI" , Zee Bioskop
+#EXTINF:-1 tvg-id="ts814" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002397MC.png" group-title="BHOJPURI" , Zee Bioskop
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-216/index.m3u8
 
 #ts175
 #Zee.Bollywood.Tv.Channel.Today.in2
-#EXTINF:-1 tvg-id="175" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6DM.png" group-title="HINDI" , ZEE BOLLYWOOD
+#EXTINF:-1 tvg-id="ts175" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6DM.png" group-title="HINDI" , ZEE BOLLYWOOD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e61523260c614746b25b9a5523fe9a39:72ddbf37f76f49acbb8e140e7279e7a1
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd
@@ -2422,7 +2422,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd
 
 #ZEE.BUSINESS.in
 #ts260
-#EXTINF:-1 tvg-id="260" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230YYJ.png" group-title="HINDI" , ZEE BUSINESS
+#EXTINF:-1 tvg-id="ts260" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230YYJ.png" group-title="HINDI" , ZEE BUSINESS
 https://dwby15d04agvq.cloudfront.net/index_5.m3u8
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeebusiness/index.m3u8
 
@@ -2432,7 +2432,7 @@ https://amg00862-amg00862c8-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-a
 
 #ts503
 #Zee.Cinema.Hd.Tv.Channel.Today.in2
-#EXTINF:-1 tvg-id="503" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022HVX3.png" group-title="HINDI" , ZEE CINEMA HD
+#EXTINF:-1 tvg-id="ts503" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022HVX3.png" group-title="HINDI" , ZEE CINEMA HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f56beaac9f124616872c741c9ce4fa4e:5d40a903238f4ad98abbed1877d4e3d1
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd/default/manifest.mpd
@@ -2441,7 +2441,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd/default/manifest.mpd
 
 #ts123
 #Zee.Cinema.Tv.Channel.Today.in2
-#EXTINF:-1 tvg-id="123" tvg-logo="https://dtil.tmsimg.com/assets/s159104_ld_h15_aa.png" group-title="HINDI" , ZEE CINEMA
+#EXTINF:-1 tvg-id="ts123" tvg-logo="https://dtil.tmsimg.com/assets/s159104_ld_h15_aa.png" group-title="HINDI" , ZEE CINEMA
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=43513b13f4b542e39c9265921dfc1726:b0b2678bcd274c37b888a6c987d502ed
 #https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinema/default/manifest.mpd
@@ -2458,11 +2458,11 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd/default/manifest.mpd
 https://linearjitp-playback.astro.com.my/dash-wv/linear/5106/default_ott.mpd
 
 #ts636
-#EXTINF:-1 tvg-id="636" tvg-tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZEQ9.png" group-title="TELUGU" , ZEE CINEMALU HD
+#EXTINF:-1 tvg-id="ts636" tvg-tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZEQ9.png" group-title="TELUGU" , ZEE CINEMALU HD
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeecinemalu/index.m3u8
 
 #ts252
-#EXTINF:-1 tvg-id="252" tvg-tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZNDZ.png" group-title="TELUGU" , ZEE CINEMALU 
+#EXTINF:-1 tvg-id="ts252" tvg-tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZNDZ.png" group-title="TELUGU" , ZEE CINEMALU 
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-9z5383488/index.m3u8
 
 #EXTINF:-1 tvg-id="IN2100002GD" tvg-name="Zee Comedy Nation" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Comedy_Nation.png" group-title="HINDI" , ZEE COMEDY NATION
@@ -2471,12 +2471,12 @@ https://amg00862-amg00862c5-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-a
 
 #ts727
 #ZEE.CLASSIC.in
-#EXTINF:-1 tvg-id="727" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022J66T.png" group-title="HINDI" , ZEE CLASSIC 
+#EXTINF:-1 tvg-id="ts727" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022J66T.png" group-title="HINDI" , ZEE CLASSIC 
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-176/index.m3u8
 
 #ZEE.DELHI.NCR.HARYANA.in
 ts262
-#EXTINF:-1 tvg-id="262" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0023166M.png" group-title="HINDI" , ZEE DELHI NCR HARYANA
+#EXTINF:-1 tvg-id="ts262" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0023166M.png" group-title="HINDI" , ZEE DELHI NCR HARYANA
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeekalinganews/index.m3u8
 
 #EXTINF:-1 tvg-id="IN2100003OJ" tvg-name="Zee Dil Se" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Dil_Se.png" group-title="HINDI" , ZEE DIL SE
@@ -2489,29 +2489,29 @@ https://amg00862-amg00862c7-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-a
 
 #ts675
 #ZEE.KANNADA.HD.in
-#EXTINF:-1 tvg-id="675" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Kannada_HD.png" group-title="KANNADA" , ZEE KANNADA HD
+#EXTINF:-1 tvg-id="ts675" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Kannada_HD.png" group-title="KANNADA" , ZEE KANNADA HD
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeekannada/index.m3u8
 
 #ZEE.KANNADA.in
 #ts256
-#EXTINF:-1 tvg-id="256" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Kannada.png" group-title="KANNADA" , ZEE KANNADA
+#EXTINF:-1 tvg-id="ts256" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Kannada.png" group-title="KANNADA" , ZEE KANNADA
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-9z5383466/index.m3u8
 
 #ZEE.KANNADA.NEWS.in
 #ts1287
-#EXTINF:-1 tvg-id="1287" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Kannada_News.png" group-title="KANNADA" , ZEE KANNADA NEWS
+#EXTINF:-1 tvg-id="ts1287" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Kannada_News.png" group-title="KANNADA" , ZEE KANNADA NEWS
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-9z583537/index.m3u8
 
 #ts694
-#EXTINF:-1 tvg-id="694" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Keralam_HD.png" group-title="MALAYALAM" , ZEE KERALAM HD
+#EXTINF:-1 tvg-id="ts694" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Keralam_HD.png" group-title="MALAYALAM" , ZEE KERALAM HD
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-129/index.m3u8
 
 #ts684
-#EXTINF:-1 tvg-id="684" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Keralam.png" group-title="MALAYALAM" , ZEE KERALAM
+#EXTINF:-1 tvg-id="ts684" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Keralam.png" group-title="MALAYALAM" , ZEE KERALAM
 
 #ts512
 #ZEE.MP.CHATTISGARH.in
-#EXTINF:-1 tvg-id="512" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_MP_CG.png" group-title="HINDI" , ZEE MP CHATTISGARH
+#EXTINF:-1 tvg-id="ts512" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_MP_CG.png" group-title="HINDI" , ZEE MP CHATTISGARH
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeemadhyapradeshchat/index.m3u8
 
 
@@ -2521,48 +2521,48 @@ https://amg00862-amg00862c7-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-a
 
 #ZEE.MARATHI.HD.in
 #ts501
-#EXTINF:-1 tvg-id="501" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Marathi_HD.png" group-title="MARATHI" , ZEE MARATHI HD
+#EXTINF:-1 tvg-id="ts501" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Marathi_HD.png" group-title="MARATHI" , ZEE MARATHI HD
 http://202.70.146.135:8000/play/a04d/index.m3u8
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeemarathi/index.m3u8
 
 #ZEE.MARATHI.in
 #ts251
-#EXTINF:-1 tvg-id="251" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Marathi.png" group-title="MARATHI" , ZEE MARATHI
+#EXTINF:-1 tvg-id="ts251" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Marathi.png" group-title="MARATHI" , ZEE MARATHI
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-9z5383486/index.m3u8
 
 
 #ZEE.NEWS.in
 #ts259
-#EXTINF:-1 tvg-id="259" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_News.png" group-title="HINDI" , ZEE NEWS
+#EXTINF:-1 tvg-id="ts259" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_News.png" group-title="HINDI" , ZEE NEWS
 https://dknttpxmr0dwf.cloudfront.net/index_2.m3u8
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeenews/index.m3u8
 
 #ts1181
-#EXTINF:-1 tvg-id="1181" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Power_HD.png" group-title="KANNADA" , ZEE POWER HD
+#EXTINF:-1 tvg-id="ts1181" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Power_HD.png" group-title="KANNADA" , ZEE POWER HD
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-241/index.m3u8
 
 #ts810
-#EXTINF:-1 tvg-id="810" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Power.png" group-title="KANNADA" , ZEE POWER
+#EXTINF:-1 tvg-id="ts810" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Power.png" group-title="KANNADA" , ZEE POWER
 
 
 #ZEE.PUNJABI.in
 #ts796
-#EXTINF:-1 tvg-id="796" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Punjabi.png" group-title="PUNJABI" , ZEE PUNJABI
+#EXTINF:-1 tvg-id="ts796" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Punjabi.png" group-title="PUNJABI" , ZEE PUNJABI
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-215/index.m3u8
 
 #ZEE.PUNJAB.HARYANA.HIMACHAL.in
 #ts580
-#EXTINF:-1 tvg-id="580" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Punjab_Haryana_Himachal.png" group-title="PUNJABI" , ZEE PUNJAB HARYANA HIMACHAL
+#EXTINF:-1 tvg-id="ts580" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Punjab_Haryana_Himachal.png" group-title="PUNJABI" , ZEE PUNJAB HARYANA HIMACHAL
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeepunjabharyanahima/index.m3u8
 
 #Zee.Rajasthan.in
 #ZEE.RAJASTHAN.NEWS.in
-#EXTINF:-1 tvg-id="583" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Rajasthan.png" group-title="RAJASTHANI" , ZEE RAJASTHAN
+#EXTINF:-1 tvg-id="ts583" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Rajasthan.png" group-title="RAJASTHANI" , ZEE RAJASTHAN
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeerajasthannews/index.m3u8
 
 #ZEE.SARTHAK.in
 #ts597
-#EXTINF:-1 tvg-id="597" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Sarthak.png" group-title="ORIYA" , ZEE SARTHAK
+#EXTINF:-1 tvg-id="ts597" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Sarthak.png" group-title="ORIYA" , ZEE SARTHAK
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-sarthaktv/index.m3u8
 
 #EXTINF:-1 tvg-id="IN2100005T2" tvg-name="Zee South Flix" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_South_Flix.png" group-title="HINDI" , ZEE SOUTH FLIX
@@ -2571,37 +2571,37 @@ https://amg00862-amg00862c9-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-a
 
 #ZEE.TALKIES.HD.in
 #ts515
-#EXTINF:-1 tvg-id="515" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Talkies_HD.png" group-title="MARATHI" , ZEE TALKIES HD
+#EXTINF:-1 tvg-id="ts515" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Talkies_HD.png" group-title="MARATHI" , ZEE TALKIES HD
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeetalkies/index.m3u8
 
 #ZEE.TALKIES.in
 #ts249
-#EXTINF:-1 tvg-id="249" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Talkies.png" group-title="MARATHI" , ZEE TALKIES
+#EXTINF:-1 tvg-id="ts249" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Talkies.png" group-title="MARATHI" , ZEE TALKIES
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-9z5383489/index.m3u8
 
 #ZEE.TAMIL.HD.in
 #ts608
-#EXTINF:-1 tvg-id="608" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Tamil_HD.png" group-title="TAMIL" , ZEE TAMIL HD
+#EXTINF:-1 tvg-id="ts608" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Tamil_HD.png" group-title="TAMIL" , ZEE TAMIL HD
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeetamil/index.m3u8
 
 #ZEE.TAMIL.in
 #ts257
-#EXTINF:-1 tvg-id="257" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Tamil.png" group-title="TAMIL" , ZEE TAMIL
+#EXTINF:-1 tvg-id="ts257" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Tamil.png" group-title="TAMIL" , ZEE TAMIL
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-9z5383487/index.m3u8
 
 #ZEE.TAMIL.NEWS.in
 #ts1288
-#EXTINF:-1 tvg-id="1288" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Tamil_News.png" group-title="TAMIL" , ZEE TAMIL NEWS
+#EXTINF:-1 tvg-id="ts1288" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Tamil_News.png" group-title="TAMIL" , ZEE TAMIL NEWS
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-9z583533/index.m3u8
 
 #ZEE.TELUGU.HD.in
 #ts635
-#EXTINF:-1 tvg-id="635" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Telugu_HD.png" group-title="TELUGU" , ZEE TELUGU HD
+#EXTINF:-1 tvg-id="ts635" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Telugu_HD.png" group-title="TELUGU" , ZEE TELUGU HD
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeetelugu/index.m3u8
 
 #ZEE.TELUGU.in
 #ts250
-#EXTINF:-1 tvg-id="250" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Telugu.png" group-title="TELUGU" , ZEE TELUGU
+#EXTINF:-1 tvg-id="ts250" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Telugu.png" group-title="TELUGU" , ZEE TELUGU
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-9z5383485/index.m3u8
 
 #EXTINF:-1 tvg-id="ZEE.TELUGU.NEWS.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Telugu_News.png" group-title="TELUGU" , ZEE TELUGU NEWS
@@ -2610,12 +2610,12 @@ https://amg00862-amg00862c9-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-a
 
 #ts1182
 #ZEE THIRAI HD
-#EXTINF:-1 tvg-id="1182" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Thirai_HD.png" group-title="TAMIL" , ZEE THIRAI HD
+#EXTINF:-1 tvg-id="ts1182" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Thirai_HD.png" group-title="TAMIL" , ZEE THIRAI HD
 
 
 #ts797
 #ZEE THIRAI 
-#EXTINF:-1 tvg-id="797" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Thirai.png" group-title="TAMIL" , ZEE THIRAI 
+#EXTINF:-1 tvg-id="ts797" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Thirai.png" group-title="TAMIL" , ZEE THIRAI 
 
 
 #ts63
@@ -2637,28 +2637,28 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/main.mpd
 
 #ZEE.UTTAR.PRADESH.UTTARAKHAND.in
 #ts637
-#EXTINF:-1 tvg-id="637" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_UP_UK.png" group-title="HINDI" , ZEE UTTAR PRADESH UTTARAKHAND
+#EXTINF:-1 tvg-id="ts637" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_UP_UK.png" group-title="HINDI" , ZEE UTTAR PRADESH UTTARAKHAND
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-channel_265145625/index.m3u8
 
 #ZEE.YUVA.in
 #ts248
-#EXTINF:-1 tvg-id="248" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Yuva.png" group-title="MARATHI" , ZEE YUVA
+#EXTINF:-1 tvg-id="ts248" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Yuva.png" group-title="MARATHI" , ZEE YUVA
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeeyuva/index.m3u8
 
 #Zee.Zest.HD.in
 #ts382
-#EXTINF:-1 tvg-id="382" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Zest_HD.png" group-title="HINDI" , ZEE ZEST HD
+#EXTINF:-1 tvg-id="ts382" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Zest_HD.png" group-title="HINDI" , ZEE ZEST HD
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-348/index.m3u8
 
 #ZEE.ZEST.in
 #ts504
-#EXTINF:-1 tvg-id="504" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Zest.png" group-title="HINDI" , ZEE ZEST
+#EXTINF:-1 tvg-id="ts504" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Zest.png" group-title="HINDI" , ZEE ZEST
 
 
 #ZING.in
 #Zing.in
 #ts517
-#EXTINF:-1 tvg-id="517" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zing.png" group-title="HINDI" , ZING
+#EXTINF:-1 tvg-id="ts517" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zing.png" group-title="HINDI" , ZING
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f0fb14eebe474a6ab74c8301d55a7224:f9f8b2e30704458b8db844a285ce32be
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zing/default/manifest.mpd
@@ -2673,8 +2673,8 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zing/default/manifest.mpd
 
 
 #ZOOM.in
-ts96
-#EXTINF:-1 tvg-id="96" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zoom.png" group-title="HINDI" , ZOOM
+#ts96
+#EXTINF:-1 tvg-id="ts96" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zoom.png" group-title="HINDI" , ZOOM
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=86edec9e3b7d4042a4d4a1ca14f847ee:9def4315f0004019a3705bcb3cf30ca3
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/main.mpd
