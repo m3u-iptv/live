@@ -987,8 +987,10 @@ https://cdn-6.pishow.tv/live/10002/master.m3u8
 #https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
 #https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_7201280_p_0.m3u8
 https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_10801920_p_0.m3u8
+#https://jmp2.uk/plex-697140a85d851f5e69414688-6490c01f3b3ce9e1aaad95be.m3u8
 
-#EXTINF:-1 tvg-id="Fashion.India.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Fashion_TV.png" group-title="ENGLISH" , FASHION TV
+#Fashion.India.in
+#EXTINF:-1 tvg-id="697140a85d851f5e69414688-6490c01f3b3ce9e1aaad95be" tvg-name="FashionTV" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Fashion_TV.png" group-title="ENGLISH" , FASHION TV
 #http://103.175.73.12:8080/live/332/master.m3u8
 https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_480854_p_0.m3u8
 
@@ -1744,7 +1746,7 @@ https://d2vfwvjxwtwq1t.cloudfront.net/out/v1/6b24239d5517495b986e7705490c6e65/in
 
 
 
-#EXTINF:-1 tvg-id="697140a85d851f5e69414688-62d1a58e520656fda09e609d" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Shemaroo_Bollywood.png" group-title="HINDI" , SHEMAROO BOLLYWOOD
+#EXTINF:-1 tvg-id="697140a85d851f5e69414688-62d1a58e520656fda09e609d" tvg-name="Shemaroo Bollywood" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Shemaroo_Bollywood.png" group-title="HINDI" , SHEMAROO BOLLYWOOD
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
 #https://jmp2.uk/plex-697140a85d851f5e69414688-62d1a58e520656fda09e609d.m3u8
 
@@ -2277,13 +2279,13 @@ https://live.wrencdn.in/wrencdn/hls/tv13_web/index.m3u8
 https://mumt07.tangotv.in/zHjX9OFlTWENTYFOURNEWS/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00352H3S.png" group-title="ENGLISH" , UNITE8 SPORTS 1 HD
-https://zati5.hasanhabibmottakin.workers.dev/0-9-zeecafehd/index.m3u8
+#https://zati5.hasanhabibmottakin.workers.dev/0-9-zeecafehd/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00358PMY.png" group-title="ENGLISH" , UNITE8 SPORTS 1
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00358PGT.png" group-title="ENGLISH" , UNITE8 SPORTS 2 HD
-https://zati5.hasanhabibmottakin.workers.dev/0-9-channel_2105335046/index.m3u8
+#https://zati5.hasanhabibmottakin.workers.dev/0-9-channel_2105335046/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00358PX5.png" group-title="ENGLISH" , UNITE8 SPORTS 2
 
@@ -2294,6 +2296,10 @@ https://aasthaott.akamaized.net/110923/smil:vedic.smil/chunklist_b1928000.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002TDRZL.png" group-title="GUJARATI" , VTV NEWS
 
+
+#EXTINF:-1 tvg-id="697140a85d851f5e69414688-60d4edddb2fdec002c141135" tvg-name="WildEarth" tvg-logo="https://provider-static.plex.tv/epg/images/ott_channels/logos/wildearth_logo_dark.png" group-title="ENGLISH" , WILD EARTH
+https://jmp2.uk/plex-697140a85d851f5e69414688-60d4edddb2fdec002c141135.m3u8
+#
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s144087_ld_h15_aa.png" group-title="ENGLISH" , WION
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-wion/index.m3u8
