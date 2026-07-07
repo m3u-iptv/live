@@ -1947,7 +1947,7 @@ https://airtelapp.shemaroo.com/shemarootv/smil:shemarootvadp.smil/playlist.m3u8
 https://airtelapp.shemaroo.com/shemarooumang/smil:shemarooumangadp.smil/playlist.m3u8
 
 #ts677
-#EXTINF:-1 tvg-id="SHORTS.TV.ACTIVE.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Shorts_TV_Active.png" group-title="ENGLISH" , SHORTS TV ACTIVE
+#EXTINF:-1 tvg-id="SHORTS.TV.ACTIVE.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Shorts_TV_Active.png" group-title="HINDI" , SHORTS TV ACTIVE
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b994480f788d41ddbc805862ac469416:78a6a0fc1758483595da7113e58e4467
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Shortstv2/default/manifest.mpd
@@ -1956,7 +1956,9 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Shortstv2/default/manifest.mpd
 #http://103.175.73.12:8080/live/49/master.m3u8
 https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8
 
-#EXTINF:-1 tvg-id="Shubh.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Shubh_TV.png" group-title="HINDI" , SHUBH TV
+#Shubh.TV.in
+#ts458
+#EXTINF:-1 tvg-id="458" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Shubh_TV.png" group-title="HINDI" , SHUBH TV
 https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8
 
 #EXTINF:-1 tvg-id="SIRIPOLI.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Siripoli.png" group-title="TAMIL" , SIRIPOLI 
@@ -1978,10 +1980,10 @@ https://sl.vodep39240327.workers.dev/channel/SONY+AATH.m3u8
 
 #SONY.BBC.EARTH.HD.in
 #ts460
-#EXTINF:-1 tvg-id="460" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_BBC_Earth_HD.png" group-title="ENGLISH" , SONY BBC EARTH HD ENGLISH
+#EXTINF:-1 tvg-id="SONY.BBC.EARTH.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_BBC_Earth_HD.png" group-title="ENGLISH" , SONY BBC EARTH HD ENGLISH
 https://sl.vodep39240327.workers.dev/channel/SONY+BBC.m3u8
 
-#EXTINF:-1 tvg-id="460" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_BBC_Earth_HD.png" group-title="HINDI" , SONY BBC EARTH HD HINDI
+#EXTINF:-1 tvg-id="SONY.BBC.EARTH.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_BBC_Earth_HD.png" group-title="HINDI" , SONY BBC EARTH HD HINDI
 http://202.70.146.135:8000/play/a067/index.m3u8
 
 #SONY.BBC.Earth.in
@@ -2009,7 +2011,7 @@ https://wurlsonypicturestv.global.transmit.live/hls/68deeb1c0238cda82df543dd/v1/
 #Sony.Marathi.SD.in
 #Sony.Marathi.in 
 #ts648
-#EXTINF:-1 tvg-id="648" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Marathi.png" group-title="MARATHI" , SONY MARATHI
+#EXTINF:-1 tvg-id="Sony.Marathi.SD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Marathi.png" group-title="MARATHI" , SONY MARATHI
 http://217.20.112.199:8080/sonymarathi/index.m3u8
 #https://sl.vodep39240327.workers.dev/channel/SONY+MARATHI.m3u8
 
@@ -2379,23 +2381,29 @@ https://ott.livelegitpro.in/sudarshannews/sudarshannews/index.m3u8
 
 
 #ts520
-#EXTINF:-1 tvg-id="520" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sun_Music_HD.png" group-title="TAMIL" , SUN MUSIC HD
+#SUN.MUSIC.HD.in
+#EXTINF:-1 tvg-id="ts520" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sun_Music_HD.png" group-title="TAMIL" , SUN MUSIC HD
 http://202.70.146.135:8000/play/a06k/index.m3u8
 
 #ts511
-#EXTINF:-1 tvg-id="511" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sun_Music.png" group-title="TAMIL" , SUN MUSIC
+#SUN.MUSIC.in
+#EXTINF:-1 tvg-id="ts511" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sun_Music.png" group-title="TAMIL" , SUN MUSIC
 
 
 #3088 jio
-#EXTINF:-1 tvg-id="ts1370" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sun_Neo_HD.png" group-title="HINDI" , SUN NEO HD
+#Sun.Neo.HD.in
+#EXTVLCOPT:http-user-agent=tpma/16.4 (Linux;Android 14) AndroidXMedia3/1.1.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys": [{"kty": "oct", "k": "dZzBV6mT6Kdv9NZ140tUAA", "kid": "Cf-q_0d9SQq7RRa34HEdNQ"}], "type": "temporary"}
+#EXTINF:-1 tvg-id="Sun.Neo.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sun_Neo_HD.png" group-title="HINDI" , SUN NEO HD
 https://livestream8.sunnxt.com/248c92b73514435686fd72ba325d4008/SunNeoHDB_IN_index.mpd
 
-#EXTINF:-1 tvg-id="ts1369" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sun_Neo.png" group-title="HINDI" , SUN NEO
+#Sun.Neo.in
+#Sun.Neo.in2
+#EXTINF:-1 tvg-id="1369" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sun_Neo.png" group-title="HINDI" , SUN NEO
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143883_ld_h15_aa.png" group-title="HINDI" , SUPER HUNGAMA
+#EXTINF:-1 tvg-id="SUPER.HUNGAMA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Super_Hungama.png" group-title="HINDI" , SUPER HUNGAMA
 http://202.70.146.135:8000/play/a0a4/index.m3u8
 
 #EXTINF:-1 tvg-id="Tabbar.Hits.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Tabbar_Hits.png" group-title="PUNJABI" , TABBAR HITS
