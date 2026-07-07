@@ -2162,7 +2162,7 @@ https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-x37nhptwcba84.m3u8
 
 
 #STAR BHARAT HD ts224
-#EXTINF:-1 tvg-id="224" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_BHARAT_HD.png" group-title="HINDI" , STAR BHARAT HD
+#EXTINF:-1 tvg-id="224" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Barat_HD.png" group-title="HINDI" , STAR BHARAT HD
 http://202.70.146.135:8000/play/a09v/index.m3u8
 
 
