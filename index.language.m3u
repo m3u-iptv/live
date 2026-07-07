@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_DISTROTV1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz;https://i.mjh.nz/SamsungTVPlus/in.xml.gz;https://i.mjh.nz/Plex/au.xml.gz;https://i.mjh.nz/Plex/us.xml;https://iptv-epg.org/files/epg-in.xml.gz;https://www.open-epg.com/files/india.xml.gz;https://www.tsepg.cf/jio.xml.gz;https://www.tsepg.cf/epg.xml.gz" catchup-type="shift"
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_DISTROTV1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz;https://i.mjh.nz/SamsungTVPlus/in.xml.gz;https://i.mjh.nz/Plex/au.xml.gz;https://i.mjh.nz/Plex/us.xml;https://iptv-epg.org/files/epg-in.xml.gz;https://www.open-epg.com/files/india.xml.gz;https://www.tsepg.cf/jio.xml.gz;https://www.tsepg.cf/epg.xml.gz;https://avkb.short.gy/jioepg.xml.gz;https://avkb.short.gy/tsepg.xml.gz" catchup-type="shift"
 
 
 tvg-chno="" tvg-language="Hindi"
@@ -278,12 +278,12 @@ http://103.175.73.12:8080/live/101/master.m3u8
 #EXTINF:-1 tvg-id="AndyHaryana.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Andy_Haryana.png" group-title="PUNJABI" , ANDY HARYANA
 https://mumt03.tangotv.in/Dsly5z3HANDYHARYANA/index.m3u8
 
-#EXTINF:-1 tvg-id="ANIMAL.PLANET.HD.WORLD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Animal_Planet_HD.png" group-title="ENGLISH" , ANIMAL PLANET HD WORLD
+#EXTINF:-1 tvg-id="ANIMAL.PLANET.HD.WORLD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Animal_Planet_HD.png" group-title="ENGLISH" , ANIMAL PLANET HD WORLD ENGLISH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=df81f15150f74c799fdde64ef49dfb75:05794a012ae74d77953f2b9fae6804c7
-#https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Animalplanethd2/default/index.mpd
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Animalplanethd2/default/index.mpd
 #http://202.70.146.135:8000/play/a0aa/index.m3u8
-http://217.20.112.199:8080/animalplanet/index.m3u8
+#http://217.20.112.199:8080/animalplanet/index.m3u8
 
 #EXTINF:-1 tvg-id="ANIMAL.PLANET.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Animal_Planet.png" group-title="ENGLISH" , ANIMAL PLANET
 
@@ -902,6 +902,10 @@ https://cdn-2.pishow.tv/live/1455/master.m3u8
 #Dhoom.Music.Bangla.in
 #EXTINF:-1 tvg-id="DHOOM.MUSIC.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Dhoom_Music.png" group-title="BENGALI" , DHOOM MUSIC
 http://103.175.73.12:8080/live/378/master.m3u8
+
+
+#EXTINF:-1 tvg-id="D2H.Update.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Dish_Buzz_HD.png" group-title="ENGLISH" , DISH BUZZ HD
+http://217.20.112.199:8080/animalplanet/playlist.m3u8
 
 #ts341
 #EXTINF:-1 tvg-id="341" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Discovery_HD_World.png" group-title="HINDI" , DISCOVERY HD WORLD
@@ -2265,10 +2269,15 @@ http://202.70.146.135:8000/play/a00a/index.m3u8
 
 #ts24
 #STAR SPORTS 1 HD HINDI
-#EXTINF:-1 tvg-id="24" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_1_HD_Hindi.png" group-title="HINDI" , STAR SPORTS 1 HD HINDI
+#EXTINF:-1 tvg-id="24" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_1_Hindi_HD.png" group-title="HINDI" , STAR SPORTS 1 HINDI HD
 http://202.70.146.135:8000/play/a01e/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_1_Hindi.png" group-title="HINDI" , STAR SPORTS 1 HINDI
+
+
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_1_Kannada.png" group-title="KANNADA" , STAR SPORTS 1 KANNADA
+
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_1_Tamil_HD.png" group-title="TAMIL" , STAR SPORTS 1 TAMIL HD
@@ -2290,12 +2299,14 @@ http://202.70.146.135:8000/play/a01e/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_2.png" group-title="ENGLISH" , STAR SPORTS 2
 
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.2.HINDI.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_2_HD_Hindi.png" group-title="HINDI" , STAR SPORTS 2 HD HINDI
+#EXTINF:-1 tvg-id="STAR.SPORTS.2.HINDI.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_2_Hindi_HD.png" group-title="HINDI" , STAR SPORTS 2 HINDI HD
 http://202.70.146.135:8000/play/a04b/index.m3u8
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_2_Hindi.png" group-title="HINDI" , STAR SPORTS 2 HINDI
 
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_2_Kannada.png" group-title="KANNADA" , STAR SPORTS 2 KANNADA
 
 #ts1495
 #EXTINF:-1 tvg-id="1495" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_2_Tamil_HD.png" group-title="TAMIL" , STAR SPORTS 2 TAMIL HD
@@ -2303,6 +2314,8 @@ http://202.70.146.135:8000/play/a04b/index.m3u8
 #ts1187
 #EXTINF:-1 tvg-id="1187" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_2_Tamil.png" group-title="TAMIL" , STAR SPORTS 2 TAMIL
 http://202.70.146.135:8000/play/a026/index.m3u8
+
+https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_ 2_Tamil.png
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_2_Telugu_HD.png" group-title="TELUGU" , STAR SPORTS 2 TELUGU HD
 
