@@ -2673,7 +2673,7 @@ https://amg00862-amg00862c8-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-a
 #Zee.Cinema.Hd.Tv.Channel.Today.in2
 #Zee.Cinema.HD.in
 #ZEE.CINEMA.HD.in
-#EXTINF:-1 tvg-id="Zee.Cinema.Hd.Tv.Channel.Today.in2" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022HVX3.png" group-title="HINDI" , ZEE CINEMA HD
+#EXTINF:-1 tvg-id="ZEE.CINEMA.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Cinema_HD.png" group-title="HINDI" , ZEE CINEMA HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f56beaac9f124616872c741c9ce4fa4e:5d40a903238f4ad98abbed1877d4e3d1
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd/default/manifest.mpd
@@ -2682,7 +2682,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd/default/manifest.mpd
 
 #ts123
 #Zee.Cinema.Tv.Channel.Today.in2
-#EXTINF:-1 tvg-id="ts123" tvg-logo="https://dtil.tmsimg.com/assets/s159104_ld_h15_aa.png" group-title="HINDI" , ZEE CINEMA
+#EXTINF:-1 tvg-id="ts123" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Cinema.png" group-title="HINDI" , ZEE CINEMA
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=43513b13f4b542e39c9265921dfc1726:b0b2678bcd274c37b888a6c987d502ed
 #https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinema/default/manifest.mpd
@@ -2699,11 +2699,11 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd/default/manifest.mpd
 https://linearjitp-playback.astro.com.my/dash-wv/linear/5106/default_ott.mpd
 
 #ts636
-#EXTINF:-1 tvg-id="ts636" tvg-tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZEQ9.png" group-title="TELUGU" , ZEE CINEMALU HD
+#EXTINF:-1 tvg-id="ts636" tvg-tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Cinemalu_HD.png" group-title="TELUGU" , ZEE CINEMALU HD
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeecinemalu/index.m3u8
 
 #ts252
-#EXTINF:-1 tvg-id="ts252" tvg-tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZNDZ.png" group-title="TELUGU" , ZEE CINEMALU 
+#EXTINF:-1 tvg-id="ZEE.CINEMALU.in" tvg-tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Cinemalu.png" group-title="TELUGU" , ZEE CINEMALU 
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-9z5383488/index.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d27bc072600d431faa7d0c8441a5fb43:3b61f64edc79497d9da31d612a88f8ea
