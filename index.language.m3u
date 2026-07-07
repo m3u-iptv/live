@@ -272,7 +272,7 @@ http://103.175.73.12:8080/live/54/master.m3u8
 #EXTINF:-1 tvg-id="AMRITA" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Amrita.png" group-title="MALAYALAM" , AMRITA
 http://103.175.73.12:8080/live/698/master.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/ANB_News_National.png" group-title="HINDI" , ANB NEWS NATIONAL
+#EXTINF:-1 tvg-id="ANB.News.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/ANB_News_National.png" group-title="HINDI" , ANB NEWS NATIONAL
 http://103.175.73.12:8080/live/101/master.m3u8
 
 #EXTINF:-1 tvg-id="AndyHaryana.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Andy_Haryana.png" group-title="PUNJABI" , ANDY HARYANA
@@ -422,7 +422,7 @@ https://cdn.ottlive.co.in/bharat24/index.m3u8
 #EXTINF:-1 tvg-id="BHARAT.EXPRESS.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Bharat_Express.png" group-title="HINDI" , BHARAT EXPRESS
 http://103.175.73.12:8080/live/736/master.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Bharat_Samachar.png" group-title="HINDI" , BHARAT SAMACHAR
+#EXTINF:-1 tvg-id="Bharat.Samachar.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Bharat_Samachar.png" group-title="HINDI" , BHARAT SAMACHAR
 http://103.175.73.12:8080/live/97/master.m3u8
 
 #EXTINF:-1 tvg-id="BHOJPURI.CINEMA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Bhojpuri_Cinema.png" group-title="BHOJPURI" , BHOJPURI CINEMA
@@ -515,12 +515,14 @@ https://n18syndication.akamaized.net/bpk-tv/CNN_News18_NW18_MOB/output01/master.
 
 
 #ts61
-#EXTINF:-1 tvg-id="Colors.Cineplex.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Cineplex_HD.png" group-title="HINDI" , COLORS CINEPLEX HD
+#Colors.Cineplex.HD.in
+#EXTINF:-1 tvg-id="61" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Cineplex_HD.png" group-title="HINDI" , COLORS CINEPLEX HD
 http://202.70.146.135:8000/play/a04n/index.m3u8
 
 #ts53
 #Colors.Cineplex.in
-#EXTINF:-1 tvg-id="COLORS.CINEPLEX.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Cineplex.png" group-title="HINDI" , COLORS CINEPLEX
+#COLORS.CINEPLEX.in
+#EXTINF:-1 tvg-id="53" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Cineplex.png" group-title="HINDI" , COLORS CINEPLEX
 http://202.70.146.135:8000/play/a01b/index.m3u8
 
 #ts1000
@@ -737,7 +739,7 @@ https://cdn-3.pishow.tv/live/27/master.m3u8
 #https://d2lk5u59tns74c.cloudfront.net/out/v1/c313674ffced4c9a90f1bba436df2b9b/index_3.m3u8
 
 #ts329
-#EXTINF:-1 tvg-id="DD.MANIPUR.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Manipur.png" group-title="MANIPURI" , DD MANIPUR
+#EXTINF:-1 tvg-id="ts329" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/DD_Manipur.png" group-title="MANIPURI" , DD MANIPUR
 #https://d2lk5u59tns74c.cloudfront.net/out/v1/8b75afc6576f450e8f554b6c877681d2/index.m3u8
 https://d2lk5u59tns74c.cloudfront.net/out/v1/8b75afc6576f450e8f554b6c877681d2/index_3.m3u8
 
@@ -941,7 +943,8 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryturbo2/default/manifest.mp
 http://202.70.146.135:8000/play/a01q/index.m3u8
 
 #ts265
-#EXTINF:-1 tvg-id="265" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Disney_INTL_HD.png" group-title="ENGLISH" , DISNEY INTL HD
+#Disney.International.HD.in
+#EXTINF:-1 tvg-id="ts265" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Disney_INTL_HD.png" group-title="ENGLISH" , DISNEY INTL HD
 http://202.70.146.135:8000/play/a04p/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Disney_Junior.png" group-title="ENGLISH" , DISNEY JUNIOR
@@ -1194,7 +1197,7 @@ http://103.175.73.12:8080/live/617/master.m3u8
 https://cdn-1.pishow.tv/live/224/master.m3u8
 #http://103.175.73.12:8080/live/713/master.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Hindi_Khabar.png" group-title="HINDI" ,HINDI KHABAR
+#EXTINF:-1 tvg-id="Hindi.Khabar.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Hindi_Khabar.png" group-title="HINDI" ,HINDI KHABAR
 http://103.175.73.12:8080/live/96/master.m3u8
 
 #ts630
@@ -1327,7 +1330,7 @@ https://cdn-3.pishow.tv/live/1465/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Jaya_Plus.png" group-title="TAMIL" , JAYA PLUS
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Janta_TV.png" group-title="HINDI" , JANTA TV
+#EXTINF:-1 tvg-id="Janta.TV.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Janta_TV.png" group-title="HINDI" , JANTA TV
 http://103.175.73.12:8080/live/106/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Jinvani_TV.png" group-title="HINDI" , JINVANI TV
@@ -1363,7 +1366,7 @@ https://holistic.ottlive.co.in/distrotvkartavyatv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/KBS_World.png" group-title="ENGLISH" , KBS WORLD
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/K_News_India.png" group-title="HINDI" , K NEWS INDIA
+#EXTINF:-1 tvg-id="K.News.India.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/K_News_India.png" group-title="HINDI" , K NEWS INDIA
 http://103.175.73.12:8080/live/100/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Khabrain_Abhi_Tak.png" group-title="HINDI" , KHABRAIN ABHI TAK
@@ -1409,7 +1412,7 @@ http://103.175.73.12:8080/live/55/master.m3u8
 #EXTINF:-1 tvg-id="965" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Manoranjan_Grand.png" group-title="HINDI" , MANORANJAN GRAND
 http://103.175.73.12:8080/live/23/master.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Manoranjan_Movies.png" group-title="PUNJABI" , MANORANJAN MOVIES
+#EXTINF:-1 tvg-id="Manoranjan.Movies.in2" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Manoranjan_Movies.png" group-title="PUNJABI" , MANORANJAN MOVIES
 http://103.175.73.12:8080/live/47/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Manoranjan_Prime.png" group-title="BHOJPURI;HINDI" , MANORANJAN PRIME
@@ -1434,7 +1437,7 @@ http://103.175.73.12:8080/live/351/master.m3u8
 http://103.175.73.12:8080/live/639/master.m3u8
 
 #ts399
-#EXTINF:-1 tvg-id="399" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/MH_One.png" group-title="PUNJABI" , MH ONE HD MUSIC 
+#EXTINF:-1 tvg-id="Mh.One.in2" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/MH_One.png" group-title="PUNJABI" , MH ONE HD MUSIC 
 https://livestream.jswk.online/playlisttest/live/playlist.m3u8
 
 #EXTINF:-1 tvg-id="399" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/MH_One.png" group-title="PUNJABI" , MH ONE MUSIC 
@@ -1471,7 +1474,7 @@ http://202.70.146.135:8000/play/a057/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Movies_Now.png" group-title="ENGLISH" , MOVIES NOW
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Music_India.png" group-title="HINDI" , MUSIC INDIA
+#EXTINF:-1 tvg-id="Music.India.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Music_India.png" group-title="HINDI" , MUSIC INDIA
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e874f3a7e5de42fca2b2a93b318fa52e:a77f240d277c47a5a0bc934072c4d7da
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Musicindia2/default/main.mpd
@@ -1496,7 +1499,7 @@ http://202.70.146.135:8000/play/a05j/index.m3u8
 
 
 #ts605
-#EXTINF:-1 tvg-id="605" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/National_Geographic_HD.png" group-title="HINDI" , NATIONAL GEOGRAPHIC HD
+#EXTINF:-1 tvg-id="NATIONAL.GEOGRAPHIC.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/National_Geographic_HD.png" group-title="HINDI" , NATIONAL GEOGRAPHIC HD
 http://202.70.146.135:8000/play/a05o/index.m3u8
 
 #ts137
@@ -1561,7 +1564,7 @@ https://cdn-6.pishow.tv/live/1490/master.m3u8
 #EXTINF:-1 tvg-id="Network.10.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Network_10.png" group-title="HINDI" , NETWORK 10
 http://103.175.73.12:8080/live/611/master.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/News_1_India.png" group-title="HINDI" , NEWS 1 INDIA
+#EXTINF:-1 tvg-id="News.1.India.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/News_1_India.png" group-title="HINDI" , NEWS 1 INDIA
 http://103.175.73.12:8080/live/102/master.m3u8
 
 #EXTINF:-1 tvg-id="NEWS18.NORTH.EAST.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/News18_North_East.png" group-title="ASSAMESE" , NEWS18 NEWS 18 ASSAM
@@ -1712,7 +1715,7 @@ https://cdn-4.pishow.tv/live/1499/master.m3u8
 #Oscar.Movies.in
 #Oscar.Movies.Bhojpuri.Tv.in2
 #Oscar.Movies.Bhojpuri.in
-#EXTINF:-1 tvg-id="Oscar.Movies.Bhojpuri.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Oscar_Movies_Bhojpuri.png" group-title="BHOJPURI" , OSCAR MOVIES BHOJPURI
+#EXTINF:-1 tvg-id="Oscar.Movies.Bhojpuri.in2" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Oscar_Movies_Bhojpuri.png" group-title="BHOJPURI" , OSCAR MOVIES BHOJPURI
 https://cdn-4.pishow.tv/live/233/master.m3u8
 
 
@@ -1726,7 +1729,7 @@ https://cdn-4.pishow.tv/live/233/master.m3u8
 #EXTINF:-1 tvg-id="POGO.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Pogo.png" group-title="HINDI" , POGO
 http://202.70.146.135:8000/play/a0a7/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Prag_News.png" group-title="ASSAMESE" ,PRAG NEWS
+#EXTINF:-1 tvg-id="Prag.News.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Prag_News.png" group-title="ASSAMESE" ,PRAG NEWS
 http://103.175.73.12:8080/live/336/master.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Pratidin_Time.png" group-title="ASSAMESE" , PRATIDIN TIME
@@ -1819,7 +1822,8 @@ https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
 
 #RUPASI.BANGLA.in
 #Rupashi.Bangla.in
-#EXTINF:-1 tvg-id="Ruposhi.Bangla.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Rupasi_Bangla.png" group-title="BENGALI" , RUPASI BANGLA
+#Ruposhi.Bangla.in
+#EXTINF:-1 tvg-id="RUPASI.BANGLA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Rupasi_Bangla.png" group-title="BENGALI" , RUPASI BANGLA
 #https://cdn-4.pishow.tv/live/1039/master.m3u8
 http://103.175.73.12:8080/live/664/master.m3u8
 
@@ -2171,11 +2175,12 @@ http://202.70.146.135:8000/play/a09v/index.m3u8
 http://202.70.146.135:8000/play/a02a/index.m3u8
 
 #ts1072
-#EXTINF:-1 tvg-id="1072" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_2_HD.png" group-title="HINDI" , STAR GOLD 2 HD
+#EXTINF:-1 tvg-id="ts1072" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_2_HD.png" group-title="HINDI" , STAR GOLD 2 HD
 http://202.70.146.135:8000/play/a04q/index.m3u8
 
 #ts163
-#EXTINF:-1 tvg-id="163" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_2.png" group-title="HINDI" , STAR GOLD 2
+#Star.Gold.2.in
+#EXTINF:-1 tvg-id="ts163" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_2.png" group-title="HINDI" , STAR GOLD 2
 http://202.70.146.135:8000/play/a02d/index.m3u8
 
 #ts493
@@ -2183,6 +2188,7 @@ http://202.70.146.135:8000/play/a02d/index.m3u8
 http://202.70.146.135:8000/play/a044/index.m3u8
 
 #ts595
+#Star.Gold.Select.HD.in
 #EXTINF:-1 tvg-id="595" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_Select_HD.png" group-title="HINDI" , STAR GOLD SELECT HD
 http://202.70.146.135:8000/play/a068/index.m3u8
 
@@ -2190,7 +2196,7 @@ http://202.70.146.135:8000/play/a068/index.m3u8
 #EXTINF:-1 tvg-id="461" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_Select.png" group-title="HINDI" , STAR GOLD SELECT
 
 #ts494
-#EXTINF:-1 tvg-id="494" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_Thrills.png" group-title="HINDI" , STAR GOLD THRILLS
+#EXTINF:-1 tvg-id="STAR.GOLD.THRILLS.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Gold_Thrills.png" group-title="HINDI" , STAR GOLD THRILLS
 http://202.70.146.135:8000/play/a024/index.m3u8
 
 #ts468
@@ -2284,7 +2290,7 @@ http://202.70.146.135:8000/play/a01e/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_2.png" group-title="ENGLISH" , STAR SPORTS 2
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_2_HD_Hindi.png" group-title="HINDI" , STAR SPORTS 2 HD HINDI
+#EXTINF:-1 tvg-id="STAR.SPORTS.2.HINDI.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_2_HD_Hindi.png" group-title="HINDI" , STAR SPORTS 2 HD HINDI
 http://202.70.146.135:8000/play/a04b/index.m3u8
 
 
