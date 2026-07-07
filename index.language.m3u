@@ -20,6 +20,7 @@ tvg-chno="" tvg-language="Hindi"
 #KODIPROP:inputstream.adaptive.license_key=de8045e9f0fb4d03845dcc4a8bd7712a:6807bd09bda34ada83152908192af6d6
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd/default/index.mpd
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-tvpictureshd/index.m3u8
+#http://202.70.146.135:8000/play/a06b/index.m3u8
 
 #ts148
 #and.PICTURES.in
@@ -281,6 +282,7 @@ https://mumt03.tangotv.in/Dsly5z3HANDYHARYANA/index.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=df81f15150f74c799fdde64ef49dfb75:05794a012ae74d77953f2b9fae6804c7
 #https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Animalplanethd2/default/index.mpd
+#http://202.70.146.135:8000/play/a0aa/index.m3u8
 http://217.20.112.199:8080/animalplanet/index.m3u8
 
 #EXTINF:-1 tvg-id="ANIMAL.PLANET.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Animal_Planet.png" group-title="ENGLISH" , ANIMAL PLANET
@@ -519,7 +521,7 @@ http://202.70.146.135:8000/play/a04n/index.m3u8
 #ts53
 #Colors.Cineplex.in
 #EXTINF:-1 tvg-id="COLORS.CINEPLEX.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Cineplex.png" group-title="HINDI" , COLORS CINEPLEX
-
+http://202.70.146.135:8000/play/a01b/index.m3u8
 
 #ts1000
 #Colors.Cineplex.Bollywood.in2
@@ -912,6 +914,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverychannel2/default/manifest.
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=601f58d4b7094d2baf78c85d1d9cb6c9:609e0cc03198455fa36fd2cc3e7f940d
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverykids2/default/manifest.mpd
+#http://202.70.146.135:8000/play/a0a6/index.m3u8
 
 #Discovery.Science.in
 #EXTINF:-1 tvg-id="113" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Discovery_Science.png" group-title="ENGLISH" , DISCOVERY SCIENCE ENGLISH
@@ -926,16 +929,16 @@ http://202.70.146.135:8000/play/a060/index.m3u8
 #Discovery.Turbo.in
 #ts228
 #EXTINF:-1 tvg-id="228" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Discovery_Trubo.png" group-title="ENGLISH" , DISCOVERY TURBO
-##KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c011525969e44b99a86059dbb3cdf4e8:6700a5d93203417b8585f7de7dd1a09b
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryturbo2/default/manifest.mpd
-http://202.70.146.135:8000/play/a050/index.m3u8
+#http://202.70.146.135:8000/play/a050/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Disney_Channel_HD.png" group-title="ENGLISH" , DISNEY CHANNEL HD
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Disney_Channel.png" group-title="ENGLISH" , DISNEY CHANNEL
-
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Disney_Channel.png" group-title="HINDI" , DISNEY CHANNEL
+http://202.70.146.135:8000/play/a01q/index.m3u8
 
 #ts265
 #EXTINF:-1 tvg-id="265" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Disney_INTL_HD.png" group-title="ENGLISH" , DISNEY INTL HD
@@ -1811,7 +1814,8 @@ http://202.70.146.135:8000/play/a05x/index.m3u8
 
 #EXTINF:-1 tvg-id="Rongeen.TV.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Rongeen_TV.png" group-title="BENGALI" , RONGEEN TV
 #http://103.175.73.12:8080/live/202/master.m3u8
-https://cdn-4.pishow.tv/live/1029/master.m3u8
+#https://cdn-4.pishow.tv/live/1029/master.m3u8
+https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
 
 #RUPASI.BANGLA.in
 #Rupashi.Bangla.in
@@ -1949,8 +1953,8 @@ https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-id="SONIC.NICKELODEON.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sonic_Nickelodeon.png" group-title="ENGLISH" , SONIC NICKELODEON
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sonic_Nickelodeon.png
+#EXTINF:-1 tvg-id="SONIC.NICKELODEON.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sonic_Nickelodeon.png" group-title="HINDI" , SONIC 
+http://202.70.146.135:8000/play/a02t/index.m3u8
 
 #Sony.aath.in
 #Sony.Aath.in
@@ -2016,8 +2020,8 @@ https://sl.vodep39240327.workers.dev/channel/SONY+MAX+2.m3u8
 #MAX.HD.in
 #Sony.Max.Hd.Tv.Channel.Today.in2
 #EXTINF:-1 tvg-id="80" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Max_HD.png" group-title="HINDI" , SONY MAX HD
-https://sl.vodep39240327.workers.dev/channel/SONY+MAX+HD.m3u8
-
+#https://sl.vodep39240327.workers.dev/channel/SONY+MAX+HD.m3u8
+http://202.70.146.135:8000/play/a01g/index.m3u8
 
 #ts132
 #Sony.Max.in
@@ -2095,7 +2099,8 @@ https://sl.vodep39240327.workers.dev/channel/SONY+TEN+2.m3u8
 #SONY.SPORTS.TEN.3.HD.in
 #ts464
 #EXTINF:-1 tvg-id="464" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_3_HD_Hindi.png" group-title="HINDI" , SONY SPORTS TEN 3 HD HINDI
-https://sl.vodep39240327.workers.dev/channel/SONY+TEN+3+HD.m3u8
+#https://sl.vodep39240327.workers.dev/channel/SONY+TEN+3+HD.m3u8
+http://202.70.146.135:8000/play/a0a1/index.m3u8
 
 #Sony.Ten.3.Hindi.in
 #SONY.SPORTS.TEN.3.in
@@ -2125,7 +2130,8 @@ https://sl.vodep39240327.workers.dev/channel/SONY+TEN+4+HD.m3u8
 #SONY.SPORTS.TEN.5.HD.in
 #ts35
 #EXTINF:-1 tvg-id="35" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sony_Sports_Ten_5_HD.png" group-title="ENGLISH" , SONY SPORTS TEN 5 HD
-https://sl.vodep39240327.workers.dev/channel/SONY+TEN+5+HD.m3u8
+#https://sl.vodep39240327.workers.dev/channel/SONY+TEN+5+HD.m3u8
+http://202.70.146.135:8000/play/a09r/index.m3u8
 
 #Sony.Sports.Ten.5.in
 #Sony.Ten.5.in
@@ -2156,6 +2162,8 @@ https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-x37nhptwcba84.m3u8
 
 
 #STAR BHARAT HD ts224
+#EXTINF:-1 tvg-id="224" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_BHARAT_HD.png" group-title="HINDI" , STAR BHARAT HD
+http://202.70.146.135:8000/play/a09v/index.m3u8
 
 
 #ts632,ts245
@@ -2252,7 +2260,7 @@ http://202.70.146.135:8000/play/a00a/index.m3u8
 #ts24
 #STAR SPORTS 1 HD HINDI
 #EXTINF:-1 tvg-id="24" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_1_HD_Hindi.png" group-title="HINDI" , STAR SPORTS 1 HD HINDI
-
+http://202.70.146.135:8000/play/a01e/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Star_Sports_1_Hindi.png" group-title="HINDI" , STAR SPORTS 1 HINDI
 
@@ -2354,7 +2362,7 @@ http://202.70.146.135:8000/play/a06k/index.m3u8
 
 
 
-##3088 jio
+#3088 jio
 #EXTINF:-1 tvg-id="Sun.Neo.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sun_Neo_HD.png" group-title="HINDI" , SUN NEO HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys": [{"kty": "oct", "k": "dZzBV6mT6Kdv9NZ140tUAA", "kid": "Cf-q_0d9SQq7RRa34HEdNQ"}], "type": "temporary"}
@@ -2362,11 +2370,14 @@ https://livestream8.sunnxt.com/248c92b73514435686fd72ba325d4008/SunNeoHDB_IN_ind
 
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143883_ld_h15_aa.png" group-title="ENGLISH" , SUPER HUNGAMA
-
+#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s143883_ld_h15_aa.png" group-title="HINDI" , SUPER HUNGAMA
+http://202.70.146.135:8000/play/a0a4/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Tabbar_Hits.png" group-title="PUNJABI" , TABBAR HITS
 https://cdn-4.pishow.tv/live/1504/master.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/The_Jungle_Book.png" group-title="HINDI" , THE JUNGLE BOOL
+https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
 
 
 
@@ -2416,8 +2427,8 @@ http://202.70.146.135:8000/play/a05i/index.m3u8
 #https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8
 https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index_8.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s144015_ld_h15_aa.png" group-title="ENGLISH" , TRAVELXP HD
-
+#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s144015_ld_h15_aa.png" group-title="HINDI" , TRAVELXP HD
+http://202.70.146.135:8000/play/a04o/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/s144014_ld_h15_aa.png" group-title="ENGLISH" , TRAVEL XP (SD)
 
@@ -2485,14 +2496,16 @@ https://mumt07.tangotv.in/zHjX9OFlTWENTYFOURNEWS/index.m3u8
 http://103.175.73.12:8080/live/688/master.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00352H3S.png" group-title="ENGLISH" , UNITE8 SPORTS 1 HD
+#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00352H3S.png" group-title="HINDI" , UNITE8 SPORTS 1 HD
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-zeecafehd/index.m3u8
+http://202.70.146.135:8000/play/a125/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00358PMY.png" group-title="ENGLISH" , UNITE8 SPORTS 1
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00358PGT.png" group-title="ENGLISH" , UNITE8 SPORTS 2 HD
 #https://zati5.hasanhabibmottakin.workers.dev/0-9-channel_2105335046/index.m3u8
+http://202.70.146.135:8000/play/a126/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00358PX5.png" group-title="ENGLISH" , UNITE8 SPORTS 2
 
