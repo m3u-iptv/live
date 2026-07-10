@@ -1,1 +1,30 @@
-<tv generator-info-url="https://github.com/m3u-iptv/m3u"><channel id="COLORS.CINEPLEX.in"><display-name>Colors Cineplex HD</display-name><icon src="https://jiotvimages.cdn.jio.com/dare_images/images/channel/9cd8420ebbb4c517e89948f5a788371f.png" /></channel><programme channel="COLORS.CINEPLEX.in" start="20260710142200 +0530" stop="20260710160400 +0530"><title>Devaki Nandana Vasudeva</title><desc>Devaki Nandana Vasudeva</desc></programme><programme channel="50001" start="20260710160400 +0530" stop="20260710183900 +0530"><title>Hungama</title><desc>Hungama</desc></programme><programme channel="COLORS.CINEPLEX.in" start="20260710183900 +0530" stop="20260710202900 +0530"><title>Hungama</title><desc>Hungama</desc></programme></tv>
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE tv SYSTEM "xmltv.dtd"><tv generator-info-name="www.matthuisman.nz" generated-ts="1783678947">
+  <channel id="COLORS.CINEPLEX.HD.in">
+    <display-name>Colors Cineplex HD</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20260701T005102SQUARE.png"/>
+  </channel>
+  <programme channel="COLORS.CINEPLEX.HD.in" start="20260710084044 +0000" stop="20260710105740 +0000">
+    <title>One Day: Justice Delivered</title>
+    <desc>A judge bound by law has to pass unfair judgments on some criminal cases due to lack of evidence. After retirement, he becomes a vigilante and decides to punish the crooks who walk free.</desc>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IN_USQT620324A_2859005376_1_20260430T123104055Z_145_imageprocessorclient-tvplus-linear-796646965d-vhr29.jpeg"/>
+    <rating>
+      <value>NA</value>
+    </rating>
+  </programme>
+  <programme channel="COLORS.CINEPLEX.HD.in" start="20260710105740 +0000" stop="20260710133557 +0000">
+    <title>Luck</title>
+    <desc>Musa, an underworld kingpin and a firm believer in luck, designs a series of life threatening adventure sports with hefty prize money for people around the world. However, the participants can only survive and win if they are exceptionally lucky.</desc>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IN_USQT620324A_534823461_0_20231109T024201609Z_1.jpeg"/>
+    <rating>
+      <value>NA</value>
+    </rating>
+  </programme>
+  <programme channel="COLORS.CINEPLEX.HD.in" start="20260710133557 +0000" stop="20260710163953 +0000">
+    <title>Aarakshan</title>
+    <desc>The controversial policy of caste-based reservations in government jobs and educational institutions in India leads to a conflict between a teacher hailing from a lower class, his good friend belonging to the upper caste, and his mentor.</desc>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IN_USQT620324A_2858997988_1_20260430T123104055Z_161_imageprocessorclient-tvplus-linear-796646965d-vhr29.jpeg"/>
+    <rating>
+      <value>NA</value>
+    </rating>
+  </programme>
+  </tv>
