@@ -659,13 +659,16 @@ http://103.175.73.12:8080/live/29/master.m3u8
 #EXTINF:-1 tvg-id="COLORS.MARATHI.HD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Marathi_HD.png" group-title="MARATHI" , COLORS MARATHI HD
 http://217.20.112.199/ColorsMarathi/index.m3u8
 
-#Colors.Rishtey.in2
-#EXTINF:-1 tvg-id="COLORS.RISHTEY.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Marathi.png" group-title="MARATHI" , COLORS MARATHI
+#
+#EXTINF:-1 tvg-id="COLORS.MARATHI.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Marathi.png" group-title="MARATHI" , COLORS MARATHI
 
 #ts438
 #jio 279
+#Colors.Rishtey.in
 #Colors.Rishtey.in2
-#EXTINF:-1 tvg-id="COLORS.RISHTEY.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Rishtey.png" group-title="HINDI" , COLORS RISHTEY
+#COLORS.RISHTEY.in
+#Rishtey.in
+#EXTINF:-1 tvg-id="Colors.Rishtey.in2" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Rishtey.png" group-title="HINDI" , COLORS RISHTEY
 http://103.159.180.34:5001/live/279.m3u8
 
 #EXTINF:-1 tvg-id="COLORS.SUPER.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Super.png" group-title="KANNADA" , COLORS SUPER
