@@ -3,7 +3,7 @@
     <display-name>Colors Cineplex HD</display-name>
     <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20260701T005102SQUARE.png"/>
   </channel>
-  <programme channel="COLORS.CINEPLEX.HD.in" start="20260710041800 +0000" stop="20260710063900 +0000">
+  <programme channel="COLORS.CINEPLEX.HD.in" start="20260710041800 +530" stop="20260710063900 +530">
     <title>Hungama</title>
     <desc>A millionaire businessman living in a village decides to move to the city with his wife. However, things take a comical turn as a case of mistaken identity causes chaos in their lives.</desc>
     <icon src="https://jiotvimages.cdn.jio.com/dare_images/shows/epgdata/4f432d125c710010e25729b00f6bee47.jpg"/>
@@ -11,7 +11,7 @@
       <value>NA</value>
     </rating>
   </programme>
-  <programme channel="COLORS.CINEPLEX.HD.in" start="20260710063900 +0000" stop="20260710082900 +0000">
+  <programme channel="COLORS.CINEPLEX.HD.in" start="20260710063900 +530" stop="20260710082900 +530">
     <title>Inspector Vijay</title>
     <desc>Vijay, an honest police officer, meets Samyukta at a café and falls in love with her. However, his life changes when he witnesses a kidnapping and ends up helping a lonely woman, Lavanya.</desc>
     <icon src="https://jiotvimages.cdn.jio.com/dare_images/shows/epgdata/7331ca417ce8e4611e1a4e88db6a9d24.jpg"/>
