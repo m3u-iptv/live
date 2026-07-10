@@ -668,7 +668,7 @@ http://217.20.112.199/ColorsMarathi/index.m3u8
 #Colors.Rishtey.in2
 #COLORS.RISHTEY.in
 #Rishtey.in
-#EXTINF:-1 tvg-id="Colors.Rishtey.in2" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Rishtey.png" group-title="HINDI" , COLORS RISHTEY
+#EXTINF:-1 tvg-id="Rishtey.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Rishtey.png" group-title="HINDI" , COLORS RISHTEY
 http://103.159.180.34:5001/live/279.m3u8
 
 #EXTINF:-1 tvg-id="COLORS.SUPER.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Colors_Super.png" group-title="KANNADA" , COLORS SUPER
