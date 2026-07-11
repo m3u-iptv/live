@@ -1508,6 +1508,9 @@ http://103.159.180.34:5001/live/3025.m3u8
 #EXTINF:-1 tvg-id="India.Voice.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/India_Voice.png" group-title="HINDI" , INDIA VOICE
 http://103.175.73.12:8080/live/94/master.m3u8
 
+#EXTINF:-1 tvg-id="3050" tvg-name="Indian News" tvg-type="News" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main//Images/Indian_News.png" group-title="HINDI" , INDIAN NEWS
+https://cdn.ottlive.co.in/newsflashchannel/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/INH_24x7.png" group-title="HINDI" , INH 24X7
 http://103.175.73.12:8080/live/99/master.m3u8
 
@@ -1630,12 +1633,20 @@ https://holistic.ottlive.co.in/distrolakshya/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Macau_Lotus_TV.png" group-title="ENGLISH" , MACAU LOTUS TV
 http://103.175.73.12:8080/live/331/master.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Makkal_TV.png" group-title="TAMIL" , MAKKAL TV
-http://103.159.180.34:5001/live/708.m3u8
-
 #EXTINF:-1 tvg-id="Maha.Movies.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Maha_Movies.png" group-title="HINDI" , MAHA MOVIE
 #http://103.175.73.12:8080/live/48/master.m3u8
 https://cdn-6.pishow.tv/live/10007/master.m3u8
+
+#EXTINF:-1 tvg-id="3282" tvg-name="Mahua Khabar" tvg-type="News" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main//Images/Mahua_Khabar.png" group-title="HINDI" , MAHUA KHABAR
+https://cdn.ottlive.co.in/mahuakhabar/tracks-v1a1/mono.m3u8
+#http://103.159.180.34:5001/live/3282.m3u8
+
+#EXTINF:-1 tvg-id="3281" tvg-name="Mahua Play" tvg-type="Movies" tvg-language="Bhojpuri" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main//Images/Mahua_Play.png" group-title="BHOJPURI;HINDI" , MAHUA PLAY
+https://cdn.ottlive.co.in/mahuaplay/tracks-v1a1/mono.m3u8
+#http://103.159.180.34:5001/live/3281.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Makkal_TV.png" group-title="TAMIL" , MAKKAL TV
+http://103.159.180.34:5001/live/708.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Manorama_News.png" group-title="MALAYALAM" , MANORAMA NEWS
 http://103.175.73.12:8080/live/55/master.m3u8
@@ -1713,6 +1724,11 @@ http://202.70.146.135:8000/play/a057/index.m3u8
 
 #ts173
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Movies_Now.png" group-title="ENGLISH" , MOVIES NOW
+
+
+#EXTINF:-1 tvg-id="2017" tvg-name="Munsif TV" tvg-type="News" tvg-language="Urdu" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main//Images/Munsif_TV.png" group-title="HINDI;URDU" , MUNSIF TV
+#http://103.159.180.34:5001/live/2017.m3u8
+https://live.legitpro.co.in/munsiftv/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-id="Music.India.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Music_India.png" group-title="HINDI" , MUSIC INDIA
@@ -1973,6 +1989,9 @@ https://d1msejlow1t3l4.cloudfront.net/fta/pasand/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Peace_of_Mind.png" group-title="ENGLISH" , Peace of Mind
 
+#EXTINF:-1 tvg-id="Pitaara.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Pitaara.png" group-title="PUNJABI",PITAARA TV 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pitaara-tv/playlist.m3u8?ads.vf=0
 
 #EXTINF:-1 tvg-id="Pitaara.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Pitaara.png" group-title="PUNJABI",PITAARA TV
 http://103.175.73.12:8080/live/352/master.m3u8
@@ -2048,12 +2067,16 @@ https://cdn-3.pishow.tv/live/439/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Pudhari_News.png" group-title="MARATHI" , PUDHARI NEWS
 
 
+#EXTINF:-1 tvg-id="2934" tvg-name="Punjabi Hits" tvg-type="Music" tvg-language="Punjabi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Punjabi_Hits.png" group-title="PUNJABI" , PUNJABI HITS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/index.m3u8?ads.vf=0
+#http://103.159.180.34:5001/live/2934.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Raj_Parivar.png" group-title="HINDI" , RAJ PARIVAR
 http://103.159.180.34:5001/live/533.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Raj_TV.png" group-title="TAMIL" , RAJ TV
 http://103.159.180.34:5001/live/707.m3u8
-
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Ramdhenu.png" group-title="ASSAMESE" , RAMDHENU
 
@@ -2106,6 +2129,14 @@ https://rt-glb.rttv.com/dvr/rtnews/playlist_2500Kb.m3u8
 
 #EXTINF:-1 tvg-id="SAAM.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Saam_TV.png" group-title="MARATHI" , SAAM TV
 https://cdn-3.pishow.tv/live/437/master.m3u8
+
+#EXTINF:-1 tvg-id="Saga.Music.in" tvg-name="Saga Music" tvg-type="Music" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Saga_Music_HD.png" group-title="HINDI" , SAGA MUSIC HD
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-sagamusic-xiaomi/playlist.m3u8
+#http://103.159.180.34:5001/live/2750.m3u8
+
+#EXTINF:-1 tvg-id="Saga.Music.Haryanvi.in" tvg-name="Saga Music Haryanvi" tvg-type="Music" tvg-language="Punjabi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Saga_Music_Haryanvi_HD.png" group-title="HARYANVI;PUNJABI" , SAGA MUSIC HARYANVI HD
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-sagamusicharyanvi-xiaomi/playlist.m3u8
+#http://103.159.180.34:5001/live/2751.m3u8
 
 #Sandesh.News.in
 #EXTINF:-1 tvg-id="Sandesh.News.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sandesh_News.png" group-title="GUJARATI" , SANDESH NEWS
@@ -2647,9 +2678,11 @@ http://103.159.180.34:5001/live/1143.m3u8
 http://103.159.180.34:5001/live/1136.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sudarshan_News.png" group-title="HINDI" , SUDARSHAN NEWS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
 #https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8
 #https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1a1/index.m3u8
 https://ott.livelegitpro.in/sudarshannews/sudarshannews/index.m3u8
+#https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sudarshan-news/index.m3u8?ads.vf=0
 
 #EXTINF:-1 tvg-id="SUN.BANGLA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sun_Bangla.png" group-title="BENGALI" , SUN BANGLA
 http://103.159.180.34:5001/live/1669.m3u8
@@ -2849,6 +2882,10 @@ http://202.70.146.135:8000/play/a126/index.m3u8
 #https://mumbai-edge.smartplaytv.in/utv/index.m3u8
 https://stream.galaxyott.live/live/utv/index.m3u8
 
+#EXTINF:-1 tvg-id="2423" tvg-name="Vande Bharat News" tvg-type="News" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main//Images/Vande_Bharat_News.png" group-title="HINDI" , VANDE BHARAT NEWS
+https://cdn.ottlive.co.in/vandebharat/tracks-v1a1/mono.m3u8
+#http://103.159.180.34:5001/live/2423.m3u8
+
 #ts500
 #EXTINF:-1 tvg-id="Vedic.TV.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Vedic.png" group-title="HINDI" , VEDIC
 #https://aasthaott.akamaized.net/110923/smil:vedic.smil/index.m3u8
@@ -2880,6 +2917,10 @@ https://jmp2.uk/plex-697140a85d851f5e69414688-60d4edddb2fdec002c141135.m3u8
 
 #EXTINF:-1 tvg-id="WPN.World.Punjabi.News.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/WPN_World_Punjab.png" group-title="PUNJABI" , WPN WORLD PUNJAB
 http://103.175.73.12:8080/live/644/master.m3u8
+
+#EXTINF:-1 tvg-id="YRF.Music.in" tvg-name="YRF Music" tvg-type="Music" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main//Images/YRF_Music.png" group-title="HINDI" , YRF MUSIC
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
+#http://103.159.180.34:5001/live/2753.m3u8
 
 #EXTINF:-1 tvg-id="5049" tvg-name="Yug Abhiyaan Times" tvg-type="News" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Yug_Abhiyaan_Times.png" group-title="HINDI" , YUG ABHIYAN TIMES
 http://103.159.180.34:5001/live/5049.m3u8
