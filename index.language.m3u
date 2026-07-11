@@ -2926,8 +2926,9 @@ http://103.159.180.34:5001/live/5049.m3u8
 #EXTINF:-1 tvg-id="ZBCinema.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/ZB_Cinema.png" group-title="BENGALI;HINDI" , ZB CINEMA
 https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 
-#EXTINF:-1 tvg-id="ZillarBartaNews.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/zillar_Barta_News.png" group-title="BENGALI" , ZILLAR BARTA NEWS
+#EXTINF:-1 tvg-id="ZillarBartaNews.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zillar_Barta_News.png" group-title="BENGALI" , ZILLAR BARTA NEWS
 https://server.zillarbarta.com/zillarbarta/index.m3u8
+
 
 #24.GHANTA.in
 #Zee.24.Ghanta.in
