@@ -177,8 +177,15 @@ https://cdn-4.pishow.tv/live/969/master.m3u8
 #EXTINF:-1 tvg-id="2029" tvg-name="Aaryaa Bhakti" tvg-type="Devotional" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Ann_News_24x7.png" group-title="HINDI" , AARYAA BHAKTI
 #http://103.159.180.34:5001/live/2029.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Aaryaan_TV.png" group-title="TAMIL" , AARYAAN TV
+#EXTINF:-1 tvg-id="2189" tvg-name="Aaryaa Cinema" tvg-type="Movies" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Ann_News_24x7.png" group-title="HINDI" , AARYAA  CINEMA
+#http://103.159.180.34:5001/live/2189.m3u8
+
+#EXTINF:-1 tvg-id="2030" tvg-name="Aaryaa News" tvg-type="News" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Aaryaa_News.png" group-title="HINDI" , AARYAA NEWS
+#http://103.159.180.34:5001/live/2030.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Aaryaa TV" tvg-type="Music" tvg-language="Tamil" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Aaryaa_TV.png" group-title="TAMIL" , AARYAA TV
 https://stream.ottlive.co.in/aryatvtamil/index.m3u8
+#http://103.159.180.34:5001/live/3395.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Aaseervatham_TV.png" group-title="TAMIL" , AASEERVATHAM TV
 https://mumt04.tangotv.in/m18aqlK4AASEERVATHAMTV/index.m3u8
@@ -233,14 +240,22 @@ https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/chunklist_b1928000.
 #https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/index.m3u8
 #https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/chunklist_b1928000.m3u8
 https://cdn-1.pishow.tv/live/262/master.m3u8
+#http://103.159.180.34:5001/live/1254.m3u8
+
+#EXTINF:-1 tvg-id="1550" tvg-name="AB News" tvg-type="News" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/AB_News.png" group-title="HINDI" , AB NEWS
+http://103.159.180.34:5001/live/1550.m3u8
 
 #ts1332
 #AB STAR News
-
+#EXTINF:-1 tvg-id="1553" tvg-name="AB Star News" tvg-type="News" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/AB_Star_News.png" group-title="HINDI" , AB STAR NEWS
+http://103.159.180.34:5001/live/1553.m3u8
 
 #ts1463
 #EXTINF:-1 tvg-id="2782" tvg-name="ABC Australia" tvg-type="News" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/ABC_Australia.png" group-title="ENGLISH" , ABC AUSTRALIA
 http://103.159.180.34:5001/live/2782.m3u8
+
+#EXTINF:-1 tvg-id="1964" tvg-name="ABC News" tvg-type="News" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/ABC_News.png" group-title="HINDI" , ABC NEWS
+http://103.159.180.34:5001/live/1964.m3u8
 
 #666 jiotv
 #EXTINF:-1 tvg-id="ABN.ANDHRA.JYOTHI.in" tvg-name="ABN Andhra Jyothi" tvg-type="News" tvg-language="Telugu" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/ABN_Andhra_Jyothi.png" group-title="TELUGU" , ABN ANDHRA JYOTHI
@@ -269,12 +284,14 @@ https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/asmita-livetv/master_720p.m
 #https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master.m3u8
 #https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master_360p.m3u8
 https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master_1080p.m3u8
+#http://103.159.180.34:5001/live/1205.m3u8
 
 #EXTINF:-1 tvg-id="ABP.MAJHA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/ABP_Majha.png" group-title="MARATHI" , ABP MAJHA
 #http://103.175.73.12:8080/live/418/master.m3u8
 #https://in1.sunilprasad.com.np/yuppLive/abp-majha/master.m3u8
 #https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/majha-livetv/master.m3u8
 https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/majha-livetv/master_1280.m3u8
+#http://103.159.180.34:5001/live/612.m3u8
 
 #EXTINF:-1 tvg-id="ABP.NEWS.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/ABP_News.png" group-title="HINDI" , ABP NEWS
 #http://103.175.73.12:8080/live/595/master.m3u8
@@ -282,6 +299,7 @@ https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/majha-livetv/master_1280.m3
 #https://in1.sunilprasad.com.np/yuppLive/abp-news/master.m3u8
 #https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8
 https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master_720.m3u8
+#http://103.159.180.34:5001/live/177.m3u8
 
 #1291 jio
 #EXTINF:-1 tvg-id="ABP.Sanjha.in" tvg-name="ABP Sanjha" tvg-type="News" tvg-language="Punjabi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/ABP_Sanjha.png" group-title="PUNJABI" , ABP SANJHA
@@ -339,14 +357,15 @@ https://ddash74r36xqp.cloudfront.net/master.m3u8
 #http://103.175.73.12:8080/live/101/master.m3u8
 https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8
 
-#EXTINF:-1 tvg-id="1699" tvg-name="ANN News" tvg-type="News" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Ann_News_24x7.png" group-title="HINDI" , ANN NEWS 24X7
+#EXTINF:-1 tvg-id="1699" tvg-name="ANN News" tvg-type="News" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/ANN_News_24x7.png" group-title="HINDI" , ANN NEWS 24X7
 http://103.159.180.34:5001/live/1699.m3u8
 
-#EXTINF:-1 tvg-id="Anand.TV.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Anand_TV.png" group-title="HINDI" , ANAND TV
+#EXTINF:-1 tvg-id="Anand.TV.in" tvg-name"Anand TV" tvg-type="Devotional" tvg-language="Hindi"  tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Anand_TV.png" group-title="HINDI" , ANAND TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
 #https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/anand-tv/playlist.m3u8
 #https://live.legitpro.co.in/anandtv/tracks-v1a1/mono.m3u8
 https://live.legitpro.co.in/anandtv/index.m3u8
+#http://103.159.180.34:5001/live/3294.m3u8
 
 #EXTINF:-1 tvg-id="1796" tvg-name="Ananda Barta" tvg-type="News" tvg-language="Bengali" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Anand_Barta.png" group-title="BENGALI" , ANAND BARTA
 https://account19.livebox.co.in/Anandabarta2hls/live.m3u8
@@ -355,7 +374,7 @@ https://account19.livebox.co.in/Anandabarta2hls/live.m3u8
 #EXTINF:-1 tvg-id="AndyHaryana.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Andy_Haryana.png" group-title="PUNJABI" , ANDY HARYANA
 https://mumt03.tangotv.in/Dsly5z3HANDYHARYANA/index.m3u8
 
-#EXTINF:-1 tvg-id="835" tvg-name="Angel TV HD" tvg-type="Devotional" tvg-language="Tamil" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Andy_Haryana.png" group-title="TAMIL" , ANGEL TV HD
+#EXTINF:-1 tvg-id="835" tvg-name="Angel TV HD" tvg-type="Devotional" tvg-language="Tamil" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Angel_TV_HD.png" group-title="TAMIL" , ANGEL TV HD
 http://103.159.180.34:5001/live/835.m3u8
 
 #EXTINF:-1 tvg-id="ANIMAL.PLANET.HD.WORLD.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Animal_Planet_HD.png" group-title="ENGLISH" , ANIMAL PLANET HD WORLD ENGLISH
@@ -379,6 +398,9 @@ https://cdn-1.pishow.tv/live/993/master.m3u8
 
 #EXTINF:-1 tvg-id="3231" tvg-name="Apex Entertainment" tvg-type="Entertainment" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Apex_Entertainment.png" group-title="HINDI" , APEX ENTERTAINMENT
 http://103.159.180.34:5001/live/3231.m3u8
+
+#EXTINF:-1 tvg-id="963" tvg-name="Arre HD" tvg-type="Entertainment" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Arre.png" group-title="HINDI" , ARRE
+http://103.159.180.34:5001/live/963.m3u8
 
 #EXTINF:-1 tvg-id="ARADANA.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Aradana.png" group-title="TELUGU" , ARADANA
 https://cdn-1.pishow.tv/live/961/master.m3u8
@@ -2855,6 +2877,9 @@ https://jmp2.uk/plex-697140a85d851f5e69414688-60d4edddb2fdec002c141135.m3u8
 
 #EXTINF:-1 tvg-id="WPN.World.Punjabi.News.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/WPN_World_Punjab.png" group-title="PUNJABI" , WPN WORLD PUNJAB
 http://103.175.73.12:8080/live/644/master.m3u8
+
+#EXTINF:-1 tvg-id="5049" tvg-name="Yug Abhiyaan Times" tvg-type="News" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Yug_Abhiyaan_Times.png" group-title="HINDI" , YUG ABHIYAN TIMES
+http://103.159.180.34:5001/live/5049.m3u8
 
 
 #EXTINF:-1 tvg-id="ZBCinema.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/ZB_Cinema.png" group-title="BENGALI;HINDI" , ZB CINEMA
