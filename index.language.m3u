@@ -320,7 +320,7 @@ http://103.175.73.12:8080/live/54/master.m3u8
 #EXTINF:-1 tvg-id="3492" tvg-name="Alright TV" tvg-type="Entertainment" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Alright_TV.png" group-title="HINDI" , ALRIGHT TV
 http://103.159.180.34:5001/live/3492.m3u8
 
-#EXTINF:-1 tvg-id="1962" tvg-name="Amaar Bangla TV" tvg-type="News" tvg-language="Bengali" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Amar_Bangla.png" group-title="BENGALI" , AMAR BANGLA TV
+#EXTINF:-1 tvg-id="1962" tvg-name="Amaar Bangla TV" tvg-type="News" tvg-language="Bengali" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Amar_Bangla_TV.png" group-title="BENGALI" , AMAR BANGLA TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
 #http://103.159.180.34:5001/live/1962.m3u8
 
