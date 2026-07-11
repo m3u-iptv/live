@@ -1905,7 +1905,7 @@ https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-13cfd99skcrx7.m3u8
 #EXTINF:-1 tvg-id="POGO.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Pogo.png" group-title="HINDI" , POGO
 http://202.70.146.135:8000/play/a0a7/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Poket_Films.png" group-title="HINDI" , POCKET FILMS
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Pocket_Films.png" group-title="HINDI" , POCKET FILMS
 http://103.159.180.34:5001/live/3259.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Polimer.png" group-title="TAMIL" , POLIMER
@@ -2058,8 +2058,8 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/fff8f20221d5456e8922e689d71dedc3/in
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9bb7ff21dcc44952913612599676932d:a0534a71d2e24d918d6a5ed662584f0f
 #https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Sansadtvhd2/default/main.mpd
-#http://103.175.73.12:8080/live/298/master.m3u8
-https://cdn-7.pishow.tv/live/40/master.m3u8
+http://103.175.73.12:8080/live/298/master.m3u8
+#https://cdn-7.pishow.tv/live/40/master.m3u8
 
 #EXTINF:-1 tvg-id="SANSAD.TV.2.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Sansad_TV_2.png" group-title="HINDI" , SANSAD TV 2 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
