@@ -1822,7 +1822,7 @@ http://103.175.73.12:8080/live/665/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/News_Tamil_24x7.png" group-title="TAMIL" , News Tamil 24x7
 
 #ts1487
-#EXTINF:-1 tvg-id="1487" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/News_World_India.png" group-title="ENGLISH" ,  NEWS WORLD INDIA
+#EXTINF:-1 tvg-id="1487" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/News_X_World.png" group-title="ENGLISH" ,  NEWS X WORLD INDIA
 http://103.175.73.12:8080/live/610/master.m3u8
 
 NEWSX
