@@ -324,7 +324,7 @@ http://103.159.180.34:5001/live/3492.m3u8
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
 #http://103.159.180.34:5001/live/1962.m3u8
 
-#EXTINF:-1 tvg-id="3297" tvg-name="Amar Digital TV" tvg-type="News" tvg-language="Bengali" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Amar_Digital_TV.png" group-title="HINDI" , AMAR DIGITAL TV
+#EXTINF:-1 tvg-id="3297" tvg-name="Amar Digital TV" tvg-type="News" tvg-language="Bengali" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Amar_Digital_TV.png" group-title="BENGALI" , AMAR DIGITAL TV
 http://103.159.180.34:5001/live/3297.m3u8
 
 #EXTINF:-1 tvg-id="3483" tvg-name="Amar Ujala" tvg-type="News" tvg-language="Bengali" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Amar_Ujala.png" group-title="HINDI" , AMAR UJALA
