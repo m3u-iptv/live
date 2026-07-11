@@ -239,7 +239,7 @@ https://cdn-1.pishow.tv/live/262/master.m3u8
 
 
 #ts1463
-#EXTINF:-1 tvg-id="2782" tvg-name="ABC Australia" tvg-type="News" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/ABN_Andhra_Jyothi.png" group-title="ENGLISH" , ABC AUSTRALIA
+#EXTINF:-1 tvg-id="2782" tvg-name="ABC Australia" tvg-type="News" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/ABC_Australia.png" group-title="ENGLISH" , ABC AUSTRALIA
 http://103.159.180.34:5001/live/2782.m3u8
 
 #666 jiotv
