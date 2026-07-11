@@ -462,7 +462,7 @@ https://live.legitpro.co.in/atmadarshantv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Awaaz_India_TV.png" group-title="HINDI" ,AWAAZ INDIA TV
 https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
 
-#EXTINF:-1 tvg-id="1175" tvg-name="Awakening" tvg-type="Devotional" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Awaaz_India_TV.png" group-title="HINDI" ,AWAKENING
+#EXTINF:-1 tvg-id="1175" tvg-name="Awakening" tvg-type="Devotional" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Awakening.png" group-title="HINDI" ,AWAKENING
 http://103.159.180.34:5001/live/1175.m3u8
 
 #1075 jio
