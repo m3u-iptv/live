@@ -324,7 +324,7 @@ http://103.159.180.34:5001/live/3492.m3u8
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
 #http://103.159.180.34:5001/live/1962.m3u8
 
-#EXTINF:-1 tvg-id="3297" tvg-name="Amar Digital TV" tvg-type="News" tvg-language="Bengali" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Amar_Ujala.png" group-title="HINDI" , AMAR DIGITAL TV
+#EXTINF:-1 tvg-id="3297" tvg-name="Amar Digital TV" tvg-type="News" tvg-language="Bengali" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Amar_Digital_TV.png" group-title="HINDI" , AMAR DIGITAL TV
 http://103.159.180.34:5001/live/3297.m3u8
 
 #EXTINF:-1 tvg-id="3483" tvg-name="Amar Ujala" tvg-type="News" tvg-language="Bengali" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Amar_Ujala.png" group-title="HINDI" , AMAR UJALA
@@ -339,7 +339,7 @@ https://ddash74r36xqp.cloudfront.net/master.m3u8
 #http://103.175.73.12:8080/live/101/master.m3u8
 https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8
 
-#EXTINF:-1 tvg-id="1699" tvg-name="ANN News" tvg-type="News" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Ann_News_24x7.png" group-title="HINDI" , ANN News 24X7
+#EXTINF:-1 tvg-id="1699" tvg-name="ANN News" tvg-type="News" tvg-language="Hindi" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Ann_News_24x7.png" group-title="HINDI" , ANN NEWS 24X7
 http://103.159.180.34:5001/live/1699.m3u8
 
 #EXTINF:-1 tvg-id="Anand.TV.in" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Anand_TV.png" group-title="HINDI" , ANAND TV
