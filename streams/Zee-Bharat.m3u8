@@ -1,13 +1,9 @@
 #EXTM3U
 #EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=400000,CODECS="avc1.4d400d,mp4a.40.2",RESOLUTION=384x216,FRAME-RATE=25.000
 https://vg-zeefta.akamaized.net/vglive-sk-982361/zeehindustan_400k.m3u8
-#https://d1hp2yai3k4ork.cloudfront.net/index_1.m3u8
 #EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=800000,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=640x360,FRAME-RATE=25.000
 https://vg-zeefta.akamaized.net/vglive-sk-982361/zeehindustan_800k.m3u8
-#https://d1hp2yai3k4ork.cloudfront.net/index_2.m3u8
-#https://d1hp2yai3k4ork.cloudfront.net/index_3.m3u8
 #EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=1500000,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1024x576,FRAME-RATE=25.000
 https://vg-zeefta.akamaized.net/vglive-sk-982361/zeehindustan_1500k.m3u8
 #EXT-X-STREAM-INF:PROGRAM-ID=0,BANDWIDTH=2500000,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1280x720,FRAME-RATE=25.000
 https://vg-zeefta.akamaized.net/vglive-sk-982361/zeehindustan_2500k.m3u8
-#https://d1hp2yai3k4ork.cloudfront.net/index_4.m3u8
