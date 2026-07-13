@@ -1,0 +1,15 @@
+#EXTM3U
+#EXT-X-VERSION:3
+## Created with Broadpeak BkS350 Origin Packager  (version=1.12.1-28247)
+
+# variants
+#EXT-X-STREAM-INF:BANDWIDTH=212000,AVERAGE-BANDWIDTH=193000,CODECS="mp4a.40.2,avc1.42E00D",RESOLUTION=320x180,FRAME-RATE=25
+https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/News18_Assam_North_East_NW18_MOB-audio_33636_hin=33600-video=148000.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=467000,AVERAGE-BANDWIDTH=424000,CODECS="mp4a.40.2,avc1.42E01E",RESOLUTION=640x360,FRAME-RATE=25
+https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/News18_Assam_North_East_NW18_MOB-audio_98835_hin=98800-video=301200.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=884000,AVERAGE-BANDWIDTH=804000,CODECS="mp4a.40.2,avc1.4D401F",RESOLUTION=960x540,FRAME-RATE=25
+https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/News18_Assam_North_East_NW18_MOB-audio_98835_hin=98800-video=658800.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1599000,AVERAGE-BANDWIDTH=1454000,CODECS="mp4a.40.2,avc1.4D401F",RESOLUTION=1280x720,FRAME-RATE=25
+https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/News18_Assam_North_East_NW18_MOB-audio_98835_hin=98800-video=1272000.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2790000,AVERAGE-BANDWIDTH=2536000,CODECS="mp4a.40.2,avc1.640028",RESOLUTION=1920x1080,FRAME-RATE=25
+https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/News18_Assam_North_East_NW18_MOB-audio_98835_hin=98800-video=2293600.m3u8
