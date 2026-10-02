@@ -436,7 +436,7 @@ http://27.116.22.53:5001/live/482.m3u8
 #EXTINF:-1 tvg-id="ColorsCineplex.uk" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/s158146_ld_h15_aa.png?lock=360x270" ,Colors Cineplex UK
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/ColorsCineplexUK.m3u8
 
-#EXTINF:-1 tvg-id="olors.Cineplex.Bollywood.in2" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002RB5LG.png?lock=360x270" ,COLORS CINEPLEX BOLLYWOOD
+#EXTINF:-1 tvg-id="Colors.Cineplex.Bollywood.in2" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002RB5LG.png?lock=360x270" ,COLORS CINEPLEX BOLLYWOOD
 http://27.116.22.53:5001/live/1763.m3u8
 #http://202.70.146.135:8000/play/a058/index.m3u8
 
@@ -745,7 +745,7 @@ https://cdn.pishow.tv/ott/live/1460/master.m3u8
 #EXTINF:-1 tvg-id="GoldminesAction.in@SD" tvg-logo="https://yt3.googleusercontent.com/_X6U6bMLF-pTu5wBMFwsSI6aubGrXk2B0kUKdGiLIMqFLyDIne4Ot4ro76BS1S8fX3pWcCwS=s900-c-k-c0x00ffffff-no-rj" group-title="Hindi;Hindi Movies;Movies",Goldmines Action
 https://mumt03.tangotv.in/Dsly5z3HGOLDMINESACTION/index.m3u8
 
-#EXTINF:-1 tvg-id="Goldmines.Bollywood.Today.in2" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NG0DX.png?lock=360x270"group-title="Hindi;Hindi Movies;Movies",Goldmines Bollywood
+#EXTINF:-1 tvg-id="Goldmines.Bollywood.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NG0DX.png?lock=360x270"group-title="Hindi;Hindi Movies;Movies",Goldmines Bollywood
 #https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/tracks-v1a1/mono.m3u8
 #https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8
 https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/index.m3u8
