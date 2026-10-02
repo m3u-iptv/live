@@ -413,50 +413,93 @@ http://51.75.127.199:3141/colorssd/index.m3u8
 #http://27.116.22.53:5001/live/1368.m3u8
 #http://103.172.29.30:9991/stream/channelid/698850802?profile=raihan/kcn
 
-#EXTINF:-1 tvg-id="Colors.sg" tvg-logo="https://dtil.tmsimg.com/assets/s158144_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors ME (720p)
+#EXTINF:-1 tvg-id="COLORS.HD.uk" tvg-logo="https://dtil.tmsimg.com/assets/s158144_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors ME (720p)
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/playlist.m3u8
 #https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ColorsAPAC.m3u8
 
-#EXTINF:-1 tvg-id="ColorsBangla.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_BANGLA/images/LOGO_HD/image.png" group-title="Entertainment",Colors Bangla (576p)
-http://51.75.127.199:3141/colorsbanglasd/index.m3u8
-#EXTINF:-1 tvg-id="ColorsBangla.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_BANGLA/images/LOGO_HD/image.png" group-title="Entertainment",Colors Bangla HD (1080p)
-http://103.165.93.31:8095/colorsBangla/index.m3u8
-#EXTINF:-1 tvg-id="ColorsBanglaCinema.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_BANGLA_CINEMA/images/LOGO_HD/image.png" group-title="Movies",Colors Bangla Cinema (576p)
+#EXTINF:-1 tvg-id="COLORS.BANGLA.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s158145_ld_h15_aa.png?lock=360x270" group-title="Bengali;Bengali Entertainment;Entertainment",COLORS BANGLA HD (360p)
+http://27.116.22.53:5001/live/756.m3u8
+
+#EXTINF:-1 tvg-id="COLORS.BANGLA.in" tvg-logo="https://dtil.tmsimg.com/assets/s157577_ld_h15_aa.png?lock=360x270" group-title="Bengali;Bengali Entertainment;Entertainment",COLORS BANGLA (360p)
+http://27.116.22.53:5001/live/1369.m3u8
+
+#EXTINF:-1 tvg-id="COLORS.BANGLA.CINEMA.in" tvg-logo="https://dtil.tmsimg.com/assets/s157577_ld_h15_aa.png?lock=360x270" group-title="Bengali;Bengali Movies;Movies",COLORS BANGLA CINEMA (540p)
 http://51.75.127.199:3141/colorsbanglacinema/index.m3u8
-#EXTINF:-1 tvg-id="ColorsCineplex.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX/images/LOGO_HD/image.png" group-title="Movies",Colors Cineplex (576p)
+#http://27.116.22.53:5001/live/1657.m3u8
+
+#EXTINF:-1 tvg-id="Colors.Cineplex.HD.in" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/s158147_ld_h15_aa.png?lock=360x270" ,Colors Cineplex HD
+http://27.116.22.53:5001/live/1477.m3u8 
+
+#EXTINF:-1 tvg-id="COLORS.CINEPLEX.in" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/s158146_ld_h15_aa.png?lock=360x270" ,COLORS CINEPLEX
+http://27.116.22.53:5001/live/482.m3u8
+
+#EXTINF:-1 tvg-id="ColorsCineplex.uk" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/s158146_ld_h15_aa.png?lock=360x270" ,Colors Cineplex UK
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/ColorsCineplexUK.m3u8
-#EXTINF:-1 tvg-id="ColorsCineplex.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_HD/images/LOGO_HD/image.png" group-title="Movies",Colors Cineplex HD (1080p)
-http://51.75.127.199:3141/colorscineplexhd/index.m3u8
-#EXTINF:-1 tvg-id="ColorsCineplexBollywood.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_BOLLYWOOD/images/LOGO_HD/image.png" group-title="Movies",Colors Cineplex Bollywood (576p)
-http://202.70.146.135:8000/play/a058/index.m3u8
-#EXTINF:-1 tvg-id="ColorsCineplexSuperhits.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_SUPERHITS/images/LOGO_HD/image.png" group-title="Movies",Colors Cineplex Superhits (576p)
-http://51.75.127.199:3141/colorscineplexsuperhit/index.m3u8
-#EXTINF:-1 tvg-id="ColorsGujarati.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_GUJARATI/images/LOGO_HD/image.png" group-title="Entertainment",Colors Gujarati (396p)
+
+#EXTINF:-1 tvg-id="COLORS.CINEPLEX.BOLLYWOOD.in" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002RB5LG.png?lock=360x270" ,COLORS CINEPLEX BOLLYWOOD
+http://27.116.22.53:5001/live/1763.m3u8
+#http://202.70.146.135:8000/play/a058/index.m3u8
+
+#EXTINF:-1 tvg-id="COLORS.CINEPLEX.SUPERHITS.in" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/s142750_ld_h15_aa.png?lock=360x270" ,COLORS CINEPLEX SUPERHITS
+http://27.116.22.53:5001/live/1450.m3u8
+#http://51.75.127.199:3141/colorscineplexsuperhit/index.m3u8
+
+#EXTINF:-1 tvg-id="COLORS.GUJARATI.in" tvg-logo="https://dtil.tmsimg.com/assets/s158148_ld_h15_aa.png?lock=360x270" group-title="Gujarati;Gujarati Entertainment;Entertainment",COLORS GUJARATI
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ColorsGujarati.m3u8
-#EXTINF:-1 tvg-id="ColorsGujaratiCinema.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_GUJARATI_CINEMA/images/LOGO_HD/image.png" group-title="Movies",Colors Gujarati Cinema (576p)
-http://51.75.127.199:3141/colorsgujaraticinema/index.m3u8
-#EXTINF:-1 tvg-id="ColorsInfinity.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_INFINITY/images/LOGO_HD/image.png" group-title="Entertainment",Colors Infinity (576p)
-http://51.75.127.199:3141/colorsinfinitysd/index.m3u8
-#EXTINF:-1 tvg-id="ColorsInfinity.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_INFINITY/images/LOGO_HD/image.png" group-title="Entertainment",Colors Infinity HD (1080p)
-http://51.75.127.199:3141/colorsinfinityhd/index.m3u8
-#EXTINF:-1 tvg-id="ColorsKannada.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_KANNADA/images/LOGO_HD/image.png" group-title="Entertainment",Colors Kannada (576p)
-http://51.75.127.199:3141/colorskannadasd/index.m3u8
-#EXTINF:-1 tvg-id="ColorsKannada.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_KANNADA_HD/images/LOGO_HD/image.png" group-title="Entertainment",Colors Kannada HD (1080i)
+
+#EXTINF:-1 tvg-id="COLORS.GUJARATI.CINEMA.in" tvg-logo="https://dtil.tmsimg.com/assets/s142751_ld_h15_aa.png?lock=360x270" group-title="Gujarati;Gujarati Movies;Movies",COLORS GUJARATI CINEMA
+http://27.116.22.53:5001/live/1324.m3u8
+#http://51.75.127.199:3141/colorsgujaraticinema/index.m3u8
+
+#EXTINF:-1 tvg-id="COLORS.INFINITY.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s158150_ld_h15_aa.png?lock=360x270" group-title="English;English Entertainment;Entertainment",COLORS INFINITY HD
+http://27.116.22.53:5001/live/1158.m3u8
+#http://51.75.127.199:3141/colorsinfinityhd/index.m3u8
+
+#EXTINF:-1 tvg-id="COLORS.INFINITY.in" group-title="English;English Entertainment;Entertainment" tvg-logo="https://dtil.tmsimg.com/assets/s157578_ld_h15_aa.png?lock=360x270" ,COLORS INFINITY
+http://27.116.22.53:5001/live/1325.m3u8
+
+#EXTINF:-1 tvg-id="COLORS.KANNADA.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s158235_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Entertainment;Entertainment",COLORS KANNADA HD
+#http://27.116.22.53:5001/live/757.m3u8
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorskannadahd1.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ColorsKannadaCinema.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_KANNADA_CINEMA/images/LOGO_HD/image.png" group-title="Movies",Colors Kannada Cinema (576p)
-http://51.75.127.199:3141/colorskannadacinema/index.m3u8
-#EXTINF:-1 tvg-id="ColorsMarathi.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_MARATHI/images/LOGO_HD/image.png" group-title="Entertainment",Colors Marathi (576p)
-http://51.75.127.199:3141/colorsmarathisd/index.m3u8
-#EXTINF:-1 tvg-id="ColorsMarathi.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_MARATHI/images/LOGO_HD/image.png" group-title="Entertainment",Colors Marathi HD (720p)
+
+#EXTINF:-1 tvg-id="COLORS.KANNADA.in" tvg-logo="https://dtil.tmsimg.com/assets/s157579_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Entertainment;Entertainment",COLORS KANNADA
+http://27.116.22.53:5001/live/1370.m3u8
+
+#EXTINF:-1 tvg-id="COLORS.KANNADA.CINEMA.in" tvg-logo="https://dtil.tmsimg.com/assets/s142752_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Movies;Movies",COLORS KANNADA CINEMA
+http://27.116.22.53:5001/live/1632.m3u8
+#http://51.75.127.199:3141/colorskannadacinema/index.m3u8
+
+#EXTINF:-1 tvg-id="COLORS.MARATHI.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s158237_ld_h15_aa.png?lock=360x270" group-title="Marathi;Marathi Entertainment;Entertainment",COLORS MARATHI HD
+#http://27.116.22.53:5001/live/755.m3u8
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsmarathihd.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ColorsRishteyAmericas.in@SD" tvg-logo="https://i.imgur.com/xkOunuW.png" group-title="General",Colors Rishtey Americas (396p)
+
+#EXTINF:-1 tvg-id="COLORS.MARATHI.in" tvg-logo="https://dtil.tmsimg.com/assets/s157580_ld_h15_aa.png?lock=360x270" group-title="Marathi;Marathi Entertainment;Entertainment",COLORS MARATHI
+http://27.116.22.53:5001/live/1326.m3u8
+
+#EXTINF:-1 tvg-id="COLORS.RISHTEY.in" tvg-logo="https://dtil.tmsimg.com/assets/s158240_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",COLORS RISHTEY 
+http://27.116.22.53:5001/live/279.m3u8
+#http://103.172.29.30:9991/stream/channelid/1367268710?profile=webtv-vp8-vorbis-webm
+
+#EXTINF:-1 tvg-id="ColorsRishtey.uk" tvg-logo="https://dtil.tmsimg.com/assets/s158240_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors Rishtey UK
+#https://d1rc86nwwc9fag.cloudfront.net/260723/rishteyuk_600/chunks.m3u8
+https://d1rc86nwwc9fag.cloudfront.net/260723/rishteyuk_1800/chunks.m3u8
+
+#EXTINF:-1 tvg-id="ColorsRishteyAmericas.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s158240_ld_h15_aa.png?lock=360x270" group-title="General",Colors Rishtey Americas (396p)
 https://manatv.akamaized.net/090823/smil:ristheyamerica.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ColorsSuper.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_SUPER/images/LOGO_HD/image.png" group-title="Entertainment",Colors Super (396p)
+
+#EXTINF:-1 tvg-id="COLORS.SUPER.in" tvg-logo="https://dtil.tmsimg.com/assets/s158240_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Entertainment;Entertainment",COLORS SUPER
+#http://27.116.22.53:5001/live/785.m3u8
 https://d1rc86nwwc9fag.cloudfront.net/260723/smil:colorssuper1.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 tvg-id="ColorsTamil.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png" group-title="Entertainment",Colors Tamil (576p)
-http://51.75.127.199:3141/colorstamil/index.m3u8
-#EXTINF:-1 tvg-id="ColorsTamil.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png" group-title="Entertainment",Colors Tamil HD (720p)
+
+#EXTINF:-1 tvg-id="COLORS.TAMIL.HD.in"  tvg-logo="https://dtil.tmsimg.com/assets/s158241_ld_h15_aa.png?lock=360x270" group-title="Tamil;Tamil Entertainment;Entertainment",COLORS TAMIL HD
+#http://27.116.22.53:5001/live/429.m3u8
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="COLORS.TAMIL.in"  tvg-logo="https://dtil.tmsimg.com/assets/s157682_ld_h15_aa.png?lock=360x270" group-title="Tamil;Tamil Entertainment;Entertainment",COLORS TAMIL
+http://27.116.22.53:5001/live/1371.m3u8
+
+
+
 #EXTINF:-1 tvg-id="CTVNAKDPlus.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142754_ld_h15_aa.png?lock=720x540" group-title="News",CTVN AKD Plus (1080p)
 https://live.legitpro.co.in/ctvnakdplus/index.m3u8
 #EXTINF:-1 tvg-id="CVREnglish.in@SD" tvg-logo="https://i.imgur.com/k0WTQKi.png" group-title="News",CVR English (720p)
