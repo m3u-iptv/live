@@ -261,7 +261,7 @@ https://jmp2.uk/stvp-IN39000307N
 https://cc-t2mudtkmuz4wb.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t2mudtkmuz4wb/B4U_Bhojpuri/master.m3u8
 #http://51.75.127.199:3141/b4ubhojpuri/index.m3u8
 
-#EXTINF:-1 tvg-id="B4UKadak.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi Movies;Movies",B4U Kadak (576p)
+#EXTINF:-1 tvg-id="B4u.Kadak.in2" tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi Movies;Movies",B4U Kadak (576p)
 https://cdn.pishow.tv/ott/live/227/master.m3u8
 #http://107.167.16.138/b4ukadak/index.m3u8?token=test
 #https://mumt06.tangotv.in/qYyB8fXVB4UKADAK/index.m3u8
@@ -271,7 +271,7 @@ https://cdn.pishow.tv/ott/live/227/master.m3u8
 #https://jmp2.uk/stvp-IN39000187Z
 https://amg00877-amg00877c4-samsung-in-6977.playouts.now.amagi.tv/playlist/amg00877-b4unetworkeuropefast-b4ukadak-samsungin/playlist.m3u8
 
-#EXTINF:-1 tvg-id="B4UMovies.in@India" tvg-logo="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png?lock=720x540" group-title="Hindi;Hindi Movies;Movies",B4U Movies (576p)
+#EXTINF:-1 tvg-id="B4u.Movies.Tv.Channel.Today.Movies.in2" tvg-logo="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png?lock=720x540" group-title="Hindi;Hindi Movies;Movies",B4U Movies (576p)
 #https://streams.tangotv.in/B4UMOVIES/ORIGIN/index.m3u8
 #https://mumt06.tangotv.in/qYyB8fXVB4UMOVIES/index.m3u8
 https://cdn.pishow.tv/ott/live/419/master.m3u8
@@ -423,7 +423,7 @@ http://27.116.22.53:5001/live/756.m3u8
 #EXTINF:-1 tvg-id="COLORS.BANGLA.in" tvg-logo="https://dtil.tmsimg.com/assets/s157577_ld_h15_aa.png?lock=360x270" group-title="Bengali;Bengali Entertainment;Entertainment",COLORS BANGLA (360p)
 http://27.116.22.53:5001/live/1369.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.BANGLA.CINEMA.in" tvg-logo="https://dtil.tmsimg.com/assets/s157577_ld_h15_aa.png?lock=360x270" group-title="Bengali;Bengali Movies;Movies",COLORS BANGLA CINEMA (540p)
+#EXTINF:-1 tvg-id="COLORS.BANGLA.CINEMA.in" tvg-logo="https://dtil.tmsimg.com/assets/s142748_ld_h15_aa.png?lock=360x270" group-title="Bengali;Bengali Movies;Movies",COLORS BANGLA CINEMA (540p)
 http://51.75.127.199:3141/colorsbanglacinema/index.m3u8
 #http://27.116.22.53:5001/live/1657.m3u8
 
@@ -436,7 +436,7 @@ http://27.116.22.53:5001/live/482.m3u8
 #EXTINF:-1 tvg-id="ColorsCineplex.uk" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/s158146_ld_h15_aa.png?lock=360x270" ,Colors Cineplex UK
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/ColorsCineplexUK.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.CINEPLEX.BOLLYWOOD.in" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002RB5LG.png?lock=360x270" ,COLORS CINEPLEX BOLLYWOOD
+#EXTINF:-1 tvg-id="olors.Cineplex.Bollywood.in2" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002RB5LG.png?lock=360x270" ,COLORS CINEPLEX BOLLYWOOD
 http://27.116.22.53:5001/live/1763.m3u8
 #http://202.70.146.135:8000/play/a058/index.m3u8
 
@@ -465,7 +465,7 @@ https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorskannadahd1.smil/playlis
 #EXTINF:-1 tvg-id="COLORS.KANNADA.in" tvg-logo="https://dtil.tmsimg.com/assets/s157579_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Entertainment;Entertainment",COLORS KANNADA
 http://27.116.22.53:5001/live/1370.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.KANNADA.CINEMA.in" tvg-logo="https://dtil.tmsimg.com/assets/s142752_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Movies;Movies",COLORS KANNADA CINEMA
+#EXTINF:-1 tvg-id="Colors.Kannada.Cinema.in" tvg-logo="https://dtil.tmsimg.com/assets/s142752_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Movies;Movies",COLORS KANNADA CINEMA
 http://27.116.22.53:5001/live/1632.m3u8
 #http://51.75.127.199:3141/colorskannadacinema/index.m3u8
 
@@ -476,15 +476,15 @@ https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsmarathihd.smil/playlist
 #EXTINF:-1 tvg-id="COLORS.MARATHI.in" tvg-logo="https://dtil.tmsimg.com/assets/s157580_ld_h15_aa.png?lock=360x270" group-title="Marathi;Marathi Entertainment;Entertainment",COLORS MARATHI
 http://27.116.22.53:5001/live/1326.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.RISHTEY.in" tvg-logo="https://dtil.tmsimg.com/assets/s158240_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",COLORS RISHTEY 
+#EXTINF:-1 tvg-id="COLORS.RISHTEY.in" tvg-logo="https://dtil.tmsimg.com/assets/s158239_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",COLORS RISHTEY 
 http://27.116.22.53:5001/live/279.m3u8
 #http://103.172.29.30:9991/stream/channelid/1367268710?profile=webtv-vp8-vorbis-webm
 
-#EXTINF:-1 tvg-id="ColorsRishtey.uk" tvg-logo="https://dtil.tmsimg.com/assets/s158240_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors Rishtey UK
+#EXTINF:-1 tvg-id="ColorsRishtey.uk" tvg-logo="https://dtil.tmsimg.com/assets/s158239_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors Rishtey UK
 #https://d1rc86nwwc9fag.cloudfront.net/260723/rishteyuk_600/chunks.m3u8
 https://d1rc86nwwc9fag.cloudfront.net/260723/rishteyuk_1800/chunks.m3u8
 
-#EXTINF:-1 tvg-id="ColorsRishteyAmericas.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s158240_ld_h15_aa.png?lock=360x270" group-title="General",Colors Rishtey Americas (396p)
+#EXTINF:-1 tvg-id="ColorsRishteyAmericas.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s158239_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors Rishtey Americas (396p)
 https://manatv.akamaized.net/090823/smil:ristheyamerica.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="COLORS.SUPER.in" tvg-logo="https://dtil.tmsimg.com/assets/s158240_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Entertainment;Entertainment",COLORS SUPER
@@ -498,6 +498,10 @@ https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist
 #EXTINF:-1 tvg-id="COLORS.TAMIL.in"  tvg-logo="https://dtil.tmsimg.com/assets/s157682_ld_h15_aa.png?lock=360x270" group-title="Tamil;Tamil Entertainment;Entertainment",COLORS TAMIL
 http://27.116.22.53:5001/live/1371.m3u8
 
+#EXTINF:-1 tvg-id="IN3600006RT" tvg-name="Comedy King" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3600006RT_20260623T014707SQUARE.png"  group-title="Hindi;Hindi Entertainment;Entertainment",Comedy King
+#https://jmp2.uk/stvp-IN3600006RT
+https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-ck61vv76day3g.m3u8
+#https://d348ydbk2sf0eq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ttp5jxbr5oygy/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN3600006RT&ads.ssai_vendor=SSSLIVE&pb_type=pb-ttp5jxbr5oygy_cloudfront
 
 
 #EXTINF:-1 tvg-id="CTVNAKDPlus.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142754_ld_h15_aa.png?lock=720x540" group-title="News",CTVN AKD Plus (1080p)
@@ -727,17 +731,37 @@ https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8
 http://cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="GlobalPunjab.in@SD" tvg-logo="https://i.imgur.com/WDLqcWW.png" group-title="News",Global Punjab (1080p)
 https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8
-#EXTINF:-1 tvg-id="Goldmines2.in@SD" tvg-logo="" group-title="Movies",Goldmines 2 (576p)
-https://mumt03.tangotv.in/Dsly5z3HGOLDMINES2/index.m3u8
-#EXTINF:-1 tvg-id="Goldmines.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png" group-title="Movies",Goldmines (576p)
-https://streams.tangotv.in/GOLDMINES/ORIGIN/index.m3u8
-#EXTINF:-1 tvg-id="GoldminesAction.in@SD" tvg-logo="https://yt3.googleusercontent.com/_X6U6bMLF-pTu5wBMFwsSI6aubGrXk2B0kUKdGiLIMqFLyDIne4Ot4ro76BS1S8fX3pWcCwS=s900-c-k-c0x00ffffff-no-rj" group-title="Movies",Goldmines Action (576p)
+
+
+#EXTINF:-1 tvg-id="Goldmines.Movie.Today.in2" tvg-logo="https://dtil.tmsimg.com/assets/s143087_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi Movies;Movies",Goldmines
+#https://mumt04.tangotv.in/m18aqlK4GOLDMINES/index.m3u8
+#https://streams.tangotv.in/GOLDMINES/ORIGIN/index.m3u8
+https://cdn.pishow.tv/ott/live/1459/master.m3u8
+
+#EXTINF:-1 tvg-id="Goldmines.in" tvg-logo="https://dtil.tmsimg.com/assets/s143087_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi Movies;Movies",Goldmines 2
+#https://mumt03.tangotv.in/Dsly5z3HGOLDMINES2/index.m3u8
+https://cdn.pishow.tv/ott/live/1460/master.m3u8
+
+#EXTINF:-1 tvg-id="GoldminesAction.in@SD" tvg-logo="https://yt3.googleusercontent.com/_X6U6bMLF-pTu5wBMFwsSI6aubGrXk2B0kUKdGiLIMqFLyDIne4Ot4ro76BS1S8fX3pWcCwS=s900-c-k-c0x00ffffff-no-rj" group-title="Hindi;Hindi Movies;Movies",Goldmines Action
 https://mumt03.tangotv.in/Dsly5z3HGOLDMINESACTION/index.m3u8
-#EXTINF:-1 tvg-id="GoldminesBollywood.in@SD" tvg-logo="https://i.imgur.com/6mNQ9mM.png" group-title="Movies",Goldmines Bollywood (576p)
-https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8
-#EXTINF:-1 tvg-id="GoldminesMovies.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Movies",Goldmines Movies (576p)
+
+#EXTINF:-1 tvg-id="Goldmines.Bollywood.Today.in2" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NG0DX.png?lock=360x270"group-title="Hindi;Hindi Movies;Movies",Goldmines Bollywood
+#https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/tracks-v1a1/mono.m3u8
+#https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8
+https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/index.m3u8
+
+#EXTINF:-1 tvg-id="Goldmines.Movies.Today.For.Dd.Free.Dish.Users.in2" tvg-logo="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" group-title="Hindi;Hindi Movies;Movies",Goldmines Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-http://103.175.73.12:8080/live/51/51_0.m3u8
+#https://streams.tangotv.in/GOLDMINEMOVIES/ORIGIN/index.m3u8
+#https://mumt04.tangotv.in/m18aqlK4GOLDMINEMOVIES/index.m3u8
+https://cdn.pishow.tv/ott/live/1461/master.m3u8
+
+
+
+
+
+
+
 
 #EXTINF:-1 tvg-id="GoodNewsToday.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOOD_NEWS_TODAY/images/LOGO_HD/image.png" group-title="Hindi;Hindi News;News",Good News Today (720p)
 #https://aajtaklive.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3196cced-ce29-4219-9809-f07ccdaa02b9/vglive-sk-848805/master.m3u8
