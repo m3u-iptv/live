@@ -253,7 +253,7 @@ https://mumt03.tangotv.in/Dsly5z3HAWAKENINGTV/index.m3u8
 #EXTINF:-1 tvg-id="AyushTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142692_ld_h15_aa.png?lock=720x540" group-title="Lifestyle",Ayush TV (576p)
 http://d1msejlow1t3l4.cloudfront.net/fta/ayushtv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="B4UBhojpuri.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NLB4H.png?lock=360x270" group-title="Bhojpuri;Bhojpuri Movies;Movies",B4U Bhojpuri (1080p)
+#EXTINF:-1 tvg-id="B4U.Bhojpuri.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NLB4H.png?lock=360x270" group-title="Bhojpuri;Bhojpuri Movies;Movies",B4U Bhojpuri (1080p)
 https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
 
 #EXTINF:-1 tvg-id="IN39000307N" tvg-name="B4U Bhojpuri" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NLB4H.png?lock=360x270" group-title="Bhojpuri;Bhojpuri Movies;Movies",B4U Bhojpuri Plus (1080p)
@@ -267,7 +267,7 @@ https://cdn.pishow.tv/ott/live/227/master.m3u8
 #https://mumt06.tangotv.in/qYyB8fXVB4UKADAK/index.m3u8
 #https://streams.tangotv.in/B4UKADAK/ORIGIN/index.m3u8
 
-#EXTINF:-1 tvg-id="IN39000187Z" tvg-name="B4U Kadak" tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi Movies;Movies",B4U Kadak (1080p)
+#EXTINF:-1 tvg-id="B4u.Kadak.in2" tvg-name="B4U Kadak" tvg-logo="https://dtil.tmsimg.com/assets/s142695_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi Movies;Movies",B4U Kadak (1080p)
 #https://jmp2.uk/stvp-IN39000187Z
 https://amg00877-amg00877c4-samsung-in-6977.playouts.now.amagi.tv/playlist/amg00877-b4unetworkeuropefast-b4ukadak-samsungin/playlist.m3u8
 
@@ -276,7 +276,7 @@ https://amg00877-amg00877c4-samsung-in-6977.playouts.now.amagi.tv/playlist/amg00
 #https://mumt06.tangotv.in/qYyB8fXVB4UMOVIES/index.m3u8
 https://cdn.pishow.tv/ott/live/419/master.m3u8
 
-#EXTINF:-1 tvg-id="IN3900016WI" tvg-name="B4U Movies" tvg-logo="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png?lock=720x540" group-title="Hindi;Hindi Movies;Movies",B4U Movies (1080p)
+#EXTINF:-1 tvg-id="B4u.Movies.Tv.Channel.Today.Movies.in2" tvg-name="B4U Movies" tvg-logo="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png?lock=720x540" group-title="Hindi;Hindi Movies;Movies",B4U Movies (1080p)
 #https://jmp2.uk/stvp-IN3900016WI
 https://amg00877-amg00877c2-samsung-in-6975.playouts.now.amagi.tv/playlist/amg00877-b4unetworkeuropefast-b4umovies-samsungin/playlist.m3u8
 
@@ -1981,7 +1981,7 @@ https://ranacable.duckdns.org/ZodiakTv/index.m3u8
 #EXTINF:-1 tvg-id="ZOOM.in" tvg-logo="https://dtil.tmsimg.com/assets/s157600_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Music;Music",ZOOM
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=86edec9e3b7d4042a4d4a1ca14f847ee:9def4315f0004019a3705bcb3cf30ca3
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/main.mpd
-#https://d2esfk1pb9cdob.cloudfront.net/master.m3u8
+#https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/main.mpd
+https://d2esfk1pb9cdob.cloudfront.net/master.m3u8
 #https://mumbai-edge.smartplaytv.in/Zoom/index.m3u8
 #https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
