@@ -411,11 +411,9 @@ http://27.116.22.53:5001/live/144.m3u8
 #EXTINF:-1 tvg-id="COLORS.in" tvg-logo="https://dtil.tmsimg.com/assets/s158144_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment" ,Colors (576p) 
 http://51.75.127.199:3141/colorssd/index.m3u8
 #http://27.116.22.53:5001/live/1368.m3u8
+#http://103.172.29.30:9991/stream/channelid/698850802?profile=raihan/kcn
 
-#EXTINF:-1 tvg-id="COLORS.in" tvg-logo="https://dtil.tmsimg.com/assets/s158144_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment" ,Colors (1080p)
-http://103.172.29.30:9991/stream/channelid/698850802?profile=raihan/kcn
-
-#EXTINF:-1 tvg-id="COLORS.HD.uk" tvg-logo="https://dtil.tmsimg.com/assets/s158144_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors ME (720p)
+#EXTINF:-1 tvg-id="Colors.sg" tvg-logo="https://dtil.tmsimg.com/assets/s158144_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors ME (720p)
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/playlist.m3u8
 #https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ColorsAPAC.m3u8
 
