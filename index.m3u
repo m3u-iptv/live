@@ -1968,8 +1968,8 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 #EXTINF:-1 tvg-id="ZEE.CINEMALU.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZEQ9.png?lock=360x270" group-title="Telugu;Telugu Movies;Movies",Zee Cinemalu HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2828ea6f6a984505b0454da0c03f68b9:5d3b7195086544c2807aa8c1544e7379
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Investigationdiscovery2/default/manifest.mpd
-#http://51.75.127.199:3141/zeecinemaluhd/index.m3u8
+#https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Investigationdiscovery2/default/manifest.mpd
+http://51.75.127.199:3141/zeecinemaluhd/index.m3u8
 
 #EXTINF:-1 tvg-id="ZEE.CINEMALU.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZNDZ.png?lock=720x540" group-title="Telugu;Telugu Movies;Movies",Zee Cinemalu
 #KODIPROP:inputstream.adaptive.license_type=clearkey
