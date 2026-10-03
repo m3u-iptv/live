@@ -1486,7 +1486,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywoo
 #https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-62d1a58e520656fda09e609d.m3u8
 #https://jmp2.uk/plex-643054b1fc3be59477853717-62d1a58e520656fda09e609d.m3u8
 
-#EXTINF:-1 tvg-id="Shemaroo.Filmi.Gaane.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/0d5b07555b2d4415aa9f145273095ed7.png" group-title="Hindi;Hindi Music;Music",Shemaroo Filmi Gaane
+#EXTINF:-1 tvg-id="Shemaroo.Filmy.Gaane.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/0d5b07555b2d4415aa9f145273095ed7.png" group-title="Hindi;Hindi Music;Music",Shemaroo Filmi Gaane
 https://prod-runn.cdn.runn.tv/shemaroo/stream/smrfgn/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Shemaroo.Marathibana.in" tvg-logo="https://dtil.tmsimg.com/assets/s143777_ld_h15_aa.png?lock=360x270" group-title="Marathi;Marathi Entertainment;Entertainment",Shemaroo Marathibana
@@ -1503,10 +1503,16 @@ https://airtelapp.shemaroo.com/shemarootv/smil:shemarootvadp.smil/playlist.m3u8
 #https://streams.tangotv.in/SHEMAROOTV/ORIGIN/index.m3u8
 #https://cdn.pishow.tv/ott/live/230/master.m3u8
 
-#EXTINF:-1 tvg-id="SHEMAROO.UMANG.in" tvg-logo="https://dtil.tmsimg.com/assets/s143779_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",Shemaroo Umang
+#EXTINF:-1 tvg-id="Shemaroo.Umang.Tv.Channel.Today.Tv.in2" tvg-logo="https://dtil.tmsimg.com/assets/s143779_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",Shemaroo Umang
 https://airtelapp.shemaroo.com/shemarooumang/smil:shemarooumangadp.smil/playlist.m3u8
 #https://streams.tangotv.in/SHEMAROOUMANG/ORIGIN/index.m3u8
 #https://mumt04.tangotv.in/m18aqlK4SHEMAROOUMANG/index.m3u8
+
+#EXTINF:-1 tvg-id="Shemaroo.Umang.in" tvg-logo="https://dtil.tmsimg.com/assets/s143779_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",Shemaroo Umang
+https://airtelapp.shemaroo.com/shemarooumang/smil:shemarooumangadp.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Shemaroo.UMANG.in" tvg-logo="https://dtil.tmsimg.com/assets/s143779_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",Shemaroo Umang
+https://airtelapp.shemaroo.com/shemarooumang/smil:shemarooumangadp.smil/playlist.m3u8
 
 
 
