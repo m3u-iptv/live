@@ -58,23 +58,23 @@ https://mumt07.tangotv.in/zHjX9OFlTWENTYFOURNEWS/index.m3u8
 #EXTINF:-1 tvg-id="99TV.in@SD" tvg-logo="https://i.imgur.com/dZA4gel.png" group-title="News",99TV (720p)
 https://cdn.pishow.tv/ott/live/1211/master.m3u8
 
-#EXTINF:-1 tvg-id="and.PICTURES.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022J67R.png?lock=720x540" group-title="Hindi;Hindi Movies;Movies",&Pictures HD (1080p)
+#EXTINF:-1 tvg-id="and.PICTURES.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022J67R.png?lock=720x540" group-title="Hindi;Hindi Movies;Movies",&Pictures HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=de8045e9f0fb4d03845dcc4a8bd7712a:6807bd09bda34ada83152908192af6d6
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd/default/index.mpd
 
-#EXTINF:-1 tvg-id="and.PICTURES.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002FYK4V.png?lock=720x540" group-title="Hindi;Hindi Movies;Movies",&Pictures (480p)
+#EXTINF:-1 tvg-id="and.PICTURES.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002FYK4V.png?lock=720x540" group-title="Hindi;Hindi Movies;Movies",&Pictures
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8dea532cabfe4f71ba20f62310e7949f:7a214a974e4f4d1d9bb66364d5f0cb92
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictures/default/manifest.mpd
 
-#EXTINF:-1 tvg-id="and.TV.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022RLRS.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",&TV HD (1080p)
+#EXTINF:-1 tvg-id="and.TV.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022RLRS.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",&TV HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=67d18634ccb04875875c60fb8d9caaba:99a66471c09e4b8a8dc39a0de6803f75
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtvhd/default/manifest.mpd
 #http://202.70.146.135:8000/play/a06c/index.m3u8
 
-#EXTINF:-1 tvg-id="and.TV.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002FYKZL.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",&TV (480p)
+#EXTINF:-1 tvg-id="and.TV.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002FYKZL.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",&TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=26df86eeebb04d7fbc45c948f76e81fd:5f3a23f1a73c4c96ababce5fffe7b06b
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/main.mpd
@@ -87,13 +87,13 @@ https://mumt01.tangotv.in/O5aw8Zn3AADINATHTV/index.m3u8
 #EXTINF:-1 tvg-id="AajKiKhabar.in@SD" tvg-logo="https://m.media-amazon.com/images/I/71q8sOMPwHL.png" group-title="News",Aaj Ki Khabar (1080p)
 https://stream.ottlive.co.in/aajkikhabar/index.m3u8
 
-#EXTINF:-1 tvg-id="IN3800001ZH" tvg-name="Aaj Tak HD" tvg-logo="https://dtil.tmsimg.com/assets/s142507_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi News;News",Aaj Tak HD (1080p)
+#EXTINF:-1 tvg-id="IN3800001ZH" tvg-name="Aaj Tak HD" tvg-logo="https://dtil.tmsimg.com/assets/s142507_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi News;News",Aaj Tak HD
 #https://jmp2.uk/stvp-IN3800001ZH
 #https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-t34to9qsw6v1s.m3u8
 #https://d23os1ey7z7dfs.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-vyqnv8lp430md/samsung_athd.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN3800001ZH&ads.ssai_vendor=SSSLIVE&pb_type=pb-vyqnv8lp430md_cloudfront
 https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
 
-#EXTINF:-1 tvg-id="IN3800004BF" tvg-name="AajTak" tvg-logo="https://dtil.tmsimg.com/assets/s142507_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi News;News",Aaj Tak (720p)
+#EXTINF:-1 tvg-id="IN3800004BF" tvg-name="AajTak" tvg-logo="https://dtil.tmsimg.com/assets/s142507_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi News;News",Aaj Tak
 #https://jmp2.uk/stvp-IN3800004BF
 #https://cc-w4jus6xfd4bl2.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-w4jus6xfd4bl2/livetv/clients/samsung/aajtak_samsung_v3.m3u8
 https://feeds.intoday.in/aajtak/api/master.m3u8
@@ -132,33 +132,33 @@ https://mumbai-edge.smartplaytv.in/ABNAJ/index.m3u8
 #EXTINF:-1 tvg-id="ABNTVIndia.us@SD" tvg-logo="https://i.imgur.com/VcZn60X.png" group-title="Religious",ABN TV India (540p)
 https://mediaserver.abnvideos.com/streams/abntvindia.m3u8
 
-#EXTINF:-1 tvg-id="IN4000006CF" tvg-name="ABP Ananda" tvg-logo="https://dtil.tmsimg.com/assets/s142518_ld_h15_aa.png?lock=720x540" group-title="Bengali;Bengali News;News",ABP Ananda (1080p)
+#EXTINF:-1 tvg-id="IN4000006CF" tvg-name="ABP Ananda" tvg-logo="https://dtil.tmsimg.com/assets/s142518_ld_h15_aa.png?lock=720x540" group-title="Bengali;Bengali News;News",ABP Ananda
 #https://jmp2.uk/stvp-IN4000006CF
 #https://cc-uml26l35wvj5l.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uml26l35wvj5l/hls/live/2042873/ananda/master.m3u8
 https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ananda-livetv/master.m3u8
 
-#EXTINF:-1 tvg-id="INBD400010BD" tvg-name="ABP Asmita" tvg-logo="https://dtil.tmsimg.com/assets/s142519_ld_h15_aa.png?lock=360x270" group-title="Gujarati;Gujarati News;News",ABP Asmita (1080p)
+#EXTINF:-1 tvg-id="INBD400010BD" tvg-name="ABP Asmita" tvg-logo="https://dtil.tmsimg.com/assets/s142519_ld_h15_aa.png?lock=360x270" group-title="Gujarati;Gujarati News;News",ABP Asmita
 #https://jmp2.uk/stvp-INBD400010BD
 #https://cdn-singapore-5160-prod.tsv2.amagi.tv/linear/amg01448-samsungin-abpasmita-samsungin/playlist.m3u8
 #https://amg01448-samsungin-abpasmita-samsungin-ad-ol.amagi.tv/playlist/amg01448-samsungin-abpasmita-samsungin/playlist.m3u8
 https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/asmita-livetv/master.m3u8
 
-#EXTINF:-1 tvg-id="ABPGanga.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/ABP_Ganga.svg/500px-ABP_Ganga.svg.png" group-title="Hindi;Hindi News;News",ABP Ganga (1080p)
+#EXTINF:-1 tvg-id="ABPGanga.in@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/ABP_Ganga.svg/500px-ABP_Ganga.svg.png" group-title="Hindi;Hindi News;News",ABP Ganga
 https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master.m3u8
 
-#EXTINF:-1 tvg-id="IN4000005BW" tvg-name="ABP Majha" tvg-logo="https://dtil.tmsimg.com/assets/s142521_ld_h15_aa.png?lock=720x540" group-title="Marathi;Marathi News;News",ABP Majha (1080p)
+#EXTINF:-1 tvg-id="IN4000005BW" tvg-name="ABP Majha" tvg-logo="https://dtil.tmsimg.com/assets/s142521_ld_h15_aa.png?lock=720x540" group-title="Marathi;Marathi News;News",ABP Majha
 #https://jmp2.uk/stvp-IN4000005BW
 #https://cc-6wo91t9ny3mjn.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6wo91t9ny3mjn/hls/live/2042872/majha/master.m3u8
 #https://mumbai-edge.smartplaytv.in/ABPMajha/index.m3u8
 https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/majha-livetv/master.m3u8
 
-#EXTINF:-1 tvg-id="IN4600012BD" tvg-name="ABP News" tvg-logo="https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi News;News",ABP News (1080p)
+#EXTINF:-1 tvg-id="IN4600012BD" tvg-name="ABP News" tvg-logo="https://dtil.tmsimg.com/assets/s158138_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi News;News",ABP News
 #https://jmp2.uk/stvp-IN4600012BD
 #https://cc-r46wc5dtmorhv.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-r46wc5dtmorhv/hls/live/2042871-b/abpnews/master.m3u8
 #https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8
 https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8
 
-#EXTINF:-1 tvg-id="ABPSanjha.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/ab47b5993d20f584c11620298e726316.png" group-title="Punjabi;Punjabi News;News",ABP Sanjha (1080p)
+#EXTINF:-1 tvg-id="ABPSanjha.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/ab47b5993d20f584c11620298e726316.png" group-title="Punjabi;Punjabi News;News",ABP Sanjha
 #https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/sanjha-livetv/master.m3u8
 http://27.116.22.53:5001/live/1291.m3u8
 
@@ -208,29 +208,30 @@ https://mumt05.tangotv.in/87NeALx2ARGUSNEWS/index.m3u8
 https://account33.livebox.co.in/jesushelpshls/live.m3u8
 #EXTINF:-1 tvg-id="AryanTVNational.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARYAN_TV_NATIONAL/images/LOGO_HD/image.png" group-title="Undefined",Aryan TV National (576p)
 https://mumt04.tangotv.in/m18aqlK4ARYANTVNATIONAL/index.m3u8
-#EXTINF:-1 tvg-id="AsianNews.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Asian_News.png" group-title="News",Asian News (1080p)
+
+#EXTINF:-1 tvg-id="AsianNews.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Asian_News.png" group-title="Hindi;Hindi News;News",Asian News
 https://stream.ottlive.co.in/asiannews/index.m3u8
 
-#EXTINF:-1 tvg-id="Asianet.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142668_ld_h15_aa.png?lock=360x270" group-title="Malayalam;Malayalam Entertainment;Entertainment",Asianet (576p)
-http://51.75.127.199:3141/asianet/index.m3u8
-
-#EXTINF:-1 tvg-id="Asianet.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s142673_ld_h15_aa.png?lock=360x270" group-title="Malayalam;Malayalam Entertainment;Entertainment",Asianet HD (720p)
+#EXTINF:-1 tvg-id="Asianet.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s142673_ld_h15_aa.png?lock=360x270" group-title="Malayalam;Malayalam Entertainment;Entertainment",Asianet HD
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/AsianetHD.m3u8
 
-#EXTINF:-1 tvg-id="AsianetMovies.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142677_ld_h15_aa.png?lock=360x270" group-title="Malayalam;Movies Movies;Movies",Asianet Movies (576p)
-http://51.75.127.199:3141/asianetmovies/index.m3u8
+#EXTINF:-1 tvg-id="Asianet.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142668_ld_h15_aa.png?lock=360x270" group-title="Malayalam;Malayalam Entertainment;Entertainment",Asianet
+http://51.75.127.199:3141/asianet/index.m3u8
 
-#EXTINF:-1 tvg-id="AsianetMovies.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s158302_ld_h15_aa.png?lock=360x270" group-title="Malayalam;Malayalam Movies;Movies",Asianet Movies HD (720p)
+#EXTINF:-1 tvg-id="AsianetMovies.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s158302_ld_h15_aa.png?lock=360x270" group-title="Malayalam;Malayalam Movies;Movies",Asianet Movies HD
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies1.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="IN800012RO" tvg-name="Asianet News" tvg-logo="https://dtil.tmsimg.com/assets/s142679_ld_h15_aa.png?lock=360x270" group-title="Malayalam;Malayalam News;News",Asianet News (1080p)
+#EXTINF:-1 tvg-id="AsianetMovies.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142677_ld_h15_aa.png?lock=360x270" group-title="Malayalam;Movies Movies;Movies",Asianet Movies
+http://51.75.127.199:3141/asianetmovies/index.m3u8
+
+#EXTINF:-1 tvg-id="IN800012RO" tvg-name="Asianet News" tvg-logo="https://dtil.tmsimg.com/assets/s142679_ld_h15_aa.png?lock=360x270" group-title="Malayalam;Malayalam News;News",Asianet News
 #https://jmp2.uk/stvp-IN800012RO
 https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8
 
-#EXTINF:-1 tvg-id="AsianetPlus.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142680_ld_h15_aa.png?lock=360x270" group-title="Malayalam;Malayalam News;News",Asianet Plus (1080p)
+#EXTINF:-1 tvg-id="AsianetPlus.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142680_ld_h15_aa.png?lock=360x270" group-title="Malayalam;Malayalam News;News",Asianet Plus
 https://dtil.tmsimg.com/assets/s142680_ld_h15_aa.png?lock=360x270
 
-#EXTINF:-1 tvg-id="IN8000106W" tvg-name="Asianet Suvarna News" tvg-logo="https://dtil.tmsimg.com/assets/s142682_ld_h15_aa.png?lock=720x540" group-title="Malayalam;Malayalam News;News",Asianet Suvarna News (1080p)
+#EXTINF:-1 tvg-id="IN8000106W" tvg-name="Asianet Suvarna News" tvg-logo="https://dtil.tmsimg.com/assets/s142682_ld_h15_aa.png?lock=720x540" group-title="Malayalam;Malayalam News;News",Asianet Suvarna News
 https://asianetnews.vgcdn.net/vglive-sk-335835/playlist.m3u8
 #https://jmp2.uk/stvp-IN8000106W
 #https://amg13737-amg13737c2-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c2-amgplt0016/playlist.m3u8
@@ -295,13 +296,13 @@ https://amg00877-amg00877c3-samsung-in-6976.playouts.now.amagi.tv/playlist/amg00
 #EXTINF:-1 tvg-id="BadaKhabar.in@SD" tvg-logo="https://i.imgur.com/XiwygDJ.png" group-title="News",Bada Khabar (576p)
 https://mumbai-edge.smartplaytv.in/BADAKHABAR/index.m3u8
 
-#EXTINF:-1 tvg-id="BalleBalle.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002T3D4M.png?lock=360x270" group-title="Punjabi;Punjabi Music;Music",Balle Balle (360p)
+#EXTINF:-1 tvg-id="BalleBalle.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002T3D4M.png?lock=360x270" group-title="Punjabi;Punjabi Music;Music",Balle Balle
 https://streams.tangotv.in/BALLEBALLE/ORIGIN/index.m3u8
 
-#EXTINF:-1 tvg-id="BalleBalle.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002T3D4M.png?lock=360x270" group-title="Punjabi;Punjabi Music;Music",Balle Balle HD (1080p)
+#EXTINF:-1 tvg-id="BalleBalle.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002T3D4M.png?lock=360x270" group-title="Punjabi;Punjabi Music;Music",Balle Balle
 https://mcncdndigital.com/balleballetv/index.m3u8
 
-#EXTINF:-1 tvg-id="INBC2800008VD" tvg-name="Balle Balle" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002T3D4M.png?lock=360x270" group-title="Punjabi;Punjabi Music;Music",Balle Balle HD (1080p)
+#EXTINF:-1 tvg-id="INBC2800008VD" tvg-name="Balle Balle" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002T3D4M.png?lock=360x270" group-title="Punjabi;Punjabi Music;Music",Balle Balle HD
 #https://jmp2.uk/stvp-INBC2800008VD
 https://cdn-singapore-5160-prod.tsv2.amagi.tv/linear/amg01448-samsungin-balleballe-samsungin/playlist.m3u8
 #https://amg01448-samsungin-balleballe-samsungin-ad-xa.amagi.tv/playlist/amg01448-samsungin-balleballe-samsungin/playlist.m3u8
@@ -352,16 +353,16 @@ https://dcfcae89.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3
 #https://jmp2.uk/stvp-INBA5100022O4
 https://f56779ab.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1pbl9CbG9vbWJlcmdPcmlnaW5hbHNfSExT/playlist.m3u8
 
-#EXTINF:-1 tvg-id="IN4000600Q" tvg-name="Bollygold" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000600Q_20260929T041329SQUARE.png" group-title="Hindi;Hindi Movies;Movies",Bollygold (1080p)
+#EXTINF:-1 tvg-id="IN4000600Q" tvg-name="Bollygold" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000600Q_20260929T041329SQUARE.png" group-title="Hindi;Hindi Movies;Movies",Bollygold
 #https://jmp2.uk/stvp-IN4000600Q
 https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-g6lvasa1ob5y5.m3u8
 #https://d3hhl0gm4nhbkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ovyg974fme8fw/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=IN4000600Q&ads.ssai_vendor=SSSLIVE&pb_type=pb-ovyg974fme8fw_cloudfront
 
-#EXTINF:-1 tvg-id="IN4000555E" tvg-name="Bollywood Masala" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000555E_20260623T013738SQUARE.png" group-title="Hindi;Hindi Entertainment;Entertainment",Bollywood Masala (1080p)
+#EXTINF:-1 tvg-id="IN4000555E" tvg-name="Bollywood Masala" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN4000555E_20260623T013738SQUARE.png" group-title="Hindi;Hindi Entertainment;Entertainment",Bollywood Masala
 #https://jmp2.uk/stvp-IN4000555E
 https://cc-oocjjcprb2v3h.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-oocjjcprb2v3h/ptnr-samsung/title-Bollywood_Masala/sofastplayout/751631cf-7a0d-356e-676e-b84cfec03391_0_HLS/manifest.m3u8
 
-#EXTINF:-1 tvg-id="BoogleBollywood.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Boogle_Bollywood.png" group-title="Music",Boogle Bollywood (720p)
+#EXTINF:-1 tvg-id="BoogleBollywood.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Boogle_Bollywood.png" group-title="Music",Boogle Bollywood
 https://yuppnimrestreammum.akamaized.net/181224/smil:bogglebollywood.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 tvg-id="BRKNews.in@SD" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/brk-news.png" group-title="News",BRK News (720p)
 https://mumbai-edge.smartplaytv.in/BRKNEWS/index.m3u8
@@ -404,79 +405,79 @@ https://n18syndication.akamaized.net/bpk-tv/CNBC_Tv18_Prime_HD_NW18_MOB/output01
 #EXTINF:-1 tvg-id="CnewsBharat.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/C_News_Bharat.png" group-title="News",Cnews Bharat (720p)
 https://legitpro.co.in/cnews/cnews/index.fmp4.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NZHQ5.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors HD (1080p)
+#EXTINF:-1 tvg-id="COLORS.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NZHQ5.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors HD
 http://27.116.22.53:5001/live/144.m3u8
 #http://66.102.126.10:8000/play/a00a/index.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.in" tvg-logo="https://dtil.tmsimg.com/assets/s158144_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment" ,Colors (576p) 
+#EXTINF:-1 tvg-id="COLORS.in" tvg-logo="https://dtil.tmsimg.com/assets/s158144_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment" ,Colors 
 http://51.75.127.199:3141/colorssd/index.m3u8
 #http://27.116.22.53:5001/live/1368.m3u8
 #http://103.172.29.30:9991/stream/channelid/698850802?profile=raihan/kcn
 
-#EXTINF:-1 tvg-id="COLORS.HD.uk" tvg-logo="https://dtil.tmsimg.com/assets/s158144_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors ME (720p)
+#EXTINF:-1 tvg-id="COLORS.HD.uk" tvg-logo="https://dtil.tmsimg.com/assets/s158144_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors ME
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/playlist.m3u8
 #https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ColorsAPAC.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.BANGLA.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s158145_ld_h15_aa.png?lock=360x270" group-title="Bengali;Bengali Entertainment;Entertainment",COLORS BANGLA HD (360p)
+#EXTINF:-1 tvg-id="COLORS.BANGLA.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s158145_ld_h15_aa.png?lock=360x270" group-title="Bengali;Bengali Entertainment;Entertainment",Colors Bangla HD
 http://27.116.22.53:5001/live/756.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.BANGLA.in" tvg-logo="https://dtil.tmsimg.com/assets/s157577_ld_h15_aa.png?lock=360x270" group-title="Bengali;Bengali Entertainment;Entertainment",COLORS BANGLA (360p)
+#EXTINF:-1 tvg-id="COLORS.BANGLA.in" tvg-logo="https://dtil.tmsimg.com/assets/s157577_ld_h15_aa.png?lock=360x270" group-title="Bengali;Bengali Entertainment;Entertainment",Colors Bangla
 http://27.116.22.53:5001/live/1369.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.BANGLA.CINEMA.in" tvg-logo="https://dtil.tmsimg.com/assets/s142748_ld_h15_aa.png?lock=360x270" group-title="Bengali;Bengali Movies;Movies",COLORS BANGLA CINEMA (540p)
+#EXTINF:-1 tvg-id="COLORS.BANGLA.CINEMA.in" tvg-logo="https://dtil.tmsimg.com/assets/s142748_ld_h15_aa.png?lock=360x270" group-title="Bengali;Bengali Movies;Movies",Colors Bangla Cinema
 http://51.75.127.199:3141/colorsbanglacinema/index.m3u8
 #http://27.116.22.53:5001/live/1657.m3u8
 
 #EXTINF:-1 tvg-id="Colors.Cineplex.HD.in" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/s158147_ld_h15_aa.png?lock=360x270" ,Colors Cineplex HD
 http://27.116.22.53:5001/live/1477.m3u8 
 
-#EXTINF:-1 tvg-id="COLORS.CINEPLEX.in" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/s158146_ld_h15_aa.png?lock=360x270" ,COLORS CINEPLEX
+#EXTINF:-1 tvg-id="COLORS.CINEPLEX.in" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/s158146_ld_h15_aa.png?lock=360x270" ,Colors Cineplex
 http://27.116.22.53:5001/live/482.m3u8
 
 #EXTINF:-1 tvg-id="ColorsCineplex.uk" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/s158146_ld_h15_aa.png?lock=360x270" ,Colors Cineplex UK
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/ColorsCineplexUK.m3u8
 
-#EXTINF:-1 tvg-id="Colors.Cineplex.Bollywood.in2" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002RB5LG.png?lock=360x270" ,COLORS CINEPLEX BOLLYWOOD
+#EXTINF:-1 tvg-id="Colors.Cineplex.Bollywood.in2" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002RB5LG.png?lock=360x270" ,Colors Cineplex Bollywood
 http://27.116.22.53:5001/live/1763.m3u8
 #http://202.70.146.135:8000/play/a058/index.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.CINEPLEX.SUPERHITS.in" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/s142750_ld_h15_aa.png?lock=360x270" ,COLORS CINEPLEX SUPERHITS
+#EXTINF:-1 tvg-id="COLORS.CINEPLEX.SUPERHITS.in" group-title="Hindi;Hindi Movies;Movies" tvg-logo="https://dtil.tmsimg.com/assets/s142750_ld_h15_aa.png?lock=360x270" ,Colors Cineplex Superhits
 http://27.116.22.53:5001/live/1450.m3u8
 #http://51.75.127.199:3141/colorscineplexsuperhit/index.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.GUJARATI.in" tvg-logo="https://dtil.tmsimg.com/assets/s158148_ld_h15_aa.png?lock=360x270" group-title="Gujarati;Gujarati Entertainment;Entertainment",COLORS GUJARATI
+#EXTINF:-1 tvg-id="COLORS.GUJARATI.in" tvg-logo="https://dtil.tmsimg.com/assets/s158148_ld_h15_aa.png?lock=360x270" group-title="Gujarati;Gujarati Entertainment;Entertainment",Colors Gujarati
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ColorsGujarati.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.GUJARATI.CINEMA.in" tvg-logo="https://dtil.tmsimg.com/assets/s142751_ld_h15_aa.png?lock=360x270" group-title="Gujarati;Gujarati Movies;Movies",COLORS GUJARATI CINEMA
+#EXTINF:-1 tvg-id="COLORS.GUJARATI.CINEMA.in" tvg-logo="https://dtil.tmsimg.com/assets/s142751_ld_h15_aa.png?lock=360x270" group-title="Gujarati;Gujarati Movies;Movies",Colors Gujarati Cinema
 http://27.116.22.53:5001/live/1324.m3u8
 #http://51.75.127.199:3141/colorsgujaraticinema/index.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.INFINITY.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s158150_ld_h15_aa.png?lock=360x270" group-title="English;English Entertainment;Entertainment",COLORS INFINITY HD
+#EXTINF:-1 tvg-id="COLORS.INFINITY.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s158150_ld_h15_aa.png?lock=360x270" group-title="English;English Entertainment;Entertainment",Colors Infinity HD
 http://27.116.22.53:5001/live/1158.m3u8
 #http://51.75.127.199:3141/colorsinfinityhd/index.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.INFINITY.in" group-title="English;English Entertainment;Entertainment" tvg-logo="https://dtil.tmsimg.com/assets/s157578_ld_h15_aa.png?lock=360x270" ,COLORS INFINITY
+#EXTINF:-1 tvg-id="COLORS.INFINITY.in" group-title="English;English Entertainment;Entertainment" tvg-logo="https://dtil.tmsimg.com/assets/s157578_ld_h15_aa.png?lock=360x270" ,Colors Infinity
 http://27.116.22.53:5001/live/1325.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.KANNADA.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s158235_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Entertainment;Entertainment",COLORS KANNADA HD
+#EXTINF:-1 tvg-id="COLORS.KANNADA.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s158235_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Entertainment;Entertainment",Colors Kannada HD
 #http://27.116.22.53:5001/live/757.m3u8
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorskannadahd1.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.KANNADA.in" tvg-logo="https://dtil.tmsimg.com/assets/s157579_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Entertainment;Entertainment",COLORS KANNADA
+#EXTINF:-1 tvg-id="COLORS.KANNADA.in" tvg-logo="https://dtil.tmsimg.com/assets/s157579_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Entertainment;Entertainment",Colors Kannada
 http://27.116.22.53:5001/live/1370.m3u8
 
-#EXTINF:-1 tvg-id="Colors.Kannada.Cinema.in" tvg-logo="https://dtil.tmsimg.com/assets/s142752_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Movies;Movies",COLORS KANNADA CINEMA
+#EXTINF:-1 tvg-id="Colors.Kannada.Cinema.in" tvg-logo="https://dtil.tmsimg.com/assets/s142752_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Movies;Movies",Colors Kannada Cinema
 http://27.116.22.53:5001/live/1632.m3u8
 #http://51.75.127.199:3141/colorskannadacinema/index.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.MARATHI.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s158237_ld_h15_aa.png?lock=360x270" group-title="Marathi;Marathi Entertainment;Entertainment",COLORS MARATHI HD
+#EXTINF:-1 tvg-id="COLORS.MARATHI.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s158237_ld_h15_aa.png?lock=360x270" group-title="Marathi;Marathi Entertainment;Entertainment",Colors Marathi HD
 #http://27.116.22.53:5001/live/755.m3u8
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsmarathihd.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.MARATHI.in" tvg-logo="https://dtil.tmsimg.com/assets/s157580_ld_h15_aa.png?lock=360x270" group-title="Marathi;Marathi Entertainment;Entertainment",COLORS MARATHI
+#EXTINF:-1 tvg-id="COLORS.MARATHI.in" tvg-logo="https://dtil.tmsimg.com/assets/s157580_ld_h15_aa.png?lock=360x270" group-title="Marathi;Marathi Entertainment;Entertainment",Colors Marathi
 http://27.116.22.53:5001/live/1326.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.RISHTEY.in" tvg-logo="https://dtil.tmsimg.com/assets/s158239_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",COLORS RISHTEY 
+#EXTINF:-1 tvg-id="COLORS.RISHTEY.in" tvg-logo="https://dtil.tmsimg.com/assets/s158239_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors Rishtey
 http://27.116.22.53:5001/live/279.m3u8
 #http://103.172.29.30:9991/stream/channelid/1367268710?profile=webtv-vp8-vorbis-webm
 
@@ -484,18 +485,18 @@ http://27.116.22.53:5001/live/279.m3u8
 #https://d1rc86nwwc9fag.cloudfront.net/260723/rishteyuk_600/chunks.m3u8
 https://d1rc86nwwc9fag.cloudfront.net/260723/rishteyuk_1800/chunks.m3u8
 
-#EXTINF:-1 tvg-id="ColorsRishteyAmericas.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s158239_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors Rishtey Americas (396p)
+#EXTINF:-1 tvg-id="ColorsRishteyAmericas.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s158239_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Colors Rishtey Americas
 https://manatv.akamaized.net/090823/smil:ristheyamerica.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.SUPER.in" tvg-logo="https://dtil.tmsimg.com/assets/s158240_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Entertainment;Entertainment",COLORS SUPER
+#EXTINF:-1 tvg-id="COLORS.SUPER.in" tvg-logo="https://dtil.tmsimg.com/assets/s158240_ld_h15_aa.png?lock=360x270" group-title="Kannada;Kannada Entertainment;Entertainment",Colors Super
 #http://27.116.22.53:5001/live/785.m3u8
 https://d1rc86nwwc9fag.cloudfront.net/260723/smil:colorssuper1.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 
-#EXTINF:-1 tvg-id="COLORS.TAMIL.HD.in"  tvg-logo="https://dtil.tmsimg.com/assets/s158241_ld_h15_aa.png?lock=360x270" group-title="Tamil;Tamil Entertainment;Entertainment",COLORS TAMIL HD
+#EXTINF:-1 tvg-id="COLORS.TAMIL.HD.in"  tvg-logo="https://dtil.tmsimg.com/assets/s158241_ld_h15_aa.png?lock=360x270" group-title="Tamil;Tamil Entertainment;Entertainment",Colors Tamil HD
 #http://27.116.22.53:5001/live/429.m3u8
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="COLORS.TAMIL.in"  tvg-logo="https://dtil.tmsimg.com/assets/s157682_ld_h15_aa.png?lock=360x270" group-title="Tamil;Tamil Entertainment;Entertainment",COLORS TAMIL
+#EXTINF:-1 tvg-id="COLORS.TAMIL.in"  tvg-logo="https://dtil.tmsimg.com/assets/s157682_ld_h15_aa.png?lock=360x270" group-title="Tamil;Tamil Entertainment;Entertainment",Colors Tamil
 http://27.116.22.53:5001/live/1371.m3u8
 
 #EXTINF:-1 tvg-id="IN3600006RT" tvg-name="Comedy King" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3600006RT_20260623T014707SQUARE.png"  group-title="Hindi;Hindi Entertainment;Entertainment",Comedy King
@@ -614,6 +615,15 @@ https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8
 https://d1msejlow1t3l4.cloudfront.net/fta/subhartitv/playlist.m3u8
 #EXTINF:-1 tvg-id="DhoomMusic.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DHOOM_MUSIC/images/LOGO_HD/image.png" group-title="Music",Dhoom Music (720p)
 https://cdn.pishow.tv/ott/live/1456/master.m3u8
+
+#EXTINF:-1 tvg-id="Discovery.Science.in" tvg-logo="https://dtil.tmsimg.com/assets/s159107_ld_h15_aa.png?lock=720x540" group-title="Infotainment",Discovery Science
+https://dtil.tmsimg.com/assets/s159107_ld_h15_aa.png?lock=720x540
+
+#EXTINF:-1 tvg-id="Discovery.Turbo.in" tvg-logo="https://dtil.tmsimg.com/assets/s159108_ld_h15_aa.png?lock=720x540" group-title="English;English Infotainment;Infotainment",Discovery Turbo
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c011525969e44b99a86059dbb3cdf4e8:6700a5d93203417b8585f7de7dd1a09b
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryturbo2/default/manifest.mpd
+
 #EXTINF:-1 tvg-id="DishaTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disha_tv.png" group-title="Undefined",Disha TV (396p)
 https://d1msejlow1t3l4.cloudfront.net/fta/dishatv/playlist.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png" group-title="Kids",Disney Channel (India) (576p)
@@ -1720,6 +1730,13 @@ https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/timesnow/timesnow_master.m3
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/TimesNowNavbharat.m3u8
 #EXTINF:-1 tvg-id="TimesNowNavbharat.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TIMES_NOW_NAVBHARAT_HD/images/LOGO_HD/image.png" group-title="News",Times Now Navbharat HD (1080p)
 https://yupprestreamliveus.akamaized.net/v1/vglive-sk-717514/main.m3u8
+
+#EXTINF:-1 tvg-id="TLC.in" tvg-logo="https://dtil.tmsimg.com/assets/s158023_ld_h15_aa.png?lock=720x540" group-title="English;English Lifestyle;Lifestyle",TLC
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e48e7373d6be47ecab83a20849f6823e:513ce07a2ee24ffdbe667eff5a9d46a8
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Tlc2/default/manifest.mpd
+
+
 #EXTINF:-1 tvg-id="TNPNews.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TNP_News.png" group-title="News",TNP News (1080p)
 https://server.thelegitpro.in/tnpnews/tnpnews/index.m3u8
 #EXTINF:-1 tvg-id="TollyTV.in@HD" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/aumnrs.png" group-title="Movies",Tolly TV (1080p)
@@ -1889,37 +1906,78 @@ https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b1
 https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c6-amgplt0173/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeHorrorNights.in@HD" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zhornights.png" group-title="Entertainment",Zee Horror Nights (1080p)
 https://amg00862-amg00862c7-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c7-amgplt0173/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeKannada.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_KANNADA_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="Entertainment",Zee Kannada HD (1080p)
+
+#EXTINF:-1 tvg-id="ZeeKannada.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_KANNADA_HD/images/LOGO_HD/LOGO_HD_image.png" group-title="Kannada;Kannada Entertainment;Entertainment",Zee Kannada HD
 https://yuppnimresmum.akamaized.net/28072023/smil:zeekannadahd.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 tvg-id="ZeeKannadaNews.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Kannada_News.png" group-title="News",Zee Kannada News (720p)
+
+#EXTINF:-1 tvg-id="ZEE.KANNADA.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022RK8E.png?lock=720x540" group-title="Kannada;Kannada Entertainment;Entertainment",Zee Kannada
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=50e714b65ead453cbfab9b20bed5c79d:bc08e108b9ee4f65b99cb9dad9532f3f
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeekannada/default/main.mpd
+
+#EXTINF:-1 tvg-id="ZeeKannadaNews.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Kannada_News.png" group-title="Kannada;Kannada News;News",Zee Kannada News
 https://d3vzwoqcbpfm8p.cloudfront.net/index_4.m3u8
-#EXTINF:-1 tvg-id="ZeeKeralam.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_KERALAM/images/LOGO_HD/LOGO_HD_image.png" group-title="Entertainment",Zee Keralam HD (1080p)
+
+#EXTINF:-1 tvg-id="ZeeKeralam.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_KERALAM/images/LOGO_HD/LOGO_HD_image.png" group-title="Entertainment",Zee Keralam HD
 http://51.75.127.199:3141/zeekeralamhd/index.m3u8
-#EXTINF:-1 tvg-id="ZeeMadhyaPradeshChhattisgarh.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002316X5.png?lock=720x540" group-title="News",Zee Madhya Pradesh Chhattisgarh (720p)
+
+#EXTINF:-1 tvg-id="ZeeMadhyaPradeshChhattisgarh.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002316X5.png?lock=720x540" group-title="Hindi;Hindi News;News",Zee Madhya Pradesh Chhattisgarh
 https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8
-#EXTINF:-1 tvg-id="ZeeMarathi.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_MARATHI/images/LOGO_HD/LOGO_HD_image.png" group-title="Entertainment",Zee Marathi HD (1080p)
-http://51.75.127.199:3141/zeemarathihd/index.m3u8
-#EXTINF:-1 tvg-id="ZeeNews.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0023VWYC.png?lock=720x540" group-title="News",Zee News (1080p)
+
+#EXTINF:-1 tvg-id="ZEE.MARATHI.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00233VCK.png?lock=360x270" group-title="Marathi;Marathi Entertainment;Entertainment",Zee Marathi HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1d3f25cdd5a449b580ea6e3438fd2419:7d81feb84ed84bd88fdc5ca9de3c16da
+#https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeemarathihd/default/manifest.mpd
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeMarathiHD.m3u8
+
+#EXTINF:-1 tvg-id="ZEE.MARATHI.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022S28S.png?lock=720x540" group-title="Marathi;Marathi Entertainment;Entertainment",Zee Marathi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2a8d6c938ea647248f7a10eedc39f097:7d81feb84ed84bd88fdc5ca9de3c16da
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeemarathi/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="INBC4300010Z6" tvg-name="Zee News" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC4300010Z6_20260915T042211SQUARE.png" group-title="Hindi;Hindi News;News",Zee News
+#https://jmp2.uk/stvp-INBC4300010Z6
+#https://cdn-singapore-5160-prod.tsv2.amagi.tv/linear/amg01448-samsungin-zeenews-samsungin/playlist.m3u8
+#https://amg01448-samsungin-zeenews-samsungin-ad-34.amagi.tv/playlist/amg01448-samsungin-zeenews-samsungin/playlist.m3u8
+#https://amg01448-samsungin-zeenews-samsungin-ad-34.amagi.tv/ts-ap-s1-n1/playlist/amg01448-samsungin-zeenews-samsungin/playlist.m3u8
 https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8
-#EXTINF:-1 tvg-id="ZeePower.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0028ZJ97.png?lock=720x540" group-title="Entertainment",Zee Power HD (1080p)
+
+#EXTINF:-1 tvg-id="Zee.Power.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0028ZJ97.png?lock=720x540" group-title="Kannada;Kannada Entertainment;Entertainment",Zee Power HD
 http://51.75.127.199:3141/zeepowerhd/index.m3u8
-#EXTINF:-1 tvg-id="ZeePunjabHaryanaHimachal.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022KHKS.png?lock=720x540" group-title="News",Zee Punjab Haryana Himachal (720p)
+
+#EXTINF:-1 tvg-id="ZEE.POWER.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0028ZJ97.png?lock=360x270" group-title="Kannada;Kannada Entertainment;Entertainment",Zee Power
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=601f58d4b7094d2baf78c85d1d9cb6c9:609e0cc03198455fa36fd2cc3e7f940d
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverykids2/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="ZeePunjabHaryanaHimachal.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022KHKS.png?lock=720x540" group-title="Punjabi;Punjabi News;News",Zee Punjab Haryana Himachal
 https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeepunjabharyanahima/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/65eed269-2f3a-4dd0-ac89-d18959af28e3/main.m3u8
-#EXTINF:-1 tvg-id="ZeePunjabi.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_PUNJABI/images/LOGO_HD/LOGO_HD_image.png" group-title="Entertainment",Zee Punjabi (576p)
+
+#EXTINF:-1 tvg-id="ZeePunjabi.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_PUNJABI/images/LOGO_HD/LOGO_HD_image.png" group-title="Punjabi;Punjabi Entertainment;Entertainment",Zee Punjabi
 http://51.75.127.199:3141/zeepunjabi/index.m3u8
-#EXTINF:-1 tvg-id="ZeeRajasthan.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00231732.png?lock=720x540" group-title="News",Zee Rajasthan (720p)
+
+#EXTINF:-1 tvg-id="ZeeRajasthan.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00231732.png?lock=720x540" group-title="Hindi;Hindi News;News",Zee Rajasthan
 https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeerajashthannews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8e864b9a-1681-41a0-99a6-387490bc5b24/main.m3u8
-#EXTINF:-1 tvg-id="ZeeSouthFlix.in@HD" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zsouthflix.png" group-title="Movies",Zee South Flix (1080p)
-https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ZEE.SARTHAK.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00239YNG.png?lock=720x540" group-title="Odia;Odia Entertainment;Entertainment",Zee Sarthak
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ecad0b097b574078a4a1bde24bfdb2e5:568bb13d04db4b738864f6c849474cd5
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeesarthak/default/main.mpd
+
+#EXTINF:-1 tvg-id="IN2100005T2" tvg-name="Zee South Flix" tvg-logo="https://i.ibb.co/PZQyJsQs/30366.png" group-title="Hindi;Hindi Movies;Movies",Zee South Flix
+#https://jmp2.uk/stvp-IN2100005T2
+https://amg00862-amg00862c9-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0016/playlist.m3u8
+#https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8
+
 #EXTINF:-1 tvg-id="ZeeTalkies.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TALKIES/images/LOGO_HD/LOGO_HD_image.png" group-title="Movies",Zee Talkies (576p)
 http://107.167.16.138/zeetalkies/index.m3u8?token=test
 #EXTINF:-1 tvg-id="ZeeTalkies.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TALKIES/images/LOGO_HD/LOGO_HD_image.png" group-title="Movies",Zee Talkies HD (1080p)
 http://51.75.127.199:3141/zeetalkieshd/index.m3u8
 
-#EXTINF:-1 tvg-id="ZEE.TAMIL.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00233WCL.png?lock=720x540" group-title="Tamil;Tamil Entertainment;Entertainment",ZEE TAMIL HD
+#EXTINF:-1 tvg-id="ZEE.TAMIL.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00233WCL.png?lock=720x540" group-title="Tamil;Tamil Entertainment;Entertainment",Zee Tamil HD
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeetamil1.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ZEE.TAMIL.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022S29Y.png?lock=360x270" group-title="Tamil;Tamil Entertainment;Entertainment",ZEE TAMIL
+#EXTINF:-1 tvg-id="ZEE.TAMIL.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022S29Y.png?lock=360x270" group-title="Tamil;Tamil Entertainment;Entertainment",Zee Tamil
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7b40effc75794cb9a3498c376f71cd9a:7b40effc75794cb9a3498c376f71cd9a
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetamil/default/index.mpd
@@ -1927,14 +1985,14 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetamil/default/index.mpd
 #EXTINF:-1 tvg-id="ZeeTamilNews.in@SD" tvg-logo="https://english.cdn.zeenews.com/images/logo/zee-tamil-logo-20.svg" group-title="News",Zee Tamil News (720p)
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/ZMCL/ZeeTamilNews.m3u8
 
-#EXTINF:-1 tvg-id="ZEE.TELUGU.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022S99J.png?lock=360x270" group-title="Telugu;Telugu Entertainment;Entertainment",ZEE TELUGU HD
+#EXTINF:-1 tvg-id="ZEE.TELUGU.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022S99J.png?lock=360x270" group-title="Telugu;Telugu Entertainment;Entertainment",Zee Telugu HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=df81f15150f74c799fdde64ef49dfb75:05794a012ae74d77953f2b9fae6804c7
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Animalplanethd2/default/index.mpd
 #https://d1rc86nwwc9fag.cloudfront.net/260723/smil:zeetelugu.smil/chunklist_b896000.m3u8
 #https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeTeluguHD.m3u8
 
-#EXTINF:-1 tvg-id="ZEE.TELUGU.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022S8HZ.png?lock=720x540" group-title="Telugu;Telugu Entertainment;Entertainment",ZEE TELUGU
+#EXTINF:-1 tvg-id="ZEE.TELUGU.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022S8HZ.png?lock=720x540" group-title="Telugu;Telugu Entertainment;Entertainment",Zee Telugu
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1ce5cd75a6ad44a38a7d1b8dbaf9c330:657fc8e7d533456cb0644fe03458a4b2
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetelgu/default/main.mpd
@@ -1947,10 +2005,10 @@ https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOi
 #KODIPROP:inputstream.adaptive.license_key=5458f45efedb4d6f8aa6ac76c85b621b:dbf8a0a306a64525ba3012fd225370c0
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryscience2/default/manifest.mpd
 
-#EXTINF:-1 tvg-id="Zee.TV.APAC.in" tvg-name="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002FYLVC.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",ZEE TV HD DE
+#EXTINF:-1 tvg-id="Zee.TV.APAC.in" tvg-name="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002FYLVC.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",Zee TV HD DE
 https://raw.githubusercontent.com/m3u-iptv/live/main/streams/ZeeTVHDDE.m3u8
 
-#EXTINF:-1 tvg-id="AT1400001YL" tvg-name="Zee TV HD DE" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002FYLVC.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",ZEE TV HD DE
+#EXTINF:-1 tvg-id="AT1400001YL" tvg-name="Zee TV HD DE" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002FYLVC.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",Zee TV HD DE
 #https://jmp2.uk/stvp-AT1400001YL
 https://c27f5265.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1hdF9aZWVUVkhEVUtHZXJtYW55X0hMUw/e85417d9-0c70-4401-9d56-6e6fa4d62a8d/5.m3u8
 #https://c27f5265.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1hdF9aZWVUVkhEVUtHZXJtYW55X0hMUw/playlist.m3u8
@@ -1959,13 +2017,13 @@ https://c27f5265.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ft
 #https://jmp2.uk/stvp-DE1400002W0
 #https://d47ddb99.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1kZV9aZWVUVkhEVUtHZXJtYW55X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ZEE.TV.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002FYLVC.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",ZEE TV HD
+#EXTINF:-1 tvg-id="ZEE.TV.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002FYLVC.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",Zee TV HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=65c3633157574361b191059e46e72968:78450b11381340c297d96c13183d3744
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetvhd/default/index.mpd
 #http://103.172.29.30:9991/stream/channelid/65857522?profile=raihan/kcn
 
-#EXTINF:-1 tvg-id="ZEE.TV.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002FYLG3.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",ZEE TV
+#EXTINF:-1 tvg-id="ZEE.TV.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002FYLG3.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",Zee TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ed068cf84f0640ccbc7c0e395c0a272e:bb722190f2bb446391020411a7d0828b
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/main.mpd
@@ -1978,7 +2036,7 @@ https://duw35ict5q7th.cloudfront.net/index_3.m3u8
 #EXTINF:-1 tvg-id="ZeeZest.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ZEST/images/LOGO_HD/LOGO_HD_image.png" group-title="Lifestyle",Zee Zest HD (1080p)
 http://103.72.101.252:8080/live/2757.m3u8
 
-#EXTINF:-1 tvg-id="ZEE.ZEST.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZKWY.png?lock=360x270" group-title="Hindi;Hindi Cooking;Cooking",ZEE ZEST
+#EXTINF:-1 tvg-id="ZEE.ZEST.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZKWY.png?lock=360x270" group-title="Hindi;Hindi Cooking;Cooking",Zee Zest
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b70a8cf9450c4d6484b4ac4d3c6761c0:0908be844260409cbac180bf0181da40
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverychannel2/default/manifest.mpd
@@ -1986,7 +2044,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverychannel2/default/manifest.
 #EXTINF:-1 tvg-id="ZillarBartaNews.in@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zillarbarta.png" group-title="Classic;News",ZillarBarta News
 https://server.zillarbarta.com/zillarbarta/index.m3u8
 
-#EXTINF:-1 tvg-id="ZING.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025L26R.png?lock=720x540" group-title="Hindi;Hindi Music;Music",ZING
+#EXTINF:-1 tvg-id="ZING.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025L26R.png?lock=720x540" group-title="Hindi;Hindi Music;Music",Zing
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f0fb14eebe474a6ab74c8301d55a7224:f9f8b2e30704458b8db844a285ce32be
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zing/default/manifest.mpd
@@ -1996,7 +2054,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zing/default/manifest.mpd
 https://ranacable.duckdns.org/ZodiakTv/index.m3u8
 
 
-#EXTINF:-1 tvg-id="ZOOM.in" tvg-logo="https://dtil.tmsimg.com/assets/s157600_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Music;Music",ZOOM
+#EXTINF:-1 tvg-id="ZOOM.in" tvg-logo="https://dtil.tmsimg.com/assets/s157600_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Music;Music",Zoom
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=86edec9e3b7d4042a4d4a1ca14f847ee:9def4315f0004019a3705bcb3cf30ca3
 #https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/main.mpd
