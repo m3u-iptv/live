@@ -1476,16 +1476,56 @@ https://d2c4zqo2rb5uf1.cloudfront.net/master.m3u8
 https://mumt06.tangotv.in/qYyB8fXVSHARNAMTV/index.m3u8
 #EXTINF:-1 tvg-id="ShekinahTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Shekinah.png" group-title="Undefined",Shekinah TV (1080p)
 https://livetv.timeiptv.in/ShekinahNewsIndia/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="ShemarooFilmiGaane.in@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/0d5b07555b2d4415aa9f145273095ed7.png" group-title="Movies;Music",Shemaroo Filmi Gaane (1080p)
+
+
+#EXTINF:-1 tvg-id="608049aefa2b8ae93c2c3a63-62d1a58e520656fda09e609d" tvg-name="Shemaroo Bollywood" tvg-logo="https://provider-static.plex.tv/epg/cms/production/aca5fb4a-3f31-4527-82d4-80b718821f1f/ShemarooBollywood_logo_dark_-_Shemaroo_USArdx.png",Shemaroo Bollywood
+https://jmp2.uk/plex-608049aefa2b8ae93c2c3a63-62d1a58e520656fda09e609d.m3u8
+
+#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-62d1a58e520656fda09e609d" tvg-name="Shemaroo Bollywood" tvg-logo="https://provider-static.plex.tv/epg/cms/production/aca5fb4a-3f31-4527-82d4-80b718821f1f/ShemarooBollywood_logo_dark_-_Shemaroo_USArdx.png",Shemaroo Bollywood
+https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-62d1a58e520656fda09e609d.m3u8
+
+#EXTINF:-1 tvg-id="647f8d22a2fc3fadb4721685-62d1a58e520656fda09e609d" tvg-name="Shemaroo Bollywood" tvg-logo="https://provider-static.plex.tv/epg/cms/production/aca5fb4a-3f31-4527-82d4-80b718821f1f/ShemarooBollywood_logo_dark_-_Shemaroo_USArdx.png",Shemaroo Bollywood
+https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-62d1a58e520656fda09e609d.m3u8
+
+#EXTINF:-1 tvg-id="643054b1fc3be59477853717-62d1a58e520656fda09e609d" tvg-name="Shemaroo Bollywood" tvg-logo="https://provider-static.plex.tv/epg/cms/production/aca5fb4a-3f31-4527-82d4-80b718821f1f/ShemarooBollywood_logo_dark_-_Shemaroo_USArdx.png",Shemaroo Bollywood
+https://jmp2.uk/plex-643054b1fc3be59477853717-62d1a58e520656fda09e609d.m3u8
+
+#EXTINF:-1 tvg-id="6430aa45fc3be5947780904e-62d1a58e520656fda09e609d" tvg-name="Shemaroo Bollywood" tvg-logo="https://provider-static.plex.tv/epg/cms/production/aca5fb4a-3f31-4527-82d4-80b718821f1f/ShemarooBollywood_logo_dark_-_Shemaroo_USArdx.png",Shemaroo Bollywood
+https://jmp2.uk/plex-6430aa45fc3be5947780904e-62d1a58e520656fda09e609d.m3u8
+
+#EXTINF:-1 tvg-id="64305451fc3be5947773c339-62d1a58e520656fda09e609d" tvg-name="Shemaroo Bollywood" tvg-logo="https://provider-static.plex.tv/epg/cms/production/aca5fb4a-3f31-4527-82d4-80b718821f1f/ShemarooBollywood_logo_dark_-_Shemaroo_USArdx.png",Shemaroo Bollywood
+https://jmp2.uk/plex-64305451fc3be5947773c339-62d1a58e520656fda09e609d.m3u8
+
+#EXTINF:-1 tvg-id="Shemaroo.Filmi.Gaane.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/0d5b07555b2d4415aa9f145273095ed7.png" group-title="Hindi;Hindi Music;Music",Shemaroo Filmi Gaane
 https://prod-runn.cdn.runn.tv/shemaroo/stream/smrfgn/playlist.m3u8
-#EXTINF:-1 tvg-id="ShemarooJosh.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00297P3E.png?lock=720x540" group-title="Movies",Shemaroo Josh (576p)
-https://mumt04.tangotv.in/m18aqlK4SHEMAROOJOSH/index.m3u8
-#EXTINF:-1 tvg-id="ShemarooMarathiBana.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_MARATHIBANA/images/LOGO_HD/image.png" group-title="Undefined",Shemaroo Marathi Bana (720p)
+
+#EXTINF:-1 tvg-id="Shemaroo.Marathibana.in" tvg-logo="https://dtil.tmsimg.com/assets/s143777_ld_h15_aa.png?lock=360x270" group-title="Marathi;Marathi Entertainment;Entertainment",Shemaroo Marathibana
 https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ShemarooTV.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_TV/images/LOGO_HD/image.png" group-title="Entertainment",Shemaroo TV (720p)
+#https://mumt07.tangotv.in/zHjX9OFlSHEMAROOMARATHIBANA/index.m3u8
+
+#EXTINF:-1 tvg-id="CHUMBAK.TV.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00297P3E.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Hindi Movies;Entertainment;Movies",Shemaroo Josh
+https://airtelapp.shemaroo.com/shemarooChumbakTV/smil:shemarooChumbakTVadp.smil/playlist.m3u8
+#https://mumt04.tangotv.in/m18aqlK4SHEMAROOJOSH/index.m3u8
+
+#EXTINF:-1 tvg-id="Shemaroo.TV.in" tvg-logo="https://dtil.tmsimg.com/assets/s143778_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Shemaroo TV
 https://airtelapp.shemaroo.com/shemarootv/smil:shemarootvadp.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ShemarooUmang.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143779_ld_h15_aa.png?lock=720x540" group-title="Entertainment",Shemaroo Umang (720p)
+#https://mumt06.tangotv.in/qYyB8fXVSHEMAROOTV/index.m3u8
+#https://streams.tangotv.in/SHEMAROOTV/ORIGIN/index.m3u8
+#https://cdn.pishow.tv/ott/live/230/master.m3u8
+
+#EXTINF:-1 tvg-id="SHEMAROO.UMANG.in" tvg-logo="https://dtil.tmsimg.com/assets/s143779_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",Shemaroo Umang
 https://airtelapp.shemaroo.com/shemarooumang/smil:shemarooumangadp.smil/playlist.m3u8
+#https://streams.tangotv.in/SHEMAROOUMANG/ORIGIN/index.m3u8
+#https://mumt04.tangotv.in/m18aqlK4SHEMAROOUMANG/index.m3u8
+
+
+
+
+
+
+
+
+
 #EXTINF:-1 tvg-id="ShikshaTV.in@SD" tvg-logo="https://play-lh.googleusercontent.com/1ibQhkMCsnXaI9LOiZH-Iyw8rM8CMVJEZAlbFphWuZApSPIp-eZsjltDlN6rqJzIonQ" group-title="Culture;Education",Shiksha TV (576p)
 http://51.75.127.199:3141/shikshatv/index.m3u8
 #EXTINF:-1 tvg-id="ShubhCinemaTV.in@SD" tvg-logo="https://i.imgur.com/RQhorAG.png" group-title="Movies",Shubh Cinema TV (720p)
@@ -1510,21 +1550,43 @@ https://segment.yuppcdn.net/240122/siripoli/playlist.m3u8
 https://mumt03.tangotv.in/Dsly5z3HSOHAMTV/index.m3u8
 #EXTINF:-1 tvg-id="SongdewTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142920_ld_h9_aa.png?lock=720x540" group-title="Music",Songdew TV (396p)
 https://yuppnimrestreammum.akamaized.net/181224/smil:songdewtv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 tvg-id="Sonic.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png" group-title="Kids",Sonic (576p)
-http://103.185.24.134:3001/SONIC/index.m3u8
-#EXTINF:-1 tvg-id="SonyAath.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_8/images/LOGO_HD/image.png" group-title="Entertainment",Sony Aath (1080p)
-https://cloudplay-sonyliv.pages.dev/aath.m3u8
-#EXTINF:-1 tvg-id="SonyBBCEarth.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s143800_ld_h15_aa.png?lock=720x540" group-title="Documentary",Sony BBC Earth HD (1080p)
-https://cloudplay-sonyliv.pages.dev/bbcearthhd.m3u8
-#EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=720x540" group-title="Entertainment",Sony Entertainment Television HD (1080p)
-http://38.96.178.205/SONYHD/index.m3u8
-#EXTINF:-1 tvg-id="SonyMarathi.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s157970_ld_h15_aa.png?lock=720x540" group-title="Entertainment",Sony Marathi (1080p)
-https://cloudplay-sonyliv.pages.dev/marathi.m3u8
-#EXTINF:-1 tvg-id="SonyMax2.in@SD" tvg-logo="https://i.imgur.com/gqUYk6C.png" group-title="Movies",Sony Max 2 (576p)
-http://149.71.34.166:8000/play/a00z/index.m3u8
-#EXTINF:-1 tvg-id="SonyMax.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s157590_ld_h15_aa.png?lock=720x540" group-title="Movies",Sony Max (576p) [Geo-blocked]
-http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=156013&extension=ts&play_token=slNi06NyY0
 
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002YJB2K.png?lock=720x540" group-title="Kids",Sonic
+http://103.185.24.134:3001/SONIC/index.m3u8
+
+#EXTINF:-1 tvg-id="SONY.AATH.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002YP08L.png?lock=720x540" group-title="Bengali;Bengali Entertainment;Entertainment",Sony Aath
+http://27.116.22.53:5001/live/697.m3u8
+
+#EXTINF:-1 tvg-id="SONY.BBC.EARTH.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s143800_ld_h15_aa.png?lock=720x540" group-title="English;English Infotainment;Infotainment",Sony BBC Earth HD
+http://27.116.22.53:5001/live/852.m3u8
+
+#EXTINF:-1 tvg-id="SONY.BBC.EARTH.in" tvg-logo="https://dtil.tmsimg.com/assets/s143799_ld_h15_aa.png?lock=720x540" group-title="English;English Infotainment;Infotainment",Sony BBC Earth
+http://27.116.22.53:5001/live/823.m3u8
+
+#EXTINF:-1 tvg-id="SET.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s159096_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Sony Entertainment Television HD
+#http://38.96.178.205/SONYHD/index.m3u8
+http://27.116.22.53:5001/live/291.m3u8
+
+#EXTINF:-1 tvg-id="SET.in" tvg-logo="https://dtil.tmsimg.com/assets/s157589_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Entertainment;Entertainment",Sony Entertainment Television
+
+
+#EXTINF:-1 tvg-id="Sony.Marathi.in" tvg-logo="https://dtil.tmsimg.com/assets/s157970_ld_h15_aa.png?lock=360x270" group-title="Marathi;Marathi Entertainment;Entertainment",Sony Marathi
+http://27.116.22.53:5001/live/1146.m3u8
+
+#EXTINF:-1 tvg-id="SONY.MAX.1.in" tvg-logo="https://dtil.tmsimg.com/assets/s179440_ld_h15_aa.png?lock=360x270"group-title="Hindi;Hindi Movies;Movies",Sony Max 1
+http://27.116.22.53:5001/live/3418.m3u8
+
+#EXTINF:-1 tvg-id="SONY.MAX.2.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SonyMAX2.png" group-title="Hindi;Hindi Movies;Movies",Sony Max 2
+#https://drk6xq0vhn.gpcdn.net/live/max_2_abr/index.m3u8
+#http://107.167.16.138/sonymax2/index.m3u8?token=test
+http://27.116.22.53:5001/live/483.m3u8
+
+#EXTINF:-1 tvg-id="MAX.HD.in" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="Hindi;Hindi Movies;Movies",Sony Max HD
+http://27.116.22.53:5001/live/476.m3u8
+
+#EXTINF:-1 tvg-id="SONY.MAX.in" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_SD.png" group-title="Hindi;Hindi Movies;Movies",Sony Max
+https://drk6xq0vhn.gpcdn.net/live/max_hd_abr/index.m3u8
 
 #EXTINF:-1 tvg-id="SONY.PAL.in" tvg-logo="https://dtil.tmsimg.com/assets/s157973_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment",Sony Pal
 http://27.116.22.53:5001/live/474.m3u8
@@ -1562,7 +1624,7 @@ https://cloudplay-sonyliv.pages.dev/ten4hd.m3u8
 https://cloudplay-sonyliv.pages.dev/ten5.m3u8
 
 
-#EXTINF:-1 tvg-id="SONY.WAH.in" tvg-logo="https://dtil.tmsimg.com/assets/s157974_ld_h15_aa.png?lock=720x540" group-title="Hindi;Hindi Entertainment;Entertainment;Hindi Movies;Movies",Sony Wah
+#EXTINF:-1 tvg-id="SONY.WAH.in" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="Hindi;Hindi Entertainment;Entertainment;Hindi Movies;Movies",Sony Wah
 http://27.116.22.53:5001/live/1393.m3u8
 
 
@@ -1609,7 +1671,7 @@ http://27.116.22.53:5001/live/3097.m3u8
 http://27.116.22.53:5001/live/1113.m3u8
 #http://51.75.127.199:3141/stargoldselecthd/index.m3u8
 
-#EXTINF:-1 tvg-id="STAR.GOLD.SELECT.in" tvg-logo="https://dtil.tmsimg.com/assets/s143816_ld_h15_aa.png?lock=360x270 group-title="Hindi;Hindi Movies;Movies",Star Gold Select
+#EXTINF:-1 tvg-id="STAR.GOLD.SELECT.in" tvg-logo="https://dtil.tmsimg.com/assets/s143816_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Movies;Movies",Star Gold Select
 http://51.75.127.199:3141/stargoldselect/index.m3u8
 
 #EXTINF:-1 tvg-id="STAR.GOLD.THRILLS.in" tvg-logo="https://dtil.tmsimg.com/assets/s158822_ld_h15_aa.png?lock=360x270" group-title="Hindi;Hindi Movies;Movies",Star Gold Thrills
