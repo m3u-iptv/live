@@ -1768,11 +1768,11 @@ https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starpravah.smil/chunklist_b19
 #EXTINF:-1 tvg-id="STAR.PRAVAH.in" tvg-logo="https://dtil.tmsimg.com/assets/s143833_ld_h15_aa.png?lock=360x270" group-title="Entertainment",Star Pravah
 http://51.75.127.199:3141/starpravah/index.m3u8
 
-#EXTINF:-1 tvg-id="STAR.PRAVAAH.PICTURES.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s143676_ld_h15_aa.png?lock=360x270" group-title="Entertainment",Star Pravah Pictures HD
+#EXTINF:-1 tvg-id="Pravah.Picture.in" tvg-logo="https://dtil.tmsimg.com/assets/s143676_ld_h15_aa.png?lock=360x270" group-title="Entertainment",Star Pravah Pictures HD
 http://27.116.22.53:5001/live/3100.m3u8
 
-#EXTINF:-1 tvg-id="STAR.PRAVAAH.PICTURES.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s143675_ld_h15_aa.png?lock=360x270" group-title="Entertainment",Star Pravah Pictures 
-
+#EXTINF:-1 tvg-id="PRAVAH.PICTURE.in" tvg-logo="https://dtil.tmsimg.com/assets/s143675_ld_h15_aa.png?lock=360x270" group-title="Entertainment",Star Pravah Pictures 
+http://27.116.22.53:5001/live/3100.m3u8
 
 
 
