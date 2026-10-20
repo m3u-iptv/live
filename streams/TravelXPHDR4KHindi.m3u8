@@ -1,2 +1,9 @@
-
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=15808045,RESOLUTION=3840x2160,CODECS="hev1.1.6.L153.B0",AUDIO="program audio"
+https://deltatesttatasky.akamaized.net/out/i/968284_1.m3u8?aka_me_session_id=AAAAAAAAAADbBdlqAAAAAMsK6T31r3Fm0j9rFtL%2fCwYrraa2NoH3vY7sk0+zlFW+Ja2Tt0hd5BE2O8LGYaQAznFvAdxANbNi&aka_media_format_type=hls
+#EXT-X-STREAM-INF:BANDWIDTH=10686337,RESOLUTION=2560x1440,CODECS="hev1.1.6.L150.B0",AUDIO="program audio"
+https://deltatesttatasky.akamaized.net/out/i/968284_2.m3u8?aka_me_session_id=AAAAAAAAAADbBdlqAAAAAMsK6T31r3Fm0j9rFtL%2fCwYrraa2NoH3vY7sk0+zlFW+Ja2Tt0hd5BE2O8LGYaQAznFvAdxANbNi&aka_media_format_type=hls
+#EXT-X-STREAM-INF:BANDWIDTH=5468255,RESOLUTION=1920x1080,CODECS="hev1.1.6.L123.B0",AUDIO="program audio"
+https://deltatesttatasky.akamaized.net/out/i/968284_3.m3u8?aka_me_session_id=AAAAAAAAAADbBdlqAAAAAMsK6T31r3Fm0j9rFtL%2fCwYrraa2NoH3vY7sk0+zlFW+Ja2Tt0hd5BE2O8LGYaQAznFvAdxANbNi&aka_media_format_type=hls
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="program audio",NAME="Hindi",LANGUAGE="hin",AUTOSELECT=NO,URI="https://deltatesttatasky.akamaized.net/out/i/968284_4_1.m3u8?aka_me_session_id=AAAAAAAAAADbBdlqAAAAAMsK6T31r3Fm0j9rFtL%2fCwYrraa2NoH3vY7sk0+zlFW+Ja2Tt0hd5BE2O8LGYaQAznFvAdxANbNi&aka_media_format_type=hls"
