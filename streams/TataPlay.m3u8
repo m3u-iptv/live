@@ -8,4 +8,4 @@ https://deltatesttatasky.akamaized.net/out/i/968287_2.m3u8
 https://deltatesttatasky.akamaized.net/out/i/968287_3.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=268350,RESOLUTION=320x180,CODECS="avc1.4D400C,mp4a.40.2"
 https://deltatesttatasky.akamaized.net/out/i/968287_4.m3u8
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="program audio",NAME="Hindi",LANGUAGE="hin",AUTOSELECT=YES,URI="https://deltatesttatasky.akamaized.net/out/i/968287_1.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="program audio",NAME="Hindi",LANGUAGE="hin",AUTOSELECT=YES,URI="https://deltatesttatasky.akamaized.net/out/i/968287_0.m3u8"
