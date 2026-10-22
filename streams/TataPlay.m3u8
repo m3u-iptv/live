@@ -1,0 +1,10 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1390450,RESOLUTION=854x480,CODECS="avc1.4D401E,mp4a.40.2"
+https://deltatesttatasky.akamaized.net/out/i/968287_1.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=950450,RESOLUTION=640x360,CODECS="avc1.4D401E,mp4a.40.2"
+https://deltatesttatasky.akamaized.net/out/i/968287_2.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=510335,RESOLUTION=480x270,CODECS="avc1.4D4015,mp4a.40.2"
+https://deltatesttatasky.akamaized.net/out/i/968287_3.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=268350,RESOLUTION=320x180,CODECS="avc1.4D400C,mp4a.40.2"
+https://deltatesttatasky.akamaized.net/out/i/968287_4.m3u8
