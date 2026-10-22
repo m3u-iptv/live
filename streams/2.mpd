@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Aaj Tak Live Player</title>
+    <!-- Include Dash.js Library -->
     <script src="https://dashjs.org"></script>
     <style>
-        video { width: 640px; height: 360px; }
+        video { width: 100%; max-width: 800px; height: auto; }
     </style>
 </head>
 <body>
-    <video id="videoPlayer" controls></video>
+
+    <h2>Live Streaming: Aaj Tak</h2>
+    <div class="video-container">
+        <!-- The video element must have data-dashjs-player attribute -->
+        <video id="videoPlayer" controls></video>
+    </div>
+
     <script>
         (function(){
-            var url = "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8";
+            // Replace this with your actual, authorized Aaj Tak MPD URL
+            var url = "YOUR_AAJ_TAK_LIVE_MANIFEST_URL_HERE.mpd"; 
             var player = dashjs.MediaPlayer().create();
             player.initialize(document.querySelector("#videoPlayer"), url, true);
         })();
