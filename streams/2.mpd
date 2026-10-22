@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://dashjs.org"></script>
+    <style>
+        video { width: 640px; height: 360px; }
+    </style>
+</head>
+<body>
+    <video id="videoPlayer" controls></video>
+    <script>
+        (function(){
+            var url = "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8";
+            var player = dashjs.MediaPlayer().create();
+            player.initialize(document.querySelector("#videoPlayer"), url, true);
+        })();
+    </script>
+</body>
+</html>
