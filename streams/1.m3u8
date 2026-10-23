@@ -17,7 +17,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetamil/default/Zeetamil-video=108
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetamil/default/Zeetamil-video=2137600.m3u8
 
 # keyframes
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=37000,CODECS="avc1.4D400C",RESOLUTION=256x144,VIDEO-RANGE=SDR,URI="keyframes/Zeetamil-video=247600.m3u8"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=82000,CODECS="avc1.4D4015",RESOLUTION=426x240,VIDEO-RANGE=SDR,URI="keyframes/Zeetamil-video=562400.m3u8"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=159000,CODECS="avc1.4D401E",RESOLUTION=640x360,VIDEO-RANGE=SDR,URI="keyframes/Zeetamil-video=1087600.m3u8"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=312000,CODECS="avc1.4D401E",RESOLUTION=854x480,VIDEO-RANGE=SDR,URI="keyframes/Zeetamil-video=2137600.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=37000,CODECS="avc1.4D400C",RESOLUTION=256x144,VIDEO-RANGE=SDR,URI="https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetamil/default/keyframes/Zeetamil-video=247600.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=82000,CODECS="avc1.4D4015",RESOLUTION=426x240,VIDEO-RANGE=SDR,URI="https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetamil/default/keyframes/Zeetamil-video=562400.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=159000,CODECS="avc1.4D401E",RESOLUTION=640x360,VIDEO-RANGE=SDR,URI="https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetamil/default/keyframes/Zeetamil-video=1087600.m3u8"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=312000,CODECS="avc1.4D401E",RESOLUTION=854x480,VIDEO-RANGE=SDR,URI="https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetamil/default/keyframes/Zeetamil-video=2137600.m3u8"
