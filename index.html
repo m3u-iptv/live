@@ -1,34 +1,56 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>मेरी लाइव वीडियो स्ट्रीमिंग वेबसाइट</title>
-    <!-- Shaka Player की स्क्रिप्ट -->
-    <script src="https://cloudflare.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Quality HLS Video Player</title>
+    
+    <!-- Fluid Player CSS & JS (यह क्वालिटी बदलने वाला गियर आइकॉन देता है) -->
+    <link rel="stylesheet" href="https://fluidplayer.com" type="text/css"/>
+    <script src="https://fluidplayer.com"></script>
+
     <style>
-        body { background-color: #111; color: white; text-align: center; font-family: Arial, sans-serif; }
-        video { width: 80%; max-width: 800px; border: 2px solid #ff0055; margin-top: 20px; }
+        body { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            background: #111; 
+            margin: 0; 
+        }
+        .player-container { 
+            width: 90%; 
+            max-width: 800px; 
+        }
     </style>
 </head>
 <body>
-    <h1>मेरा लाइव वीडियो चैनल 🔴</h1>
-    <!-- वीडियो प्लेयर -->
-    <video id="video" controls autoplay></video>
+
+    <div class="player-container">
+        <video id="hls-video">
+            <!-- यहाँ आपका वीडियो फ़ोल्डर (video_hls) और master.m3u8 कनेक्टेड है -->
+            <source src="./video_hls/master.m3u8" type="application/x-mpegURL">
+        </video>
+    </div>
 
     <script>
-        async function initPlayer() {
-            const video = document.getElementById('video');
-            const player = new shaka.Player(video);
-            
-            try {
-                // यहाँ अपनी output.mpd फाइल का नाम डालें (अगर दोनों एक ही फोल्डर में हैं)
-                await player.load('output.mpd'); 
-                console.log('वीडियो सफलतापूर्वक लोड हो गया!');
-            } catch (e) {
-                console.error('Error loading video', e);
+        // Fluid Player को एक्टिवेट करना
+        var myPlayer = fluidPlayer('hls-video', {
+            layoutControls: {
+                fillToContainer: true,
+                autoPlay: false,
+                mute: false
             }
-        }
-        document.addEventListener('DOMContentLoaded', initPlayer);
+        });
     </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
