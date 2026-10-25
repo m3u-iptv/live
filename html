@@ -10,21 +10,32 @@
     <script src="https://fluidplayer.com"></script>
 
     <style>
-        body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #111; margin: 0; }
-        .player-container { width: 90%; max-width: 800px; }
+        body { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            background: #111; 
+            margin: 0; 
+        }
+        .player-container { 
+            width: 90%; 
+            max-width: 800px; 
+        }
     </style>
 </head>
 <body>
 
     <div class="player-container">
-        <video id="hls-video">
-            <!-- यहाँ आपका सही फ़ोल्डर पाथ (video_hls) डाला गया है -->
-            <source src="./video_hls/master.m3u8" type="application/x-mpegURL">
+        <video id="my-hls-video">
+            <!-- यहाँ हमने पूरा लाइव URL डाल दिया है ताकि कोई लोड एरर न आए -->
+            <source src="https://github.io" type="application/x-mpegURL">
         </video>
     </div>
 
     <script>
-        var myPlayer = fluidPlayer('hls-video', {
+        // Fluid Player को एक्टिवेट करना
+        var myPlayer = fluidPlayer('my-hls-video', {
             layoutControls: {
                 fillToContainer: true,
                 autoPlay: false,
