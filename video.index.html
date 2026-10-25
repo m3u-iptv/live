@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Quality Video Player</title>
+    <style>
+        body { background: #000; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: sans-serif; color: white; }
+        .player-container { width: 90%; max-width: 720px; text-align: center; }
+        video { width: 100%; border-radius: 8px; box-shadow: 0 4px 10px rgba(255,255,255,0.1); }
+        select { margin-top: 15px; padding: 8px 15px; background: #222; color: #fff; border: 1px solid #444; border-radius: 5px; font-size: 16px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+<div class="player-container">
+    <!-- Video Player -->
+    <video id="myVideo" controls>
+        <source id="videoSource" src="https://githubusercontent.com" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <br>
+    <!-- Quality Selector Dropdown -->
+    <label for="qualitySelect">Quality: </label>
+    <select id="qualitySelect" onchange="changeQuality()">
+        <option value="https://githubusercontent.com" selected>480p (Standard)</option>
+        <option value="https://githubusercontent.com">360p (Low)</option>
+    </select>
+</div>
+
+<script>
+function changeQuality() {
+    var video = document.getElementById("myVideo");
+    var source = document.getElementById("videoSource");
+    var selector = document.getElementById("qualitySelect");
+    
+    var currentTime = video.currentTime; // Video kahan tak chali thi woh yaad rakhega
+    var isPaused = video.paused;
+
+    source.src = selector.value;
+    video.load(); // Nayi quality load karega
+    
+    video.onloadedmetadata = function() {
+        video.currentTime = currentTime; // Wahi se video dubara chalu hogi
+        if (!isPaused) {
+            video.play();
+        }
+    };
+}
+</script>
+
+</body>
+</html>
