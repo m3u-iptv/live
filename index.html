@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multi-Quality HLS Video Player</title>
     
-    <!-- Fluid Player CSS & JS (यह क्वालिटी बदलने वाला गियर आइकॉन देता है) -->
+    <!-- Fluid Player CSS & JS -->
     <link rel="stylesheet" href="https://fluidplayer.com" type="text/css"/>
     <script src="https://fluidplayer.com"></script>
 
@@ -27,15 +27,15 @@
 <body>
 
     <div class="player-container">
-        <video id="hls-video">
-            <!-- यहाँ आपका वीडियो फ़ोल्डर (video_hls) और master.m3u8 कनेक्टेड है -->
-            <source src="./video_hls/master.m3u8" type="application/x-mpegURL">
+        <video id="my-hls-video">
+            <!-- यहाँ आपका सही फ़ोल्डर पाथ (hls_video) सेट कर दिया है -->
+            <source src="./hls_video/master.m3u8" type="application/x-mpegURL">
         </video>
     </div>
 
     <script>
         // Fluid Player को एक्टिवेट करना
-        var myPlayer = fluidPlayer('hls-video', {
+        var myPlayer = fluidPlayer('my-hls-video', {
             layoutControls: {
                 fillToContainer: true,
                 autoPlay: false,
@@ -45,12 +45,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
