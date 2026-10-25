@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Quality HLS Video Player</title>
+    
+    <!-- Fluid Player CSS & JS -->
+    <link rel="stylesheet" href="https://fluidplayer.com" type="text/css"/>
+    <script src="https://fluidplayer.com"></script>
+
+    <style>
+        body { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            background: #111; 
+            margin: 0; 
+        }
+        .player-container { 
+            width: 90%; 
+            max-width: 800px; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="player-container">
+        <video id="my-hls-video">
+            <!-- यहाँ हमने पूरा लाइव URL डाल दिया है ताकि कोई लोड एरर न आए -->
+            <source src="https://github.io" type="application/x-mpegURL">
+        </video>
+    </div>
+
+    <script>
+        // Fluid Player को एक्टिवेट करना
+        var myPlayer = fluidPlayer('my-hls-video', {
+            layoutControls: {
+                fillToContainer: true,
+                autoPlay: false,
+                mute: false
+            }
+        });
+    </script>
+</body>
+</html>
