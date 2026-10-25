@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multi-Quality Video Player</title>
+    <title>All Quality Video Player</title>
     <style>
         body { background: #000; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: sans-serif; color: white; }
         .player-container { width: 90%; max-width: 720px; text-align: center; }
@@ -14,18 +14,26 @@
 <body>
 
 <div class="player-container">
+    <!-- Video Player -->
     <video id="myVideo" controls>
-        <!-- folder 'video hls' ke andar se 480p load hogi sabse pehle -->
+        <!-- Sabse pehle default 480p chalega -->
         <source id="videoSource" src="video%20hls/video_480p.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
     <br>
-    <label for="qualitySelect">Quality: </label>
+    <!-- Dropdown Menu for All Qualities -->
+    <label for="qualitySelect">Choose Quality: </label>
     <select id="qualitySelect" onchange="changeQuality()">
-        <!-- Folder path sahi kar diya hai -->
+        <option value="video%20hls/video_1080p.mp4">1080p (Full HD)</option>
+        <option value="video%20hls/video_720p.mp4">720p (HD)</option>
+        <option value="video%20hls/video_620p.mp4">620p</option>
+        <option value="video%20hls/video_540p.mp4">540p</option>
         <option value="video%20hls/video_480p.mp4" selected>480p (Standard)</option>
+        <option value="video%20hls/video_396p.mp4">396p</option>
         <option value="video%20hls/video_360p.mp4">360p (Low)</option>
+        <option value="video%20hls/video_236p.mp4">236p</option>
+        <option value="video%20hls/video_144p.mp4">144p (Data Saver)</option>
     </select>
 </div>
 
