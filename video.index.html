@@ -14,18 +14,18 @@
 <body>
 
 <div class="player-container">
-    <!-- Video Player -->
     <video id="myVideo" controls>
-        <source id="videoSource" src="https://githubusercontent.com" type="video/mp4">
+        <!-- folder 'video hls' ke andar se 480p load hogi sabse pehle -->
+        <source id="videoSource" src="video%20hls/video_480p.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
     <br>
-    <!-- Quality Selector Dropdown -->
     <label for="qualitySelect">Quality: </label>
     <select id="qualitySelect" onchange="changeQuality()">
-        <option value="https://githubusercontent.com" selected>480p (Standard)</option>
-        <option value="https://githubusercontent.com">360p (Low)</option>
+        <!-- Folder path sahi kar diya hai -->
+        <option value="video%20hls/video_480p.mp4" selected>480p (Standard)</option>
+        <option value="video%20hls/video_360p.mp4">360p (Low)</option>
     </select>
 </div>
 
