@@ -16,6 +16,7 @@
 <div class="player-container">
     <!-- Video Player -->
     <video id="myVideo" controls>
+        <!-- Folder ka naam 'video hls' hai isliye URL me %20 lagaya hai space ke liye -->
         <source id="videoSource" src="https://githubusercontent.com" type="video/mp4">
         Your browser does not support the video tag.
     </video>
@@ -35,14 +36,14 @@ function changeQuality() {
     var source = document.getElementById("videoSource");
     var selector = document.getElementById("qualitySelect");
     
-    var currentTime = video.currentTime; // Video kahan tak chali thi woh yaad rakhega
+    var currentTime = video.currentTime; 
     var isPaused = video.paused;
 
     source.src = selector.value;
-    video.load(); // Nayi quality load karega
+    video.load(); 
     
     video.onloadedmetadata = function() {
-        video.currentTime = currentTime; // Wahi se video dubara chalu hogi
+        video.currentTime = currentTime; 
         if (!isPaused) {
             video.play();
         }
