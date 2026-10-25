@@ -4,40 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HLS Multi-Quality Video Player</title>
-    <!-- Plyr Video Player ki CSS -->
+    <!-- Plyr Video Player ki Premium CSS -->
     <link rel="stylesheet" href="https://plyr.io" />
     <style>
-        body { background-color: #111; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
-        .container { width: 80%; max-width: 800px; }
+        body { 
+            background-color: #0f0f0f; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            font-family: sans-serif;
+        }
+        .player-container { 
+            width: 90%; 
+            max-width: 850px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border-radius: 8px;
+            overflow: hidden;
+        }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <!-- Video Tag jisme master.m3u8 chalega -->
+<div class="player-container">
+    <!-- Video Player Tag -->
     <video id="player" controls crossorigin playsinline></video>
 </div>
 
-<!-- HLS.js aur Plyr.js ki Libraries -->
+<!-- HLS aur Plyr Player ki Scripts -->
 <script src="https://jsdelivr.net"></script>
 <script src="https://plyr.io"></script>
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const video = document.querySelector('#player');
-        // APNI MASTER FILE KA SAHI PATH YAHAN DALEIN
+        
+        // Kyunki master.m3u8 hls_video folder ke andar hai:
         const source = './hls_video/master.m3u8'; 
 
-        const defaultOptions = {};
+        const defaultOptions = {
+            controls: [
+                'play-large', 'play', 'progress', 'current-time', 
+                'duration', 'mute', 'volume', 'settings', 'fullscreen'
+            ],
+            settings: ['quality', 'speed']
+        };
 
         if (Hls.isSupported()) {
             const hls = new Hls();
             hls.loadSource(source);
             
-            // Quality options ko player settings me add karna
             hls.on(Hls.Events.MANIFEST_PARSED, function (event, data) {
+                // Video ki saari qualities (360p, 480p) nikalna
                 const availableQualities = hls.levels.map((l) => l.height);
-                availableQualities.unshift(0); // 0 matlab 'Auto' quality
+                availableQualities.unshift(0); // 0 ka matlab 'Auto' quality option
 
                 defaultOptions.quality = {
                     default: 0,
@@ -46,7 +67,7 @@
                     onChange: (e) => updateQuality(e),
                 };
 
-                // Player ko initialize karna
+                // Player ko shuru karna
                 const player = new Plyr(video, defaultOptions);
             });
 
@@ -58,9 +79,10 @@
             const player = new Plyr(video, defaultOptions);
         }
 
+        // Jab user quality change karega tab yeh chalega
         function updateQuality(newQuality) {
             if (newQuality === 0) {
-                window.hls.currentLevel = -1; // Auto mode
+                window.hls.currentLevel = -1; // Auto select mode
             } else {
                 window.hls.levels.forEach((level, levelIndex) => {
                     if (level.height === newQuality) {
