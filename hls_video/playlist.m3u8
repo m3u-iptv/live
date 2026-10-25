@@ -18,7 +18,7 @@ https://githubusercontent.com/m3u-iptv/live/main/video%20hls/video_480p.mp4
 https://githubusercontent.com/m3u-iptv/live/main/video%20hls/video_396p.mp4
 
 #EXT-X-STREAM-INF:BANDWIDTH=400000,RESOLUTION=640x360,NAME="360p"
-https://githubusercontent.com/m3u-iptv/live/main/video%20hls/video_360p.mp4
+https://githubusercontent.com/m3u-iptv/live/main/video_hls/video_360p.mp4
 
 #EXT-X-STREAM-INF:BANDWIDTH=250000,RESOLUTION=426x236,NAME="236p"
 https://githubusercontent.com/m3u-iptv/live/main/video%20hls/video_236p.mp4
