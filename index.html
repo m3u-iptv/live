@@ -3,45 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multi-Quality HLS Video Player</title>
-    
-    <!-- Fluid Player CSS & JS -->
-    <link rel="stylesheet" href="https://fluidplayer.com" type="text/css"/>
-    <script src="https://fluidplayer.com"></script>
-
+    <title>HLS Multi-Quality Video Player</title>
+    <!-- Plyr Video Player ki CSS -->
+    <link rel="stylesheet" href="https://plyr.io" />
     <style>
-        body { 
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            height: 100vh; 
-            background: #111; 
-            margin: 0; 
-        }
-        .player-container { 
-            width: 90%; 
-            max-width: 800px; 
-        }
+        body { background-color: #111; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .container { width: 80%; max-width: 800px; }
     </style>
 </head>
 <body>
 
-    <div class="player-container">
-        <video id="my-hls-video">
-            <!-- यहाँ आपका सही फ़ोल्डर पाथ (hls_video) सेट कर दिया है -->
-            <source src="./hls_video/master.m3u8" type="application/x-mpegURL">
-        </video>
-    </div>
+<div class="container">
+    <!-- Video Tag jisme master.m3u8 chalega -->
+    <video id="player" controls crossorigin playsinline></video>
+</div>
 
-    <script>
-        // Fluid Player को एक्टिवेट करना
-        var myPlayer = fluidPlayer('my-hls-video', {
-            layoutControls: {
-                fillToContainer: true,
-                autoPlay: false,
-                mute: false
+<!-- HLS.js aur Plyr.js ki Libraries -->
+<script src="https://jsdelivr.net"></script>
+<script src="https://plyr.io"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const video = document.querySelector('#player');
+        // APNI MASTER FILE KA SAHI PATH YAHAN DALEIN
+        const source = './hls_video/master.m3u8'; 
+
+        const defaultOptions = {};
+
+        if (Hls.isSupported()) {
+            const hls = new Hls();
+            hls.loadSource(source);
+            
+            // Quality options ko player settings me add karna
+            hls.on(Hls.Events.MANIFEST_PARSED, function (event, data) {
+                const availableQualities = hls.levels.map((l) => l.height);
+                availableQualities.unshift(0); // 0 matlab 'Auto' quality
+
+                defaultOptions.quality = {
+                    default: 0,
+                    options: availableQualities,
+                    forced: true,
+                    onChange: (e) => updateQuality(e),
+                };
+
+                // Player ko initialize karna
+                const player = new Plyr(video, defaultOptions);
+            });
+
+            hls.attachMedia(video);
+            window.hls = hls;
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            // Safari browser ke liye direct support
+            video.src = source;
+            const player = new Plyr(video, defaultOptions);
+        }
+
+        function updateQuality(newQuality) {
+            if (newQuality === 0) {
+                window.hls.currentLevel = -1; // Auto mode
+            } else {
+                window.hls.levels.forEach((level, levelIndex) => {
+                    if (level.height === newQuality) {
+                        window.hls.currentLevel = levelIndex;
+                    }
+                });
             }
-        });
-    </script>
+        }
+    });
+</script>
+
 </body>
 </html>
