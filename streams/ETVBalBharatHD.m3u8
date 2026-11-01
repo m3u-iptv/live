@@ -12,5 +12,5 @@
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="pan",URI="http://cdn.pishow.tv/live/204/204_10.m3u8"
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="tam",URI="http://cdn.pishow.tv/live/204/204_11.m3u8"
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="tel",URI="http://cdn.pishow.tv/live/204/204_12.m3u8"
-#EXT-X-STREAM-INF:BANDWIDTH=2340800,RESOLUTION=1024x576,CODECS="avc1.4d401f,mp4a.40.2",AUDIO="group_audio"
+#EXT-X-STREAM-INF:BANDWIDTH=7310000,RESOLUTION=1920x1080,CODECS="avc1.4d001f,mp4a.40.2",AUDIO="group_audio"
 http://cdn.pishow.tv/live/204/204_0.m3u8
