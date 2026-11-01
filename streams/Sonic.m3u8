@@ -1,0 +1,12 @@
+#EXTM3U
+#EXT-X-VERSION:6
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="ben",URI="http://cdn.pishow.tv/live/307/307_6.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="guj",URI="http://cdn.pishow.tv/live/307/307_8.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="hin",URI="http://cdn.pishow.tv/live/307/307_1.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="kan",URI="http://cdn.pishow.tv/live/307/307_2.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="mal",URI="http://cdn.pishow.tv/live/307/307_5.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="mar",URI="http://cdn.pishow.tv/live/307/307_7.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="tam",URI="http://cdn.pishow.tv/live/307/307_4.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="tel",URI="http://cdn.pishow.tv/live/307/307_3.m3u8"
+#EXT-X-STREAM-INF:BANDWIDTH=2340800,RESOLUTION=1024x576,CODECS="avc1.4d401f,mp4a.40.2",AUDIO="group_audio"
+http://cdn.pishow.tv/live/307/307_0.m3u8
