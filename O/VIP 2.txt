@@ -1,0 +1,76 @@
+#EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
+
+#EXTINF:-1 tvg-id="ts974" tvg-logo="" group-title="Gujarati",1st Gujarat
+https://d2gvyg6lvauoko.cloudfront.net/230226/gujaratfirst/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#https://mumt03.tangotv.in/Dsly5z3HGUJARATFIRST/index.m3u8
+
+#EXTINF:-1 tvg-id="ts774" tvg-logo="" tvg-name="4TVNews.in@SD" group-title="Hindi",4tv News
+https://cdn.pishow.tv/ott/live/1007/master.m3u8
+
+#EXTINF:-1 tvg-id="ts1019" tvg-logo="" group-title="Punjabi",7x Music
+https://stream.e2is.in/hls/7xMusic.m3u8
+
+#EXTINF:-1 tvg-id="ts139" tvg-logo="" tvg-name="9XM.in@SD" group-title="Hindi",9XM
+https://wiselp.wiseplayout.com/9XM/master.m3u8
+#https://streams.tangotv.in/9XM/ORIGIN/index.m3u8
+
+#EXTINF:-1 tvg-id="ts266" tvg-logo="" tvg-name="10TV.in@SD" group-title="Telugu",10 TV
+https://cdn.pishow.tv/ott/live/391/master.m3u8
+#https://mumbai-edge.smartplaytv.in/10TV/index.m3u8
+
+#EXTINF:-1 tvg-id="ts1462" tvg-logo="" group-title="Hindi",22 Scope 
+https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8
+
+#EXTINF:-1 tvg-id="ts1448" tvg-logo="" group-title="Bengali",24Hrs TV
+http://51.75.127.199:3141/index.m3u8
+
+#EXTINF:-1 tvg-id="ts1247" tvg-logo="" group-title="Hindi",35 MM
+https://legitpro.co.in/live6/35mm/index.m3u8
+
+#EXTINF:-1 tvg-id="ts148" tvg-logo="" tvg-name="Andpictures.in@SD" group-title="Hindi",pictures
+http://51.75.127.199:3141/index.m3u8
+
+#EXTINF:-1 tvg-id="ts267" tvg-logo="" xmltv_id="Andpictures.in@HD" group-title="Hindi",pictures HD
+http://51.75.127.199:3141/index.m3u8
+
+#EXTINF:-1 tvg-id="ts578" tvg-name="AndTV.in@SD" tvg-logo="" group-title="Hindi",&amp;TV
+https://drk6xq0vhn.gpcdn.net/live/and_tv_hd_abr/index.m3u8
+
+#EXTINF:-1 tvg-id="ts40" tvg-name="AndTV.in@HD" tvg-logo="" group-title="Hindi",&amp;tv HD
+http://51.75.127.199:3141/index.m3u8
+
+#EXTINF:-1 tvg-id="ts1183" tvg-name="AndxplorHD.in@HD" tvg-logo="" group-title="Hindi",&amp;Xplor HD
+http://51.75.127.199:3141/index.m3u8
+
+#EXTINF:-1 tvg-id="ts969" tvg-name="AadinathTV.in@SD" tvg-logo="" group-title="Hindi",Aadinath TV
+https://cdn.pishow.tv/ott/live/252/master.m3u8
+#https://d2gvyg6lvauoko.cloudfront.net/230226/aadinathtv/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#https://mumt01.tangotv.in/O5aw8Zn3AADINATHTV/index.m3u8
+
+#EXTINF:-1 tvg-id="ts1795" tvg-logo="" group-title="Hindi",Aagaaz Times
+http://51.75.127.199:3141/index.m3u8
+
+#EXTINF:-1 tvg-id="ts1058" tvg-logo="" group-title="Hindi",Aaj Ki Khabar
+#https://mumt04.tangotv.in/m18aqlK4AAJKIKHABAR/index.m3u8
+https://stream.ottlive.co.in/aajkikhabar/index.m3u8
+
+#EXTINF:-1 tvg-id="ts153" tvg-name="AajTak.in@SD" tvg-logo="" group-title="Hindi",Aaj Tak
+#https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8
+#https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-791258/master.m3u8
+https://feeds.intoday.in/aajtak/api/master.m3u8
+
+#EXTINF:-1 tvg-id="ts689" tvg-name="AajTak.in@HD" tvg-logo="" group-title="Hindi",Aaj Tak HD
+https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
+https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
