@@ -1,0 +1,944 @@
+#EXTM3U
+
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+
+https://live.legitpro.co.in/bharat24/index.m3u8
+
+https://indianews-yupp.vgcdn.net/bharatexpress/index.m3u8
+
+https://indianews-yupp.vgcdn.net/gujaratfirst/index.m3u8
+
+https://indianews-yupp.vgcdn.net/e24/index.m3u8
+
+https://indianews-yupp.vgcdn.net/news24/index.m3u8
+
+https://indianews-yupp.vgcdn.net/news24mp/index.m3u8
+
+
+
+
+
+
+1209
+
+
+jalwa
+https://vodzong.mjunoon.tv:8087/streamtest/JalwaTV-135/live/135M/chunks.m3u8
+
+https://209.52.98.98/justintv/index.m3u8
+
+erose bollywood cinema
+https://ssai.adstudio.runn.media/manifest/live/eros/blywcm/airtel/master.m3u8
+https://eros-blywdcnm.cdn.runn.tv/eros/stream/blywcm/playlist.m3u8
+https://amg00713-amg00713c3-amgplt0173.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg00713-amg00713c3-amgplt0173/playlist.m3u8
+
+erose entertainmet
+https://ssai.adstudio.runn.media/manifest/live/eros/ersent/airtel/master.m3u8
+https://eros-entrtnmnt.cdn.runn.tv/eros/stream/ersent/playlist.m3u8
+https://amg00713-amg00713c3-amgplt0173.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg00713-amg00713c2-amgplt0173/playlist.m3u8
+
+bollywood movies
+https://vods2.aynaott.com/hindimovies/playlist.m3u8
+https://live20.bozztv.com/giatvplayout7/giatv-209612/index.m3u8
+
+Nick (Multi-Audio) & Nick (Multi-Lang)
+
+http://cdn.pishow.tv/live/1199/master.m3u8
+
+http://cdn.pishow.tv/live/957/master.m3u8
+
+http://cdn.pishow.tv/live/959/master.m3u8
+
+http://cdn.pishow.tv/live/961/master.m3u8
+
+http://cdn.pishow.tv/live/963/master.m3u8
+
+http://cdn.pishow.tv/live/965/master.m3u8
+
+http://cdn.pishow.tv/live/971/master.m3u8
+
+http://cdn.pishow.tv/live/973/master.m3u8
+
+
+
+http://cdn.pishow.tv/live/1083/master.m3u8
+
+tv9 telugu
+http://cdn.pishow.tv/live/1/master.m3u8
+
+tv9 marathi
+http://cdn.pishow.tv/live/2/master.m3u8
+
+tv9 Kannada
+http://cdn.pishow.tv/live/3/master.m3u8
+
+tv9 gujarati
+http://cdn.pishow.tv/live/4/master.m3u8
+
+9xm
+http://cdn.pishow.tv/live/5/master.m3u8
+
+9x jhakaas
+http://cdn.pishow.tv/live/6/master.m3u8
+
+9x jalwa
+http://cdn.pishow.tv/live/7/master.m3u8
+
+dd urdu
+http://cdn.pishow.tv/live/8/master.m3u8
+
+dd kisan
+http://cdn.pishow.tv/live/9/master.m3u8
+
+dd national
+http://cdn.pishow.tv/live/11/master.m3u8
+
+dd news
+http://cdn.pishow.tv/live/12/master.m3u8
+
+dd Sports
+http://cdn.pishow.tv/live/13/master.m3u8
+
+dd gyandarshan
+http://cdn.pishow.tv/live/14/master.m3u8
+
+dd chhattisgarh
+http://cdn.pishow.tv/live/15/master.m3u8
+
+dd kashir
+http://cdn.pishow.tv/live/16/master.m3u8
+
+dd uttarkhand
+http://cdn.pishow.tv/live/17/master.m3u8
+
+dd national hd
+http://cdn.pishow.tv/live/18/master.m3u8
+
+dd news hd
+http://cdn.pishow.tv/live/19/master.m3u8
+
+dd telangana
+http://cdn.pishow.tv/live/21/master.m3u8
+
+dd saptagiri
+http://cdn.pishow.tv/live/22/master.m3u8
+
+dd india
+http://cdn.pishow.tv/live/23/master.m3u8
+
+dd Punjabi
+http://cdn.pishow.tv/live/24/master.m3u8
+
+dd assam
+http://cdn.pishow.tv/live/25/master.m3u8
+
+dd tamil
+http://cdn.pishow.tv/live/26/master.m3u8
+
+dd malayalam
+http://cdn.pishow.tv/live/27/master.m3u8
+
+dd karnataka
+http://cdn.pishow.tv/live/28/master.m3u8
+
+DD odia hd
+http://cdn.pishow.tv/live/29/master.m3u8
+
+dd sahyadri
+http://cdn.pishow.tv/live/30/master.m3u8
+
+dd mp
+http://cdn.pishow.tv/live/31/master.m3u8
+
+dd arunprabha
+http://cdn.pishow.tv/live/32/master.m3u8
+
+dd meghalaya
+http://cdn.pishow.tv/live/33/master.m3u8
+
+dd rajasthan
+http://cdn.pishow.tv/live/34/master.m3u8
+
+dd bihar
+http://cdn.pishow.tv/live/35/master.m3u8
+
+dd up
+http://cdn.pishow.tv/live/36/master.m3u8
+
+dd bangla
+http://cdn.pishow.tv/live/37/master.m3u8
+
+dd gujarati hd
+http://cdn.pishow.tv/live/38/master.m3u8
+
+sansad tv 2 sd
+http://cdn.pishow.tv/live/39/master.m3u8
+
+sansad tv 2 hd
+http://cdn.pishow.tv/live/40/master.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
+ETV Plus
+http://cdn.pishow.tv/live/200/master.m3u8
+
+ETV Cinema
+http://cdn.pishow.tv/live/201/master.m3u8
+
+ETV Music
+http://cdn.pishow.tv/live/202/master.m3u8
+
+ETV Cinema hd
+http://cdn.pishow.tv/live/203/master.m3u8
+
+ETV Bal Bharat HD all language
+http://cdn.pishow.tv/live/204/master.m3u8
+
+ETV HD
+http://cdn.pishow.tv/live/205/master.m3u8
+
+ETV Andhra Pradesh 
+http://cdn.pishow.tv/live/206/master.m3u8
+
+ETV Telangana
+http://cdn.pishow.tv/live/207/master.m3u8
+
+ETV Plus HD
+http://cdn.pishow.tv/live/208/master.m3u8
+
+India Today
+http://cdn.pishow.tv/live/209/master.m3u8
+
+Timesnow Nav Bharat
+http://cdn.pishow.tv/live/210/master.m3u8
+
+Mirror Now
+http://cdn.pishow.tv/live/211/master.m3u8
+
+Romady Now
+http://cdn.pishow.tv/live/212/master.m3u8
+
+Movies Now
+http://cdn.pishow.tv/live/213/master.m3u8
+
+ET Now
+http://cdn.pishow.tv/live/214/master.m3u8
+
+MN HD+
+http://cdn.pishow.tv/live/215/master.m3u8
+
+Movies Now HD
+http://cdn.pishow.tv/live/216/master.m3u8
+
+MNX HD
+http://cdn.pishow.tv/live/217/master.m3u8
+
+Timesnow Nav Bharat HD
+http://cdn.pishow.tv/live/218/master.m3u8
+
+Inh 24x7
+http://cdn.pishow.tv/live/219/master.m3u8
+
+Amrita
+http://cdn.pishow.tv/live/220/master.m3u8
+
+Ayush tv
+http://cdn.pishow.tv/live/221/master.m3u8
+
+Kairali
+http://cdn.pishow.tv/live/222/master.m3u8
+
+sadhna news marathi
+http://cdn.pishow.tv/live/223/master.m3u8
+
+Hi Dost
+http://cdn.pishow.tv/live/224/master.m3u8
+
+Music India
+http://cdn.pishow.tv/live/226/master.m3u8
+
+B4U Kadak
+http://cdn.pishow.tv/live/227/master.m3u8
+
+Manoranjan Movies
+http://cdn.pishow.tv/live/228/master.m3u8
+
+Channel Win
+http://cdn.pishow.tv/live/229/master.m3u8
+
+Shemaroo TV
+http://cdn.pishow.tv/live/230/master.m3u8
+
+chaines
+http://cdn.pishow.tv/live/231/master.m3u8
+
+6 TV
+http://cdn.pishow.tv/live/232/master.m3u8
+
+oscar movies
+http://cdn.pishow.tv/live/233/master.m3u8
+
+aastha Kannada
+http://cdn.pishow.tv/live/234/master.m3u8
+
+plec of mind
+http://cdn.pishow.tv/live/236/master.m3u8
+
+india voice
+http://cdn.pishow.tv/live/237/master.m3u8
+
+Shemaroo josh
+http://cdn.pishow.tv/live/238/master.m3u8
+
+CVR News eng
+http://cdn.pishow.tv/live/239/master.m3u8
+
+vistaar news
+http://cdn.pishow.tv/live/240/master.m3u8
+
+enterr10 bangla
+http://cdn.pishow.tv/live/241/master.m3u8
+
+prime 9
+http://cdn.pishow.tv/live/242/master.m3u8
+
+
+http://cdn.pishow.tv/live/243/master.m3u8
+
+news plus
+http://cdn.pishow.tv/live/244/master.m3u8
+
+
+http://cdn.pishow.tv/live/245/master.m3u8
+
+samachar plus 24x7
+http://cdn.pishow.tv/live/246/master.m3u8
+
+power tv
+http://cdn.pishow.tv/live/247/master.m3u8
+
+dd puduchrry dd tamil hd
+http://cdn.pishow.tv/live/248/master.m3u8
+
+goldmines bollywood
+http://cdn.pishow.tv/live/249/master.m3u8
+
+Naxatra samachar plus
+http://cdn.pishow.tv/live/250/master.m3u8
+
+india 1 news
+http://cdn.pishow.tv/live/251/master.m3u8
+
+aadinath tv
+http://cdn.pishow.tv/live/252/master.m3u8
+
+news 24
+http://cdn.pishow.tv/live/253/master.m3u8
+
+sony ten 4 Kannada
+http://cdn.pishow.tv/live/254/master.m3u8
+
+big tv
+http://cdn.pishow.tv/live/255/master.m3u8
+
+mahuva khabar
+http://cdn.pishow.tv/live/256/master.m3u8
+
+mahuwa play
+http://cdn.pishow.tv/live/257/master.m3u8
+
+assam talks
+http://cdn.pishow.tv/live/258/master.m3u8
+
+tv13 gujarati
+http://cdn.pishow.tv/live/259/master.m3u8
+
+sony vizha
+http://cdn.pishow.tv/live/260/master.m3u8
+
+sony vizha hd
+http://cdn.pishow.tv/live/261/master.m3u8
+
+aastha telugu
+http://cdn.pishow.tv/live/262/master.m3u8
+
+darshan 24
+http://cdn.pishow.tv/live/263/master.m3u8
+
+bhakti sagar
+http://cdn.pishow.tv/live/264/master.m3u8
+
+goodness
+http://cdn.pishow.tv/live/265/master.m3u8
+
+TRT World
+http://cdn.pishow.tv/live/266/master.m3u8
+
+food food
+http://cdn.pishow.tv/live/267/master.m3u8
+
+news 1 kannada
+http://cdn.pishow.tv/live/268/master.m3u8
+
+indua ahed
+http://cdn.pishow.tv/live/269/master.m3u8
+
+R babgla
+http://cdn.pishow.tv/live/270/master.m3u8
+
+R. TV
+http://cdn.pishow.tv/live/271/master.m3u8
+
+harvest 24x7
+http://cdn.pishow.tv/live/272/master.m3u8
+
+http://cdn.pishow.tv/live/273/master.m3u8
+
+gulistan news
+http://cdn.pishow.tv/live/274/master.m3u8
+
+tv9 bhartvasrsh
+http://cdn.pishow.tv/live/275/master.m3u8
+
+Studio one
+http://cdn.pishow.tv/live/276/master.m3u8
+
+vissa tv
+http://cdn.pishow.tv/live/277/master.m3u8
+
+shubhvaartha
+http://cdn.pishow.tv/live/278/master.m3u8
+
+
+http://cdn.pishow.tv/live/279/master.m3u8
+
+hmtv
+http://cdn.pishow.tv/live/280/master.m3u8
+
+Colors
+http://cdn.pishow.tv/live/281/master.m3u8
+
+Sony TV
+http://cdn.pishow.tv/live/282/master.m3u8
+
+Sony Pal
+http://cdn.pishow.tv/live/283/master.m3u8
+
+Colors Rishtey
+http://cdn.pishow.tv/live/284/master.m3u8
+
+Sony SAB
+http://cdn.pishow.tv/live/285/master.m3u8
+
+Epic TV 
+http://cdn.pishow.tv/live/286/master.m3u8
+
+Star Sports Khel
+http://cdn.pishow.tv/live/287/master.m3u8
+
+Epic Music
+http://cdn.pishow.tv/live/288/master.m3u8
+
+News18 Delhi NCR JK 
+http://cdn.pishow.tv/live/289/master.m3u8
+
+Sony Wah
+http://cdn.pishow.tv/live/290/master.m3u8
+
+Sony Max
+http://cdn.pishow.tv/live/291/master.m3u8
+
+Colors Cineplex 
+http://cdn.pishow.tv/live/292/master.m3u8
+
+Colors Cineplex Superhits
+http://cdn.pishow.tv/live/293/master.m3u8
+
+Epic bhojpuri 
+http://cdn.pishow.tv/live/294/master.m3u8
+
+Fashion TV
+http://cdn.pishow.tv/live/295/master.m3u8
+
+Star kiran
+http://cdn.pishow.tv/live/296/master.m3u8
+
+GNT
+http://cdn.pishow.tv/live/297/master.m3u8
+
+R. Kannada 
+http://cdn.pishow.tv/live/298/master.m3u8
+
+NDTV India
+http://cdn.pishow.tv/live/299/master.m3u8
+
+Aaj Tak
+http://cdn.pishow.tv/live/300/master.m3u8
+
+Sony Ten 1
+http://cdn.pishow.tv/live/301/master.m3u8
+
+Sony Ten 2
+http://cdn.pishow.tv/live/302/master.m3u8
+
+Sony Ten 3 hindi
+http://cdn.pishow.tv/live/303/master.m3u8
+
+Sony Ten 4 tamil
+http://cdn.pishow.tv/live/304/master.m3u8
+
+Sony Ten 5
+http://cdn.pishow.tv/live/305/master.m3u8
+
+Nick all languages 
+http://cdn.pishow.tv/live/306/master.m3u8
+
+Sonic all languages 
+http://cdn.pishow.tv/live/307/master.m3u8
+
+Nick JR hin,eng
+http://cdn.pishow.tv/live/308/master.m3u8
+
+Epic Kids all languages 
+http://cdn.pishow.tv/live/309/master.m3u8
+
+History TV18 all languages 
+http://cdn.pishow.tv/live/310/master.m3u8
+
+Sony BBC Earth 
+http://cdn.pishow.tv/live/311/master.m3u8
+
+CNN NEWS 18
+http://cdn.pishow.tv/live/312/master.m3u8
+
+Epic Parivar 
+http://cdn.pishow.tv/live/313/master.m3u8
+
+CNBC TV 18
+http://cdn.pishow.tv/live/314/master.m3u8
+
+NDTV 24x7
+http://cdn.pishow.tv/live/315/master.m3u8
+
+Hare Krishna 
+http://cdn.pishow.tv/live/316/master.m3u8
+
+Colors Infinity 
+http://cdn.pishow.tv/live/317/master.m3u8
+
+Sony Pix
+http://cdn.pishow.tv/live/318/master.m3u8
+
+Colors Tamil
+http://cdn.pishow.tv/live/319/master.m3u8
+
+Colors Super 
+http://cdn.pishow.tv/live/320/master.m3u8
+
+Pravah Picture HD
+http://cdn.pishow.tv/live/321/master.m3u8
+
+MH1 News
+http://cdn.pishow.tv/live/322/master.m3u8
+
+CNBC Bajar
+http://cdn.pishow.tv/live/323/master.m3u8
+
+Living India Himachal
+http://cdn.pishow.tv/live/324/master.m3u8
+
+Sony Yay hin
+http://cdn.pishow.tv/live/325/master.m3u8
+
+Colors Cineplex HD
+http://cdn.pishow.tv/live/326/master.m3u8
+
+Colors HD
+http://cdn.pishow.tv/live/327/master.m3u8
+
+Colors Infinity HD
+http://cdn.pishow.tv/live/328/master.m3u8
+
+Sun Marathi
+http://cdn.pishow.tv/live/329/master.m3u8
+
+MTV HD
+http://cdn.pishow.tv/live/330/master.m3u8
+
+PTC Punjabi Gold
+http://cdn.pishow.tv/live/331/master.m3u8
+
+Sony SAB HD
+http://cdn.pishow.tv/live/332/master.m3u8
+
+Sony TV HD
+http://cdn.pishow.tv/live/333/master.m3u8
+
+Sony Max HD
+http://cdn.pishow.tv/live/334/master.m3u8
+
+Sony Ten 5 HD
+http://cdn.pishow.tv/live/335/master.m3u8
+
+Sony Ten 1 HD
+http://cdn.pishow.tv/live/336/master.m3u8
+
+Sony Ten 2 HD
+http://cdn.pishow.tv/live/337/master.m3u8
+
+Sony Ten 3 HD
+http://cdn.pishow.tv/live/338/master.m3u8
+
+Sony BBC Earth HD
+http://cdn.pishow.tv/live/339/master.m3u8
+
+History TV18 HD all languages
+http://cdn.pishow.tv/live/340/master.m3u8
+
+Sony Pix HD
+http://cdn.pishow.tv/live/341/master.m3u8
+
+Nick HD+ all languages
+http://cdn.pishow.tv/live/342/master.m3u8
+
+Colors Kannada HD
+http://cdn.pishow.tv/live/343/master.m3u8
+
+Colors Bangla HD
+http://cdn.pishow.tv/live/344/master.m3u8
+
+Colors Marathi HD
+http://cdn.pishow.tv/live/345/master.m3u8
+
+CNBC TV 18 Prime
+http://cdn.pishow.tv/live/346/master.m3u8
+
+Aaj Tak HD
+http://cdn.pishow.tv/live/347/master.m3u8
+
+Colors Tamil HD
+http://cdn.pishow.tv/live/348/master.m3u8
+
+Fateh TV
+http://cdn.pishow.tv/live/349/master.m3u8
+
+Sony Max 2
+http://cdn.pishow.tv/live/350/master.m3u8
+
+Sony Marathi
+http://cdn.pishow.tv/live/351/master.m3u8
+
+Sony aath
+http://cdn.pishow.tv/live/352/master.m3u8
+
+CNBC Awaaz
+http://cdn.pishow.tv/live/353/master.m3u8
+
+News18 kerlam
+http://cdn.pishow.tv/live/354/master.m3u8
+
+News18 Tamil nadu
+http://cdn.pishow.tv/live/355/master.m3u8
+
+News18 north east
+http://cdn.pishow.tv/live/356/master.m3u8
+
+News18 gujarati
+http://cdn.pishow.tv/live/357/master.m3u8
+
+News18 Bangla
+http://cdn.pishow.tv/live/358/master.m3u8
+
+News18 Kannada
+http://cdn.pishow.tv/live/359/master.m3u8
+
+News18 punjab Himachal
+http://cdn.pishow.tv/live/360/master.m3u8
+
+News18 up uk
+http://cdn.pishow.tv/live/361/master.m3u8
+
+News18 mp
+http://cdn.pishow.tv/live/362/master.m3u8
+
+News18 rajasthan
+http://cdn.pishow.tv/live/363/master.m3u8
+
+News18 bihar jharkhand
+http://cdn.pishow.tv/live/364/master.m3u8
+
+News18 odiya
+http://cdn.pishow.tv/live/365/master.m3u8
+
+News18 India
+http://cdn.pishow.tv/live/366/master.m3u8
+
+Colors Bangla
+http://cdn.pishow.tv/live/367/master.m3u8
+
+Colors Marathi
+http://cdn.pishow.tv/live/368/master.m3u8
+
+Colors Kannada
+http://cdn.pishow.tv/live/369/master.m3u8
+
+Colors gujarati
+http://cdn.pishow.tv/live/370/master.m3u8
+
+all time movie
+http://cdn.pishow.tv/live/371/master.m3u8
+
+Colors gujarati cinema
+http://cdn.pishow.tv/live/372/master.m3u8
+
+Colors bangla cinema
+http://cdn.pishow.tv/live/373/master.m3u8
+
+star Sports 2 hindi
+http://cdn.pishow.tv/live/374/master.m3u8
+
+MTV
+http://cdn.pishow.tv/live/375/master.m3u8
+
+Sony ten 4 Kannada
+http://cdn.pishow.tv/live/376/master.m3u8
+
+Star Sports 2 hindi hd
+http://cdn.pishow.tv/live/377/master.m3u8
+
+TTD
+http://cdn.pishow.tv/live/378/master.m3u8
+
+TTD
+http://cdn.pishow.tv/live/379/master.m3u8
+
+Raj news tamil
+http://cdn.pishow.tv/live/380/master.m3u8
+
+Star Pravah
+http://cdn.pishow.tv/live/381/master.m3u8
+
+NTV
+http://cdn.pishow.tv/live/383/master.m3u8
+
+T News
+http://cdn.pishow.tv/live/385/master.m3u8
+
+TV5 News
+http://cdn.pishow.tv/live/387/master.m3u8
+
+V6 News
+http://cdn.pishow.tv/live/389/master.m3u8
+
+10 TV
+http://cdn.pishow.tv/live/391/master.m3u8
+
+extra et
+http://cdn.pishow.tv/live/393/master.m3u8
+
+CVR Health
+http://cdn.pishow.tv/live/395/master.m3u8
+
+bhakti tv
+http://cdn.pishow.tv/live/397/master.m3u8
+
+aatha gujarati
+http://cdn.pishow.tv/live/399/master.m3u8
+
+Mahaa News
+http://cdn.pishow.tv/live/401/master.m3u8
+
+India News UP UK
+http://cdn.pishow.tv/live/405/master.m3u8
+
+ABN Andhar joti
+http://cdn.pishow.tv/live/407/master.m3u8
+
+sakshi tv
+http://cdn.pishow.tv/live/409/master.m3u8
+
+i News
+http://cdn.pishow.tv/live/411/master.m3u8
+
+Pitaara
+http://cdn.pishow.tv/live/413/master.m3u8
+
+B4U Music
+http://cdn.pishow.tv/live/415/master.m3u8
+
+soham
+http://cdn.pishow.tv/live/417/master.m3u8
+
+B4U movies
+http://cdn.pishow.tv/live/419/master.m3u8
+
+pravah Picture
+http://cdn.pishow.tv/live/421/master.m3u8
+
+ABP Asmita
+http://cdn.pishow.tv/live/423/master.m3u8
+
+CVR News
+http://cdn.pishow.tv/live/425/master.m3u8
+
+ABP Ganga
+http://cdn.pishow.tv/live/427/master.m3u8
+
+Al jazazira
+http://cdn.pishow.tv/live/429/master.m3u8
+
+DW
+http://cdn.pishow.tv/live/431/master.m3u8
+
+Munsif TV
+http://cdn.pishow.tv/live/433/master.m3u8
+
+Aisianet news malayalam
+http://cdn.pishow.tv/live/435/master.m3u8
+
+Saam TV
+http://cdn.pishow.tv/live/437/master.m3u8
+
+Public TV
+http://cdn.pishow.tv/live/439/master.m3u8
+
+Public Music
+http://cdn.pishow.tv/live/441/master.m3u8
+
+Public  Movies
+http://cdn.pishow.tv/live/443/master.m3u8
+
+Aisianet Suvarna News
+http://cdn.pishow.tv/live/445/master.m3u8
+
+Shekinah
+http://cdn.pishow.tv/live/447/master.m3u8
+
+PTC Chak De
+http://cdn.pishow.tv/live/449/master.m3u8
+
+Sholam
+http://cdn.pishow.tv/live/451/master.m3u8
+
+Angel TV HD
+http://cdn.pishow.tv/live/453/master.m3u8
+
+NHK Wolrd Japan
+http://cdn.pishow.tv/live/455/master.m3u8
+
+Shubhsandesh TV 
+http://cdn.pishow.tv/live/457/master.m3u8
+
+sathiyam TV
+http://cdn.pishow.tv/live/459/master.m3u8
+
+Star (language)
+http://cdn.pishow.tv/live/461/master.m3u8
+
+manorama news
+http://cdn.pishow.tv/live/463/master.m3u8
+
+Swadesh News
+http://cdn.pishow.tv/live/465/master.m3u8
+
+Vanavil
+http://cdn.pishow.tv/live/467/master.m3u8
+
+K News India
+http://cdn.pishow.tv/live/469/master.m3u8
+
+ABP Majha
+http://cdn.pishow.tv/live/471/master.m3u8
+
+Santvani
+http://cdn.pishow.tv/live/475/master.m3u8
+
+Sawraj Express SMBC
+http://cdn.pishow.tv/live/477/master.m3u8
+
+
+
+
+
+
+
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+
+
+video
+http://cdn.pishow.tv/live/306/306_0.m3u8
+
+bangla
+http://cdn.pishow.tv/live/306/306_6.m3u8
+
+hindi
+http://cdn.pishow.tv/live/306/306_1.m3u8
+
+kannada
+http://cdn.pishow.tv/live/306/306_2.m3u8
+
+malayalam
+http://cdn.pishow.tv/live/306/306_5.m3u8
+
+Marathi
+http://cdn.pishow.tv/live/306/306_7.m3u8
+
+tamil
+http://cdn.pishow.tv/live/306/306_4.m3u8
+
+Telugu
+http://cdn.pishow.tv/live/306/306_3.m3u8
+
+
+
+
+
+https://d2o8pibksxtln6.cloudfront.net/live/media/Music_India/hls_fta/Music_India.m3u8
+
+https://d21oc15hr8j9zd.cloudfront.net/livetv/clients/watcho/aajtak_watcho_v2.m3u8
+https://watcho-v2-aajtaklive.akamaized.net/hls/live/2014416/aajtak-v2/aajtaklive/live_720p/chunks.m3u8
+
+
+
+
+
+
+
+#EXTM3U
+#EXT-X-VERSION:6
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="eng",URI="230_0.m3u8"
+#EXT-X-STREAM-INF:BANDWIDTH=2340800,RESOLUTION=1024x576,CODECS="avc1.4d401f,mp4a.40.2",AUDIO="group_audio"
+230_1.m3u8
+
+#EXT-X-STREAM-INF:BANDWIDTH=690800,RESOLUTION=424x240,CODECS="avc1.4d4015,mp4a.40.2",AUDIO="group_audio"
+230_2.m3u8
+
+
+
+
+
+
+http://cdn.pishow.tv/live/1111/master.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
