@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="eng",URI="http://cdn.pishow.tv/live/340/340_1.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="eng",URI="http://cdn.pishow.tv/live/340/340_3.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="eng",URI="http://cdn.pishow.tv/live/340/340_4.m3u8"
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="hin",URI="http://cdn.pishow.tv/live/340/340_2.m3u8"
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="tam",URI="http://cdn.pishow.tv/live/340/340_3.m3u8"
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="group_audio",NAME="audio_0",DEFAULT=YES,LANGUAGE="tel",URI="http://cdn.pishow.tv/live/340/340_4.m3u8"
 #EXT-X-STREAM-INF:BANDWIDTH=7310000,RESOLUTION=1920x1080,CODECS="avc1.4d001f,mp4a.40.2",AUDIO="group_audio"
 http://cdn.pishow.tv/live/340/340_0.m3u8
