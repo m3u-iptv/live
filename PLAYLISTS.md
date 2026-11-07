@@ -1,0 +1,105 @@
+
+
+### Grouped by category
+
+Playlists in which channels are grouped by category.
+
+<details>
+<summary>Expand</summary>
+<br>
+
+```
+https://m3u-iptv.github.io/live/index.category.m3u
+```
+
+Same thing, but split up into separate files:
+
+<!-- prettier-ignore -->
+<table>
+  <thead>
+    <tr><th align="left">Category</th><th align="left">Channels</th><th align="left">Playlist</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Entertainment</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/entertainment.m3u</code></td></tr>
+    <tr><td>Movies</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/movies.m3u</code></td></tr>
+    <tr><td>Music</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/music.m3u</code></td></tr>
+    <tr><td>Kids</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/kids.m3u</code></td></tr>
+    <tr><td>News</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/news.m3u</code></td></tr>
+    <tr><td>Sports</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/sports.m3u</code></td></tr>
+    <tr><td>Infotainment</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/infotainment.m3u</code></td></tr>
+    <tr><td>Lifestyle</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/Lifestyle.m3u</code></td></tr>
+    <tr><td>Religious</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/religious.m3u</code></td></tr>
+    <tr><td>Education</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/education.m3u</code></td></tr>
+    <tr><td>Others</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/others.m3u</code></td></tr>
+    <tr><td>General</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/general.m3u</code></td></tr>
+    <tr><td>Travel</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/travel.m3u</code></td></tr>
+    <tr><td>Weather</td><td align="right"></td><td nowrap><code>https://m3u-iptv.github.io/live/categories/weather.m3u</code></td></tr>
+  </tbody>
+</table>
+
+</details>
+
+### Grouped by language
+
+
+<details>
+<summary>Expand</summary>
+<br>
+
+```
+https://m3u-iptv.github.io/live/index.language.m3u
+```
+
+Same thing, but split up into separate files:
+
+<!-- prettier-ignore -->
+<table>
+  <thead>
+    <tr><th align="left">Language</th><th align="left">Channels</th><th align="left">Playlist</th></tr>
+  </thead>
+  <tbody>
+    <tr><td align="left">Assamese</td><td align="right">16</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/asm.m3u</code></td></tr>
+    <tr><td align="left">Bengali</td><td align="right">107</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/ben.m3u</code></td></tr>
+    <tr><td align="left">Bhojpuri</td><td align="right">14</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/bho.m3u</code></td></tr>
+    <tr><td align="left">English</td><td align="right">3045</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/eng.m3u</code></td></tr>
+    <tr><td align="left">Gujarati</td><td align="right">23</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/guj.m3u</code></td></tr>
+    <tr><td align="left">Haryanvi</td><td align="right">1</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/har.m3u</code></td></tr>
+    <tr><td align="left">Hindi</td><td align="right">388</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/hin.m3u</code></td></tr>
+    <tr><td align="left">Kannada</td><td align="right">39</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/kan.m3u</code></td></tr>
+    <tr><td align="left">Malayalam</td><td align="right">72</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/mal.m3u</code></td></tr>
+    <tr><td align="left">Marathi</td><td align="right">29</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/mar.m3u</code></td></tr>
+    <tr><td align="left">Mizo</td><td align="right">2</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/miz.m3u</code></td></tr>
+    <tr><td align="left">Nepali</td><td align="right">16</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/nep.m3u</code></td></tr>
+    <tr><td align="left">Odia & Oriya</td><td align="right">2</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/odi.m3u</code></td></tr>
+    <tr><td align="left">Punjabi</td><td align="right">75</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/pun.m3u</code></td></tr>
+    <tr><td align="left">Rajasthani</td><td align="right">654</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/raj.m3u</code></td></tr>
+    <tr><td align="left">Tamil</td><td align="right">132</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/tam.m3u</code></td></tr>
+    <tr><td align="left">Telugu</td><td align="right">86</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/tel.m3u</code></td></tr>
+    <tr><td align="left">Urdu</td><td align="right">86</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/urd.m3u</code></td></tr>
+    <tr><td align="left">Others</td><td align="right">20</td><td align="left" nowrap><code>https://iptv-org.github.io/iptv/languages/oth.m3u</code></td></tr>
+  </tbody>
+</table>
+
+</details>
+
+### Grouped by sources
+
+Playlists in which channels are grouped by broadcast source.
+
+<details>
+<summary>Expand</summary>
+<br>
+
+To use the playlist, simply replace `<FILENAME>` in the link below with the name of one of the files in the [streams](streams) folder.
+
+```
+https://m3u-iptv.github.io/live/sources/<FILENAME>.m3u
+```
+
+</details>
+
+Also, any of our internal playlists are available in raw form (without any filtering or sorting) at this link:
+
+```
+https://m3u-iptv.github.io/live/raw/<FILENAME>.m3u
+```
