@@ -1,8 +1,6 @@
-### M3U-IPTV ALL CHANNELS 2026 
+### M3U-IPTV ALL CHANNELS 2026
 
 TOTAL CHANNELS 1200
-
-### M3U-IPTV ALL CHANNELS
 
 ```
 https://m3u-iptv.github.io/live/index.m3u
