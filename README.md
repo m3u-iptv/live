@@ -16,25 +16,25 @@ https://m3u-iptv.github.io/live/index.m3u
 
 ### ALL TV CHANNELS LANGUAGES NAME LIST
 
-1. Assamese
-2. Bengali
-3. Bhojpuri
-4. English
-5. Gujarati
-6. Haryanvi 
-7. Hindi
-8. Kannada
-9. Malayalam
-10. Marathi
-11. Mizo
-12. Oriya (Odiya)
-13. Punjabi
-14. Rajasthani
-15. Tamil
-16. Telugu
-17. Urdu
-18. Others
-19. 
+1. Assamese (অসমীয়া)
+2. Bengali (বাংলা)
+3. Bhojpuri (भोजपुरी)
+4. English (English)
+5. Gujarati (ગુજરાતી)
+6. Haryanvi (हरियाणवी)
+7. Hindi (हिन्दी)
+8. Kannada (ಕನ್ನಡ)
+9. Malayalam (മലയാളം)
+10. Marathi (मराठी)
+11. Mizo (Mizo)
+12. Odia & Oriya (ଓଡ଼ିଆ)
+13. Punjabi (ਪੰਜਾਬੀ)
+14. Rajasthani (राजस्थानी)
+15. Tamil (தமிழ்)
+16. Telugu (తెలుగు)
+17. Urdu (उर्दू)
+18. Others (others)
+
 
 
 ### Images Original Link
