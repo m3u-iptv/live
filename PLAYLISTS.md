@@ -2,6 +2,19 @@
 
 TOTAL CHANNELS 1200
 
+### M3U-IPTV ALL CHANNELS
+
+<details>
+<summary>Expand</summary>
+<br>
+
+```
+https://m3u-iptv.github.io/live/index.m3u
+```
+
+</details>
+
+
 ### M3U-IPTV CATEGORIES 
 
 <details>
@@ -81,19 +94,6 @@ All Languages M3U
 </table>
 
 </details>
-
-### M3U-IPTV ALL CHANNELS
-
-<details>
-<summary>Expand</summary>
-<br>
-
-```
-https://m3u-iptv.github.io/live/index.m3u
-```
-
-</details>
-
 
 ### M3U-IPTV ALL LANGUAGES NAME LIST
 
