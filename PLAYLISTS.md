@@ -129,7 +129,7 @@ All Languages Channels Name List.
 
 
 
-###  M3U Streams
+###  Streams
 
 <details>
 <summary>Expand</summary>
