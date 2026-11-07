@@ -17,11 +17,8 @@ https://m3u-iptv.github.io/live/index.categories.m3u
 ```
 https://m3u-iptv.github.io/live/index.languages.m3u
 ```
-### M3U-IPTV STREAMS
 
 ### M3U-IPTV STREAMS
-
-Channels Nemes `<FILENAME>` [streams](streams) folder.
 
 ```
 https://raw.githubusercontent.com/m3u-iptv/live/main/streams/ZeeTVHDAPAC.m3u8
