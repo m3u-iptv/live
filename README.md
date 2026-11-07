@@ -21,17 +21,11 @@ https://m3u-iptv.github.io/live/index.languages.m3u
 ```
 ### M3U-IPTV STREAMS
 
-<details>
-<summary>Expand</summary>
-<br>
-
 Channels Nemes `<FILENAME>` [streams](streams) folder.
 
 ```
 https://raw.githubusercontent.com/m3u-iptv/live/main/streams/<FILENAME>.m3u8
 ```
-
-</details>
 
 ### IMAGES PNG ORIGINAL LINKS
 
