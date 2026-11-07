@@ -1,10 +1,10 @@
 ### M3U-IPTV PLAYER APPS DOWNLOAD 
 
-CLICK LINK AUTO DOWNLOAD APPS
-
 <details>
 <summary>Expand</summary>
 <br>
+
+CLICK LINK AUTO DOWNLOAD APPS
 
 https://cdn.m3u-ip.tv/latest-android.apk
 
