@@ -150,8 +150,7 @@ https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
 
 </details>
 
-### Images Demo Link 
-
+### IMAGES PNG DEMO LINKS
 <details>
 <summary>Expand</summary>
 <br>
