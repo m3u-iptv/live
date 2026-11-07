@@ -1,5 +1,3 @@
-
-
 ### Grouped by category
 
 Playlists in which channels are grouped by category.
