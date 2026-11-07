@@ -16,6 +16,10 @@ https://m3u-iptv.github.io/live/index.m3u
 
 ### ALL TV CHANNELS LANGUAGES NAME LIST
 
+<details>
+<summary>Expand</summary>
+<br>
+
 1. Assamese (অসমীয়া)
 2. Bengali (বাংলা)
 3. Bhojpuri (भोजपुरी)
