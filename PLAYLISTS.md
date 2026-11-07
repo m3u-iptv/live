@@ -88,8 +88,9 @@ Same thing, but split up into separate files:
 <summary>Expand</summary>
 <br>
 
+```
 https://m3u-iptv.github.io/live/index.m3u
-
+```
 
 ### M3U-IPTV STREAMS
 
