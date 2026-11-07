@@ -91,6 +91,8 @@ All Languages M3U
 https://m3u-iptv.github.io/live/index.m3u
 ```
 
+</details>
+
 ### M3U-IPTV STREAMS
 
 <details>
