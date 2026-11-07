@@ -6,7 +6,7 @@
 
 # Link 1
 
-https://github.com/m3u-iptv/live/blob/main/Images/10_TV.png?raw=true
+https://github.com/m3u-iptv/live/main/Images/10_TV.png?raw=true
 
 # Link 2
 
