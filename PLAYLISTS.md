@@ -138,7 +138,7 @@ https://raw.githubusercontent.com/m3u-iptv/live/main/streams/<FILENAME>.m3u8
 
 </details>
 
-### Images PNG Link
+### IMAGES PNG ORIGINAL LINKS
 
 <details>
 <summary>Expand</summary>
