@@ -30,6 +30,7 @@ https://raw.githubusercontent.com/m3u-iptv/live/main/streams/<FILENAME>.m3u8
 ```
 https://raw.githubusercontent.com/m3u-iptv/live/main/streams/ZeeTVHDAPAC.m3u8
 ```
+<details>
 
 ### IMAGES PNG ORIGINAL LINKS
 
