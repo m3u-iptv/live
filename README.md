@@ -23,13 +23,17 @@ https://m3u-iptv.github.io/live/index.languages.m3u
 
 Channels Nemes `<FILENAME>` [streams](streams) folder.
 
-```
 https://raw.githubusercontent.com/m3u-iptv/live/main/streams/<FILENAME>.m3u8
+
+```
+https://raw.githubusercontent.com/m3u-iptv/live/main/streams/ZeeTVHDAPAC.m3u8
 ```
 
 ### IMAGES PNG ORIGINAL LINKS
 
 Click to link Turn on
+
+Channels Nemes `<FILENAME>` [images](images) folder.
 
 https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
 
