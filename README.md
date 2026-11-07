@@ -2,6 +2,10 @@
 
 CLICK LINK AUTO DOWNLOAD APPS
 
+<details>
+<summary>Expand</summary>
+<br>
+
 https://cdn.m3u-ip.tv/latest-android.apk
 
 ```
@@ -9,6 +13,10 @@ https://cdn.m3u-ip.tv/latest-android.apk
 ```
 
 ### NETWORK STREAM PLAYER APPS DOWNLOAD 
+
+<details>
+<summary>Expand</summary>
+<br>
 
 CLICK LINK AUTO DOWNLOAD APPS
 
