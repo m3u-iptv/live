@@ -1,6 +1,6 @@
 ### NETWORK STREAM PLAYER DOWNLOAD 
 
-Click LINK AUTO DOWNLOAD APPS
+CLICK LINK AUTO DOWNLOAD APPS
 
 https://github.com/m3u-iptv/live/raw/refs/heads/main/network-stream-video-player-4-4.apk
 
