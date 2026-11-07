@@ -1,6 +1,6 @@
-### M3U-IPTV All Channels 2026
+### M3U-IPTV M3U File Links 2026
 
-TOTAL CHANNELS 1200
+Indian TV Channels Total 1200.
 
 <details>
 <summary>Expand</summary>
@@ -13,7 +13,9 @@ https://m3u-iptv.github.io/live/index.m3u
 </details>
 
 
-### M3U-IPTV CATEGORIES 
+### Grouped By Category
+
+Indian TV Channels.
 
 <details>
 <summary>Expand</summary>
@@ -50,8 +52,9 @@ Same thing, but split up into separate files:
 
 </details>
 
-### M3U-IPTV LANGUAGES
+### Grouped By Language
 
+Indian TV Channels.
 
 <details>
 <summary>Expand</summary>
@@ -93,7 +96,9 @@ All Languages M3U
 
 </details>
 
-### M3U-IPTV ALL LANGUAGES NAME LIST
+### Grouped By Language
+
+All Languages Channels Name List.
 
 <details>
 <summary>Expand</summary>
@@ -124,7 +129,9 @@ All Languages M3U
 
 
 
-### M3U-IPTV STREAMS
+###  M3U Streams
+
+Indian TV Channels.
 
 <details>
 <summary>Expand</summary>
@@ -138,7 +145,9 @@ https://raw.githubusercontent.com/m3u-iptv/live/main/streams/<FILENAME>.m3u8
 
 </details>
 
-### IMAGES PNG ORIGINAL LINKS
+### Images Demo Link 1
+
+Indian TV Channels.
 
 <details>
 <summary>Expand</summary>
@@ -152,9 +161,11 @@ https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
 https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
 ```
 
-</details>
 
-### IMAGES PNG DEMO LINKS
+### Images Demo Link 1
+
+Indian TV Channels.
+
 <details>
 <summary>Expand</summary>
 <br>
