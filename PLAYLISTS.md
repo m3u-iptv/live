@@ -49,8 +49,7 @@ Same thing, but split up into separate files:
 ```
 https://m3u-iptv.github.io/live/index.language.m3u
 ```
-
-Same thing, but split up into separate files:
+All Languages M3U
 
 <!-- prettier-ignore -->
 <table>
@@ -76,7 +75,7 @@ Same thing, but split up into separate files:
     <tr><td align="left">Tamil</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/tam.m3u</code></td></tr>
     <tr><td align="left">Telugu</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/tel.m3u</code></td></tr>
     <tr><td align="left">Urdu</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/urd.m3u</code></td></tr>
-    <tr><td align="left">Others</td><td align="right">0</td><td align="left" nowrap><code>```https://iptv-org.github.io/iptv/languages/oth.m3u```</code></td></tr>
+    <tr><td align="left">Others</td><td align="right">0</td><td align="left" nowrap><code>https://iptv-org.github.io/iptv/languages/oth.m3u</code></td></tr>
   </tbody>
 </table>
 
