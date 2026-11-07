@@ -1,4 +1,4 @@
-### M3U-IPTV ALL CHANNELS 2026 
+### M3U-IPTV TOP CHANNELS 2026 
 
 TOTAL CHANNELS 1200
 
@@ -93,6 +93,38 @@ https://m3u-iptv.github.io/live/index.m3u
 
 </details>
 
+
+### M3U-IPTV ALL LANGUAGES NAME LIST
+
+<details>
+<summary>Expand</summary>
+<br>
+
+1. Assamese (অসমীয়া)
+2. Bengali (বাংলা)
+3. Bhojpuri (भोजपुरी)
+4. English (English)
+5. Gujarati (ગુજરાતી)
+6. Haryanvi (हरियाणवी)
+7. Hindi (हिन्दी)
+8. Kannada (ಕನ್ನಡ)
+9. Malayalam (മലയാളം)
+10. Marathi (मराठी)
+11. Mizo (Mizo)
+12. Nepali (नेपाली)
+13. Odia & Oriya (ଓଡ଼ିଆ)
+14. Punjabi (ਪੰਜਾਬੀ)
+15. Rajasthani (राजस्थानी)
+16. Tamil (தமிழ்)
+17. Telugu (తెలుగు)
+18. Urdu (उर्दू)
+19. Others (others)
+
+
+</details>
+
+
+
 ### M3U-IPTV STREAMS
 
 <details>
@@ -106,5 +138,30 @@ https://raw.githubusercontent.com/m3u-iptv/live/main/streams/<FILENAME>.m3u8
 ```
 
 </details>
+
+### Images PNG Link
+
+<details>
+<summary>Expand</summary>
+<br>
+
+```
+https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
+```
+
+</details>
+
+### Images Demo Link 
+
+<details>
+<summary>Expand</summary>
+<br>
+
+```
+https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/XXXX.png
+```
+
+</details>
+
 
 
