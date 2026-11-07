@@ -30,7 +30,6 @@ https://raw.githubusercontent.com/m3u-iptv/live/main/streams/<FILENAME>.m3u8
 ```
 https://raw.githubusercontent.com/m3u-iptv/live/main/streams/ZeeTVHDAPAC.m3u8
 ```
-<details>
 
 ### IMAGES PNG ORIGINAL LINKS
 
@@ -48,8 +47,6 @@ https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
 https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
 ```
 
-<details>
-
 ### IMAGES PNG DEMO LINKS
 
 <details>
@@ -61,7 +58,3 @@ https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME
 ```
 https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME>.png
 ```
-
-<details>
-
-
