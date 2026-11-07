@@ -8,7 +8,7 @@ https://m3u-iptv.github.io/live/index.m3u
 
 ### M3U-IPTV CATEGORIES 
 
- ```
+```
 https://m3u-iptv.github.io/live/index.categories.m3u
 ```
 
@@ -19,13 +19,9 @@ https://m3u-iptv.github.io/live/index.languages.m3u
 ```
 ### M3U-IPTV STREAMS
 
-<details>
-<summary>Expand</summary>
-<br>
+### M3U-IPTV STREAMS
 
 Channels Nemes `<FILENAME>` [streams](streams) folder.
-
-https://raw.githubusercontent.com/m3u-iptv/live/main/streams/<FILENAME>.m3u8
 
 ```
 https://raw.githubusercontent.com/m3u-iptv/live/main/streams/ZeeTVHDAPAC.m3u8
@@ -33,27 +29,11 @@ https://raw.githubusercontent.com/m3u-iptv/live/main/streams/ZeeTVHDAPAC.m3u8
 
 ### IMAGES PNG ORIGINAL LINKS
 
-<details>
-<summary>Expand</summary>
-<br>
-
-Click to link Turn on
-
-Channels Nemes `<FILENAME>` [Images](Images) folder.
-
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
-
 ```
 https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
 ```
 
 ### IMAGES PNG DEMO LINKS
-
-<details>
-<summary>Expand</summary>
-<br>
-
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME>.png
 
 ```
 https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME>.png
