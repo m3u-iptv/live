@@ -1,30 +1,3 @@
-### M3U-IPTV PLAYER APPS DOWNLOAD 
-
-<details>
-<summary>Expand</summary>
-<br>
-<details>
-  
-CLICK LINK AUTO DOWNLOAD APPS
-
-https://cdn.m3u-ip.tv/latest-android.apk
-
-
-
-### NETWORK STREAM PLAYER APPS DOWNLOAD 
-
-<details>
-<summary>Expand</summary>
-<br>
-
-CLICK LINK AUTO DOWNLOAD APPS
-
-https://github.com/m3u-iptv/live/raw/refs/heads/main/network-stream-video-player-4-4.apk
-
-```
-https://github.com/m3u-iptv/live/raw/refs/heads/main/network-stream-video-player-4-4.apk
-```
-
 ### M3U-IPTV ALL CHANNELS 2026
 
 TOTAL CHANNELS 1200
@@ -45,20 +18,15 @@ https://m3u-iptv.github.io/live/index.categories.m3u
 https://m3u-iptv.github.io/live/index.languages.m3u
 ```
 
-### M3U-IPTV STREAMS
+### M3U-IPTV PLAYER APPS DOWNLOAD 
 
-```
-https://raw.githubusercontent.com/m3u-iptv/live/main/streams/ZeeTVHDAPAC.m3u8
-```
+CLICK LINK AUTO DOWNLOAD APPS
 
-### IMAGES PNG ORIGINAL LINKS
+https://cdn.m3u-ip.tv/latest-android.apk
 
-```
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
-```
+### NETWORK STREAM PLAYER APPS DOWNLOAD 
 
-### IMAGES PNG DEMO LINKS
+CLICK LINK AUTO DOWNLOAD APPS
 
-```
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME>.png
-```
+https://github.com/m3u-iptv/live/raw/refs/heads/main/network-stream-video-player-4-4.apk
+
