@@ -2,10 +2,6 @@
 
 TOTAL CHANNELS 1200
 
-<details>
-<summary>Expand</summary>
-<br>
-
  ```
 https://m3u-iptv.github.io/live/index.categories.m3u
 ```
