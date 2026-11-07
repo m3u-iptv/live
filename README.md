@@ -27,13 +27,14 @@ https://m3u-iptv.github.io/live/index.m3u
 9. Malayalam (മലയാളം)
 10. Marathi (मराठी)
 11. Mizo (Mizo)
-12. Odia & Oriya (ଓଡ଼ିଆ)
-13. Punjabi (ਪੰਜਾਬੀ)
-14. Rajasthani (राजस्थानी)
-15. Tamil (தமிழ்)
-16. Telugu (తెలుగు)
-17. Urdu (उर्दू)
-18. Others (others)
+12. Nepali (नेपाली)
+13. Odia & Oriya (ଓଡ଼ିଆ)
+14. Punjabi (ਪੰਜਾਬੀ)
+15. Rajasthani (राजस्थानी)
+16. Tamil (தமிழ்)
+17. Telugu (తెలుగు)
+18. Urdu (उर्दू)
+19. Others (others)
 
 
 ### Images Original Link
