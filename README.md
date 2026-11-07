@@ -11,7 +11,7 @@ https://m3u-iptv.github.io/live/index.m3u
 ### M3U-IPTV CATEGORIES 
 
  ```
-https://m3u-iptv.github.io/live/index.category.m3u
+https://m3u-iptv.github.io/live/index.categories.m3u
 ```
 
 ### M3U-IPTV LANGUAGES
