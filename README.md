@@ -16,6 +16,12 @@ https://m3u-iptv.github.io/live/index.categories.m3u
 
 ### M3U-IPTV LANGUAGES
 
+CLICK PLAY LINK 
+
+https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME>.png
+
+Click to link Turn on
+
 ```
 https://m3u-iptv.github.io/live/index.languages.m3u
 ```
