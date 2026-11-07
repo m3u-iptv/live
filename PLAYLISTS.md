@@ -50,10 +50,6 @@ Same thing, but split up into separate files:
 https://m3u-iptv.github.io/live/index.language.m3u
 ```
 
-```
-https://m3u-iptv.github.io/live/categories/<filename>.m3u
-```
-
 All Languages M3U
 
 <!-- prettier-ignore -->
@@ -163,7 +159,7 @@ https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
 <br>
 
 ```
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/XXXX.png
+https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME>.png
 ```
 
 </details>
