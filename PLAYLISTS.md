@@ -144,6 +144,10 @@ https://raw.githubusercontent.com/m3u-iptv/live/main/streams/<FILENAME>.m3u8
 <summary>Expand</summary>
 <br>
 
+Click to link Turn on
+
+https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
+
 ```
 https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
 ```
