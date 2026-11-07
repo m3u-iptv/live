@@ -131,8 +131,6 @@ All Languages Channels Name List.
 
 ###  M3U Streams
 
-Indian TV Channels.
-
 <details>
 <summary>Expand</summary>
 <br>
@@ -145,15 +143,13 @@ https://raw.githubusercontent.com/m3u-iptv/live/main/streams/<FILENAME>.m3u8
 
 </details>
 
-### Images Demo Link 1
-
-Indian TV Channels.
+### Images 
 
 <details>
 <summary>Expand</summary>
 <br>
 
-Click to link Turn on
+Click to link Turn on.
 
 https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
 
@@ -161,14 +157,7 @@ https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
 https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
 ```
 
-
-### Images Demo Link 1
-
-Indian TV Channels.
-
-<details>
-<summary>Expand</summary>
-<br>
+https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME>.png
 
 ```
 https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME>.png
