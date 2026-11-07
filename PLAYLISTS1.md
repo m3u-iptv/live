@@ -41,8 +41,12 @@ https://m3u-iptv.github.io/live/index.m3u
 19. Others (others)
 
 
-### Images Original Link
+### Images PNG Link
 
+<details>
+<summary>Expand</summary>
+<br>
+  
 https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
 
 
