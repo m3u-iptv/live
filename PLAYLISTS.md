@@ -49,6 +49,11 @@ Same thing, but split up into separate files:
 ```
 https://m3u-iptv.github.io/live/index.language.m3u
 ```
+
+```
+https://m3u-iptv.github.io/live/categories/<filename>.m3u
+```
+
 All Languages M3U
 
 <!-- prettier-ignore -->
