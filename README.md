@@ -3,12 +3,13 @@
 <details>
 <summary>Expand</summary>
 <br>
-
+<details>
+  
 CLICK LINK AUTO DOWNLOAD APPS
 
 https://cdn.m3u-ip.tv/latest-android.apk
 
-<details>
+
 
 ### NETWORK STREAM PLAYER APPS DOWNLOAD 
 
