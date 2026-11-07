@@ -1,3 +1,13 @@
+### NETWORK STREAM PLAYER DOWNLOAD 
+
+Click LINK AUTO DOWNLOAD APPS
+
+https://github.com/m3u-iptv/live/raw/refs/heads/main/network-stream-video-player-4-4.apk
+
+```
+https://github.com/m3u-iptv/live/raw/refs/heads/main/network-stream-video-player-4-4.apk
+```
+
 ### M3U-IPTV ALL CHANNELS 2026
 
 TOTAL CHANNELS 1200
