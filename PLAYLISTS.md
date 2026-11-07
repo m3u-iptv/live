@@ -84,6 +84,10 @@ Same thing, but split up into separate files:
 
 ### M3U-IPTV ALL CHANNELS
 
+<details>
+<summary>Expand</summary>
+<br>
+
 https://m3u-iptv.github.io/live/index.m3u
 
 
