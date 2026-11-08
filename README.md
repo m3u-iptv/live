@@ -192,6 +192,12 @@ https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME
 https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME>.png
 ```
 
+EPG DEMO URL
+
+```
+https://raw.githubusercontent.com/m3u-iptv/live/main/epg/xml.gz
+```
+
 </details>
 
 
