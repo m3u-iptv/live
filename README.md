@@ -195,7 +195,8 @@ https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME
 EPG ORIGINAL URL AUTO UPDATE 
 
 ```
-https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz;https://i.mjh.nz/SamsungTVPlus/all.xml.gz;https://i.mjh.nz/Plex/all.xml.gz;https://avkb.short.gy/epg.xml.gz;https://www.open-epg.com/files/india.xml;https://www.open-epg.com/files/unitedkingdom.xml;https://www.open-epg.com/files/hongkong4.xml;https://www.open-epg.com/files/unitedstates10.xml```
+https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz;https://i.mjh.nz/SamsungTVPlus/all.xml.gz;https://i.mjh.nz/Plex/all.xml.gz;https://avkb.short.gy/epg.xml.gz;https://www.open-epg.com/files/india.xml;https://www.open-epg.com/files/unitedkingdom.xml;https://www.open-epg.com/files/hongkong4.xml;https://www.open-epg.com/files/unitedstates10.xml
+```
 
 EPG DEMO URL
 
