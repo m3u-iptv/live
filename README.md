@@ -156,7 +156,7 @@ https://github.com/m3u-iptv/live/raw/refs/heads/main/M3U-IPTV-PLAYER-latest-andr
 
 ### Network Stream Player Apps Download
 
-Click Link Auto Apps Download.
+1.Original Not Update Version Click Link Auto Apps Download.
 
 https://github.com/m3u-iptv/live/raw/refs/heads/main/network-stream-video-player-4-4.apk
 
