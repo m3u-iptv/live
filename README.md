@@ -96,9 +96,9 @@ All Languages M3U
 
 </details>
 
-### Grouped By Language
+### Grouped By Language Name List
 
-All Languages Channels Name List.
+All Languages Name List.
 
 <details>
 <summary>Expand</summary>
