@@ -129,7 +129,7 @@ All Languages Channels Name List.
 
 
 
-###  Streams
+###  M3U8 Streams Link Demo
 
 <details>
 <summary>Expand</summary>
@@ -162,12 +162,17 @@ https://github.com/m3u-iptv/live/raw/refs/heads/main/M3U-IPTV-PLAYER-latest-andr
 
 ### Network Stream Player Apps Download
 
+<details>
+<summary>Expand</summary>
+<br>
+
 1.Original Not Update Version Click Link Auto Apps Download.
 
 https://github.com/m3u-iptv/live/raw/refs/heads/main/network-stream-video-player-4-4.apk
 
+</details>
 
-### Images 
+### Images Link Demo 
 
 <details>
 <summary>Expand</summary>
