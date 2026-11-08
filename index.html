@@ -5,20 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Mobile Live TV App</title>
     
-    <!-- Video Player CSS (Online Library for M3U8 Video Support) -->
-    <link href="https://zencdn.net" rel="stylesheet" />
-    
     <style>
         body { font-family: Arial, sans-serif; background-color: #121212; color: white; margin: 0; padding: 10px; }
         h2 { text-align: center; color: #ff3333; margin-top: 10px; }
         
         /* Video Player Styling */
         .player-container { width: 100%; margin-bottom: 20px; display: none; background: #000; border-radius: 8px; overflow: hidden; }
-        .video-js { width: 100% !important; height: 220px !important; }
+        video { width: 100%; height: 220px; background: black; }
         
         /* Categories Horizontal Slider */
         .category-container { display: flex; overflow-x: auto; gap: 10px; padding: 10px 0; margin-bottom: 15px; }
-        .category-container::-webkit-scrollbar { display: none; } /* Hide scrollbar */
+        .category-container::-webkit-scrollbar { display: none; } 
         .category-btn { background-color: #333; color: white; border: none; padding: 8px 16px; border-radius: 20px; white-space: nowrap; cursor: pointer; font-size: 14px; font-weight: bold; }
         .category-btn.active { background-color: #ff3333; }
         
@@ -37,11 +34,9 @@
 
     <h2>🪔 My Live TV App</h2>
 
-    <!-- 1. VIDEO PLAYER -->
+    <!-- 1. HTML5 VIDEO PLAYER -->
     <div class="player-container" id="playerBox">
-        <video id="my-video" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto">
-            <p class="vjs-no-js">To view this video please enable JavaScript</p>
-        </video>
+        <video id="my-video" controls autoplay playsinline></video>
     </div>
 
     <!-- 2. CATEGORIES BUTTONS -->
@@ -54,54 +49,51 @@
 
     <!-- 3. CHANNELS LIST -->
     <div class="channel-list" id="channelListBox">
-        <!-- Channels dynamic roop se yahan load honge -->
+        <!-- Channels will load here immediately -->
     </div>
 
-    <!-- MAIN JAVASCRIPT (Sahi Video Engine Library) -->
-    <script src="https://zencdn.net"></script>
+    <!-- HLS Library loaded at the bottom so it doesn't block the UI -->
+    <script src="https://jsdelivr.net"></script>
     
     <script>
-        // === JAVASCRIPT LOGIC AUR DATA CODE ===
-        
-        // Channels Data: Yahan aapka naya DD News link lag chuka hai
+        // === LIVE CHANNELS DATA ===
         const allChannels = [
             { 
                 name: "DD News", 
                 category: "News", 
                 lang: "Hindi", 
                 logo: "DD", 
-                url: "https://cdn.pishow.tv/ott/live/12/master.m3u8" // <-- Aapka bheja hua naya link yahan add ho gaya hai
+                url: "https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunklist.m3u8"
             },
             { 
-                name: "Sample Sports", 
+                name: "Live Sports Stream", 
                 category: "Sports", 
                 lang: "English", 
                 logo: "SP", 
-                url: "https://akamaihd.net" 
+                url: "https://playhls.media.nic.in/hls/live/ddnews/ddnews.m3u8" 
             },
             { 
-                name: "Test Movies Channel", 
+                name: "Test Movie Channel", 
                 category: "Movies", 
-                lang: "Hindi", 
+                lang: "English", 
                 logo: "MV", 
-                url: "https://unified-streaming.com" 
+                url: "https://playhls.media.nic.in/hls/live/ddnews/ddnews.m3u8" 
             }
         ];
 
         let activeCategory = 'All';
-        
-        // Video player ko initialize kar rahe hain
-        const player = videojs('my-video');
+        const videoElement = document.getElementById('my-video');
+        let hlsInstance = null;
 
-        // Screen par channels dikhane ka function
+        // Display channels safely and immediately
         function displayChannels() {
             const listBox = document.getElementById('channelListBox');
-            listBox.innerHTML = ''; // Purani list clear karein
+            if (!listBox) return;
+            
+            listBox.innerHTML = ''; 
 
-            // Filter logic
             const filtered = allChannels.filter(c => activeCategory === 'All' || c.category === activeCategory);
 
-            // UI mein cards jodna
             filtered.forEach(channel => {
                 const card = document.createElement('div');
                 card.className = 'channel-card';
@@ -118,26 +110,48 @@
             });
         }
 
-        // Category badalne ka function
         function filterCategory(category) {
             activeCategory = category;
             document.querySelectorAll('.category-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.innerText === category);
             });
-            displayChannels(); // Nayi list dikhayein
+            displayChannels(); 
         }
 
-        // Channel play karne ka function
         function playChannel(url) {
-            document.getElementById('playerBox').style.display = 'block'; // Player box show karein
-            player.src({ type: 'application/x-mpegURL', src: url }); // M3U8 link load karein
-            player.play(); // Video start karein
+            document.getElementById('playerBox').style.display = 'block'; 
             
-            // Screen ko upar player tak scroll karein
+            if (hlsInstance) {
+                hlsInstance.destroy();
+            }
+
+            // Safe check if Hls is loaded from CDN
+            if (typeof Hls !== 'undefined' && Hls.isSupported()) {
+                hlsInstance = new Hls();
+                hlsInstance.loadSource(url);
+                hlsInstance.attachMedia(videoElement);
+                hlsInstance.on(Hls.Events.MANIFEST_PARSED, function() {
+                    videoElement.play().catch(e => console.log("Autoplay caught"));
+                });
+            } 
+            else if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
+                videoElement.src = url;
+                videoElement.addEventListener('loadedmetadata', function() {
+                    videoElement.play();
+                });
+            } else {
+                alert("Your browser/app does not support M3U8 streaming engine.");
+            }
+
             window.scrollTo({ top: 0, behavior: 'smooth' }); 
         }
 
-        // App open hote hi sabse pehle channels list load ho jaye
+        // Run immediately when page opens
+        window.onload = function() {
+            displayChannels();
+        };
+        
+        // Fallback in case window.onload already passed
         displayChannels();
     </script>
 </body>
