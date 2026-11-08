@@ -145,6 +145,10 @@ https://raw.githubusercontent.com/m3u-iptv/live/main/streams/<FILENAME>.m3u8
 
 ### M3U-IPTV Player Apps Download
 
+<details>
+<summary>Expand</summary>
+<br>
+
 1.Original Auto Update Version Click Link Auto Apps Download.
 
 https://cdn.m3u-ip.tv/latest-android.apk
@@ -153,6 +157,8 @@ https://cdn.m3u-ip.tv/latest-android.apk
 Click Link Auto Apps Download.
 
 https://github.com/m3u-iptv/live/raw/refs/heads/main/M3U-IPTV-PLAYER-latest-android.apk
+
+</details>
 
 ### Network Stream Player Apps Download
 
