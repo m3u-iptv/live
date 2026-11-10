@@ -5,7 +5,7 @@
   <!-- Yeh ID aapki M3U file ke tvg-id se exact match honi chahiye -->
   <channel id="JooMusic.in">
     <display-name lang="hi">Joo Music</display-name>
-    <icon src="https://githubusercontent.com"/>
+    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Joo_Music.png"/>
   </channel>
 
   <!-- 2. 24-HOUR PROGRAMMING TIMELINE (1 AM TO 12 AM / NEXT DAY) -->
