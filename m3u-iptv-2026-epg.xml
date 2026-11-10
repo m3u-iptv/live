@@ -15,6 +15,7 @@
     <title lang="hi">No Programs (Continuous Music Loop)</title>
     <desc lang="hi">Non-stop hit gaane bina kisi commercial break ke chal rahe hain.</desc>
     <category lang="en">Music</category>
+    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
   </programme>
 
   <!-- Slot 2: Subah 06:00 AM se Doopahar 12:00 PM (AM Slots) -->
@@ -22,6 +23,7 @@
     <title lang="hi">No Programs (Morning Playlist)</title>
     <desc lang="hi">Subah ke suhane aur haseen gaano ka non-stop automatic playback grid.</desc>
     <category lang="en">Music</category>
+    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
   </programme>
 
   <!-- Slot 3: Doopahar 12:00 PM se Shaam 06:00 PM (PM Slots) -->
@@ -29,6 +31,7 @@
     <title lang="hi">No Programs (Continuous Music Loop)</title>
     <desc lang="hi">24 ghante lagataar chalne wali automatic digital audio stream.</desc>
     <category lang="en">Music</category>
+    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
   </programme>
 
   <!-- Slot 4: Shaam 06:00 PM se Raat 12:00 AM -->
@@ -36,6 +39,7 @@
     <title lang="hi">No Programs (Night Chill Loop)</title>
     <desc lang="hi">Raat ke safar ke liye behtareen aur non-stop hit gaano ka sangrah.</desc>
     <category lang="en">Music</category>
+    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
   </programme>
 
   <!-- Slot 5: Raat 12:00 AM se Agli Subah 01:00 AM tak -->
@@ -43,6 +47,7 @@
     <title lang="hi">No Programs (Late Night Loop)</title>
     <desc lang="hi">Continuous loop tracking system bina kisi anchor ya scheduled show ke.</desc>
     <category lang="en">Music</category>
+    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
   </programme>
 
 </tv>
