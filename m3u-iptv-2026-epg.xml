@@ -102,4 +102,46 @@
     <icon src="https://akamaividz2.zee5.com/image/upload/w_386,h_386,c_scale,f_avif,q_auto:eco/resources/0-9-9z51095521/channel_square/1920x1080list6f1e79424248472c9862719b39b65e4bb5c0371f130e4e83ab61fc63dbd0c574.png"/>
   </programme>
 
+<programme start="20261111000000 +0530" stop="20261111050000 +0530" channel="JooMusic.in">
+  <title lang="hi">Midnight Melodies</title>
+  <desc lang="hi">Raat ke sukoon bhare gaane, non-stop music.</desc>
+  <icon src="https://i.imgur.com/music-night.jpg" />
+  <category lang="en">Music</category>
+</programme>
+
+<programme start="20261111050000 +0530" stop="20261111090000 +0530" channel="JooMusic.in">
+  <title lang="hi">Morning Beats</title>
+  <desc lang="hi">Subah ki fresh shuruaat, latest hits ke saath.</desc>
+  <icon src="https://i.imgur.com/music-morning.jpg" />
+  <category lang="en">Music</category>
+</programme>
+
+<programme start="20261111090000 +0530" stop="20261111130000 +0530" channel="JooMusic.in">
+  <title lang="hi">Hit Parade</title>
+  <desc lang="hi">Top chartbuster gaane back to back.</desc>
+  <icon src="https://i.imgur.com/music-hits.jpg" />
+  <category lang="en">Music</category>
+</programme>
+
+<programme start="20261111130000 +0530" stop="20261111180000 +0530" channel="JooMusic.in">
+  <title lang="hi">Afternoon Jukebox</title>
+  <desc lang="hi">Purane aur naye superhit gaano ka jukebox.</desc>
+  <icon src="https://i.imgur.com/music-jukebox.jpg" />
+  <category lang="en">Music</category>
+</programme>
+
+<programme start="20261111180000 +0530" stop="20261111230000 +0530" channel="JooMusic.in">
+  <title lang="hi">Evening Party Hits</title>
+  <desc lang="hi">Shaam ki party ke liye dhamakedaar dance hits.</desc>
+  <icon src="https://i.imgur.com/music-party.jpg" />
+  <category lang="en">Music</category>
+</programme>
+
+<programme start="20261111230000 +0530" stop="20261112000000 +0530" channel="JooMusic.in">
+  <title lang="hi">Late Night Love Songs</title>
+  <desc lang="hi">Raat ke romantic aur soulful gaane.</desc>
+  <icon src="https://i.imgur.com/music-love.jpg" />
+  <category lang="en">Music</category>
+</programme>
+
 </tv>
