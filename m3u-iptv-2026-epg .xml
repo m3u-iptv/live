@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="M3U-IPTV 2026 EPG Engine">
+
+  <!-- 1. CHANNEL DEFINITION -->
+  <!-- Yeh id aapki M3U file ke tvg-id="JooMusic.in" se exact match honi chahiye -->
+  <channel id="JooMusic.in">
+    <display-name lang="hi">Joo Music</display-name>
+    <icon src="https://githubusercontent.com"/>
+  </channel>
+
+  <!-- 2. 24-HOUR PROGRAMMING SLOTS (AM TO PM) -->
+  
+  <!-- Slot 1: Subah 01:00 AM se 06:00 AM -->
+  <programme start="20261110010000 +0530" stop="20261110060000 +0530" channel="JooMusic.in">
+    <title lang="hi">No Programs (Continuous Music Loop)</title>
+    <desc lang="hi">Non-stop hit gaane bina kisi commercial break ke chal rahe hain.</desc>
+    <category lang="en">Music</category>
+  </programme>
+
+  <!-- Slot 2: Subah 06:00 AM se Doopahar 12:00 PM (AM Slots) -->
+  <programme start="20261110060000 +0530" stop="20261110120000 +0530" channel="JooMusic.in">
+    <title lang="hi">No Programs (Morning Playlist)</title>
+    <desc lang="hi">Subah ke suhane aur haseen gaano ka non-stop automatic playback grid.</desc>
+    <category lang="en">Music</category>
+  </programme>
+
+  <!-- Slot 3: Doopahar 12:00 PM se Shaam 06:00 PM (PM Slots) -->
+  <programme start="20261110120000 +0530" stop="20261110180000 +0530" channel="JooMusic.in">
+    <title lang="hi">No Programs (Continuous Music Loop)</title>
+    <desc lang="hi">24 ghante lagataar chalne wali automatic digital audio stream.</desc>
+    <category lang="en">Music</category>
+  </programme>
+
+  <!-- Slot 4: Shaam 06:00 PM se Raat 12:00 AM -->
+  <programme start="20261110180000 +0530" stop="20261111000000 +0530" channel="JooMusic.in">
+    <title lang="hi">No Programs (Night Chill Loop)</title>
+    <desc lang="hi">Raat ke safar ke liye behtareen aur non-stop hit gaano ka sangrah.</desc>
+    <category lang="en">Music</category>
+  </programme>
+
+  <!-- Slot 5: Raat 12:00 AM se Agli Subah 01:00 AM tak -->
+  <programme start="20261111000000 +0530" stop="20261111010000 +0530" channel="JooMusic.in">
+    <title lang="hi">No Programs (Late Night Loop)</title>
+    <desc lang="hi">Continuous loop tracking system bina kisi anchor ya scheduled show ke.</desc>
+    <category lang="en">Music</category>
+  </programme>
+
+</tv>
