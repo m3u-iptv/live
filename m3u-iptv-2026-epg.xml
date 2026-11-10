@@ -12,88 +12,18 @@
     <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Zee_Tamil_SD.png"/>
   </channel>
   
-    <!-- 2. 24-HOUR PROGRAMMING TIMELINE (1 AM TO 12 AM / NEXT DAY) -->
-  
-  <!-- Slot 1: Subah 01:00 AM se 06:00 AM -->
-  <programme start="20261110010000 +0530" stop="20261110060000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Continuous Music Loop)</title>
-    <desc lang="hi">Non-stop hit gaane bina kisi commercial break ke chal rahe hain. Original quality audio stream grid.</desc>
+  <programme start="20261110010000 +0530" stop="20261210010000 +0530" channel="JooMusic.in">
+    <title lang="hi">Movie & Songs</title>
+    <desc lang="hi">Movie & Songs</desc>
     <category lang="en">Music</category>
     <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
   </programme>
 
-  <!-- Slot 2: Subah 06:00 AM se Doopahar 12:00 PM (AM Slots) -->
-  <programme start="20261110060000 +0530" stop="20261110120000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Morning Playlist)</title>
-    <desc lang="hi">Subah ke suhane aur fresh gaano ka non-stop automatic playback grid.</desc>
-    <category lang="en">Music</category>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
-  </programme>
-
-  <!-- Slot 3: Doopahar 12:00 PM se Shaam 06:00 PM (PM Slots) -->
-  <programme start="20261110120000 +0530" stop="20261110180000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Continuous Music Loop)</title>
-    <desc lang="hi">24 ghante lagataar chalne wali automatic digital video-audio stream playback.</desc>
-    <category lang="en">Music</category>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
-  </programme>
-
-  <!-- Slot 4: Shaam 06:00 PM se Raat 12:00 AM -->
-  <programme start="20261110180000 +0530" stop="20261111000000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Night Chill Loop)</title>
-    <desc lang="hi">Raat ke safar ke liye behtareen aur non-stop non-stop hit gaano ka premium sangrah.</desc>
-    <category lang="en">Music</category>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
-  </programme>
-
-  <!-- Slot 5: Raat 12:00 AM se Agli Subah 01:00 AM tak -->
-  <programme start="20261111000000 +0530" stop="20261111010000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Late Night Loop)</title>
-    <desc lang="hi">Continuous loop tracking system bina kisi anchor ya live tv show scheduled break ke.</desc>
-    <category lang="en">Music</category>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
-  </programme>
-
-  <!-- 2. 24-HOUR PROGRAMMING SLOTS (AM TO PM) -->
-  
-  <!-- Slot 1: Subah 01:00 AM se 06:00 AM -->
-  <programme start="20261110010000 +0530" stop="20261110060000 +0530" channel="ZeeAthiradi.in">
-    <title lang="hi">Movie</title>
-    <desc lang="hi">Movie</desc>
-    <category lang="en">Music</category>
-    <icon src="https://akamaividz2.zee5.com/image/upload/w_386,h_386,c_scale,f_avif,q_auto:eco/resources/0-9-9z51095521/channel_square/1920x1080list6f1e79424248472c9862719b39b65e4bb5c0371f130e4e83ab61fc63dbd0c574.png"/>
-  </programme>
-
-  <!-- Slot 2: Subah 06:00 AM se Doopahar 12:00 PM (AM Slots) -->
-  <programme start="20261110060000 +0530" stop="20261110120000 +0530" channel="ZeeAthiradi.in">
-    <title lang="hi">Movie</title>
-    <desc lang="hi">Movie</desc>
-    <category lang="en">Music</category>
-    <icon src="https://akamaividz2.zee5.com/image/upload/w_386,h_386,c_scale,f_avif,q_auto:eco/resources/0-9-9z51095521/channel_square/1920x1080list6f1e79424248472c9862719b39b65e4bb5c0371f130e4e83ab61fc63dbd0c574.png"/>
-  </programme>
-
-  <!-- Slot 3: Doopahar 12:00 PM se Shaam 06:00 PM (PM Slots) -->
-  <programme start="20261110120000 +0530" stop="20261110180000 +0530" channel="ZeeAthiradi.in">
-    <title lang="hi">Movie</title>
-    <desc lang="hi">Movie</desc>
-    <category lang="en">Music</category>
-    <icon src="https://akamaividz2.zee5.com/image/upload/w_386,h_386,c_scale,f_avif,q_auto:eco/resources/0-9-9z51095521/channel_square/1920x1080list6f1e79424248472c9862719b39b65e4bb5c0371f130e4e83ab61fc63dbd0c574.png"/>
-  </programme>
-
-  <!-- Slot 4: Shaam 06:00 PM se Raat 12:00 AM -->
-  <programme start="20261110180000 +0530" stop="20261111000000 +0530" channel="ZeeAthiradi.in">
-    <title lang="hi">Movie</title>
-    <desc lang="hi">Movie</desc>
-    <category lang="en">Music</category>
-    <icon src="https://akamaividz2.zee5.com/image/upload/w_386,h_386,c_scale,f_avif,q_auto:eco/resources/0-9-9z51095521/channel_square/1920x1080list6f1e79424248472c9862719b39b65e4bb5c0371f130e4e83ab61fc63dbd0c574.png"/>
-  </programme>
-
-  <!-- Slot 5: Raat 12:00 AM se Agli Subah 01:00 AM tak -->
-  <programme start="20261111000000 +0530" stop="20261111010000 +0530" channel="ZAthiradi.in">
-    <title lang="hi">Movie</title>
-    <desc lang="hi">Movie</desc>
-    <category lang="en">Music</category>
-    <icon src="https://akamaividz2.zee5.com/image/upload/w_386,h_386,c_scale,f_avif,q_auto:eco/resources/0-9-9z51095521/channel_square/1920x1080list6f1e79424248472c9862719b39b65e4bb5c0371f130e4e83ab61fc63dbd0c574.png"/>
-  </programme>
-
+  <programme start="20261110010000 +0530" stop="20261210010000 +0530" channel="ZeeAthiradi.in">
+  <title lang="hi">Movie</title>
+  <desc lang="hi">Movie</desc>
+  <category lang="en">Movie</category>
+  <icon src="https://akamaividz2.zee5.com/image/upload/w_386,h_386,c_scale,f_avif,q_auto:eco/resources/0-9-9z51095521/channel_square/1920x1080list6f1e79424248472c9862719b39b65e4bb5c0371f130e4e83ab61fc63dbd0c574.png"/>
+</programme>
+</tv>
 </tv>
