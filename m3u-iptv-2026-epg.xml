@@ -1,53 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="M3U-IPTV 2026 EPG Engine">
-
-  <!-- 1. CHANNEL DEFINITION -->
-  <!-- Yeh id aapki M3U file ke tvg-id="JooMusic.in" se exact match honi chahiye -->
   <channel id="JooMusic.in">
     <display-name lang="hi">Joo Music</display-name>
     <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Joo_Music.png"/>
   </channel>
 
-  <!-- 2. 24-HOUR PROGRAMMING SLOTS (AM TO PM) -->
-  
-  <!-- Slot 1: Subah 01:00 AM se 06:00 AM -->
-  <programme start="20261110010000 +0530" stop="20261110060000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Continuous Music Loop)</title>
-    <desc lang="hi">Non-stop hit gaane bina kisi commercial break ke chal rahe hain.</desc>
-    <category lang="en">Music</category>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
-  </programme>
+  <!-- 10 NOV -->
+  <programme start="20261110010000 +0530" stop="20261110060000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Continuous Music Loop)</title><desc lang="hi">Non-stop hit gaane bina kisi commercial break ke.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261110060000 +0530" stop="20261110120000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Morning Playlist)</title><desc lang="hi">Subah ke suhane gaano ka non-stop playback.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261110120000 +0530" stop="20261110180000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Continuous Music Loop)</title><desc lang="hi">24 ghante lagataar automatic digital audio stream.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261110180000 +0530" stop="20261111000000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Night Chill Loop)</title><desc lang="hi">Raat ke liye behtareen non-stop hit gaane.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261111000000 +0530" stop="20261111010000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Late Night Loop)</title><desc lang="hi">Continuous loop bina anchor ya show ke.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
 
-  <!-- Slot 2: Subah 06:00 AM se Doopahar 12:00 PM (AM Slots) -->
-  <programme start="20261110060000 +0530" stop="20261110120000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Morning Playlist)</title>
-    <desc lang="hi">Subah ke suhane aur haseen gaano ka non-stop automatic playback grid.</desc>
-    <category lang="en">Music</category>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
-  </programme>
+  <!-- 11 NOV -->
+  <programme start="20261111010000 +0530" stop="20261111060000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Continuous Music Loop)</title><desc lang="hi">Non-stop hit gaane bina kisi commercial break ke.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261111060000 +0530" stop="20261111120000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Morning Playlist)</title><desc lang="hi">Subah ke suhane gaano ka non-stop playback.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261111120000 +0530" stop="20261111180000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Continuous Music Loop)</title><desc lang="hi">24 ghante lagataar automatic digital audio stream.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261111180000 +0530" stop="20261112000000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Night Chill Loop)</title><desc lang="hi">Raat ke liye behtareen non-stop hit gaane.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261112000000 +0530" stop="20261112010000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Late Night Loop)</title><desc lang="hi">Continuous loop bina anchor ya show ke.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
 
-  <!-- Slot 3: Doopahar 12:00 PM se Shaam 06:00 PM (PM Slots) -->
-  <programme start="20261110120000 +0530" stop="20261110180000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Continuous Music Loop)</title>
-    <desc lang="hi">24 ghante lagataar chalne wali automatic digital audio stream.</desc>
-    <category lang="en">Music</category>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
-  </programme>
+  <!-- 12 NOV -->
+  <programme start="20261112010000 +0530" stop="20261112060000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Continuous Music Loop)</title><desc lang="hi">Non-stop hit gaane bina kisi commercial break ke.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261112060000 +0530" stop="20261112120000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Morning Playlist)</title><desc lang="hi">Subah ke suhane gaano ka non-stop playback.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261112120000 +0530" stop="20261112180000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Continuous Music Loop)</title><desc lang="hi">24 ghante lagataar automatic digital audio stream.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261112180000 +0530" stop="20261113000000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Night Chill Loop)</title><desc lang="hi">Raat ke liye behtareen non-stop hit gaane.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261113000000 +0530" stop="20261113010000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Late Night Loop)</title><desc lang="hi">Continuous loop bina anchor ya show ke.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
 
-  <!-- Slot 4: Shaam 06:00 PM se Raat 12:00 AM -->
-  <programme start="20261110180000 +0530" stop="20261111000000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Night Chill Loop)</title>
-    <desc lang="hi">Raat ke safar ke liye behtareen aur non-stop hit gaano ka sangrah.</desc>
-    <category lang="en">Music</category>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
-  </programme>
+  <!-- 13 NOV -->
+  <programme start="20261113010000 +0530" stop="20261113060000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Continuous Music Loop)</title><desc lang="hi">Non-stop hit gaane bina kisi commercial break ke.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261113060000 +0530" stop="20261113120000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Morning Playlist)</title><desc lang="hi">Subah ke suhane gaano ka non-stop playback.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261113120000 +0530" stop="20261113180000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Continuous Music Loop)</title><desc lang="hi">24 ghante lagataar automatic digital audio stream.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261113180000 +0530" stop="20261114000000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Night Chill Loop)</title><desc lang="hi">Raat ke liye behtareen non-stop hit gaane.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261114000000 +0530" stop="20261114010000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Late Night Loop)</title><desc lang="hi">Continuous loop bina anchor ya show ke.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
 
-  <!-- Slot 5: Raat 12:00 AM se Agli Subah 01:00 AM tak -->
-  <programme start="20261111000000 +0530" stop="20261111010000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Late Night Loop)</title>
-    <desc lang="hi">Continuous loop tracking system bina kisi anchor ya scheduled show ke.</desc>
-    <category lang="en">Music</category>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
-  </programme>
+  <!-- 14 NOV -->
+  <programme start="20261114010000 +0530" stop="20261114060000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Continuous Music Loop)</title><desc lang="hi">Non-stop hit gaane bina kisi commercial break ke.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261114060000 +0530" stop="20261114120000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Morning Playlist)</title><desc lang="hi">Subah ke suhane gaano ka non-stop playback.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261114120000 +0530" stop="20261114180000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Continuous Music Loop)</title><desc lang="hi">24 ghante lagataar automatic digital audio stream.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261114180000 +0530" stop="20261115000000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Night Chill Loop)</title><desc lang="hi">Raat ke liye behtareen non-stop hit gaane.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261115000000 +0530" stop="20261115010000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Late Night Loop)</title><desc lang="hi">Continuous loop bina anchor ya show ke.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
 
+  <!-- 15 NOV -->
+  <programme start="20261115010000 +0530" stop="20261115060000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Continuous Music Loop)</title><desc lang="hi">Non-stop hit gaane bina kisi commercial break ke.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261115060000 +0530" stop="20261115120000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Morning Playlist)</title><desc lang="hi">Subah ke suhane gaano ka non-stop playback.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261115120000 +0530" stop="20261115180000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Continuous Music Loop)</title><desc lang="hi">24 ghante lagataar automatic digital audio stream.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261115180000 +0530" stop="20261116000000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Night Chill Loop)</title><desc lang="hi">Raat ke liye behtareen non-stop hit gaane.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261116000000 +0530" stop="20261116010000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Late Night Loop)</title><desc lang="hi">Continuous loop bina anchor ya show ke.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+
+  <!-- 16 NOV -->
+  <programme start="20261116010000 +0530" stop="20261116060000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Continuous Music Loop)</title><desc lang="hi">Non-stop hit gaane bina kisi commercial break ke.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261116060000 +0530" stop="20261116120000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Morning Playlist)</title><desc lang="hi">Subah ke suhane gaano ka non-stop playback.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261116120000 +0530" stop="20261116180000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Continuous Music Loop)</title><desc lang="hi">24 ghante lagataar automatic digital audio stream.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261116180000 +0530" stop="20261117000000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Night Chill Loop)</title><desc lang="hi">Raat ke liye behtareen non-stop hit gaane.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
+  <programme start="20261117000000 +0530" stop="20261117010000 +0530" channel="JooMusic.in"><title lang="hi">No Programs (Late Night Loop)</title><desc lang="hi">Continuous loop bina anchor ya show ke.</desc><category lang="en">Music</category><icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/></programme>
 </tv>
+
+
+
+
+
+
+
+
