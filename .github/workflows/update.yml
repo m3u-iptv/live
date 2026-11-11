@@ -1,8 +1,8 @@
 name: Update EPG
 on:
-  schedule:
-    - cron: '0 0 * * *'
   workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,5 +17,5 @@ jobs:
           git config user.name "EPG Bot"
           git config user.email "bot@bot.com"
           git add epg.xml.gz
-          git commit -m "Update EPG" || echo "No Change"
+          git commit -m "Update EPG" || true
           git push
