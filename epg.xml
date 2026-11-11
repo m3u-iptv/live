@@ -1,54 +1,56 @@
 <script>
-// ===== 4 EPG URL EK SATH =====
+// ===== 7 EPG EK SATH - HK1 SG1 IN1 IN2 IN4 UK1 US2 =====
 let EPG_URLS = [
   "https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz",
+  "https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz",
   "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz",
-  "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz",
-  "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+  "https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz",
+  "https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz",
+  "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz",
+  "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
 ];
 
-let allData = [];
-
 async function autoDownloadAll(){
-  document.getElementById('status').innerText = "📡 4 EPG Download Ho Rahe Hai...";
-  document.getElementById('loading').style.display='block';
+  document.getElementById('status').innerText = "📡 7 EPG Download Ho Rahe Hai... HK1 SG1 IN1 IN2 IN4 UK1 US2";
 
-  // 4 URL EK SATH DOWNLOAD - Promise.all
   let results = await Promise.all(
     EPG_URLS.map(async (url) => {
       try{
         let res = await fetch(url);
-        let txt = await res.text();
-        return parseXML(txt); // is link ka data
+        let txt = "";
+        if(url.endsWith(".gz")){
+          let buf = await res.arrayBuffer();
+          let ds = new DecompressionStream('gzip');
+          let decompressed = new Response(new Blob([buf]).stream().pipeThrough(ds));
+          txt = await decompressed.text();
+        } else {
+          txt = await res.text();
+        }
+        let data = parseXML(txt);
+        console.log("✅ Ho Gaya:", url, data.length + " channels");
+        return data;
       }catch(e){
-        console.log("Fail:", url);
-        return []; // agar ek fail hua to baki chalenge
+        console.log("❌ Fail:", url);
+        return [];
       }
     })
   );
 
-  // 4 KA DATA MILAO
+  // 7 KA DATA MILAO - DUPLICATE HATAO
   let merged = [];
   results.forEach(list => {
     list.forEach(ch => {
-      // DUPLICATE CHANNEL HATAO - Agar Pehle Se Hai To Mat Daalo
       let already = merged.find(m => m.name == ch.name);
-      if(!already){
-        merged.push(ch);
-      } else {
-        // Agar Pehle Se Hai To Uske Shows Jod Do
-        already.shows = [...already.shows, ...ch.shows];
-      }
+      if(!already) merged.push(ch);
+      else already.shows = [...already.shows, ...ch.shows];
     });
   });
 
   allData = merged;
-  document.getElementById('loading').style.display='none';
-  document.getElementById('status').innerText = "✅ 4 EPG Mil Gaye - Total " + allData.length + " Channels";
+  document.getElementById('status').innerText = "✅ 7 EPG Mil Gaye Sir - Total " + allData.length + " Channels";
   render();
 }
 
-// XML KO SAMAJHNA
 function parseXML(txt){
   let parser = new DOMParser();
   let xml = parser.parseFromString(txt,"text/xml");
@@ -67,8 +69,6 @@ function parseXML(txt){
   return out;
 }
 
-// PAGE KHULTE HI 4 DOWNLOAD
 autoDownloadAll();
-// HAR 30 MIN ME FIR SE 4 DOWNLOAD
 setInterval(autoDownloadAll, 30*60*1000);
 </script>
