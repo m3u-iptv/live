@@ -2,6 +2,8 @@
 
 Indian TV Channels Total 1200.
 
+Auto update epg
+
 <details>
 <summary>Expand</summary>
 <br>
