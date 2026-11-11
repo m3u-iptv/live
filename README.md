@@ -204,14 +204,27 @@ https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME
 <br>
 
 ```
-https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz;https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz;https://i.mjh.nz/SamsungTVPlus/all.xml.gz;https://i.mjh.nz/Plex/all.xml.gz;https://avkb.short.gy/epg.xml.gz;https://www.open-epg.com/files/india.xml;https://www.open-epg.com/files/unitedkingdom.xml;https://www.open-epg.com/files/hongkong4.xml;https://www.open-epg.com/files/unitedstates10.xml
-```
+https://raw.githubusercontent.com/m3u-iptv/live/main/epg.xml.gz
 
-• EPG DEMO URL
+• EPG Country Code & Web TV
 
-```
-https://raw.githubusercontent.com/m3u-iptv/live/main/epg/xml.gz
-```
+<details>
+<summary>Expand</summary>
+<br>
+
+• HK1
+• IN1
+• IN2
+• IN4
+• MY1
+• SG1
+• UK1
+• US2
+• Airtel Digital TV 
+• Jio TV
+• Dish TV & D2H 
+• TATA PLAY
+• SUN DIRECT
 
 </details>
 
