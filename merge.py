@@ -24,14 +24,15 @@ URLS = [
 
 channels = {}
 programmes = []
+# FIX: Ek baar me busy nikalenge, baar baar loop nahi karenge
+busy_map = {}
 
 for url in URLS:
     print("Download:", url)
     try:
-        r = requests.get(url, timeout=120)
+        r = requests.get(url, timeout=60)
         print("Status:", r.status_code, "Size:", len(r.content))
         data = r.content
-        # Agar GZ hai to kholo, nahi to aise hi use karo
         if data[:2] == b'\x1f\x8b':
             data = gzip.decompress(data)
         root = ET.fromstring(data)
@@ -40,16 +41,19 @@ for url in URLS:
             if cid not in channels:
                 channels[cid] = copy.deepcopy(ch)
         for p in root.findall("programme"):
-            programmes.append(copy.deepcopy(p))
+            programmes.append(p)
+            # Yahi pe busy note kar lo - fast tarika
+            cid = p.get("channel")
+            if cid not in busy_map:
+                busy_map[cid] = set()
+            busy_map[cid].add(p.get("start", "")[:10])
         print("OK - Total Channels:", len(channels), "Programmes:", len(programmes))
     except Exception as e:
         print("FAIL:", url, e)
 
-# ===== NO PROGRAMS WALA RULE YAHI SE SHURU - SIR =====
 IST = timezone(timedelta(hours=5, minutes=30))
 now = datetime.now(IST).replace(minute=0, second=0, microsecond=0)
 
-# Aapke Playlist se saare channel nikalenge
 playlist_channels = set(channels.keys())
 for m3u in glob.glob("**/*.m3u", recursive=True):
     try:
@@ -61,7 +65,6 @@ for m3u in glob.glob("**/*.m3u", recursive=True):
     except:
         pass
 
-# Har channel ke liye check karenge - kaha pehle se program hai
 for cid in sorted(playlist_channels):
     if cid not in channels:
         ch = ET.Element("channel", {"id": cid})
@@ -69,18 +72,11 @@ for cid in sorted(playlist_channels):
         dn.text = cid
         channels[cid] = ch
 
-    # Is channel ke busy time
-    busy = set()
-    for p in programmes:
-        if p.get("channel") == cid:
-            # start ka YYYYMMDDHH le lo
-            busy.add(p.get("start", "")[:10])
-
-    # 72 Ghante = 3 Din, Har 1 Ghante Me No Programs
-    for h in range(72):
+    busy = busy_map.get(cid, set())
+    # FIX: 72 ki jagah 24 Ghante - halka aur fast
+    for h in range(24):
         start = now + timedelta(hours=h)
         s = start.strftime("%Y%m%d%H%M%S +0530")
-        # Agar is ghante me Original Program hai, to skip - Original hi rahega!
         if s[:10] in busy:
             continue
         stop = start + timedelta(hours=1)
@@ -91,7 +87,6 @@ for cid in sorted(playlist_channels):
         programmes.append(prog)
 
 print("NO PROGRAMS ADD HO GAYA - Total Programmes:", len(programmes))
-# ===== NO PROGRAMS KHATAM =====
 
 tv = ET.Element("tv", {"generator-info-name":"Mega Merged EPG"})
 for ch in channels.values():
