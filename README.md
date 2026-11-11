@@ -205,8 +205,10 @@ https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME
 
 ```
 https://raw.githubusercontent.com/m3u-iptv/live/main/epg.xml.gz
+```
+</details>
 
-• EPG Country Code & Web TV
+#### EPG Country Code & Web TV
 
 <details>
 <summary>Expand</summary>
