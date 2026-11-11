@@ -1,53 +1,74 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="M3U-IPTV 2026 EPG Engine">
+<script>
+// ===== 4 EPG URL EK SATH =====
+let EPG_URLS = [
+  "https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz",
+  "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz",
+  "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz",
+  "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+];
 
-  <!-- 1. CHANNEL MAPPING WITH ORIGINAL LOGO -->
-  <!-- Yeh ID aapki M3U file ke tvg-id se exact match honi chahiye -->
-  <channel id="JooMusic.in">
-    <display-name lang="hi">Joo Music</display-name>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Joo_Music.png"/>
-  </channel>
+let allData = [];
 
-  <!-- 2. 24-HOUR PROGRAMMING TIMELINE (1 AM TO 12 AM / NEXT DAY) -->
-  
-  <!-- Slot 1: Subah 01:00 AM se 06:00 AM -->
-  <programme start="20261110010000 +0530" stop="20261110060000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Continuous Music Loop)</title>
-    <desc lang="hi">Non-stop hit gaane bina kisi commercial break ke chal rahe hain. Original quality audio stream grid.</desc>
-    <category lang="en">Music</category>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
-  </programme>
+async function autoDownloadAll(){
+  document.getElementById('status').innerText = "📡 4 EPG Download Ho Rahe Hai...";
+  document.getElementById('loading').style.display='block';
 
-  <!-- Slot 2: Subah 06:00 AM se Doopahar 12:00 PM (AM Slots) -->
-  <programme start="20261110060000 +0530" stop="20261110120000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Morning Playlist)</title>
-    <desc lang="hi">Subah ke suhane aur fresh gaano ka non-stop automatic playback grid.</desc>
-    <category lang="en">Music</category>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
-  </programme>
+  // 4 URL EK SATH DOWNLOAD - Promise.all
+  let results = await Promise.all(
+    EPG_URLS.map(async (url) => {
+      try{
+        let res = await fetch(url);
+        let txt = await res.text();
+        return parseXML(txt); // is link ka data
+      }catch(e){
+        console.log("Fail:", url);
+        return []; // agar ek fail hua to baki chalenge
+      }
+    })
+  );
 
-  <!-- Slot 3: Doopahar 12:00 PM se Shaam 06:00 PM (PM Slots) -->
-  <programme start="20261110120000 +0530" stop="20261110180000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Continuous Music Loop)</title>
-    <desc lang="hi">24 ghante lagataar chalne wali automatic digital video-audio stream playback.</desc>
-    <category lang="en">Music</category>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
-  </programme>
+  // 4 KA DATA MILAO
+  let merged = [];
+  results.forEach(list => {
+    list.forEach(ch => {
+      // DUPLICATE CHANNEL HATAO - Agar Pehle Se Hai To Mat Daalo
+      let already = merged.find(m => m.name == ch.name);
+      if(!already){
+        merged.push(ch);
+      } else {
+        // Agar Pehle Se Hai To Uske Shows Jod Do
+        already.shows = [...already.shows, ...ch.shows];
+      }
+    });
+  });
 
-  <!-- Slot 4: Shaam 06:00 PM se Raat 12:00 AM -->
-  <programme start="20261110180000 +0530" stop="20261111000000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Night Chill Loop)</title>
-    <desc lang="hi">Raat ke safar ke liye behtareen aur non-stop non-stop hit gaano ka premium sangrah.</desc>
-    <category lang="en">Music</category>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
-  </programme>
+  allData = merged;
+  document.getElementById('loading').style.display='none';
+  document.getElementById('status').innerText = "✅ 4 EPG Mil Gaye - Total " + allData.length + " Channels";
+  render();
+}
 
-  <!-- Slot 5: Raat 12:00 AM se Agli Subah 01:00 AM tak -->
-  <programme start="20261111000000 +0530" stop="20261111010000 +0530" channel="JooMusic.in">
-    <title lang="hi">No Programs (Late Night Loop)</title>
-    <desc lang="hi">Continuous loop tracking system bina kisi anchor ya live tv show scheduled break ke.</desc>
-    <category lang="en">Music</category>
-    <icon src="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/No_Programs.png"/>
-  </programme>
+// XML KO SAMAJHNA
+function parseXML(txt){
+  let parser = new DOMParser();
+  let xml = parser.parseFromString(txt,"text/xml");
+  let out = [];
+  xml.querySelectorAll("channel").forEach(ch=>{
+    let id = ch.getAttribute("id");
+    let name = ch.querySelector("display-name")?.textContent || id;
+    let progs = [...xml.querySelectorAll(`programme[channel="${id}"]`)].slice(0,4).map(p=>({
+      t: p.getAttribute("start")?.slice(8,10)+":"+p.getAttribute("start")?.slice(10,12),
+      d: p.querySelector("title")?.textContent || "Show",
+      w: 140
+    }));
+    if(progs.length==0) progs=[{t:"Now",d:"Live Show",w:200}];
+    out.push({id:id.slice(-3), name:name, cat:"entertainment", lang:"hindi", shows:progs});
+  });
+  return out;
+}
 
-</tv>
+// PAGE KHULTE HI 4 DOWNLOAD
+autoDownloadAll();
+// HAR 30 MIN ME FIR SE 4 DOWNLOAD
+setInterval(autoDownloadAll, 30*60*1000);
+</script>
