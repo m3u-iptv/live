@@ -1,7 +1,10 @@
 import gzip
+import os
+import urllib.request
 import xml.etree.ElementTree as ET
 
-# केवल इन 10 विदेशी हिंदी चैनलों को रखें (बाकी सब हट जाएंगे)
+EPG_URL = "https://github.io"
+
 ALLOWED_INTL = [
     "&tv", "&amp;tv", "and tv", "andtv",
     "zee tv", "zee cinema", "sony kal", 
@@ -21,7 +24,6 @@ def filter_epg(input_gz_path, output_gz_path):
                 ch_id = elem.get("id", "").lower()
                 disp_name = (elem.findtext("display-name") or "").lower()
                 
-                # भारत (India) के सभी चैनल या हमारी 10 विदेशी हिंदी चैनलों की लिस्ट
                 is_india = ".in" in ch_id or "jiotv" in ch_id or "tataplay" in ch_id
                 is_allowed_hindi = any(name in disp_name or name in ch_id for name in ALLOWED_INTL)
                 
@@ -41,6 +43,13 @@ def filter_epg(input_gz_path, output_gz_path):
     with gzip.open(output_gz_path, "wb") as out_f:
         tree.write(out_f, encoding="utf-8", xml_declaration=True)
 
-# सीधे लोकल epg.xml.gz से फ़िल्टर करें
-filter_epg("epg.xml.gz", "light_epg.xml.gz")
+if os.path.exists("epg.xml.gz"):
+    filter_epg("epg.xml.gz", "light_epg.xml.gz")
+else:
+    req = urllib.request.Request(EPG_URL, headers={'User-Agent': 'Mozilla/5.0'})
+    with urllib.request.urlopen(req) as response, open("temp_epg.xml.gz", "wb") as out_file:
+        out_file.write(response.read())
+    filter_epg("temp_epg.xml.gz", "light_epg.xml.gz")
+    os.remove("temp_epg.xml.gz")
+
 print("सफल! light_epg.xml.gz तैयार है।")
