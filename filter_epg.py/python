@@ -1,9 +1,5 @@
 import gzip
-import urllib.request
 import xml.etree.ElementTree as ET
-
-# आपका असली EPG लिंक
-EPG_URL = "https://m3u-iptv.github.io/iptv/epg.xml.gz"
 
 # केवल इन 10 विदेशी हिंदी चैनलों को रखें (बाकी सब हट जाएंगे)
 ALLOWED_INTL = [
@@ -17,7 +13,6 @@ def filter_epg(input_gz_path, output_gz_path):
     valid_channel_ids = set()
     new_root = ET.Element("tv")
     
-    # .gz फाइल को सीधे खोलकर बिना RAM भरे लाइन-बाय-लाइन पढ़ें
     with gzip.open(input_gz_path, "rb") as f:
         context = ET.iterparse(f, events=("end",))
         
@@ -42,16 +37,10 @@ def filter_epg(input_gz_path, output_gz_path):
                 else:
                     elem.clear()
 
-    # फिल्टर किए गए हल्के डेटा को नई .xml.gz फाइल में सेव करें
     tree = ET.ElementTree(new_root)
     with gzip.open(output_gz_path, "wb") as out_f:
         tree.write(out_f, encoding="utf-8", xml_declaration=True)
 
-# 1. इंटरनेट से आपका .gz EPG डाउनलोड करें
-print("EPG डाउनलोड हो रहा है...")
-urllib.request.urlretrieve(EPG_URL, "raw_epg.xml.gz")
-
-# 2. फालतू चैनल हटाकर हल्की light_epg.xml.gz फाइल बनाएं
-print("EPG फिल्टर हो रहा है...")
-filter_epg("raw_epg.xml.gz", "light_epg.xml.gz")
+# सीधे लोकल epg.xml.gz से फ़िल्टर करें
+filter_epg("epg.xml.gz", "light_epg.xml.gz")
 print("सफल! light_epg.xml.gz तैयार है।")
