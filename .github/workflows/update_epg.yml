@@ -1,20 +1,28 @@
 name: Auto Filter EPG
+
 on:
   schedule:
-    - cron: '0 */12 * * *' # हर 12 घंटे में अपने आप चलेगा
-  workflow_dispatch: # आप मैन्युअली भी चला सकते हैं
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
+
       - name: Run EPG Filter
         run: python filter_epg.py
+
       - name: Save Light EPG to GitHub
         run: |
           git config user.name "GitHub Action"
@@ -22,3 +30,4 @@ jobs:
           git add light_epg.xml.gz
           git commit -m "Updated light EPG" || exit 0
           git push
+          
