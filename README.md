@@ -1,8 +1,3 @@
-### LIVE TV ULTRA PLAYER 
-
-http://localhost:26543/LIVE+TV+ULTRA+PLAYER.html
-
-
 ### M3U-IPTV M3U File Links 2026
 
 Indian TV Channels Total 1200.
