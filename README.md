@@ -24,7 +24,7 @@ Indian TV Channels.
 <br>
 
 ```
-https://m3u-iptv.github.io/live/index.category.m3u
+https://m3u-iptv.github.io/iptv/index.category.m3u
 ```
 
 Same thing, but split up into separate files:
