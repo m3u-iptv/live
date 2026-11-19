@@ -1,158 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Mobile Live TV App</title>
-    
-    <style>
-        body { font-family: Arial, sans-serif; background-color: #121212; color: white; margin: 0; padding: 10px; }
-        h2 { text-align: center; color: #ff3333; margin-top: 10px; }
-        
-        /* Video Player Styling */
-        .player-container { width: 100%; margin-bottom: 20px; display: none; background: #000; border-radius: 8px; overflow: hidden; }
-        video { width: 100%; height: 220px; background: black; }
-        
-        /* Categories Horizontal Slider */
-        .category-container { display: flex; overflow-x: auto; gap: 10px; padding: 10px 0; margin-bottom: 15px; }
-        .category-container::-webkit-scrollbar { display: none; } 
-        .category-btn { background-color: #333; color: white; border: none; padding: 8px 16px; border-radius: 20px; white-space: nowrap; cursor: pointer; font-size: 14px; font-weight: bold; }
-        .category-btn.active { background-color: #ff3333; }
-        
-        /* Channels List Layout */
-        .channel-list { display: flex; flex-direction: column; gap: 10px; }
-        .channel-card { display: flex; align-items: center; background-color: #1e1e1e; padding: 12px; border-radius: 8px; cursor: pointer; transition: 0.2s; border: 1px solid #2a2a2a; }
-        .channel-card:active { background-color: #333; }
-        .channel-logo { width: 45px; height: 45px; background-color: #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 16px; margin-right: 15px; color: #ff3333; border: 2px solid #ff3333; }
-        .channel-info { flex-grow: 1; }
-        .channel-info h3 { margin: 0; font-size: 16px; color: #fff; }
-        .channel-info p { margin: 4px 0 0 0; font-size: 12px; color: #aaa; }
-        .play-icon { color: #00ff00; font-size: 20px; font-weight: bold; }
-    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My IPTV</title>
+<style>
+body{font-family:sans-serif;background:#f8f9fa;margin:0;padding:15px}
+h2{text-align:center}
+input{width:100%;padding:12px;font-size:16px;border:2px solid #007bff;border-radius:10px;outline:none;box-sizing:border-box}
+.card{background:#fff;padding:12px;margin:10px 0;border-radius:10px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 1px 4px #ddd}
+button{background:#007bff;color:#fff;border:0;padding:8px 14px;border-radius:8px}
+video{width:100%;margin-top:15px;border-radius:10px;background:#000}
+</style>
 </head>
 <body>
+<h2>📺 My IPTV</h2>
+<input id="search" placeholder="Search Channel..." onkeyup="filter()">
+<video id="player" controls></video>
+<div id="list">Loading...</div>
 
-    <h2>🪔 My Live TV App</h2>
-
-    <!-- 1. HTML5 VIDEO PLAYER -->
-    <div class="player-container" id="playerBox">
-        <video id="my-video" controls autoplay playsinline></video>
-    </div>
-
-    <!-- 2. CATEGORIES BUTTONS -->
-    <div class="category-container" id="categoryBox">
-        <button class="category-btn active" onclick="filterCategory('All')">All</button>
-        <button class="category-btn" onclick="filterCategory('News')">News</button>
-        <button class="category-btn" onclick="filterCategory('Sports')">Sports</button>
-        <button class="category-btn" onclick="filterCategory('Movies')">Movies</button>
-    </div>
-
-    <!-- 3. CHANNELS LIST -->
-    <div class="channel-list" id="channelListBox">
-        <!-- Channels will load here immediately -->
-    </div>
-
-    <!-- HLS Library loaded at the bottom so it doesn't block the UI -->
-    <script src="https://jsdelivr.net"></script>
-    
-    <script>
-        // === LIVE CHANNELS DATA ===
-        const allChannels = [
-            { 
-                name: "DD News", 
-                category: "News", 
-                lang: "Hindi", 
-                logo: "DD", 
-                url: "https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunklist.m3u8"
-            },
-            { 
-                name: "Live Sports Stream", 
-                category: "Sports", 
-                lang: "English", 
-                logo: "SP", 
-                url: "https://playhls.media.nic.in/hls/live/ddnews/ddnews.m3u8" 
-            },
-            { 
-                name: "Test Movie Channel", 
-                category: "Movies", 
-                lang: "English", 
-                logo: "MV", 
-                url: "https://playhls.media.nic.in/hls/live/ddnews/ddnews.m3u8" 
-            }
-        ];
-
-        let activeCategory = 'All';
-        const videoElement = document.getElementById('my-video');
-        let hlsInstance = null;
-
-        // Display channels safely and immediately
-        function displayChannels() {
-            const listBox = document.getElementById('channelListBox');
-            if (!listBox) return;
-            
-            listBox.innerHTML = ''; 
-
-            const filtered = allChannels.filter(c => activeCategory === 'All' || c.category === activeCategory);
-
-            filtered.forEach(channel => {
-                const card = document.createElement('div');
-                card.className = 'channel-card';
-                card.onclick = () => playChannel(channel.url);
-                card.innerHTML = `
-                    <div class="channel-logo">${channel.logo}</div>
-                    <div class="channel-info">
-                        <h3>${channel.name}</h3>
-                        <p>${channel.lang} | ${channel.category}</p>
-                    </div>
-                    <div class="play-icon">▶</div>
-                `;
-                listBox.appendChild(card);
-            });
-        }
-
-        function filterCategory(category) {
-            activeCategory = category;
-            document.querySelectorAll('.category-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.innerText === category);
-            });
-            displayChannels(); 
-        }
-
-        function playChannel(url) {
-            document.getElementById('playerBox').style.display = 'block'; 
-            
-            if (hlsInstance) {
-                hlsInstance.destroy();
-            }
-
-            // Safe check if Hls is loaded from CDN
-            if (typeof Hls !== 'undefined' && Hls.isSupported()) {
-                hlsInstance = new Hls();
-                hlsInstance.loadSource(url);
-                hlsInstance.attachMedia(videoElement);
-                hlsInstance.on(Hls.Events.MANIFEST_PARSED, function() {
-                    videoElement.play().catch(e => console.log("Autoplay caught"));
-                });
-            } 
-            else if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
-                videoElement.src = url;
-                videoElement.addEventListener('loadedmetadata', function() {
-                    videoElement.play();
-                });
-            } else {
-                alert("Your browser/app does not support M3U8 streaming engine.");
-            }
-
-            window.scrollTo({ top: 0, behavior: 'smooth' }); 
-        }
-
-        // Run immediately when page opens
-        window.onload = function() {
-            displayChannels();
-        };
-        
-        // Fallback in case window.onload already passed
-        displayChannels();
-    </script>
+<script>
+let channels=[];
+async function load(){
+  let res = await fetch('index.m3u');
+  let text = await res.text();
+  let lines = text.split('\n');
+  for(let i=0;i<lines.length;i++){
+    if(lines[i].startsWith('#EXTINF')){
+      let name = lines[i].split(',')[1] || 'Channel';
+      let url = lines[i+1]?.trim();
+      if(url && url.startsWith('http')) channels.push({name:name.trim(),url});
+    }
+  }
+  show(channels);
+}
+function show(list){
+  document.getElementById('list').innerHTML = list.map(c=>`
+    <div class="card"><b>${c.name}</b><button onclick="play('${c.url}')">Play</button></div>
+  `).join('') || 'No Channel Found';
+}
+function filter(){
+  let q = document.getElementById('search').value.toLowerCase();
+  show(channels.filter(c=>c.name.toLowerCase().includes(q)));
+}
+function play(url){
+  let v=document.getElementById('player');
+  v.src=url; v.play();
+  window.scrollTo(0,0);
+}
+load();
+</script>
 </body>
 </html>
