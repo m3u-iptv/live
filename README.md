@@ -170,9 +170,8 @@ https://github.com/m3u-iptv/iptv/raw/refs/heads/main/M3U-IPTV-PLAYER-latest-andr
 
 1.Original Not Update Version Click Link Auto Apps Download.
 
-```
 https://github.com/m3u-iptv/iptv/raw/refs/heads/main/Network-Stream-Player-4-4.apk
-```
+
 
 </details>
 
