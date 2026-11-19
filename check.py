@@ -1,6 +1,5 @@
-import os, glob, requests
+import requests
 
-# Tera input file
 INPUT = "live/streams/in.m3u"
 OUTPUT = "live/index.m3u"
 
@@ -14,9 +13,9 @@ def is_working(url):
     except:
         return False
 
-# in.m3u padho
-channels = {} # Naam -> list of (extinf, url)
+channels = {}
 order = []
+
 with open(INPUT, encoding="utf-8", errors="ignore") as f:
     lines = [l.strip() for l in f if l.strip()]
 
@@ -30,11 +29,10 @@ for i in range(len(lines)):
                 order.append(name)
             channels[name].append((lines[i], url))
 
-# Ab har channel ke liye sirf 1 chalu wala chuno
 out = ["#EXTM3U"]
 for name in order:
     for extinf, url in channels[name]:
-        print(f"Checking {name} -> {url[:50]}")
+        print(f"Checking {name} -> {url[:60]}")
         if is_working(url):
             print(f"CHALU MILA: {name}")
             out.append(extinf)
