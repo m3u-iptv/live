@@ -1,53 +1,235 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>My IPTV</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LIVE TV ULTRA PLAYER</title>
 <style>
-body{font-family:sans-serif;background:#f8f9fa;margin:0;padding:15px}
-h2{text-align:center}
-input{width:100%;padding:12px;font-size:16px;border:2px solid #007bff;border-radius:10px;outline:none;box-sizing:border-box}
-.card{background:#fff;padding:12px;margin:10px 0;border-radius:10px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 1px 4px #ddd}
-button{background:#007bff;color:#fff;border:0;padding:8px 14px;border-radius:8px}
-video{width:100%;margin-top:15px;border-radius:10px;background:#000}
+body{font-family:'Segoe UI',Arial,sans-serif;background:#0f0f0f;color:#fff;margin:0;padding:0;display:flex;flex-direction:column;align-items:center}
+header{width:100%;background:#1f1f1f;padding:15px 0;text-align:center;font-size:24px;font-weight:bold;color:#e50914;position:sticky;top:0;z-index:10}
+.player-wrapper{width:90%;max-width:850px;margin:20px 0;position:relative;overflow:hidden;border-radius:12px;background:#000}
+video{width:100%;aspect-ratio:16/9;background:#000;display:block}
+.filter-container{width:90%;max-width:850px;margin-bottom:20px}
+.filter-title{font-size:14px;text-transform:uppercase;color:#aaa;margin-bottom:8px;letter-spacing:1px}
+.filter-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:10px}
+.filter-btn{background:#222;color:#ccc;border:1px solid #444;padding:8px 16px;border-radius:20px;cursor:pointer;white-space:nowrap}
+.filter-btn.active,.filter-btn:hover{background:#e50914;color:#fff;border-color:#e50914}
+.channels-section{width:90%;max-width:850px;margin-top:10px}
+.channels-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:15px;margin-bottom:50px}
+.channel-card{background:#1a1a1a;border:1px solid #2d2d2d;border-radius:8px;padding:20px 10px;text-align:center;cursor:pointer;position:relative}
+.channel-card:hover{transform:translateY(-5px);border-color:#e50914}
+.channel-card img{width:60px;height:45px;object-fit:contain;background:#fff;border-radius:8px;display:block;margin:0 auto 10px}
+#err{width:90%;max-width:850px;background:#3a0000;color:#ffaaaa;padding:10px;border-radius:8px;display:none;margin:-10px 0 15px;font-size:13px}
+.online-bar{width:90%;max-width:850px;background:#1a1a1a;border:1px solid #2d2d2d;border-radius:10px;padding:10px 14px;display:flex;gap:8px;align-items:center;justify-content:space-between;margin:-5px 0 15px}
+.online-dot{width:10px;height:10px;background:#00ff00;border-radius:50%;display:inline-block;box-shadow:0 0 8px #00ff00;animation:blink 1.2s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0.3}}
+.card-online{font-size:11px;color:#00ff00;background:#0a2a0a;padding:3px 8px;border-radius:20px;display:inline-block;margin-top:6px}
+.quality-bar{width:90%;max-width:850px;background:#161616;border:1px solid #2a2a2a;border-radius:50px;padding:7px 12px;display:flex;gap:8px;align-items:center;justify-content:center;margin:-5px 0 15px;flex-wrap:wrap}
+.quality-bar label{font-size:12px;font-weight:bold;color:#aaa}
+.quality-bar select{background:#222;color:#fff;border:1px solid #444;padding:5px 10px;border-radius:20px;font-size:12px;outline:none;cursor:pointer;min-width:90px}
+.quality-bar .q-info{font-size:11px;color:#888;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:130px}
+.total-chan{font-size:12px;color:#00ff00;font-weight:bold;white-space:nowrap;background:#0a2a0a;border:1px solid #1a4a1a;padding:4px 10px;border-radius:20px}
 </style>
 </head>
 <body>
-<h2>📺 My IPTV</h2>
-<input id="search" placeholder="Search Channel..." onkeyup="filter()">
-<video id="player" controls></video>
-<div id="list">Loading...</div>
-
+<header>📺 LIVE TV ULTRA PLAYER <div id="istClock" style="font-size:13px;color:#fff;font-weight:normal;margin-top:4px">🕐 IST Time Loading...</div></header>
+<div class="player-wrapper">
+<video id="tv-player" controls autoplay muted playsinline></video>
+</div>
+<div id="err"></div>
+<p id="status" style="color:#aaa;margin:-10px 0 15px">Loading channels...</p>
+<p id="m3uUpdateInfo" style="color:#00ff00;font-size:12px;margin:-10px 0 10px">🔄 M3U Auto Update: ON | Har 10 Minute Me Khud Update Hoga</p>
+<div class="online-bar">
+  <div style="display:flex;gap:8px;align-items:center">
+    <span class="online-dot"></span>
+    <b id="onlineCount" style="color:#fff;font-size:15px">👁️ 1 Online Dekh Rahe Hai</b>
+  </div>
+  <span id="liveChannelName" style="color:#e50914;font-size:13px;font-weight:bold">🔴 LIVE</span>
+</div>
+<div class="quality-bar">
+  <label for="qualitySelect">✨ Quality:</label>
+  <select id="qualitySelect" onchange="changeQuality()"><option value="auto" selected>Auto</option></select>
+  <span class="q-info" id="qualityInfo">Auto • Khud Badlega</span>
+  <span style="color:#444">|</span>
+  <span id="totalChanCount" class="total-chan">📺 Loading...</span>
+</div>
+<div class="filter-container"><div class="filter-title">Languages</div><div class="filter-row" id="language-filters"></div></div>
+<div class="filter-container"><div class="filter-title">Categories</div><div class="filter-row" id="category-filters"></div></div>
+<div class="channels-section"><div class="filter-title">Available Channels</div><div class="channels-grid" id="channels-list"></div></div>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <script>
-let channels=[];
-async function load(){
-  let res = await fetch('index.m3u');
-  let text = await res.text();
-  let lines = text.split('\n');
-  for(let i=0;i<lines.length;i++){
-    if(lines[i].startsWith('#EXTINF')){
-      let name = lines[i].split(',')[1] || 'Channel';
-      let url = lines[i+1]?.trim();
-      if(url && url.startsWith('http')) channels.push({name:name.trim(),url});
+let channelsData = [];
+let activeLanguage='all', activeCategory='all';
+let hls = null;
+let DEFAULT_UA = 'Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)';
+let video = document.getElementById('tv-player');
+let M3U_URL = 'https://raw.githubusercontent.com/m3u-iptv/live/main/index.m3u';
+let PROXIES = ['https://corsproxy.io/?url=','https://api.allorigins.win/raw?url=','https://api.codetabs.com/v1/proxy?quest='];
+let lastM3UText = '';
+let currentChannelObj = null;
+let isFirstLoad = true;
+
+function updateClock(){
+  let el=document.getElementById('istClock');
+  if(!el) return;
+  let now=new Date();
+  let ist=now.toLocaleString('en-IN',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:true,day:'2-digit',month:'short',year:'numeric'});
+  el.innerText='🕐 IST Time : '+ist+' | LIVE';
+}
+setInterval(updateClock,1000); updateClock();
+
+let currentChannelSafeName='LIVE';
+let onlineTimer=null;
+function makeSafeName(name){ return (name||'LIVE').replace(/[^a-zA-Z0-9]/g,'_').substring(0,60); }
+async function refreshOnlineCount(){
+  try{
+    let r=await fetch('https://abacus.jasoncameron.dev/info/m3u-iptv-online/'+currentChannelSafeName);
+    let j=await r.json();
+    let c=j.value||1; if(c<1) c=1;
+    document.getElementById('onlineCount').innerText='👁️ '+c.toLocaleString('en-IN')+' Online Dekh Rahe Hai';
+    let card=document.getElementById('card-'+currentChannelSafeName);
+    if(card) card.innerText='👁️ '+c+' Online';
+  }catch(e){}
+}
+async function startOnlineCounter(channelName){
+  currentChannelSafeName=makeSafeName(channelName);
+  let nameEl=document.getElementById('liveChannelName');
+  if(nameEl) nameEl.innerText='🔴 LIVE : '+channelName;
+  try{ await fetch('https://abacus.jasoncameron.dev/hit/m3u-iptv-online/'+currentChannelSafeName); }catch(e){}
+  refreshOnlineCount();
+  if(onlineTimer) clearInterval(onlineTimer);
+  onlineTimer=setInterval(refreshOnlineCount,5000);
+}
+window.addEventListener('beforeunload',()=>{
+  try{ let url='https://abacus.jasoncameron.dev/decrement/m3u-iptv-online/'+currentChannelSafeName; navigator.sendBeacon(url); }catch(e){}
+});
+
+function parseM3U(text){
+  let lines=text.split('\n'), cur=null, pendingUA='', arr=[];
+  for(let line of lines){
+    line=line.trim();
+    if(line.startsWith('#EXTVLCOPT') && line.includes('http-user-agent=')){
+      let ua=line.split('http-user-agent=')[1]||'';
+      if(cur) cur.userAgent=ua.trim(); else pendingUA=ua.trim();
+      continue;
     }
+    if(line.startsWith('#EXTINF')){
+      let name=line.split(',').pop()||'Channel';
+      let logo=(line.match(/tvg-logo="([^"]*)"/)||[])[1]||'';
+      let tvgId=(line.match(/tvg-id="([^"]*)"/)||[])[1]||'';
+      let lang=(line.match(/tvg-language="([^"]*)"/)||[])[1]||'Others';
+      let cat=(line.match(/group-title="([^"]*)"/)||[])[1]||'Entertainment';
+      if(lang==='Others'){ let m=name.match(/\{([^}]+)\}/); if(m) lang=m[1]; }
+      cur={name,logo,lang,cat,url:'',userAgent:pendingUA||DEFAULT_UA,tvgId};
+      pendingUA='';
+    } else if(line.startsWith('http') && cur){ cur.url=line; arr.push(cur); cur=null; }
   }
-  show(channels);
+  return arr;
 }
-function show(list){
-  document.getElementById('list').innerHTML = list.map(c=>`
-    <div class="card"><b>${c.name}</b><button onclick="play('${c.url}')">Play</button></div>
-  `).join('') || 'No Channel Found';
+async function fetchM3U(){
+  let urlWithTime = M3U_URL + (M3U_URL.includes('?')?'&':'?') + 't=' + Date.now();
+  try{ let res=await fetch(urlWithTime); if(res.ok){ let t=await res.text(); if(t.includes('#EXTINF')) return t; } }catch(e){}
+  try{ let res=await fetch(PROXIES[0]+encodeURIComponent(urlWithTime)); if(res.ok){ let t=await res.text(); if(t.includes('#EXTINF')) return t; } }catch(e){}
+  try{ let res=await fetch('index.m3u?t='+Date.now()); if(res.ok) return await res.text(); }catch(e){}
+  return '';
 }
-function filter(){
-  let q = document.getElementById('search').value.toLowerCase();
-  show(channels.filter(c=>c.name.toLowerCase().includes(q)));
+function updateM3UInfoText(){
+  let now=new Date();
+  let t=now.toLocaleString('en-IN',{timeZone:'Asia/Kolkata',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:true});
+  let el=document.getElementById('m3uUpdateInfo');
+  if(el) el.innerText='🔄 M3U Auto Update: ON | Last Updated: '+t+' | Total: '+channelsData.length+' Channels';
+  let tc=document.getElementById('totalChanCount');
+  if(tc) tc.innerText='📺 '+channelsData.length.toLocaleString('en-IN')+' Channels';
 }
-function play(url){
-  let v=document.getElementById('player');
-  v.src=url; v.play();
-  window.scrollTo(0,0);
+async function loadFromM3U(isAuto){
+  if(!isAuto){
+    document.getElementById('status').innerText='M3U Auto Download Ho Raha Hai... ⏳';
+    let tc0=document.getElementById('totalChanCount'); if(tc0) tc0.innerText='📺 Loading All Channels...';
+  }
+  let text=await fetchM3U();
+  if(!text){ if(!isAuto) document.getElementById('status').innerText='M3U Nahi Mila Sir! M3U_URL Check Karo!'; return; }
+  if(isAuto && text===lastM3UText){ updateM3UInfoText(); return; }
+  lastM3UText=text;
+  let oldCount=channelsData.length;
+  channelsData=parseM3U(text);
+  if(!channelsData.length) return;
+  let tc=document.getElementById('totalChanCount');
+  if(tc) tc.innerText='📺 '+channelsData.length.toLocaleString('en-IN')+' Channels';
+  document.getElementById('status').innerText=channelsData.length+' Channels Auto Load Ho Gaye ✅';
+  buildFilters(); loadChannels(); updateM3UInfoText();
+  if(isFirstLoad){
+    isFirstLoad=false;
+    if(channelsData.length) changeChannel(channelsData[0].url, channelsData[0]);
+  } else if(isAuto){
+    if(oldCount!==channelsData.length) document.getElementById('status').innerText='🔄 M3U Auto Update Ho Gaya! Pehle '+oldCount+' Ab '+channelsData.length+' Channels ✅';
+  }
 }
-load();
+setInterval(()=>{ loadFromM3U(true); }, 10*60*1000);
+document.addEventListener('visibilitychange',()=>{ if(!document.hidden) loadFromM3U(true); });
+
+function buildFilters(){
+  let langs=['all',...new Set(channelsData.map(c=>c.lang))];
+  let cats=['all',...new Set(channelsData.map(c=>c.cat))];
+  document.getElementById('language-filters').innerHTML=langs.map(l=>`<button class="filter-btn ${l==='all'?'active':''}" onclick="filterLanguage('${l}',this)">${l==='all'?'All Languages':l}</button>`).join('');
+  document.getElementById('category-filters').innerHTML=cats.map(c=>`<button class="filter-btn ${c==='all'?'active':''}" onclick="filterCategory('${c}',this)">${c==='all'?'All Categories':c}</button>`).join('');
+}
+function loadChannels(){
+  let grid=document.getElementById('channels-list'); grid.innerHTML='';
+  let filtered=channelsData.filter(ch=>(activeLanguage==='all'||ch.lang===activeLanguage)&&(activeCategory==='all'||ch.cat===activeCategory));
+  if(!filtered.length){ grid.innerHTML='<div style="color:#aaa;padding:20px;text-align:center">Is filter me koi channel nahi hai</div>'; return; }
+  filtered.forEach(ch=>{
+    let d=document.createElement('div'); d.className='channel-card';
+    let safe=makeSafeName(ch.name);
+    d.innerHTML=`<img src="${ch.logo}" onerror="this.src='https://via.placeholder.com/60x45?text=TV'"><span>${ch.name}</span><br><span class="card-online" id="card-${safe}">👁️ 1 Online</span>`;
+    d.onclick=()=>changeChannel(ch.url,ch); grid.appendChild(d);
+  });
+}
+function showErr(msg){ let e=document.getElementById('err'); e.style.display='block'; e.innerHTML=msg; }
+function hideErr(){ document.getElementById('err').style.display='none'; }
+function changeChannel(url,ch){
+  startOnlineCounter(ch?ch.name:'LIVE TV');
+  let qs=document.getElementById('qualitySelect'); if(qs) qs.innerHTML='<option value="auto" selected>Auto</option>';
+  let qi=document.getElementById('qualityInfo'); if(qi) qi.innerText='Auto • Khud Badlega';
+  playUrl(url,ch,0);
+}
+function playUrl(url,ch,attempt){
+  hideErr();
+  document.getElementById('status').innerText='Playing: '+(ch?ch.name:'')+' | Try '+(attempt+1)+'...';
+  let playSrc=url;
+  if(url.startsWith('http://')||attempt>0){ let p=PROXIES[attempt%PROXIES.length]; playSrc=p+encodeURIComponent(url); }
+  if(hls){ try{hls.destroy();}catch(e){} hls=null; }
+  video.pause(); video.removeAttribute('src'); video.load();
+  if(window.Hls && Hls.isSupported()){
+    hls=new Hls(); hls.loadSource(playSrc); hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED,()=>{ updateQualityDropdown(); video.play().catch(()=>{ video.muted=true; video.play().catch(()=>{}); }); });
+    hls.on(Hls.Events.ERROR,function(e,data){ if(data.fatal){ if(attempt<3){ playUrl(url,ch,attempt+1); } else { showErr('❌ Ye Link Abhi Server Se Band Hai Sir! Thodi Der Baad Try Karo!'); } } });
+  } else { video.src=playSrc; video.play().catch(()=>{}); }
+}
+function updateQualityDropdown(){
+  let select=document.getElementById('qualitySelect'); let info=document.getElementById('qualityInfo');
+  if(!select||!hls) return;
+  select.innerHTML='<option value="auto" selected>Auto</option>';
+  let seen=new Set(); let levels=[];
+  hls.levels.forEach((level,index)=>{
+    let h=level.height||0; let w=level.width||0; let bitrate=Math.round((level.bitrate||0)/1000);
+    let label=''; if(h) label=h+'p'; else if(w) label=w+'p'; else if(bitrate) label=bitrate+' kbps'; else label='Level '+(index+1);
+    if(seen.has(label)) return; seen.add(label);
+    levels.push({index:index,label:label,height:h,bitrate:bitrate});
+  });
+  levels.sort((a,b)=>b.height-a.height);
+  levels.forEach(l=>{ let opt=document.createElement('option'); opt.value=l.index; opt.text=l.label; select.appendChild(opt); });
+  if(levels.length===0){ let opt=document.createElement('option'); opt.value='0'; opt.text='Original'; select.appendChild(opt); if(info) info.innerText='1 Quality Hai'; }
+  else { if(info) info.innerText=levels.length+' Quality • Auto'; }
+}
+function changeQuality(){
+  let select=document.getElementById('qualitySelect'); let info=document.getElementById('qualityInfo');
+  let val=select.value; if(!hls) return;
+  if(val==='auto'){ hls.currentLevel=-1; if(info) info.innerText='Auto • Khud Badlega'; }
+  else { let idx=parseInt(val); hls.currentLevel=idx; let txt=select.options[select.selectedIndex].text; if(info) info.innerText='Fixed: '+txt; }
+}
+function filterLanguage(lang,btn){ activeLanguage=lang; document.querySelectorAll('#language-filters .filter-btn').forEach(b=>b.classList.remove('active')); btn.classList.add('active'); loadChannels(); }
+function filterCategory(cat,btn){ activeCategory=cat; document.querySelectorAll('#category-filters .filter-btn').forEach(b=>b.classList.remove('active')); btn.classList.add('active'); loadChannels(); }
+loadFromM3U(false);
 </script>
 </body>
 </html>
