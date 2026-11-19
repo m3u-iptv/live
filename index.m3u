@@ -1,3 +1,3 @@
 #EXTM3U
-#EXTINF:-1,9XM
+#EXTINF:-1 tvg-id="9XM in" tvg-logo="" tvg-language="Hindi" group-title="Music",9XM
 https://free.com/live/9xm.m3u8
