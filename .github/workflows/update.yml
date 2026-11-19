@@ -17,10 +17,10 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
-      - run: python live/check.py
+      - run: python check.py
       - run: |
           git config user.name "bot"
           git config user.email "bot@bot.com"
-          git add live/index.m3u
+          git add index.m3u
           git commit -m "auto update 5 min" || echo "koi change nahi"
           git push
