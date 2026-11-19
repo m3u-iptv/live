@@ -5,6 +5,8 @@ from collections import OrderedDict
 INPUT = "streams/in.m3u"
 OUTPUT = "index.m3u"
 
+VLCOPT = '#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)'
+
 def is_dead(url):
     try:
         r = requests.head(url, timeout=8, allow_redirects=True)
@@ -20,7 +22,7 @@ def is_dead(url):
             return True
         return False
     except:
-        return False
+        return True
 
 def get_name(extinf_line):
     if "," in extinf_line:
@@ -36,8 +38,10 @@ if not os.path.exists(INPUT):
 with open(INPUT, encoding="utf-8", errors="ignore") as f:
     lines = f.read().splitlines()
 
-# 1. Pehle sab channel ko naam se group karo
-# 9XM -> [link1, link2, link3...]
+header = "#EXTM3U"
+if lines and lines[0].startswith("#EXTM3U"):
+    header = lines[0].strip()
+
 channels = OrderedDict()
 i = 0
 while i < len(lines):
@@ -45,6 +49,11 @@ while i < len(lines):
     if line.startswith("#EXTINF"):
         if i+1 < len(lines):
             url = lines[i+1].strip()
+            # agar agle line me hi VLCOPT hai to usko skip karo, hum khud lagayenge
+            if url.startswith("#EXTVLCOPT"):
+                if i+2 < len(lines):
+                    url = lines[i+2].strip()
+                    i += 1
             name = get_name(line)
             if name not in channels:
                 channels[name] = []
@@ -53,26 +62,22 @@ while i < len(lines):
             continue
     i += 1
 
-out = ["#EXTM3U"]
+out = [header]
 kept = 0
 
-# 2. Har channel ke liye ek ON wali dhoondo
 for name, links in channels.items():
-    print(f"Checking {name} - {len(links)} links hai")
     added = False
     for extinf, url in links:
         if not is_dead(url):
             out.append(extinf)
+            out.append(VLCOPT)  # <-- Har channel ke neeche ye line
             out.append(url)
             kept += 1
             added = True
-            print(f"  -> ON mili, add ki: {url[:60]}")
-            break  # ek mil gayi, baaki check karne ki zaroorat nahi
-        else:
-            print(f"  -> Band hai, skip: {url[:60]}")
+            break
     
     if not added:
-        print(f"  -> {name} ki saari link band hai, index me nahi dala")
+        print(f"{name} band hai")
 
 with open(OUTPUT, "w", encoding="utf-8") as f:
     f.write("\n".join(out))
