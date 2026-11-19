@@ -1,10 +1,10 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="9XM.in" tvg-name="9XM" tvg-logo="https://m3u-iptv.github.io/iptv/images/9XM.png" tvg-language="Hindi" group-title="Music",9XM
-https://fta.ektv.in/live/155/master.m3u8
+https://9x.cdn.runn.tv/9XM/master.m3u8
 #EXTINF:-1 tvg-id="9XM.in" tvg-name="9XM" tvg-logo="https://m3u-iptv.github.io/iptv/images/9XM.png" tvg-language="Hindi" group-title="Music",9XM
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:9xmusic4.smil/index.m3u8
 #EXTINF:-1 tvg-id="9XM.in" tvg-name="9XM" tvg-logo="https://m3u-iptv.github.io/iptv/images/9XM.png" tvg-language="Hindi" group-title="Music",9XM
-https://9x.cdn.runn.tv/9XM/master.m3u8
+https://fta.ektv.in/live/155/master.m3u8
 #EXTINF:-1 tvg-id="9XM.in" tvg-name="9XM" tvg-logo="https://m3u-iptv.github.io/iptv/images/9XM.png" tvg-language="Hindi" group-title="Music",9XM
 https://cc-706183qeo55ez.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-706183qeo55ez/DIYC/PMSL/9X/9XMusic_IN/9XMusic_IN.m3u8
 #EXTINF:-1 tvg-id="9XM.in" tvg-name="9XM" tvg-logo="https://m3u-iptv.github.io/iptv/images/9XM.png" tvg-language="Hindi" group-title="Music",9XM
