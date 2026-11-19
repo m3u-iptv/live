@@ -1,13 +1,3 @@
 #EXTM3U
 #EXTINF:-1,9XM
 https://fta.ektv.in/live/155/master.m3u8
-#EXTINF:-1,9XM
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:9xmusic4.smil/index.m3u8
-#EXTINF:-1,9XM
-https://cc-706183qeo55ez.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-706183qeo55ez/DIYC/PMSL/9X/9XMusic_IN/9XMusic_IN.m3u8
-#EXTINF:-1,9XM
-https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-q4ao9zhscna6u.m3u8
-#EXTINF:-1,9XM
-https://d3r2w7ppbfeedf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-2gbk0rbth95di/9XMusic_IN.m3u8?ads.ads_cdn=cf&ads.app_domain=APP_DOMAIN&ads.cdn=cf
-#EXTINF:-1,9XM
-https://wiselp.wiseplayout.com/9XM/master.m3u8
