@@ -214,7 +214,7 @@ https://mumt04.tangotv.in/m18aqlK4AASTHAGUJARATI/index.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="AasthaPrime1.in" tvg-name="Aastha Prime 1" tvg-logo="https://m3u-iptv.github.io/iptv/images/Aastha_Prime1.png" tvg-language="Hindi" group-title="Religious",Aastha Prime 1
+#EXTINF:-1 tvg-id="AasthaPrime1.in" tvg-name="Aastha Prime 1" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Aastha_Prime1.png" tvg-language="Hindi" group-title="Religious",Aastha Prime 1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8
 
