@@ -9,7 +9,7 @@ Indian TV Channels Total 1200.
 <br>
 
 ```
-https://m3u-iptv.github.io/live/index.m3u
+https://m3u-iptv.github.io/iptv/index.m3u
 ```
 
 </details>
