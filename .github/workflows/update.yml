@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Download Latest From iptv-org
         run: |
-          curl -L "https://iptv-org.github.io/iptv/index.m3u" -o index.m3u
+          curl -L "https://m3u-iptv.github.io/iptv/index.m3u" -o index.m3u
       - name: Save
         run: |
           git config user.name "auto-bot"
