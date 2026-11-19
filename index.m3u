@@ -1,5 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="9X.TASHAN.in" tvg-name="9X Tashan" tvg-logo="https://m3u-iptv.github.io/iptv/images/9X_Tashan.png" tvg-language="Punjabi" group-title="Music",9X Tashan
-https://wiselp.wiseplayout.com/master.m3u8
+https://wiselp.wiseplayout.com/9X_Tashan/master.m3u8
 #EXTINF:-1 tvg-id="9XM.in" tvg-name="9XM" tvg-logo="https://m3u-iptv.github.io/iptv/images/9XM.png" tvg-language="Hindi" group-title="Music",9XM
 https://9x.cdn.runn.tv/9XM/master.m3u8
