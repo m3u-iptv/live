@@ -35,20 +35,20 @@ Same thing, but split up into separate files:
     <tr><th align="left">Category</th><th align="left">Channels</th><th align="left">Playlist</th></tr>
   </thead>
   <tbody>
-    <tr><td>Entertainment</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/entertainment.m3u</code></td></tr>
-    <tr><td>Movies</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/movies.m3u</code></td></tr>
-    <tr><td>Music</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/music.m3u</code></td></tr>
-    <tr><td>Kids</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/kids.m3u</code></td></tr>
-    <tr><td>News</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/news.m3u</code></td></tr>
-    <tr><td>Sports</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/sports.m3u</code></td></tr>
-    <tr><td>Infotainment</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/infotainment.m3u</code></td></tr>
-    <tr><td>Lifestyle</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/Lifestyle.m3u</code></td></tr>
-    <tr><td>Religious</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/religious.m3u</code></td></tr>
-    <tr><td>Education</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/education.m3u</code></td></tr>
-    <tr><td>Others</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/others.m3u</code></td></tr>
-    <tr><td>General</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/general.m3u</code></td></tr>
-    <tr><td>Travel</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/live/categories/travel.m3u</code></td></tr>
-    <tr><td>Weather</td><td align="right"></td><td nowrap><code>https://m3u-iptv.github.io/live/categories/weather.m3u</code></td></tr>
+    <tr><td>Entertainment</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/iptv/categories/entertainment.m3u</code></td></tr>
+    <tr><td>Movies</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/iptv/categories/movies.m3u</code></td></tr>
+    <tr><td>Music</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/iptv/categories/music.m3u</code></td></tr>
+    <tr><td>Kids</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/iptv/categories/kids.m3u</code></td></tr>
+    <tr><td>News</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/iptv/categories/news.m3u</code></td></tr>
+    <tr><td>Sports</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/iptv/categories/sports.m3u</code></td></tr>
+    <tr><td>Infotainment</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/iptv/categories/infotainment.m3u</code></td></tr>
+    <tr><td>Lifestyle</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/iptv/categories/Lifestyle.m3u</code></td></tr>
+    <tr><td>Religious</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/iptv/categories/religious.m3u</code></td></tr>
+    <tr><td>Education</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/iptv/categories/education.m3u</code></td></tr>
+    <tr><td>Others</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/iptv/categories/others.m3u</code></td></tr>
+    <tr><td>General</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/iptv/categories/general.m3u</code></td></tr>
+    <tr><td>Travel</td><td align="right">0</td><td nowrap><code>https://m3u-iptv.github.io/iptv/categories/travel.m3u</code></td></tr>
+    <tr><td>Weather</td><td align="right"></td><td nowrap><code>https://m3u-iptv.github.io/iptv/categories/weather.m3u</code></td></tr>
   </tbody>
 </table>
 
@@ -63,7 +63,7 @@ Indian TV Channels.
 <br>
 
 ```
-https://m3u-iptv.github.io/live/index.language.m3u
+https://m3u-iptv.github.io/iptv/index.language.m3u
 ```
 
 All Languages M3U
@@ -74,24 +74,24 @@ All Languages M3U
     <tr><th align="left">Language</th><th align="left">Channels</th><th align="left">Playlist</th></tr>
   </thead>
   <tbody>
-    <tr><td align="left">Assamese</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/asm.m3u</code></td></tr>
-    <tr><td align="left">Bengali</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/ben.m3u</code></td></tr>
-    <tr><td align="left">Bhojpuri</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/bho.m3u</code></td></tr>
-    <tr><td align="left">English</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/eng.m3u</code></td></tr>
-    <tr><td align="left">Gujarati</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/guj.m3u</code></td></tr>
-    <tr><td align="left">Haryanvi</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/har.m3u</code></td></tr>
-    <tr><td align="left">Hindi</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/hin.m3u</code></td></tr>
-    <tr><td align="left">Kannada</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/kan.m3u</code></td></tr>
-    <tr><td align="left">Malayalam</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/mal.m3u</code></td></tr>
-    <tr><td align="left">Marathi</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/mar.m3u</code></td></tr>
-    <tr><td align="left">Mizo</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/miz.m3u</code></td></tr>
-    <tr><td align="left">Nepali</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/nep.m3u</code></td></tr>
-    <tr><td align="left">Odia & Oriya</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/odi.m3u</code></td></tr>
-    <tr><td align="left">Punjabi</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/pun.m3u</code></td></tr>
-    <tr><td align="left">Rajasthani</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/raj.m3u</code></td></tr>
-    <tr><td align="left">Tamil</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/tam.m3u</code></td></tr>
-    <tr><td align="left">Telugu</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/tel.m3u</code></td></tr>
-    <tr><td align="left">Urdu</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/live/languages/urd.m3u</code></td></tr>
+    <tr><td align="left">Assamese</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/asm.m3u</code></td></tr>
+    <tr><td align="left">Bengali</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/ben.m3u</code></td></tr>
+    <tr><td align="left">Bhojpuri</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/bho.m3u</code></td></tr>
+    <tr><td align="left">English</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/eng.m3u</code></td></tr>
+    <tr><td align="left">Gujarati</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/guj.m3u</code></td></tr>
+    <tr><td align="left">Haryanvi</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/har.m3u</code></td></tr>
+    <tr><td align="left">Hindi</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/hin.m3u</code></td></tr>
+    <tr><td align="left">Kannada</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/kan.m3u</code></td></tr>
+    <tr><td align="left">Malayalam</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/mal.m3u</code></td></tr>
+    <tr><td align="left">Marathi</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/mar.m3u</code></td></tr>
+    <tr><td align="left">Mizo</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/miz.m3u</code></td></tr>
+    <tr><td align="left">Nepali</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/nep.m3u</code></td></tr>
+    <tr><td align="left">Odia & Oriya</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/odi.m3u</code></td></tr>
+    <tr><td align="left">Punjabi</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/pun.m3u</code></td></tr>
+    <tr><td align="left">Rajasthani</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/raj.m3u</code></td></tr>
+    <tr><td align="left">Tamil</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/tam.m3u</code></td></tr>
+    <tr><td align="left">Telugu</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/tel.m3u</code></td></tr>
+    <tr><td align="left">Urdu</td><td align="right">0</td><td align="left" nowrap><code>https://m3u-iptv.github.io/iptv/languages/urd.m3u</code></td></tr>
     <tr><td align="left">Others</td><td align="right">0</td><td align="left" nowrap><code>https://iptv-org.github.io/iptv/languages/oth.m3u</code></td></tr>
   </tbody>
 </table>
@@ -140,7 +140,7 @@ All Languages Name List.
 Channels Nemes `<FILENAME>` [streams](streams) folder.
 
 ```
-https://raw.githubusercontent.com/m3u-iptv/live/main/streams/<FILENAME>.m3u8
+https://raw.githubusercontent.com/m3u-iptv/iptv/main/streams/<FILENAME>.m3u8
 ```
 
 </details>
@@ -158,7 +158,7 @@ https://cdn.m3u-ip.tv/latest-android.apk
 2.Original Not Update Version
 Click Link Auto Apps Download.
 
-https://github.com/m3u-iptv/live/raw/refs/heads/main/M3U-IPTV-PLAYER-latest-android.apk
+https://github.com/m3u-iptv/iptv/raw/refs/heads/main/M3U-IPTV-PLAYER-latest-android.apk
 
 </details>
 
@@ -170,10 +170,10 @@ https://github.com/m3u-iptv/live/raw/refs/heads/main/M3U-IPTV-PLAYER-latest-andr
 
 1.Original Not Update Version Click Link Auto Apps Download.
 
-https://github.com/m3u-iptv/live/raw/refs/heads/main/network-stream-video-player-4-4.apk
+https://github.com/m3u-iptv/iptv/raw/refs/heads/main/network-stream-video-player-4-4.apk
 
 ```
-https://github.com/m3u-iptv/live/raw/refs/heads/main/Network-Stream-Player-4-4.apk
+https://github.com/m3u-iptv/iptv/raw/refs/heads/main/Network-Stream-Player-4-4.apk
 ```
 
 </details>
@@ -186,16 +186,16 @@ https://github.com/m3u-iptv/live/raw/refs/heads/main/Network-Stream-Player-4-4.a
 
 Click to link Turn on.
 
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
+https://raw.githubusercontent.com/m3u-iptv/iptv/refs/heads/main/Images/10_TV.png
 
 ```
 https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/10_TV.png
 ```
 
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME>.png
+https://raw.githubusercontent.com/m3u-iptv/iptv/refs/heads/main/Images/<FILENAME>.png
 
 ```
-https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME>.png
+https://raw.githubusercontent.com/m3u-iptv/iptv/refs/heads/main/Images/<FILENAME>.png
 ```
 </details>
 
@@ -206,7 +206,7 @@ https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/<FILENAME
 <br>
 
 ```
-https://raw.githubusercontent.com/m3u-iptv/live/main/epg.xml.gz
+https://raw.githubusercontent.com/m3u-iptv/iptv/main/epg.xml.gz
 ```
 </details>
 
