@@ -13,8 +13,6 @@ URLS = [
   "https://i.mjh.nz/SamsungTVPlus/all.xml.gz",
   "https://i.mjh.nz/Plex/all.xml.gz",
   "https://avkb.short.gy/epg.xml.gz",
-  "https://avkb.short.gy/jioepg.xml.gz",
-  "https://avkb.short.gy/tsepg.xml.gz",
   "https://www.open-epg.com/files/india.xml",
   "https://www.open-epg.com/files/unitedkingdom.xml",
   "https://www.open-epg.com/files/hongkong4.xml",
