@@ -1,28 +1,41 @@
 import requests
 import os
+import time
 from collections import OrderedDict
 
 INPUT = "streams/in.m3u"
 OUTPUT = "index.m3u"
 
 VLCOPT = '#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)'
+UA = "Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)"
 
 def is_dead(url):
-    try:
-        r = requests.head(url, timeout=8, allow_redirects=True)
-        if r.status_code == 404:
-            return True
-        if r.status_code < 400:
-            return False
-    except:
-        pass
-    try:
-        r = requests.get(url, timeout=8, stream=True, headers={"User-Agent": "Mozilla/5.0"})
-        if r.status_code == 404:
-            return True
-        return False
-    except:
-        return True
+    headers = {
+        "User-Agent": UA,
+        "Range": "bytes=0-1023",
+        "Accept": "*/*",
+        "Connection": "keep-alive"
+    }
+    # 2 baar try karega, ek baar fail hone pe turant dead nahi manega
+    for attempt in range(2):
+        try:
+            # HEAD nahi, sidha GET with Range se check karo
+            r = requests.get(url, timeout=15, stream=True, headers=headers, allow_redirects=True)
+            # 200, 206, 302, 403 bhi chalu maano - kyunki 403 aksar HEAD block ki wajah se aata hai
+            # Sirf 404 ko hi dead maano
+            if r.status_code == 404:
+                r.close()
+                continue
+            if r.status_code in [200, 206, 301, 302, 403, 401]:
+                r.close()
+                return False
+            r.close()
+            # Agar koi aur code aaya to dobara try karo
+        except Exception as e:
+            print(f"Try {attempt+1} fail {url[:60]} - {e}")
+            time.sleep(2)
+            continue
+    return True
 
 def get_name(extinf_line):
     if "," in extinf_line:
@@ -45,21 +58,28 @@ if lines and lines[0].startswith("#EXTM3U"):
 channels = OrderedDict()
 i = 0
 while i < len(lines):
-    line = lines[i]
+    line = lines[i].strip()
     if line.startswith("#EXTINF"):
-        if i+1 < len(lines):
-            url = lines[i+1].strip()
-            # agar agle line me hi VLCOPT hai to usko skip karo, hum khud lagayenge
-            if url.startswith("#EXTVLCOPT"):
-                if i+2 < len(lines):
-                    url = lines[i+2].strip()
-                    i += 1
+        # Agli non-empty line me URL dhoondo
+        j = i + 1
+        url = ""
+        while j < len(lines):
+            nxt = lines[j].strip()
+            if nxt.startswith("#EXTVLCOPT"):
+                j += 1
+                continue
+            if nxt == "" or nxt.startswith("#"):
+                j += 1
+                continue
+            url = nxt
+            break
+        if url:
             name = get_name(line)
             if name not in channels:
                 channels[name] = []
             channels[name].append((line, url))
-            i += 2
-            continue
+        i = j + 1
+        continue
     i += 1
 
 out = [header]
@@ -70,12 +90,11 @@ for name, links in channels.items():
     for extinf, url in links:
         if not is_dead(url):
             out.append(extinf)
-            out.append(VLCOPT)  # <-- Har channel ke neeche ye line
+            out.append(VLCOPT)
             out.append(url)
             kept += 1
             added = True
             break
-    
     if not added:
         print(f"{name} band hai")
 
