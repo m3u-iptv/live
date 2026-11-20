@@ -2,7 +2,7 @@ name: Auto Update EPG
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Har 6 ghante me auto
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
-            - run: python update.py
+      - run: python update.py
         continue-on-error: true
       - run: |
           git config user.name "EPG Bot"
