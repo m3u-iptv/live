@@ -23,6 +23,9 @@ http://cdn.pishow.tv/live/1580/master.m3u8
 #EXTINF:-1 tvg-id="First.India.News.in" tvg-name="" tvg-logo="https://m3u-iptv.github.io/iptv/images/1ST_India_News.png" tvg-language="Hindi" group-title="News",1 ST India News
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="4SiDESTV.in@SD" tvg-name="4 SiDES TV" tvg-logo="https://m3u-iptv.github.io/iptv/images/4_Sides_TV_Telugu.png" tvg-language="Telugu" group-title="News",4 Sides TV Telugu
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://stream.ottlive.co.in/4sidestv/index.m3u8
 #EXTINF:-1 tvg-id="ts744" tvg-name="4TVNews.in@SD" tvg-logo="https://m3u-iptv.github.io/iptv/images/4TV_News.png" tvg-language="Urdu" group-title="News",4TV News
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1007/master.m3u8
