@@ -1,8 +1,8 @@
-name: Auto Update 5 Min
+name: Auto Update EPG
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 */6 * * *'  # Har 6 ghante me auto
   workflow_dispatch:
 
 permissions:
@@ -17,10 +17,10 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
-      - run: python check.py
+      - run: python update.py
       - run: |
-          git config user.name "bot"
-          git config user.email "bot@bot.com"
-          git add index.m3u
-          git commit -m "auto update 5 min" || echo "koi change nahi"
+          git config user.name "EPG Bot"
+          git config user.email "bot@epg.com"
+          git add epg.xml.gz
+          git commit -m "Auto update epg" || echo "No change"
           git push
