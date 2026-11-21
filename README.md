@@ -4,7 +4,7 @@ Click on a country to go to its directory. From there you can click the mosaic f
 
 |  ![Space] |  ![Space] |  ![Space] |  ![Space] |  ![Space] |  ![Space] |
 |---|---|---|---|---|---|
-| 🇦🇱 [Albania]  ||  
+| 🇦🇱 [Images]  ||  
 
 
 [Images]: Images/ "Images"
