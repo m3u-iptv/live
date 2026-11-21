@@ -1,9 +1,14 @@
 import requests, gzip, time, os
 
 URLS = [
+  "https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz",
   "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz",
   "https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz",
   "https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz",
+  "https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz",
+  "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz",
+  "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
+  "https://avkb.short.gy/epg.xml.gz",
 ]
 
 HEADERS = {
