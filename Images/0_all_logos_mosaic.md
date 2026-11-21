@@ -1,6 +1,7 @@
 # India 🇮🇳
 
-| ![1sports] | ![9x-jalwa] | ![9x-jhakaas] | ![9x-tashan] | ![9xm] | ![a1tv] |
+| ![And-Flix-HD] | ![And-Flix] | ![And-Pictures-HD] | ![And-Pictures] | ![And-Prive-HD] | ![And-Prive] |
+| ![And-Prive] | ![And-TV-HD] | ![And-TV] | ![And-Xplor-HD] | ![And-Xplor] |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | ![aaj-tak-hd] | ![aaj-tak] | ![aakash-aath] | ![aastha-bhajan] | ![aastha] | ![abp-ananda] |
 | ![abp-asmita] | ![abp-ganga] | ![abp-majha] | ![abp-news] | ![abzy-cool] | ![abzy-movies] |
