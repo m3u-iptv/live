@@ -1,4 +1,4 @@
-# Images All Logo List
+# Images
 
 | ![And_Flix_HD] | ![And_Flix] | ![And_Pictures_HD] | ![And_Pictures] | ![And_Prive_HD] | ![And_Prive] |
 |:---:|:---:|:---:|:---:|:---:|:---:|
