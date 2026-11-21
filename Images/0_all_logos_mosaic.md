@@ -89,7 +89,7 @@
 [anaadi-tv]:anaadi-tv-in.png
 [and-flix-hd]:and-flix-hd-in.png
 [and-flix]:and-flix-in.png
-[and-pictures-hd]:and-pictures-hd-in.png
+[And_Pictures_HD]:And_Pictures_HD.png
 [and-pictures]:and-pictures-in.png
 [and-prive-hd]:and-prive-hd-in.png
 [and-prive]:and-prive-in.png
