@@ -98,7 +98,7 @@
 [9XM]:9XM.png
 [9XM_SD]:9XM_SD.png
 [10_TV]:10_TV.png
-[22_Spope_News]:22_Spope_News.png
+[22_Scope_News]:22_Scope_News.png
 [24_Hrs_TV]:24_Hrs_TV.png
 [35_MM]:35_MM.png
 [99_TV]:99_TV.png
