@@ -4,7 +4,7 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | ![aaj-tak-hd] | ![aaj-tak] | ![aakash-aath] | ![aastha-bhajan] | ![aastha] | ![abp-ananda] |
 | ![abp-asmita] | ![abp-ganga] | ![abp-majha] | ![abp-news] | ![abzy-cool] | ![abzy-movies] |
-| ![alankar-tv] | ![anaadi-tv] | ![and-flix-hd] | ![and-flix] | ![and-pictures-hd] | ![and-pictures] |
+| ![alankar-tv] | ![anaadi-tv] | ![and-flix-hd] | ![and-flix] | ![And_Pictures_HD] | ![and-pictures] |
 | ![and-prive-hd] | ![and-prive] | ![and-tv-hd] | ![and-tv] | ![apn-news] | ![argus] |
 | ![arihant] | ![asianet-hd] | ![asianet] | ![asianet-movies] | ![asianet-news] | ![asianet-plus] |
 | ![assam-talks] | ![awakening] | ![b4u-bhojpuri] | ![b4u-kadak] | ![b4u-movies] | ![b4u-music] |
