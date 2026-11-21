@@ -1,8 +1,7 @@
 # Images 
 
-| ![%26Pitures_HD] | ![&Pitures] | ![&Prive_HD] | ![&TV_HD] | ![&TV] | ![&Xplor_HD] |
+| ![And_Pitures_HD] | ![And_Pitures] | ![And_Prive_HD] | ![And_TV_HD] | ![And_TV] | ![And_Xplor_HD] |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![%26Pitures_HD] | ![&Pitures] | ![&Prive_HD] | ![&TV_HD] | ![&TV] | ![&Xplor_HD] |
 | ![aaj-tak-hd] | ![aaj-tak] | ![aakash-aath] | ![aastha-bhajan] | ![aastha] | ![abp-ananda] |
 | ![abp-asmita] | ![abp-ganga] | ![abp-majha] | ![abp-news] | ![abzy-cool] | ![abzy-movies] |
 | ![alankar-tv] | ![anaadi-tv] | ![and-flix-hd] | ![and-flix] | ![And_Pictures_HD] | ![and-pictures] |
