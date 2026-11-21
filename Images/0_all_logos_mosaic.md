@@ -2,7 +2,8 @@
 
 | ![And_Flix_HD] | ![And_Flix] | ![And_Pictures_HD] | ![And_Pictures] | ![And_Prive_HD] | ![And_Prive] |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![And_Prive] | ![And_TV_HD] | ![And_TV] | ![And_Xplor_HD] | ![And_Xplor] | ![aaj-tak-hd] | ![aaj-tak] | ![aakash-aath] | ![aastha-bhajan] | ![aastha] | ![abp-ananda] |
+| ![And_Prive] | ![And_TV_HD] | ![And_TV] | ![And_Xplor_HD] | ![And_Xplor] | ![9X_Jalwa] | 
+| ![9X_Jhakaas] | ![9X_Tashan] | ![9XM] | ![9XM_SD] | ![aaj-tak-hd] | ![aaj-tak] | ![aakash-aath] | ![aastha-bhajan] | ![aastha] | ![abp-ananda] |
 | ![abp-asmita] | ![abp-ganga] | ![abp-majha] | ![abp-news] | ![abzy-cool] | ![abzy-movies] |
 | ![alankar-tv] | ![anaadi-tv] | ![and-flix-hd] | ![and-flix] | ![and-pictures-hd] | ![and-pictures] |
 | ![and-prive-hd] | ![and-prive] | ![and-tv-hd] | ![and-tv] | ![apn-news] | ![argus] |
@@ -76,7 +77,11 @@
 [And_TV]:And_TV.png
 [And_Xplor_HD]:And_Xplor_HD.png
 [And_Xplor]:And_Xplor.png
-
+[9X_Jalwa]:9X_Jalwa.png
+[9X_Jhakaas]:9X_Jhakaas.png
+[9X_Tashan]:9X_Tashan.png
+[9XM]:9XM.png
+[9XM_SD]:9XM_SD.png
 
 [1sports]:1sports-in.png
 [9x-jalwa]:9x-jalwa-in.png
