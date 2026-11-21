@@ -1,25 +1,10 @@
-# Images 
-
-| ![And_Pictures_HD] | ![And_Pictures] | ![And_Prive_HD] | ![And_TV_HD] | ![And_TV] | ![And_Xplor_HD] | 
-
-
-[And_Flix_HD]:And_Flix_HD.png
-[And_Flix]:And_Flix.png
-[And_Pictures_HD]:And_Pictures_HD.png
-[And_Pictures]:And_Pictures.png
-[And_Prive_HD]:And_Prive_HD.png
-[And_Prive]:And_Prive.png
-[And_TV_HD]:And_TV_HD.png
-[And_TV]:And_TV.png
-
-
+# India 🇮🇳
 
 | ![1sports] | ![9x-jalwa] | ![9x-jhakaas] | ![9x-tashan] | ![9xm] | ![a1tv] |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![And_Pictures_HD] | ![And_Pictures] | ![And_Prive_HD] | ![And_TV_HD] | ![And_TV] | ![And_Xplor_HD] | !
 | ![aaj-tak-hd] | ![aaj-tak] | ![aakash-aath] | ![aastha-bhajan] | ![aastha] | ![abp-ananda] |
 | ![abp-asmita] | ![abp-ganga] | ![abp-majha] | ![abp-news] | ![abzy-cool] | ![abzy-movies] |
-| ![alankar-tv] | ![anaadi-tv] | ![and-flix-hd] | ![and-flix] | ![And_Pictures_HD] | ![and-pictures] |
+| ![alankar-tv] | ![anaadi-tv] | ![and-flix-hd] | ![and-flix] | ![and-pictures-hd] | ![and-pictures] |
 | ![and-prive-hd] | ![and-prive] | ![and-tv-hd] | ![and-tv] | ![apn-news] | ![argus] |
 | ![arihant] | ![asianet-hd] | ![asianet] | ![asianet-movies] | ![asianet-news] | ![asianet-plus] |
 | ![assam-talks] | ![awakening] | ![b4u-bhojpuri] | ![b4u-kadak] | ![b4u-movies] | ![b4u-music] |
@@ -102,14 +87,14 @@
 [abzy-movies]:abzy-movies-in.png
 [alankar-tv]:alankar-tv-in.png
 [anaadi-tv]:anaadi-tv-in.png
-[And_Flix_HD]:And_Flix_HD.png
-[And_Flix]:And_Flix.png
-[And_Pictures_HD]:And_Pictures_HD.png
-[And_Pictures]:And_Pictures.png
-[And_Prive_HD]:And_Prive_HD.png
-[And_Prive]:And_Prive.png
-[And_TV_HD]:And_TV_HD.png
-[And_TV]:And_TV.png
+[and-flix-hd]:and-flix-hd-in.png
+[and-flix]:and-flix-in.png
+[and-pictures-hd]:and-pictures-hd-in.png
+[and-pictures]:and-pictures-in.png
+[and-prive-hd]:and-prive-hd-in.png
+[and-prive]:and-prive-in.png
+[and-tv-hd]:and-tv-hd-in.png
+[and-tv]:and-tv-in.png
 [apn-news]:apn-news-in.png
 [argus]:argus-in.png
 [arihant]:arihant-in.png
@@ -458,3 +443,4 @@
 [zoom]:zoom-in.png
 
 [space]:../../misc/space-1500.png "Space"
+
