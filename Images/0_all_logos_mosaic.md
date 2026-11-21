@@ -2,8 +2,15 @@
 
 | ![And_Flix_HD] | ![And_Flix] | ![And_Pictures_HD] | ![And_Pictures] | ![And_Prive_HD] | ![And_Prive] |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![And_Prive] | ![And_TV_HD] | ![And_TV] | ![And_Xplor_HD] | ![And_Xplor] | ![9X_Jalwa] | 
-| ![9X_Jhakaas] | ![9X_Tashan] | ![9XM] | ![9XM_SD] | ![aaj-tak-hd] | ![aaj-tak] | ![aakash-aath] | ![aastha-bhajan] | ![aastha] | ![abp-ananda] |
+| ![And_Prive] | ![And_TV_HD] | ![And_TV] | ![And_Xplor_HD] | ![And_Xplor] | ![1ST_India_News] |
+| ![4_Sides_TV_Telugu] | ![4TV_News] | ![6TV] | ![6TV_Telugu] | ! [7S_Music] | ![7X_Punjabi] |
+| ![9_Plus_News] | ![9X_Jalwa] | ![9X_Jhakaas] | ![9X_Tashan] | ![9XM] | ![9XM_SD] |
+| ![10_TV] | ![22_Spope_News] | ![24_Hrs_TV] | ![35_MM] | ![99_TV] | ![Aadinath_TV] |
+| ![Aagaaz_Times] | ![Aaj_Ki_Khabar] | ![Aaj_Tak_HD] | ![Aaj_Tak_HD_2] | ![Aaj_Tak] | ![Aakash_Aath] |
+| ![Aaryaa_TV] | ![Aaseervatham_TV] | ![Aastha_Bhajan_HD] | ![Aastha_Bhajan_SD] | ![Aastha_Bhajan] | ![Aastha_Gujarati] |
+| ![Aastha_Gujarati_SD] | ![Aastha_Kannada] | ![Aastha_Kannada_SD] | ![Aastha_HD] | ![Aastha_TV_HD] | ![Aastha_TV] |
+| ![Aastha_Prime1] | ![Aastha_UK_Europe] | ![Aastha_USA_Canada] | ![Aastha_Tamil] | ![Aastha_Tamil_SD] | ![Aastha_Telugu] |
+| ![Aastha_Telugu_SD] | ![aaj-tak-hd] | ![aaj-tak] | ![aakash-aath] | ![aastha-bhajan] | ![aastha] |
 | ![abp-asmita] | ![abp-ganga] | ![abp-majha] | ![abp-news] | ![abzy-cool] | ![abzy-movies] |
 | ![alankar-tv] | ![anaadi-tv] | ![and-flix-hd] | ![and-flix] | ![and-pictures-hd] | ![and-pictures] |
 | ![and-prive-hd] | ![and-prive] | ![and-tv-hd] | ![and-tv] | ![apn-news] | ![argus] |
@@ -147,7 +154,7 @@
 [Amar_Bangla]:Amar_Bangla.png
 [Amar_Ujala]:Amar_Ujala.png
 
-[Am]:Amrita_TV.png
+[Ama]:Amrita_TV.png
 [ANB_News]:ANB_News.png
 
 
