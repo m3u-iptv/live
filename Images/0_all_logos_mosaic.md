@@ -10,7 +10,14 @@
 | ![Aaryaa_TV] | ![Aaseervatham_TV] | ![Aastha_Bhajan_HD] | ![Aastha_Bhajan_SD] | ![Aastha_Bhajan] | ![Aastha_Gujarati] |
 | ![Aastha_Gujarati_SD] | ![Aastha_Kannada] | ![Aastha_Kannada_SD] | ![Aastha_HD] | ![Aastha_TV_HD] | ![Aastha_TV] |
 | ![Aastha_Prime1] | ![Aastha_UK_Europe] | ![Aastha_USA_Canada] | ![Aastha_Tamil] | ![Aastha_Tamil_SD] | ![Aastha_Telugu] |
-| ![Aastha_Telugu_SD] | ![aaj-tak-hd] | ![aaj-tak] | ![aakash-aath] | ![aastha-bhajan] | ![aastha] |
+| ![Aastha_Telugu_SD] | ![ABP_Ananda] | ![ABP_Asmita] | ![ABP_Ganga] | ![ABP_Majha] | ![ABP_News] |
+| ![ABP_Sanjha] | ![AB_Star_News] | ![ABC_News] | ![ABC_News_Australia] | ![ABN_Andhra_Jyoti] | ![ABN_TV_India] |
+| ![ABZY_Cool] | ![ABZY_Movies] | ![Adhyatm_TV] | ![Adithya_TV] | ![Aditya_Music] | ![Aditya_Music_SD] |
+| ![AKD_Calcutta_News] | ![Akhon_Kolkata] | ![Aljazeera] | ![AL_Jazeera] | ![All_Time_Movies] | ![Alankar] |
+| ![Amar_Bangla] | ![Amar_Ujala] | ![Amrita_TV] | ![Anaadi_TV] | ![Anand_TV] | ![Anand_Wari_TV] |
+| ![Ananda_Barta] | ![ANB_News] | ![Andy_Haryana] | ![Angel_TV_HD] | ![Angel_TV_HD] | ![Anmol_Cinema] |
+| ![Anmol_Cinema_2] | ![Anmol_TV] | ![Athavan_TV] | ![Athavan_TV] | ![Awakening] | ![1] |
+| ![2] | ![aaj-tak-hd] | ![aaj-tak] | ![aakash-aath] | ![aastha-bhajan] | ![aastha] |
 | ![abp-asmita] | ![abp-ganga] | ![abp-majha] | ![abp-news] | ![abzy-cool] | ![abzy-movies] |
 | ![alankar-tv] | ![anaadi-tv] | ![and-flix-hd] | ![and-flix] | ![and-pictures-hd] | ![and-pictures] |
 | ![and-prive-hd] | ![and-prive] | ![and-tv-hd] | ![and-tv] | ![apn-news] | ![argus] |
@@ -153,9 +160,22 @@
 [Alankar]:Alankar.png
 [Amar_Bangla]:Amar_Bangla.png
 [Amar_Ujala]:Amar_Ujala.png
-
-[Ama]:Amrita_TV.png
+[Amrita_TV]:Amrita_TV.png
+[Anaadi_TV]:Anaadi_TV.png
+[Anand_TV]:Anand_TV.png
+[Anand_Wari_TV]:Anand_Wari_TV.png
+[Ananda_Barta]:Ananda_Barta.png
 [ANB_News]:ANB_News.png
+[Andy_Haryana]:Andy_Haryana.png
+[Angel_TV_HD]:Angel_TV_HD.png
+[Angel_TV_HD]:Angel_TV_HD_Namskar.png
+[Anmol_Cinema]:Anmol_Cinema.png
+[Anmol_Cinema_2]:Anmol_Cinema_2.png
+[Anmol_TV]:Anmol_TV.png
+[Athavan_TV]:Athavan_TV.png
+[Athavan_TV]:Athavana_TV_HD.png
+[Awakening]:Awakening.png
+
 
 
 
