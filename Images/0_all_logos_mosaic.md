@@ -10,10 +10,9 @@
 | ![Aaryaa_TV] | ![Aaseervatham_TV] | ![Aastha_Bhajan_HD] | ![Aastha_Bhajan_SD] | ![Aastha_Bhajan] | ![Aastha_Gujarati] |
 | ![Aastha_Gujarati_SD] | ![Aastha_Kannada] | ![Aastha_Kannada_SD] | ![Aastha_HD] | ![Aastha_TV_HD] | ![Aastha_TV] |
 | ![Aastha_Prime1] | ![Aastha_UK_Europe] | ![Aastha_USA_Canada] | ![Aastha_Tamil] | ![Aastha_Tamil_SD] | ![Aastha_Telugu] |
-| ![Aastha_Telugu_SD] |
+| ![Aastha_Telugu_SD] | ![space] | ![space] | ![space] | ![space] | ![space] |
 
 | ![space] | ![space] | ![space] | ![space] | ![space] | ![space] |
-
 
 
 [And_Flix_HD]:And_Flix_HD.png
