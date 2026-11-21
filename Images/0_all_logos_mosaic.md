@@ -1,9 +1,8 @@
 # India 🇮🇳
 
 | ![And-Flix-HD] | ![And-Flix] | ![And-Pictures-HD] | ![And-Pictures] | ![And-Prive-HD] | ![And-Prive] |
-| ![And-Prive] | ![And-TV-HD] | ![And-TV] | ![And-Xplor-HD] | ![And-Xplor] |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![aaj-tak-hd] | ![aaj-tak] | ![aakash-aath] | ![aastha-bhajan] | ![aastha] | ![abp-ananda] |
+| ![And-Prive] | ![And-TV-HD] | ![And-TV] | ![And-Xplor-HD] | ![And-Xplor] | ![aaj-tak-hd] | ![aaj-tak] | ![aakash-aath] | ![aastha-bhajan] | ![aastha] | ![abp-ananda] |
 | ![abp-asmita] | ![abp-ganga] | ![abp-majha] | ![abp-news] | ![abzy-cool] | ![abzy-movies] |
 | ![alankar-tv] | ![anaadi-tv] | ![and-flix-hd] | ![and-flix] | ![and-pictures-hd] | ![and-pictures] |
 | ![and-prive-hd] | ![and-prive] | ![and-tv-hd] | ![and-tv] | ![apn-news] | ![argus] |
