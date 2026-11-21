@@ -1,9 +1,9 @@
 import requests, gzip, time, os
 
 URLS = [
-  "https://epg.pw/xmltv/epg_IN.xml",
-  "http://epg.pw/xmltv/epg_IN.xml",
-  "https://epg.pw/xmltv/epg_IN.xml.gz",
+  "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz",
+  "https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz",
+  "https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz",
 ]
 
 HEADERS = {
