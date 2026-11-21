@@ -1,5 +1,19 @@
 # Images
 
+| [![7S_Music][7S_Music]](http://cdn.pishow.tv/live/1257/master.m3u8) | [![7X_Punjabi][7X_Punjabi]](https://7xshreeshyam.akamaized.net/7XPunjabi/index.m3u8) | [![9X_Jalwa][9X_Jalwa]](https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8) | [![9X_Jhakaas][9X_Jhakaas]](https://wiselp.wiseplayout.com/9X_Jhakaas/master.m3u8) | [![9X_Tashan][9X_Tashan]](https://wiselp.wiseplayout.com/9X_Tashan/master.m3u8) | [![9XM][9XM]](https://wiselp.wiseplayout.com/9XM/master.m3u8) |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| ![space] | ![space] | ![space] | ![space] | ![space] | ![space] |
+
+[7S_Music]:7S_Music.png
+[7X_Punjabi]:7X_Punjabi.png
+[9X_Jalwa]:9X_Jalwa.png
+[9X_Jhakaas]:9X_Jhakaas.png
+[9X_Tashan]:9X_Tashan.png
+[9XM]:9XM.png
+
+[space]:../../misc/space-1500.png "Space"
+
+
 | ![And_Flix_HD] | ![And_Flix] | ![And_Pictures_HD] | ![And_Pictures] | ![And_Prive_HD] | ![And_Prive] |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | ![And_Prive] | ![And_TV_HD] | ![And_TV] | ![And_Xplor_HD] | ![And_Xplor] | ![1ST_India_News] |
