@@ -67,7 +67,7 @@
 | ![space] | ![space] | ![space] | ![space] | ![space] | ![space] |
 
 
-[10-TV]:10-TV-in.png
+[10-TV]:10-TV.png
 [9x-jalwa]:9x-jalwa-in.png
 [9x-jhakaas]:9x-jhakaas-in.png
 [9x-tashan]:9x-tashan-in.png
