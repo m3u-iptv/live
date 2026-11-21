@@ -417,6 +417,29 @@
 [zee-news]:zee-news-in.png
 [zee-odisha-news]:zee-odisha-news-in.png
 [zee-picchar-hd]:zee-picchar-hd-in.png
-[zee-picchar]:zee-picchar
+[zee-picchar]:zee-picchar-in.png
+[zee-punjab-haryana-himachal]:zee-punjab-haryana-himachal-in.png
+[zee-punjabi]:zee-punjabi-in.png
+[zee-rajasthan]:zee-rajasthan-in.png
+[zee-sarthak]:zee-sarthak-in.png
+[zee-talkies-hd]:zee-talkies-hd-in.png
+[zee-talkies]:zee-talkies-in.png
+[zee-tamil-hd]:zee-tamil-hd-in.png
+[zee-tamil]:zee-tamil-in.png
+[zee-tamil-news]:zee-tamil-news-in.png
+[zee-telugu-hd]:zee-telugu-hd-in.png
+[zee-telugu]:zee-telugu-in.png
+[zee-telugu-news]:zee-telugu-news-in.png
+[zee-thirai-hd]:zee-thirai-hd-in.png
+[zee-thirai]:zee-thirai-in.png
+[zee-tv-hd]:zee-tv-hd-in.png
+[zee-tv]:zee-tv-in.png
+[zee-uttar-pradesh-uttarakhand]:zee-uttar-pradesh-uttarakhand-in.png
+[zee-yuva]:zee-yuva-in.png
+[zee-zest-hd]:zee-zest-hd-in.png
+[zee-zest]:zee-zest-in.png
+[zee-zindagi]:zee-zindagi-in.png
+[zing]:zing-in.png
+[zoom]:zoom-in.png
 
-
+[space]:../../misc/space-1500.png "Space"
