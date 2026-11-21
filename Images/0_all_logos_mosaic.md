@@ -87,7 +87,7 @@
 [1ST_India_News]:1ST_India_News.png
 [4_Sides_TV_Telugu]:4_Sides_TV_Telugu.png
 [4TV_News]:4TV_News.png
-[6TV]:6TV_News.png
+[6TV]:6TV.png
 [6TV_Telugu]:6TV_Telugu.png
 [7S_Music]:7S_Music.png
 [7X_Punjabi]:7X_Punjabi.png
