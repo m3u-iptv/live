@@ -1,5 +1,19 @@
 # Images 
 
+| ![And_Pictures_HD] | ![And_Pictures] | ![And_Prive_HD] | ![And_TV_HD] | ![And_TV] | ![And_Xplor_HD] | 
+
+
+[And_Flix_HD]:And_Flix_HD.png
+[And_Flix]:And_Flix.png
+[And_Pictures_HD]:And_Pictures_HD.png
+[And_Pictures]:And_Pictures.png
+[And_Prive_HD]:And_Prive_HD.png
+[And_Prive]:And_Prive.png
+[And_TV_HD]:And_TV_HD.png
+[And_TV]:And_TV.png
+
+
+
 | ![1sports] | ![9x-jalwa] | ![9x-jhakaas] | ![9x-tashan] | ![9xm] | ![a1tv] |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | ![And_Pictures_HD] | ![And_Pictures] | ![And_Prive_HD] | ![And_TV_HD] | ![And_TV] | ![And_Xplor_HD] | !
