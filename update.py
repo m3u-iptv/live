@@ -1,7 +1,8 @@
 import requests, gzip, time, os
 
 URLS = [
-  "https://iptv-org.github.io/epg/guides/en/dishtv.in.xml"
+  "https://iptv-org.github.io/epg/guides/en/tataplay.com.xml
+"
 ]
 
 HEADERS = {
