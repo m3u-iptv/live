@@ -1,6 +1,6 @@
 # Images 
 
-| ![And_Pitures_HD] | ![And_Pitures] | ![And_Prive_HD] | ![And_TV_HD] | ![And_TV] | ![And_Xplor_HD] |
+| ![1sports] | ![9x-jalwa] | ![9x-jhakaas] | ![9x-tashan] | ![9xm] | ![a1tv] |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | ![And_Pitures_HD] | ![And_Pitures] | ![And_Prive_HD] | ![And_TV_HD] | ![And_TV] | ![And_Xplor_HD] | !
 | ![aaj-tak-hd] | ![aaj-tak] | ![aakash-aath] | ![aastha-bhajan] | ![aastha] | ![abp-ananda] |
