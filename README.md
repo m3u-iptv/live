@@ -2,8 +2,6 @@
 
 All channels Images.
 
-|  ![Space] |  ![Space] |  ![Space] |  ![Space] |  ![Space] |  ![Space] |
-|---|---|---|---|---|---|
 | 🇦🇱 [Images]  |  |  |
 
 
