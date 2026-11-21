@@ -5,4 +5,6 @@
 | [Images]  |
 
 | ![and-pictures] |
-| ![and-prive-hd] | 
+| ![and-prive-hd] | |||
+
+[]: Images/ ""
