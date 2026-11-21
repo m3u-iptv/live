@@ -1,6 +1,6 @@
 # India 🇮🇳
 
-| ![10_TV] | ![9x-jalwa] | ![9x-jhakaas] | ![9x-tashan] | ![9xm] | ![a1tv] |
+| ![10-TV] | ![And-Pictures-HD] | ![And-Pictures] | ![And-TV-HD] | ![And-TV] | ![And-Xplor-HD] |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | ![aaj-tak-hd] | ![aaj-tak] | ![aakash-aath] | ![aastha-bhajan] | ![aastha] | ![abp-ananda] |
 | ![abp-asmita] | ![abp-ganga] | ![abp-majha] | ![abp-news] | ![abzy-cool] | ![abzy-movies] |
@@ -66,8 +66,12 @@
 | ![zing] | ![zoom] | ![space] | ![space] | ![space] | ![space] |
 | ![space] | ![space] | ![space] | ![space] | ![space] | ![space] |
 
-
-[10_TV]:10_TV.png
+[And-Pictures-HD]:And-Pictures-HD-in.png
+[And-Pictures]:And-Pictures-in.png
+[And-TV-HD]:And-TV-HD-in.png
+[And-TV]:And-TV-in.png
+[And-Xplor-HD]:And-Xplor-HD-in.png
+[10-TV]:10-TV-in.png
 [9x-jalwa]:9x-jalwa-in.png
 [9x-jhakaas]:9x-jhakaas-in.png
 [9x-tashan]:9x-tashan-in.png
