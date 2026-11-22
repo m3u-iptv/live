@@ -29,7 +29,7 @@ def build_epg():
 
     # 2. वेबसाइट की API से शेड्यूल डेटा लाएं
     # (यहाँ Chrome Network टैब से निकाला गया असली API URL डालें)
-    API_URL = "https://aasthatv.tv"  # <-- इसे असली URL से बदलें
+    API_URL = "https://aasthatv.tv/tvguide"  # <-- इसे असली URL से बदलें
     
     try:
         headers = {"User-Agent": "Mozilla/5.0"}
