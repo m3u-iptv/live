@@ -1,0 +1,36 @@
+name: Auto Update Aastha EPG
+
+on:
+  schedule:
+    # रोज़ सुबह 12:30 AM IST (19:00 UTC) पर चलेगा
+    - cron: '0 19 * * *'
+  workflow_dispatch: # मैन्युअल रूप से चलाने के लिए बटन
+
+jobs:
+  build-epg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run EPG generator script
+        run: python generate_epg.py
+
+      - name: Commit and push updated EPG
+        run: |
+          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.name "github-actions[bot]"
+          git add epg.xml.gz
+          git commit -m "Auto-update EPG" || exit 0
+          git push
