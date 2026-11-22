@@ -3,4 +3,7 @@
   <channel id="aastha">
     <display-name>Aastha TV</display-name>
   </channel>
+  <programme start="20261122163239 +0530" stop="20261122163239 +0530" channel="aastha">
+    <title lang="hi">Aastha TV Live</title>
+  </programme>
 </tv>
