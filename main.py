@@ -1,112 +1,97 @@
 import requests, json, gzip, re, xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime
 
-headers={"User-Agent":"Mozilla/5.0", "Referer":"https://aasthatv.tv/tvguide"}
+headers={"User-Agent":"Mozilla/5.0","Referer":"https://aasthatv.tv/tvguide"}
 
+# 1. HTML LO
+html = requests.get("https://aasthatv.tv/tvguide", headers=headers, timeout=30).text
+print("HTML LEN:", len(html))
+# HTML ko file me bhi save karo taaki dekh sake
+open("debug.html","w",encoding="utf-8").write(html[:50000])
+
+# 2. JSON BHI LO
 def get_json(url):
     try:
         r=requests.get(url, headers=headers, timeout=30)
-        print(url, r.status_code)
         j=r.json()
-        print("KEYS:", list(j.keys())[:20] if isinstance(j, dict) else f"LIST len {len(j)}")
-        print("SAMPLE:", str(j)[:2000])
+        open("debug_"+url.split("/")[-1].split("?")[0]+".json","w").write(json.dumps(j, indent=2)[:20000])
+        print(url, "OK", str(j)[:1000])
         return j
     except Exception as e:
         print("FAIL", url, e)
         return {}
-
 channels = get_json("https://api-apac.revlet.net/service/api/v1/tvguide/channels")
 guide = get_json("https://api-apac.revlet.net/service/api/v1/page/content?path=tvguide&count=30")
 
-# TVGUIDE PAGE BHI
-html = requests.get("https://aasthatv.tv/tvguide", headers=headers, timeout=30).text
-data={}
-m=re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
-if m:
-    try: data=json.loads(m.group(1))
-    except: pass
-
 tv = ET.Element("tv", {"generator-info-name":"aastha-tvguide"})
-seen=set()
+ch = ET.SubElement(tv, "channel", {"id":"aastha"})
+ET.SubElement(ch, "display-name").text="Aastha TV"
 
-def clean_time(v):
-    # epoch, ISO, sab ko handle karega
-    if v is None: return None
-    s=str(v).strip()
-    if not s: return None
+programs=[]
+
+# 3. TARIQA 1 - HTML ME TIME + NAAM WALA PATTERN
+# Jaise 06:00 - Mangal Maye, 06:30 - Bhajan
+# HTML se saare text nikaalo
+text = re.sub(r'<script.*?</script>','', html, flags=re.S)
+text = re.sub(r'<style.*?</style>','', text, flags=re.S)
+text = re.sub(r'<[^>]+>',' | ', text)
+text = re.sub(r'\s+',' ', text)
+
+# Pattern: 06:00 AM / 6:00 / 06:00:00 ke baad naam
+for m in re.finditer(r'(\d{1,2}:\d{2}\s*(?:AM|PM|am|pm)?)\s*\|?\s*([A-Za-z\u0900-\u097F][A-Za-z\u0900-\u097F0-9 \-\(\)]{3,60})', text):
+    t_raw = m.group(1).strip()
+    title = m.group(2).strip().strip('|').strip()
+    # kachra hatao
+    if len(title)<3 or "Aastha" in title and len(title)<10: continue
+    if any(x in title.lower() for x in ["cookie","privacy","copyright","menu","search","login","subscribe"]): continue
+    programs.append((t_raw, title))
+    print(f"HTML SE MILA: {t_raw} - {title}")
+
+# 4. TARIQA 2 - NEXT_DATA ME JO BHI HO
+m2=re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+if m2:
     try:
-        # epoch 10 ya 13 digit
-        if s.isdigit():
-            ts=int(s)
-            if len(s)==13: ts=ts//1000
-            dt=datetime.fromtimestamp(ts, tz=timezone.utc)
-            return dt.strftime("%Y%m%d%H%M%S")
-        # ISO 2026-11-22T06:00:00
-        s2=s.replace("T"," ").replace("Z","").split(".")[0]
-        # 2026-11-22 06:00:00 ya 06:00
-        for fmt in ("%Y-%m-%d %H:%M:%S","%Y-%m-%d %H:%M","%Y/%m/%d %H:%M","%d-%m-%Y %H:%M","%H:%M"):
-            try:
-                dt=datetime.strptime(s2, fmt)
-                if fmt=="%H:%M":
-                    dt=datetime.now().replace(hour=dt.hour, minute=dt.minute, second=0)
-                return dt.strftime("%Y%m%d%H%M%S")
-            except: pass
-        # sirf digits nikaal lo 20261122060000
-        d=re.sub(r'\D','',s)
-        if len(d)>=12: return d[:14].ljust(14,'0')
-    except: pass
-    return None
+        data=json.loads(m2.group(1))
+        def walk(o):
+            if isinstance(o, dict):
+                title=o.get("title") or o.get("name") or o.get("program_name")
+                st=o.get("start_time") or o.get("start") or o.get("time")
+                if title and st:
+                    print("NEXT_DATA PROGRAM:", title, st)
+                    programs.append((str(st), str(title)))
+                for v in o.values(): walk(v)
+            elif isinstance(o, list):
+                for v in o: walk(v)
+        walk(data)
+    except Exception as e: print(e)
 
-def walk(o, parent_channel="aastha"):
-    if isinstance(o, dict):
-        # channel id nikal lo
-        cid = o.get("channel_id") or o.get("channelId") or o.get("channel") or o.get("slug") or o.get("id")
-        if isinstance(cid, dict): cid=cid.get("id") or cid.get("slug") or parent_channel
-        cur_ch = str(cid) if cid and len(str(cid))<60 else parent_channel
+# 5. DEDUPE + EPG BANAO
+seen=set()
+today=datetime.now().strftime("%Y%m%d")
+for t_raw, title in programs:
+    if title in seen: continue
+    seen.add(title)
+    # Time ko saaf karo
+    tm=re.search(r'(\d{1,2}):(\d{2})', t_raw)
+    if not tm: continue
+    h,mn=int(tm.group(1)), int(tm.group(2))
+    is_pm = "pm" in t_raw.lower()
+    is_am = "am" in t_raw.lower()
+    if is_pm and h<12: h+=12
+    if is_am and h==12: h=0
+    start=f"{today}{h:02d}{mn:02d}00"
+    # End = agle program ka start, abhi ke liye +30 min
+    p=ET.SubElement(tv, "programme", {"start":start+" +0530", "stop":start+" +0530", "channel":"aastha"})
+    ET.SubElement(p, "title", {"lang":"hi"}).text=title
 
-        # CHANNEL
-        name = o.get("channel_name") or o.get("channelName") or o.get("name")
-        # sirf tab jab isme logo ya channel jaisa lage
-        if name and (o.get("logo") or o.get("channel_id") or o.get("slug")) and str(cid) not in seen:
-            seen.add(str(cid))
-            ch=ET.SubElement(tv, "channel", {"id":str(cid)})
-            ET.SubElement(ch, "display-name").text=str(name)
-            logo=o.get("logo") or o.get("image") or o.get("logoUrl") or o.get("icon")
-            if logo and isinstance(logo,str): ET.SubElement(ch, "icon", {"src":logo})
+# End time fix karo - agle wale ka start = iska end
+progs=[c for c in tv if c.tag=='programme']
+progs_sorted=sorted(progs, key=lambda x: x.get("start"))
+for i,pr in enumerate(progs_sorted):
+    if i+1 < len(progs_sorted):
+        pr.set("stop", progs_sorted[i+1].get("start"))
 
-        # PROGRAM - har key check karo
-        title = o.get("title") or o.get("program_name") or o.get("programName") or o.get("show_title") or o.get("showName") or o.get("name")
-        # time ke 20 tarah ke naam
-        start_raw = None
-        end_raw = None
-        for k,v in o.items():
-            lk=str(k).lower()
-            if "start" in lk or lk in ("from","time","schedule_time","from_time","begin"): start_raw=v
-            if "end" in lk or lk in ("to","to_time","until"): end_raw=v
-        # agar schedule list ke andar hai to bhi
-        if title and start_raw:
-            s=clean_time(start_raw)
-            e=clean_time(end_raw) or s
-            if s:
-                p=ET.SubElement(tv, "programme", {"start":s+" +0530", "stop":e+" +0530", "channel":cur_ch})
-                ET.SubElement(p, "title", {"lang":"hi"}).text=str(title)
-                desc=o.get("description") or o.get("desc") or o.get("synopsis") or ""
-                if desc: ET.SubElement(p, "desc", {"lang":"hi"}).text=str(desc)
-                print(f"PROGRAM MILA: {s} {title} ch={cur_ch}")
-        for v in o.values(): walk(v, cur_ch)
-    elif isinstance(o, list):
-        for v in o: walk(v, parent_channel)
-
-walk(channels)
-walk(guide)
-walk(data)
-
-print("TOTAL CHANNEL:", len([c for c in tv if c.tag=='channel']))
-print("TOTAL PROGRAM:", len([c for c in tv if c.tag=='programme']))
-
-if len([c for c in tv if c.tag=='channel'])==0:
-    ch=ET.SubElement(tv, "channel", {"id":"aastha"})
-    ET.SubElement(ch, "display-name").text="Aastha TV"
+print("TOTAL PROGRAM:", len(progs))
 
 ET.indent(tv)
 ET.ElementTree(tv).write("epg.xml", encoding="utf-8", xml_declaration=True)
