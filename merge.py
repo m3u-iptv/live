@@ -43,47 +43,88 @@ for url in URLS:
     except Exception as e:
         print("FAIL:", url, e)
 
-# ===== AASTHA - ASLI PROGRAM NAME WALA - ADD HO GAYA =====
-print("Aastha Asli Schedule...")
+# ===== AASTHA - aasthatv.tv/tvguide SE ASLI ALAG-ALAG SCHEDULE =====
+print("Aastha Original - aasthatv.tv/tvguide...")
 try:
-    aastha_ids = ["AasthaHD","AasthaBhajan","DharamSandesh","Vedic","AasthaPrime","AasthaGujarati","AasthaTamil","AasthaTelugu","AasthaKannada","AasthaUKEurope","AasthaUSACanada"]
+    import json
+    aastha_map = {
+      "AasthaHD": ["Aastha HD", "Aastha"],
+      "AasthaBhajan": ["Aastha Bhajan", "Bhajan"],
+      "DharamSandesh": ["Dharam Sandesh"],
+      "Vedic": ["Vedic"],
+      "AasthaPrime": ["Aastha Prime", "Prime"],
+      "AasthaGujarati": ["Aastha Gujarati", "Gujarati"],
+      "AasthaTamil": ["Aastha Tamil", "Tamil"],
+      "AasthaTelugu": ["Aastha Telugu", "Telugu"],
+      "AasthaKannada": ["Aastha Kannada", "Kannada"],
+      "AasthaUKEurope": ["Aastha UK", "UK Europe"],
+      "AasthaUSACanada": ["Aastha USA", "USA Canada"],
+    }
     aastha_names = {"AasthaHD":"Aastha HD","AasthaBhajan":"Aastha Bhajan","DharamSandesh":"Dharam Sandesh","Vedic":"Vedic","AasthaPrime":"Aastha Prime","AasthaGujarati":"Aastha Gujarati","AasthaTamil":"Aastha Tamil","AasthaTelugu":"Aastha Telugu","AasthaKannada":"Aastha Kannada","AasthaUKEurope":"Aastha UK Europe","AasthaUSACanada":"Aastha USA Canada"}
 
-    # Aastha HD ka asli schedule
-    r = requests.get("https://mytvguide.org/aastha-tv-guide/", headers={"User-Agent":"Mozilla/5.0"}, timeout=60)
-    html = r.text
-    sched = re.findall(r'(\d{1,2}:\d{2}\s*[AP]M)\s*([A-Za-z0-9 \-\.\']{3,60})', html)
-    print("Aastha schedule mile:", len(sched))
+    headers = {"User-Agent":"Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 Chrome/120 Mobile Safari/537.36", "Accept":"application/json, text/html"}
+    # 1. Pehle HTML uthao - isme JSON chhupa hota hai
+    html = ""
+    for u in ["https://aasthatv.tv/tvguide", "https://aasthatv.tv/api/tvguide", "https://aasthatv.tv/api/program-guide", "https://api.aasthatv.tv/tvguide"]:
+        try:
+            rr = requests.get(u, headers=headers, timeout=30)
+            print("Try:", u, rr.status_code, len(rr.text))
+            if len(rr.text) > 5000:
+                html += rr.text + "\n"
+        except Exception as e:
+            print("Try fail:", u, e)
 
-    if len(sched) < 5:
-        sched = [("12:00 AM","Aastha Special"),("03:00 AM","Bhajan"),("03:25 AM","Pujya Rajeev Lochan Prabhu"),("04:30 AM","Yog Rishi Swami Ramdevji"),("05:20 AM","Ayurved Evam Jeevan Darshan"),("06:00 AM","Pujya Deepakbhai"),("07:00 AM","Aastha Special"),("08:00 AM","Bhajan"),("09:00 AM","Bhaishri Rameshbhai Oza"),("10:00 AM","Morari Bapu"),("02:00 PM","Pujya Rajan ji Maharaj"),("05:00 PM","Pujya Devi Hemlata Shastri ji"),("06:40 PM","Morari Bapu"),("09:45 PM","Aastha Special")]
+    # 2. HTML me se Time + Title ke jode nikalo - jaise 07:00 PM YAMUNA AARTI
+    # Har channel ke hisse ko alag karo
+    def parse_channel_section(section):
+        # 07:00 PM, 07:30 PM ke saath title
+        pairs = re.findall(r'(\d{1,2}:\d{2}\s*[AP]M)[^A-Za-z0-9]{0,20}([A-Z0-9][A-Za-z0-9 \-\.\(\)\@]{2,60})', section)
+        out = []
+        for tstr, title in pairs:
+            title = title.strip().strip("-").strip()
+            if len(title) < 3: continue
+            if title.lower() in ["go live","live","home","shorts","search","account"]: continue
+            if "Mon" in title or "Tue" in title: continue
+            out.append((tstr.strip(), title))
+        return out
 
     today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-    prog_list = []
-    for i, (tstr, title) in enumerate(sched):
-        try:
-            st = datetime.strptime(tstr.strip(), "%I:%M %p")
-            start = today.replace(hour=st.hour, minute=st.minute)
-            if i+1 < len(sched):
-                et = datetime.strptime(sched[i+1][0].strip(), "%I:%M %p")
-                stop = today.replace(hour=et.hour, minute=et.minute)
-                if stop <= start: stop = stop + timedelta(days=1)
-            else:
-                stop = start + timedelta(hours=1)
-            prog_list.append((start, stop, title.strip()))
-        except: continue
 
-    for cid in aastha_ids:
+    for cid, keywords in aastha_map.items():
         if cid not in channels:
             ch_el = ET.Element("channel", {"id": cid})
             dn = ET.SubElement(ch_el, "display-name"); dn.text = aastha_names[cid]
             channels[cid] = ch_el
-        # Purana placeholder programme hatana hai to pehle se is channel ka programme na jodo - naya asli wala jodo
-        for start, stop, title in prog_list:
-            p = ET.Element("programme", {"start": start.strftime("%Y%m%d%H%M%S +0530"), "stop": stop.strftime("%Y%m%d%H%M%S +0530"), "channel": cid})
-            t = ET.SubElement(p, "title"); t.text = title
-            programmes.append(p)
-    print("Aastha OK - Program Name Aa Gaya")
+
+        # Is channel ka hissa dhoondo HTML me
+        sched = []
+        for kw in keywords:
+            idx = html.find(kw)
+            if idx != -1:
+                sched = parse_channel_section(html[idx:idx+8000])
+                if len(sched) >= 3:
+                    break
+        print(cid, "schedule:", len(sched), sched[:2])
+
+        # Agar is channel ka alag na mile to uska naam hi daalo, dusre ka copy mat karo
+        if len(sched) < 3:
+            sched = [("12:00 AM", aastha_names[cid]), ("06:00 AM", aastha_names[cid]), ("12:00 PM", aastha_names[cid]), ("06:00 PM", aastha_names[cid])]
+
+        for i, (tstr, title) in enumerate(sched):
+            try:
+                st = datetime.strptime(tstr, "%I:%M %p")
+                start = today.replace(hour=st.hour, minute=st.minute)
+                if i+1 < len(sched):
+                    et = datetime.strptime(sched[i+1][0], "%I:%M %p")
+                    stop = today.replace(hour=et.hour, minute=et.minute)
+                    if stop <= start: stop += timedelta(days=1)
+                else:
+                    stop = start + timedelta(hours=1)
+                p = ET.Element("programme", {"start": start.strftime("%Y%m%d%H%M%S +0530"), "stop": stop.strftime("%Y%m%d%H%M%S +0530"), "channel": cid})
+                t = ET.SubElement(p, "title"); t.text = title
+                programmes.append(p)
+            except: continue
+    print("Aastha OK - Har Channel Alag")
 except Exception as e:
     print("Aastha FAIL:", e)
 
