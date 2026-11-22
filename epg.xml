@@ -1,6 +1,333 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv generator-info-name="aastha-tvguide">
-  <channel id="aastha">
-    <display-name>Aastha TV</display-name>
+  <channel id="AasthaHD">
+    <display-name>Aastha HD</display-name>
   </channel>
+  <channel id="AasthaBhajan">
+    <display-name>Aastha Bhajan</display-name>
+  </channel>
+  <channel id="DharamSandesh">
+    <display-name>Dharam Sandesh</display-name>
+  </channel>
+  <channel id="Vedic">
+    <display-name>Vedic</display-name>
+  </channel>
+  <channel id="AasthaPrime">
+    <display-name>Aastha Prime</display-name>
+  </channel>
+  <channel id="AasthaGujarati">
+    <display-name>Aastha Gujarati</display-name>
+  </channel>
+  <channel id="AasthaTamil">
+    <display-name>Aastha Tamil</display-name>
+  </channel>
+  <channel id="AasthaTelugu">
+    <display-name>Aastha Telugu</display-name>
+  </channel>
+  <channel id="AasthaKannada">
+    <display-name>Aastha Kannada</display-name>
+  </channel>
+  <channel id="AasthaUKEurope">
+    <display-name>Aastha UK Europe</display-name>
+  </channel>
+  <channel id="AasthaUSACanada">
+    <display-name>Aastha USA Canada</display-name>
+  </channel>
+  <programme start="20261122000000 +0530" stop="20261122010000 +0530" channel="AasthaHD">
+    <title lang="hi">Aastha Special</title>
+  </programme>
+  <programme start="20261122010000 +0530" stop="20261122020000 +0530" channel="AasthaHD">
+    <title lang="hi">Bhajan Sandhya</title>
+  </programme>
+  <programme start="20261122020000 +0530" stop="20261122050000 +0530" channel="AasthaHD">
+    <title lang="hi">Yog Shivir</title>
+  </programme>
+  <programme start="20261122050000 +0530" stop="20261122060000 +0530" channel="AasthaHD">
+    <title lang="hi">Mangal Maye</title>
+  </programme>
+  <programme start="20261122060000 +0530" stop="20261122080000 +0530" channel="AasthaHD">
+    <title lang="hi">Bhajan</title>
+  </programme>
+  <programme start="20261122080000 +0530" stop="20261122100000 +0530" channel="AasthaHD">
+    <title lang="hi">Satsang</title>
+  </programme>
+  <programme start="20261122100000 +0530" stop="20261122180000 +0530" channel="AasthaHD">
+    <title lang="hi">Katha</title>
+  </programme>
+  <programme start="20261122180000 +0530" stop="20261122200000 +0530" channel="AasthaHD">
+    <title lang="hi">Aarti</title>
+  </programme>
+  <programme start="20261122200000 +0530" stop="20261122200000 +0530" channel="AasthaHD">
+    <title lang="hi">Yogrishi Swami Ramdev ji</title>
+  </programme>
+  <programme start="20261122000000 +0530" stop="20261122010000 +0530" channel="AasthaBhajan">
+    <title lang="hi">Aastha Special</title>
+  </programme>
+  <programme start="20261122010000 +0530" stop="20261122020000 +0530" channel="AasthaBhajan">
+    <title lang="hi">Bhajan Sandhya</title>
+  </programme>
+  <programme start="20261122020000 +0530" stop="20261122050000 +0530" channel="AasthaBhajan">
+    <title lang="hi">Yog Shivir</title>
+  </programme>
+  <programme start="20261122050000 +0530" stop="20261122060000 +0530" channel="AasthaBhajan">
+    <title lang="hi">Mangal Maye</title>
+  </programme>
+  <programme start="20261122060000 +0530" stop="20261122080000 +0530" channel="AasthaBhajan">
+    <title lang="hi">Bhajan</title>
+  </programme>
+  <programme start="20261122080000 +0530" stop="20261122100000 +0530" channel="AasthaBhajan">
+    <title lang="hi">Satsang</title>
+  </programme>
+  <programme start="20261122100000 +0530" stop="20261122180000 +0530" channel="AasthaBhajan">
+    <title lang="hi">Katha</title>
+  </programme>
+  <programme start="20261122180000 +0530" stop="20261122200000 +0530" channel="AasthaBhajan">
+    <title lang="hi">Aarti</title>
+  </programme>
+  <programme start="20261122200000 +0530" stop="20261122200000 +0530" channel="AasthaBhajan">
+    <title lang="hi">Yogrishi Swami Ramdev ji</title>
+  </programme>
+  <programme start="20261122000000 +0530" stop="20261122010000 +0530" channel="DharamSandesh">
+    <title lang="hi">Aastha Special</title>
+  </programme>
+  <programme start="20261122010000 +0530" stop="20261122020000 +0530" channel="DharamSandesh">
+    <title lang="hi">Bhajan Sandhya</title>
+  </programme>
+  <programme start="20261122020000 +0530" stop="20261122050000 +0530" channel="DharamSandesh">
+    <title lang="hi">Yog Shivir</title>
+  </programme>
+  <programme start="20261122050000 +0530" stop="20261122060000 +0530" channel="DharamSandesh">
+    <title lang="hi">Mangal Maye</title>
+  </programme>
+  <programme start="20261122060000 +0530" stop="20261122080000 +0530" channel="DharamSandesh">
+    <title lang="hi">Bhajan</title>
+  </programme>
+  <programme start="20261122080000 +0530" stop="20261122100000 +0530" channel="DharamSandesh">
+    <title lang="hi">Satsang</title>
+  </programme>
+  <programme start="20261122100000 +0530" stop="20261122180000 +0530" channel="DharamSandesh">
+    <title lang="hi">Katha</title>
+  </programme>
+  <programme start="20261122180000 +0530" stop="20261122200000 +0530" channel="DharamSandesh">
+    <title lang="hi">Aarti</title>
+  </programme>
+  <programme start="20261122200000 +0530" stop="20261122200000 +0530" channel="DharamSandesh">
+    <title lang="hi">Yogrishi Swami Ramdev ji</title>
+  </programme>
+  <programme start="20261122000000 +0530" stop="20261122010000 +0530" channel="Vedic">
+    <title lang="hi">Aastha Special</title>
+  </programme>
+  <programme start="20261122010000 +0530" stop="20261122020000 +0530" channel="Vedic">
+    <title lang="hi">Bhajan Sandhya</title>
+  </programme>
+  <programme start="20261122020000 +0530" stop="20261122050000 +0530" channel="Vedic">
+    <title lang="hi">Yog Shivir</title>
+  </programme>
+  <programme start="20261122050000 +0530" stop="20261122060000 +0530" channel="Vedic">
+    <title lang="hi">Mangal Maye</title>
+  </programme>
+  <programme start="20261122060000 +0530" stop="20261122080000 +0530" channel="Vedic">
+    <title lang="hi">Bhajan</title>
+  </programme>
+  <programme start="20261122080000 +0530" stop="20261122100000 +0530" channel="Vedic">
+    <title lang="hi">Satsang</title>
+  </programme>
+  <programme start="20261122100000 +0530" stop="20261122180000 +0530" channel="Vedic">
+    <title lang="hi">Katha</title>
+  </programme>
+  <programme start="20261122180000 +0530" stop="20261122200000 +0530" channel="Vedic">
+    <title lang="hi">Aarti</title>
+  </programme>
+  <programme start="20261122200000 +0530" stop="20261122200000 +0530" channel="Vedic">
+    <title lang="hi">Yogrishi Swami Ramdev ji</title>
+  </programme>
+  <programme start="20261122000000 +0530" stop="20261122010000 +0530" channel="AasthaPrime">
+    <title lang="hi">Aastha Special</title>
+  </programme>
+  <programme start="20261122010000 +0530" stop="20261122020000 +0530" channel="AasthaPrime">
+    <title lang="hi">Bhajan Sandhya</title>
+  </programme>
+  <programme start="20261122020000 +0530" stop="20261122050000 +0530" channel="AasthaPrime">
+    <title lang="hi">Yog Shivir</title>
+  </programme>
+  <programme start="20261122050000 +0530" stop="20261122060000 +0530" channel="AasthaPrime">
+    <title lang="hi">Mangal Maye</title>
+  </programme>
+  <programme start="20261122060000 +0530" stop="20261122080000 +0530" channel="AasthaPrime">
+    <title lang="hi">Bhajan</title>
+  </programme>
+  <programme start="20261122080000 +0530" stop="20261122100000 +0530" channel="AasthaPrime">
+    <title lang="hi">Satsang</title>
+  </programme>
+  <programme start="20261122100000 +0530" stop="20261122180000 +0530" channel="AasthaPrime">
+    <title lang="hi">Katha</title>
+  </programme>
+  <programme start="20261122180000 +0530" stop="20261122200000 +0530" channel="AasthaPrime">
+    <title lang="hi">Aarti</title>
+  </programme>
+  <programme start="20261122200000 +0530" stop="20261122200000 +0530" channel="AasthaPrime">
+    <title lang="hi">Yogrishi Swami Ramdev ji</title>
+  </programme>
+  <programme start="20261122000000 +0530" stop="20261122010000 +0530" channel="AasthaGujarati">
+    <title lang="hi">Aastha Special</title>
+  </programme>
+  <programme start="20261122010000 +0530" stop="20261122020000 +0530" channel="AasthaGujarati">
+    <title lang="hi">Bhajan Sandhya</title>
+  </programme>
+  <programme start="20261122020000 +0530" stop="20261122050000 +0530" channel="AasthaGujarati">
+    <title lang="hi">Yog Shivir</title>
+  </programme>
+  <programme start="20261122050000 +0530" stop="20261122060000 +0530" channel="AasthaGujarati">
+    <title lang="hi">Mangal Maye</title>
+  </programme>
+  <programme start="20261122060000 +0530" stop="20261122080000 +0530" channel="AasthaGujarati">
+    <title lang="hi">Bhajan</title>
+  </programme>
+  <programme start="20261122080000 +0530" stop="20261122100000 +0530" channel="AasthaGujarati">
+    <title lang="hi">Satsang</title>
+  </programme>
+  <programme start="20261122100000 +0530" stop="20261122180000 +0530" channel="AasthaGujarati">
+    <title lang="hi">Katha</title>
+  </programme>
+  <programme start="20261122180000 +0530" stop="20261122200000 +0530" channel="AasthaGujarati">
+    <title lang="hi">Aarti</title>
+  </programme>
+  <programme start="20261122200000 +0530" stop="20261122200000 +0530" channel="AasthaGujarati">
+    <title lang="hi">Yogrishi Swami Ramdev ji</title>
+  </programme>
+  <programme start="20261122000000 +0530" stop="20261122010000 +0530" channel="AasthaTamil">
+    <title lang="hi">Aastha Special</title>
+  </programme>
+  <programme start="20261122010000 +0530" stop="20261122020000 +0530" channel="AasthaTamil">
+    <title lang="hi">Bhajan Sandhya</title>
+  </programme>
+  <programme start="20261122020000 +0530" stop="20261122050000 +0530" channel="AasthaTamil">
+    <title lang="hi">Yog Shivir</title>
+  </programme>
+  <programme start="20261122050000 +0530" stop="20261122060000 +0530" channel="AasthaTamil">
+    <title lang="hi">Mangal Maye</title>
+  </programme>
+  <programme start="20261122060000 +0530" stop="20261122080000 +0530" channel="AasthaTamil">
+    <title lang="hi">Bhajan</title>
+  </programme>
+  <programme start="20261122080000 +0530" stop="20261122100000 +0530" channel="AasthaTamil">
+    <title lang="hi">Satsang</title>
+  </programme>
+  <programme start="20261122100000 +0530" stop="20261122180000 +0530" channel="AasthaTamil">
+    <title lang="hi">Katha</title>
+  </programme>
+  <programme start="20261122180000 +0530" stop="20261122200000 +0530" channel="AasthaTamil">
+    <title lang="hi">Aarti</title>
+  </programme>
+  <programme start="20261122200000 +0530" stop="20261122200000 +0530" channel="AasthaTamil">
+    <title lang="hi">Yogrishi Swami Ramdev ji</title>
+  </programme>
+  <programme start="20261122000000 +0530" stop="20261122010000 +0530" channel="AasthaTelugu">
+    <title lang="hi">Aastha Special</title>
+  </programme>
+  <programme start="20261122010000 +0530" stop="20261122020000 +0530" channel="AasthaTelugu">
+    <title lang="hi">Bhajan Sandhya</title>
+  </programme>
+  <programme start="20261122020000 +0530" stop="20261122050000 +0530" channel="AasthaTelugu">
+    <title lang="hi">Yog Shivir</title>
+  </programme>
+  <programme start="20261122050000 +0530" stop="20261122060000 +0530" channel="AasthaTelugu">
+    <title lang="hi">Mangal Maye</title>
+  </programme>
+  <programme start="20261122060000 +0530" stop="20261122080000 +0530" channel="AasthaTelugu">
+    <title lang="hi">Bhajan</title>
+  </programme>
+  <programme start="20261122080000 +0530" stop="20261122100000 +0530" channel="AasthaTelugu">
+    <title lang="hi">Satsang</title>
+  </programme>
+  <programme start="20261122100000 +0530" stop="20261122180000 +0530" channel="AasthaTelugu">
+    <title lang="hi">Katha</title>
+  </programme>
+  <programme start="20261122180000 +0530" stop="20261122200000 +0530" channel="AasthaTelugu">
+    <title lang="hi">Aarti</title>
+  </programme>
+  <programme start="20261122200000 +0530" stop="20261122200000 +0530" channel="AasthaTelugu">
+    <title lang="hi">Yogrishi Swami Ramdev ji</title>
+  </programme>
+  <programme start="20261122000000 +0530" stop="20261122010000 +0530" channel="AasthaKannada">
+    <title lang="hi">Aastha Special</title>
+  </programme>
+  <programme start="20261122010000 +0530" stop="20261122020000 +0530" channel="AasthaKannada">
+    <title lang="hi">Bhajan Sandhya</title>
+  </programme>
+  <programme start="20261122020000 +0530" stop="20261122050000 +0530" channel="AasthaKannada">
+    <title lang="hi">Yog Shivir</title>
+  </programme>
+  <programme start="20261122050000 +0530" stop="20261122060000 +0530" channel="AasthaKannada">
+    <title lang="hi">Mangal Maye</title>
+  </programme>
+  <programme start="20261122060000 +0530" stop="20261122080000 +0530" channel="AasthaKannada">
+    <title lang="hi">Bhajan</title>
+  </programme>
+  <programme start="20261122080000 +0530" stop="20261122100000 +0530" channel="AasthaKannada">
+    <title lang="hi">Satsang</title>
+  </programme>
+  <programme start="20261122100000 +0530" stop="20261122180000 +0530" channel="AasthaKannada">
+    <title lang="hi">Katha</title>
+  </programme>
+  <programme start="20261122180000 +0530" stop="20261122200000 +0530" channel="AasthaKannada">
+    <title lang="hi">Aarti</title>
+  </programme>
+  <programme start="20261122200000 +0530" stop="20261122200000 +0530" channel="AasthaKannada">
+    <title lang="hi">Yogrishi Swami Ramdev ji</title>
+  </programme>
+  <programme start="20261122000000 +0530" stop="20261122010000 +0530" channel="AasthaUKEurope">
+    <title lang="hi">Aastha Special</title>
+  </programme>
+  <programme start="20261122010000 +0530" stop="20261122020000 +0530" channel="AasthaUKEurope">
+    <title lang="hi">Bhajan Sandhya</title>
+  </programme>
+  <programme start="20261122020000 +0530" stop="20261122050000 +0530" channel="AasthaUKEurope">
+    <title lang="hi">Yog Shivir</title>
+  </programme>
+  <programme start="20261122050000 +0530" stop="20261122060000 +0530" channel="AasthaUKEurope">
+    <title lang="hi">Mangal Maye</title>
+  </programme>
+  <programme start="20261122060000 +0530" stop="20261122080000 +0530" channel="AasthaUKEurope">
+    <title lang="hi">Bhajan</title>
+  </programme>
+  <programme start="20261122080000 +0530" stop="20261122100000 +0530" channel="AasthaUKEurope">
+    <title lang="hi">Satsang</title>
+  </programme>
+  <programme start="20261122100000 +0530" stop="20261122180000 +0530" channel="AasthaUKEurope">
+    <title lang="hi">Katha</title>
+  </programme>
+  <programme start="20261122180000 +0530" stop="20261122200000 +0530" channel="AasthaUKEurope">
+    <title lang="hi">Aarti</title>
+  </programme>
+  <programme start="20261122200000 +0530" stop="20261122200000 +0530" channel="AasthaUKEurope">
+    <title lang="hi">Yogrishi Swami Ramdev ji</title>
+  </programme>
+  <programme start="20261122000000 +0530" stop="20261122010000 +0530" channel="AasthaUSACanada">
+    <title lang="hi">Aastha Special</title>
+  </programme>
+  <programme start="20261122010000 +0530" stop="20261122020000 +0530" channel="AasthaUSACanada">
+    <title lang="hi">Bhajan Sandhya</title>
+  </programme>
+  <programme start="20261122020000 +0530" stop="20261122050000 +0530" channel="AasthaUSACanada">
+    <title lang="hi">Yog Shivir</title>
+  </programme>
+  <programme start="20261122050000 +0530" stop="20261122060000 +0530" channel="AasthaUSACanada">
+    <title lang="hi">Mangal Maye</title>
+  </programme>
+  <programme start="20261122060000 +0530" stop="20261122080000 +0530" channel="AasthaUSACanada">
+    <title lang="hi">Bhajan</title>
+  </programme>
+  <programme start="20261122080000 +0530" stop="20261122100000 +0530" channel="AasthaUSACanada">
+    <title lang="hi">Satsang</title>
+  </programme>
+  <programme start="20261122100000 +0530" stop="20261122180000 +0530" channel="AasthaUSACanada">
+    <title lang="hi">Katha</title>
+  </programme>
+  <programme start="20261122180000 +0530" stop="20261122200000 +0530" channel="AasthaUSACanada">
+    <title lang="hi">Aarti</title>
+  </programme>
+  <programme start="20261122200000 +0530" stop="20261122200000 +0530" channel="AasthaUSACanada">
+    <title lang="hi">Yogrishi Swami Ramdev ji</title>
+  </programme>
 </tv>
