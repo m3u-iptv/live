@@ -11,14 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - run: pip install requests
+        with: {python-version: '3.11'}
+      - run: pip install playwright
+      - run: playwright install chromium --with-deps
       - run: python main.py
-      - run: ls -lh epg.xml*
       - run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
