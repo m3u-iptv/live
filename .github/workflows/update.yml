@@ -1,49 +1,21 @@
-name: Auto Update EPG
-
+name: Update EPG
 on:
   schedule:
-    # Runs every day at 00:00 UTC (05:30 AM IST)
-    - cron: '0 0 * * *'
-  workflow_dispatch: # Allows manual runs from the Actions tab
-
-permissions:
-  contents: write
-
+    - cron: '30 0 * * *'   # Subah 6:00 IST
+    - cron: '30 12 * * *'  # Shaam 6:00 IST
+  workflow_dispatch:
 jobs:
-  grab-epg:
+  update:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout your repository
-        uses: actions/checkout@v4
-
-      - name: Clone iptv-org/epg grabber
-        run: git clone --depth 1 https://github.com epg-grabber
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        working-directory: ./epg-grabber
-        run: npm install
-
-      - name: Grab EPG data
-        working-directory: ./epg-grabber
-        run: npm run grab --- --channels=../channels.xml --output=../epg.xml --days=3
-
-      - name: Compress to epg.xml.gz
-        run: gzip -f -k epg.xml
-
-      - name: Clean up grabber folder
-        run: rm -rf epg-grabber epg.xml
-
-      - name: Commit and push updated epg.xml.gz
-        run: |
-          git config --local user.email "github-actions[bot]@://github.com"
-          git config --local user.name "github-actions[bot]"
-          git add epg.xml.gz
-          git commit -m "Auto-update epg.xml.gz" || exit 0
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install requests
+      - run: python main.py
+      - run: |
+          git config user.name "bot"
+          git config user.email "bot@bot.com"
+          git add epg.xml.gz epg.xml
+          git commit -m "auto update $(date)" || echo "no change"
           git push
-          
