@@ -7,13 +7,29 @@ from bs4 import BeautifulSoup
 import requests
 
 CHANNELS = {
-    "sony.sab": {
-        "name": "SONY SAB",
-        "url": "https://www.epgschedule.com/channel/sony-sab/",
+    "sony.aath": {
+        "name": "SONY AATH",
+        "url": "https://www.epgschedule.com/channel/sony-aath/",
     },
-    "sony.sab.hd": {
-        "name": "SONY SAB HD",
-        "url": "https://www.epgschedule.com/channel/sony-sab-hd/",
+    "sony.bbc.earth.hd": {
+        "name": "SONY BBC EARTH HD",
+        "url": "https://www.epgschedule.com/channel/sony-bbc-earth-hd/",
+    },
+    "sony.bbc.earth.hd": {
+        "name": "SONY BBC EARTH",
+        "url": "https://www.epgschedule.com/channel/sony-bbc-earth/",
+    },
+    "set.hd": {
+        "name": "SET HD",
+        "url": "https://www.epgschedule.com/channel/set-hd/",
+    },
+    "set": {
+        "name": "SET",
+        "url": "https://www.epgschedule.com/channel/set/",
+    },
+    "sony.marathi": {
+        "name": "SONY MARATHI",
+        "url": "https://www.epgschedule.com/channel/sony-marathi/",
     },
     "sony.max": {
         "name": "SONY MAX",
@@ -42,6 +58,14 @@ CHANNELS = {
     "sony.pix": {
         "name": "SONY PIX",
         "url": "https://www.epgschedule.com/channel/sony-pix/",
+    },
+    "sony.sab": {
+        "name": "SONY SAB",
+        "url": "https://www.epgschedule.com/channel/sony-sab/",
+    },
+    "sony.sab.hd": {
+        "name": "SONY SAB HD",
+        "url": "https://www.epgschedule.com/channel/sony-sab-hd/",
     },
     "sony.wah": {
         "name": "SONY WAH",
