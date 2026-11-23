@@ -7,23 +7,23 @@ from bs4 import BeautifulSoup
 import requests
 
 CHANNELS = {
+    "and.pictures.hd": {
+        "name": "And Pictures HD",
+        "url": "https://www.epgschedule.com/channel/andpictures-hd/",
+    },
     "and.pictures": {
         "name": "And Pictures",
         "url": "https://www.epgschedule.com/channel/andpictures/",
     },
-    "and.pictures.hd": {
-        "name": "And Pictures HD",
-        "url": "https://www.epgschedule.com/channel/andpictures-hd/",
+    "and.tv.hd": {
+        "name": "And TV HD",
+        "url": "https://www.epgschedule.com/channel/andtv-hd/",
     },
     "and.tv": {
         "name": "And TV",
         "url": "https://www.epgschedule.com/channel/andtv/",
     },
-     "and.tv.hd": {
-        "name": "And TV HD",
-        "url": "https://www.epgschedule.com/channel/andtv-hd/",
-    },
-     "and.xplor.hd": {
+    "and.xplor.hd": {
         "name": "And Xplor HD",
         "url": "https://www.epgschedule.com/channel/andxplor-hd/",
     },
@@ -63,13 +63,13 @@ CHANNELS = {
         "name": "Aaj Ki Khabar",
         "url": "https://www.epgschedule.com/channel/aaj-ki-khabar/",
     },
-    "aaj.tak": {
-        "name": "Aaj Tak",
-        "url": "https://www.epgschedule.com/channel/aaj-tak/",
-    },
     "aaj.tak.hd": {
         "name": "Aaj Tak HD",
         "url": "https://www.epgschedule.com/channel/aaj-tak-hd/",
+    },
+    "aaj.tak": {
+        "name": "Aaj Tak",
+        "url": "https://www.epgschedule.com/channel/aaj-tak/",
     },
     "aakash.aath": {
         "name": "Aakash Aath",
@@ -151,23 +151,35 @@ CHANNELS = {
         "name": "ANB News",
         "url": "https://www.epgschedule.com/channel/anb-news/",
     },
+    "saam.tv": {
+        "name": "SAAM TV",
+        "url": "https://www.epgschedule.com/channel/saam-tv/",
+    },
+    "sach.bedhadk": {
+        "name": "SACH BEDHADK",
+        "url": "https://www.epgschedule.com/channel/sach-bedhadak/",
+    },
+    "sadhna.gold": {
+        "name": "SADHNA GOLD",
+        "url": "https://www.epgschedule.com/channel/sadhna-gold/",
+    },
     "sony.aath": {
         "name": "SONY AATH",
         "url": "https://www.epgschedule.com/channel/sony-aath/",
     },
-    "SonyBBCEarth.in@HD": {
+    "sony.bbc.earth.hd": {
         "name": "SONY BBC EARTH HD",
         "url": "https://www.epgschedule.com/channel/sony-bbc-earth-hd/",
     },
-    "SonyBBCEarth.in@SD": {
+    "sony.bbc.earth": {
         "name": "SONY BBC EARTH",
         "url": "https://www.epgschedule.com/channel/sony-bbc-earth/",
     },
-    "SET.in@HD": {
+    "set.hd": {
         "name": "SET HD",
         "url": "https://www.epgschedule.com/channel/set-hd/",
     },
-    "SET.in@SD": {
+    "set": {
         "name": "SET",
         "url": "https://www.epgschedule.com/channel/set/",
     },
@@ -271,6 +283,22 @@ CHANNELS = {
         "name": "SONY Vizha",
         "url": "https://www.epgschedule.com/channel/sony-vizha/",
     },
+    "spotify": {
+        "name": "Spotify",
+        "url": "https://www.epgschedule.com/channel/spotify/",
+    },
+    "sri.jagannath.dham": {
+        "name": "Sri Jagannath Dham",
+        "url": "https://www.epgschedule.com/channel/sri-jagannath-dham/",
+    },
+    "sri.sankara.tv": {
+        "name": "Sri Sankara TV",
+        "url": "https://www.epgschedule.com/channel/sri-sankara-tv/",
+    },
+    "star.4k": {
+        "name": "Star 4K",
+        "url": "https://www.epgschedule.com/channel/star-4k/",
+    },
      "star.bharat.hd": {
         "name": "STAR BHARAT HD",
         "url": "https://www.epgschedule.com/channel/star-bharat-hd/",
@@ -310,6 +338,338 @@ CHANNELS = {
     "star.gold.thrills": {
         "name": "STAR GOLD THRILLS",
         "url": "https://www.epgschedule.com/channel/star-gold-thrills/",
+    },
+    "star.jalsha.hd": {
+        "name": "STAR JHALSHA HD",
+        "url": "https://www.epgschedule.com/channel/star-jalsha-hd/",
+    },
+    "star.jalsha": {
+        "name": "STAR JHALSHA",
+        "url": "https://www.epgschedule.com/channel/star-jalsha/",
+    },
+    "star.kiran": {
+        "name": "STAR KIRAN",
+        "url": "https://www.epgschedule.com/channel/star-kiran/",
+    },
+    "star.maa.hd": {
+        "name": "STAR MAA HD",
+        "url": "https://www.epgschedule.com/channel/star-maa-hd/",
+    },
+    "star.maa": {
+        "name": "STAR MAA",
+        "url": "https://www.epgschedule.com/channel/star-maa/",
+    },
+    "star.maa.movies.hd": {
+        "name": "STAR MAA MOVIES HD",
+        "url": "https://www.epgschedule.com/channel/star-maa-movies-hd/",
+    },
+    "star.maa.movies": {
+        "name": "STAR MAA MOVIES",
+        "url": "https://www.epgschedule.com/channel/star-maa-movies/",
+    },
+    "star.maa.music": {
+        "name": "STAR MAA MUSIC",
+        "url": "https://www.epgschedule.com/channel/star-maa-music/",
+    },
+    "star.movies.hd": {
+        "name": "STAR MOVIES HD",
+        "url": "https://www.epgschedule.com/channel/star-movies-hd/",
+    },
+    "star.movies": {
+        "name": "STAR MOVIES",
+        "url": "https://www.epgschedule.com/channel/star-movies/",
+    },
+    "star.movies.select.hd": {
+        "name": "STAR MOVIES SELECT HD",
+        "url": "https://www.epgschedule.com/channel/star-movies-select-hd/",
+    },
+    "star.movies.select": {
+        "name": "STAR MOVIES SELECT",
+        "url": "https://www.epgschedule.com/channel/star-movies-select/",
+    },
+    "star.plus.hd": {
+        "name": "STAR PLUS HD",
+        "url": "https://www.epgschedule.com/channel/star-plus-hd/",
+    },
+    "star.plus": {
+        "name": "STAR PLUS",
+        "url": "https://www.epgschedule.com/channel/star-plus/",
+    },
+    "star.pravah.hd": {
+        "name": "STAR PRAVAH HD",
+        "url": "https://www.epgschedule.com/channel/star-pravah-hd/",
+    },
+    "star.pravah": {
+        "name": "STAR PRAVAH",
+        "url": "https://www.epgschedule.com/channel/star-pravah/",
+    },
+    "star.pravah.pictures.hd": {
+        "name": "STAR PRAVAH PICTURES HD",
+        "url": "https://www.epgschedule.com/channel/star-pravah-pictures-hd/",
+    },
+    "star.sports.1.hd": {
+        "name": "STAR SPORTS 1 HD",
+        "url": "https://www.epgschedule.com/channel/star-sports-1-hd/",
+    },
+    "star.sports.1": {
+        "name": "STAR SPORTS 1",
+        "url": "https://www.epgschedule.com/channel/star-sports-1/",
+    },
+    "star.sports.1.hindi.hd": {
+        "name": "STAR SPORTS 1 HINDI HD",
+        "url": "https://www.epgschedule.com/channel/star-sports-1-hindi-hd/",
+    },
+    "star.sports.1.hindi": {
+        "name": "STAR SPORTS 1 HINDI",
+        "url": "https://www.epgschedule.com/channel/star-sports-1-hindi/",
+    },
+    "star.sports.1.kannada": {
+        "name": "STAR SPORTS 1 KANNADA",
+        "url": "https://www.epgschedule.com/channel/star-sports-1-kannada/",
+    },
+    "star.sports.1.tamil.hd": {
+        "name": "STAR SPORTS 1 TAMIL HD",
+        "url": "https://www.epgschedule.com/channel/star-sports-1-tamil-hd/",
+    },
+    "star.sports.1.tamil": {
+        "name": "STAR SPORTS 1 TAMIL",
+        "url": "https://www.epgschedule.com/channel/star-sports-1-tamil/",
+    },
+    "star.sports.1.telugu.hd": {
+        "name": "STAR SPORTS 1 TELUGU HD",
+        "url": "https://www.epgschedule.com/channel/star-sports-1-telugu-hd/",
+    },
+    "star.sports.1.telugu": {
+        "name": "STAR SPORTS 1 TELUGU",
+        "url": "https://www.epgschedule.com/channel/star-sports-1-telugu/",
+    },
+    "star.sports.2.hd": {
+        "name": "STAR SPORTS 2 HD",
+        "url": "https://www.epgschedule.com/channel/star-sports-2-hd/",
+    },
+    "star.sports.2": {
+        "name": "STAR SPORTS 2",
+        "url": "https://www.epgschedule.com/channel/star-sports-2/",
+    },
+    "star.sports.2.hindi.hd": {
+        "name": "STAR SPORTS 2 HINDI HD",
+        "url": "https://www.epgschedule.com/channel/star-sports-2-hindi-hd/",
+    },
+    "star.sports.2.hindi": {
+        "name": "STAR SPORTS 2 HINDI",
+        "url": "https://www.epgschedule.com/channel/star-sports-2-hindi/",
+    },
+    "star.sports.2.kannada": {
+        "name": "STAR SPORTS 2 KANNADA",
+        "url": "https://www.epgschedule.com/channel/star-sports-2-kannada/",
+    },
+    "star.sports.2.tamil.hd": {
+        "name": "STAR SPORTS 2 TAMIL HD",
+        "url": "https://www.epgschedule.com/channel/star-sports-2-tamil-hd/",
+    },
+    "star.sports.2.tamil": {
+        "name": "STAR SPORTS 2 TAMIL",
+        "url": "https://www.epgschedule.com/channel/star-sports-2-tamil/",
+    },
+    "star.sports.2.telugu.hd": {
+        "name": "STAR SPORTS 2 TELUGU HD",
+        "url": "https://www.epgschedule.com/channel/star-sports-2-telugu-hd/",
+    },
+    "star.sports.2.telugu": {
+        "name": "STAR SPORTS 2 TELUGU",
+        "url": "https://www.epgschedule.com/channel/star-sports-2-telugu/",
+    },
+    "star.sports.3": {
+        "name": "STAR SPORTS 3",
+        "url": "https://www.epgschedule.com/channel/star-sports-3/",
+    },
+    "star.sports.khel": {
+        "name": "STAR SPORTS KHEL",
+        "url": "https://www.epgschedule.com/channel/star-sports-khel/",
+    },
+    "star.sports.select.1.hd": {
+        "name": "STAR SPORTS SELECT 1 HD",
+        "url": "https://www.epgschedule.com/channel/star-sports-select-1-hd/",
+    },
+    "star.sports.select.1": {
+        "name": "STAR SPORTS SELECT",
+        "url": "https://www.epgschedule.com/channel/star-sports-select-1/",
+    },
+    "star.sports.select.2.hd": {
+        "name": "STAR SPORTS SELECT 2 HD",
+        "url": "https://www.epgschedule.com/channel/star-sports-select-2-hd/",
+    },
+    "star.sports.select.2": {
+        "name": "STAR SPORTS SELECT 2",
+        "url": "https://www.epgschedule.com/channel/star-sports-select-2/",
+    },
+    "star.suvarna.hd": {
+        "name": "STAR SUVARNA HD",
+        "url": "https://www.epgschedule.com/channel/star-suvarna-hd/",
+    },
+    "star.suvarna": {
+        "name": "STAR SUVARNA",
+        "url": "https://www.epgschedule.com/channel/star-suvarna/",
+    },
+    "star.suvarna.plus": {
+        "name": "STAR SUVARNA PLUS",
+        "url": "https://www.epgschedule.com/channel/star-suvarna-plus/",
+    },
+    "star.utsav": {
+        "name": "STAR UTSAV",
+        "url": "https://www.epgschedule.com/channel/star-utsav/",
+    },
+    "star.utsav.movies": {
+        "name": "STAR UTSAV MOVIES",
+        "url": "https://www.epgschedule.com/channel/star-utsav-movies/",
+    },
+    "stv.haryana.news": {
+        "name": "STV Haryana News",
+        "url": "https://www.epgschedule.com/channel/stv-haryana-news/",
+    },
+    "sudarshan.news": {
+        "name": "Sudarshan News",
+        "url": "https://www.epgschedule.com/channel/sudarshan-news/",
+    },
+    "sun.bangla.hd": {
+        "name": "SUN BANGLA HD",
+        "url": "https://www.epgschedule.com/channel/sun-bangla-hd/",
+    },
+    "sun.bangla": {
+        "name": "SUN BANGLA",
+        "url": "https://www.epgschedule.com/channel/sun-bangla/",
+    },
+    "sun.gemini.hd": {
+        "name": "SUN GEMINI HD",
+        "url": "https://www.epgschedule.com/channel/sun-gemini-hd/",
+    },
+    "sun.gemini": {
+        "name": "SUN GEMINI",
+        "url": "https://www.epgschedule.com/channel/sun-gemini/",
+    },
+    "sun.gemini.comedy": {
+        "name": "SUN GEMINI COMEDY",
+        "url": "https://www.epgschedule.com/channel/sun-gemini-comedy/",
+    },
+    "sun.gemini.life": {
+        "name": "SUN GEMINI LIFE",
+        "url": "https://www.epgschedule.com/channel/sun-gemini-life/",
+    },
+    "sun.gemini.movies.hd": {
+        "name": "SUN GEMINI MOVIES HD",
+        "url": "https://www.epgschedule.com/channel/sun-gemini-movies-hd/",
+    },
+    "sun.gemini.movies": {
+        "name": "SUN GEMINI MOVIES",
+        "url": "https://www.epgschedule.com/channel/sun-gemini-movies/",
+    },
+    "sun.gemini.music.hd": {
+        "name": "SUN GEMINI MUSIC HD",
+        "url": "https://www.epgschedule.com/channel/sun-gemini-music-hd/",
+    },
+    "sun.gemini.music": {
+        "name": "SUN GEMINI MUSIC",
+        "url": "https://www.epgschedule.com/channel/sun-gemini-music/",
+    },
+    "sun.life": {
+        "name": "SUN LIFE",
+        "url": "https://www.epgschedule.com/channel/sun-life/",
+    },
+    "sun.marathi.hd": {
+        "name": "SUN MARATHI HD",
+        "url": "https://www.epgschedule.com/channel/sun-marathi-hd/",
+    },
+    "sun.marathi": {
+        "name": "SUN MARATHI",
+        "url": "https://www.epgschedule.com/channel/sun-marathi/",
+    },
+    "sun.music.hd": {
+        "name": "SUN MUSIC HD",
+        "url": "https://www.epgschedule.com/channel/sun-music-hd/",
+    },
+    "sun.music": {
+        "name": "SUN MUSIC",
+        "url": "https://www.epgschedule.com/channel/sun-music/",
+    },
+    "sun.neo.hd": {
+        "name": "SUN NEO HD",
+        "url": "https://www.epgschedule.com/channel/sun-neo-hd/",
+    },
+    "sun.neo": {
+        "name": "SUN NEO",
+        "url": "https://www.epgschedule.com/channel/sun-neo/",
+    },
+    "sun.news": {
+        "name": "SUN NEWS",
+        "url": "https://www.epgschedule.com/channel/sun-news/",
+    },
+    "sun.surya.hd": {
+        "name": "SUN SURYA HD",
+        "url": "https://www.epgschedule.com/channel/sun-surya-hd/",
+    },
+    "sun.surya": {
+        "name": "SUN SURYA",
+        "url": "https://www.epgschedule.com/channel/sun-surya/",
+    },
+    "sun.surya.comedy": {
+        "name": "SUN SURYA COMEDY",
+        "url": "https://www.epgschedule.com/channel/sun-surya-comedy/",
+    },
+    "sun.surya.movies": {
+        "name": "SUN SURYA MOVIES",
+        "url": "https://www.epgschedule.com/channel/sun-surya-movies/",
+    },
+    "sun.surya.music": {
+        "name": "SUN SURYA MUSIC",
+        "url": "https://www.epgschedule.com/channel/sun-surya-music/",
+    },
+    "sun.tv.hd": {
+        "name": "SUN TV HD",
+        "url": "https://www.epgschedule.com/channel/sun-tv-hd/",
+    },
+    "sun.tv": {
+        "name": "SUN TV",
+        "url": "https://www.epgschedule.com/channel/sun-tv/",
+    },
+    "sun.udaya.hd": {
+        "name": "SUN UDAYA HD",
+        "url": "https://www.epgschedule.com/channel/sun-udaya-hd/",
+    },
+    "sun.udaya": {
+        "name": "SUN UDAYA",
+        "url": "https://www.epgschedule.com/channel/sun-udaya/",
+    },
+    "sun.udaya.movies": {
+        "name": "SUN UDAYA MOVIES",
+        "url": "https://www.epgschedule.com/channel/sun-udaya-movies/",
+    },
+    "sun.udaya.music": {
+        "name": "SUN UDAYA MUSIC",
+        "url": "https://www.epgschedule.com/channel/sun-udaya-music/",
+    },
+    "super.hungama": {
+        "name": "SUPER HUNGAMA",
+        "url": "https://www.epgschedule.com/channel/super-hungama/",
+    },
+    "svbc": {
+        "name": "SVBC",
+        "url": "https://www.epgschedule.com/channel/svbc/",
+    },
+    "svbc.2": {
+        "name": "SVBC 2",
+        "url": "https://www.epgschedule.com/channel/svbc-2/",
+    },
+    "svbc.3": {
+        "name": "SVBC 3",
+        "url": "https://www.epgschedule.com/channel/svbc-3/",
+    },
+    "swadesh.news": {
+        "name": "SWADESH NEWS",
+        "url": "https://www.epgschedule.com/channel/swadesh-news/",
+    },
+    "swaraj.express.smbc": {
+        "name": "SWARAJ EXPRESS SMBC",
+        "url": "https://www.epgschedule.com/channel/svbc/",
     },
     "zee.cinema.hd": {
         "name": "ZEE CINEMA HD",
