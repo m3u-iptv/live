@@ -363,15 +363,15 @@ https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playli
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ts64" tvg-name="AnmolCinema.in@SD" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Anmol_Cinema.png" tvg-language="Hindi" group-title="Movies",Anmol Cinema
+#EXTINF:-1 tvg-id="ZEE.ANMOL.CINEMA.in" tvg-name="ZEE ANMOL CINEMA" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Anmol_Cinema.png" tvg-language="Hindi" group-title="Movies",Anmol Cinema
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1535/master.m3u8
 
-#EXTINF:-1 tvg-id="ts12" tvg-name="AnmolCinema2.in@SD" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Anmol_Cinema_2.png" tvg-language="Hindi" group-title="Movies",Anmol Cinema 2
+#EXTINF:-1 tvg-id="ZEE.ANMOL.CINEMA.2.in" tvg-name="ZEE ANMOL CINEMA 2" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Anmol_Cinema_2.png" tvg-language="Hindi" group-title="Movies",Anmol Cinema 2
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1548/master.m3u8
 
-#EXTINF:-1 tvg-id="ts523" tvg-name="AnmolCinema.in@SD" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Anmol_TV.png" tvg-language="Hindi" group-title="Entertainment",Anmol TV
+#EXTINF:-1 tvg-id="ZEE.ANMOL.in" tvg-name="ZEE ANMOL" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Anmol_TV.png" tvg-language="Hindi" group-title="Entertainment",Anmol TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1534/master.m3u8
 
@@ -2152,53 +2152,61 @@ https://server.zillarbarta.com/zbcatun/video.m3u8
 #EXTINF:-1 tvg-id="3319" tvg-name="ZB Music" tvg-type="Music" tvg-logo="https://m3u-iptv.github.io/iptv/images/ZB_Music.png" tvg-language="Bengali" group-title="Music",ZB Music
 https://server.zillarbarta.com/zbmusic/index.m3u8
 
-#EXTINF:-1 tvg-id="24.ghanta" tvg-name="24 Ganta" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_24_Ghanta.png" tvg-language="Bengali" group-title="News",Zee 24 Ghanta
+#EXTINF:-1 tvg-id="Zee.24.Ghanta.in" tvg-name="Zee 24 Ganta" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_24_Ghanta.png" tvg-language="Bengali" group-title="News",Zee 24 Ghanta
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/Zee24Ghanta.m3u8
 
-#EXTINF:-1 tvg-id="INBD4000027E" tvg-name="Zee 24 Kalak" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_24_Kalak.png" tvg-language="Gujarati" group-title="News",Zee 24 Kalak
+#EXTINF:-1 tvg-id="ZEE.24.KALAK.in" tvg-name="ZEE 24 KALAK" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_24_Kalak.png" tvg-language="Gujarati" group-title="News",Zee 24 Kalak
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/Zee24Kalak.m3u8
 
-#EXTINF:-1 tvg-id="INBD400001CP" tvg-name="Zee 24 Taas" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_24_Taas.png" tvg-language="Marathi" group-title="News",Zee 24 Taas
+#EXTINF:-1 tvg-id="ZEE.24.TAAS.in" tvg-name="ZEE 24 TAAS" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_24_Taas.png" tvg-language="Marathi" group-title="News",Zee 24 Taas
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/Zee24Taas.m3u8
 
-#EXTINF:-1 tvg-id="ts100" tvg-name="ActionCinema.in@SD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Action.png" tvg-language="Hindi" group-title="Movies",Zee Action
+#EXTINF:-1 tvg-id="ZEE.ACTION.in" tvg-name="ZEE ACTION" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Action.png" tvg-language="Hindi" group-title="Movies",Zee Action
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1533/master.m3u8
 
-#EXTINF:-1 tvg-id="ts522" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Bangla_HD.png" tvg-language="Bengali" group-title="Entertainment",Zee Bangla HD
+#EXTINF:-1 tvg-id="ZEE.BANGLA.HD.in" tvg-name="ZEE BANGLA HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Bangla_HD.png" tvg-language="Bengali" group-title="Entertainment",Zee Bangla HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/ZeeBanglaHD.m3u8
 
-#EXTINF:-1 tvg-id="ts553" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Bangla.png" tvg-language="Bengali" group-title="Entertainment",Zee Bangla
+#EXTINF:-1 tvg-id="ZEE.BANGLA.in" tvg-name="ZEE BANGLA"  tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Bangla.png" tvg-language="Bengali" group-title="Entertainment",Zee Bangla
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1536/master.m3u8
 
-#EXTINF:-1 tvg-id="ts554" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Bangla_Cinema.png" tvg-language="Bengali" group-title="Movies",Zee Bangla Cinema
+#EXTINF:-1 tvg-id="ZEE.BANGLA.CINEMA.in" tvg-name="ZEE BANGLA CINEMA" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Bangla_Cinema.png" tvg-language="Bengali" group-title="Movies",Zee Bangla Cinema
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1537/master.m3u8
 
-#EXTINF:-1 tvg-id="ts514" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Bharat.png" tvg-language="Hindi" group-title="News",Zee Bharat
+#EXTINF:-1 tvg-id="ZEE.BHARAT.in" tvg-name="ZEE BHARAT" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Bharat.png" tvg-language="Hindi" group-title="News",Zee Bharat
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/ZeeBharat.m3u8
 
-#EXTINF:-1 tvg-id="ts20" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Bihar_Jharkhand.png" tvg-language="Hindi" group-title="News",Zee Bihar Jharkhand
+#EXTINF:-1 tvg-id="ZEE.BIHAR.JHARKHAND.in" tvg-name="ZEE BIHAR JHARKHAND" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Bihar_Jharkhand.png" tvg-language="Hindi" group-title="News",Zee Bihar Jharkhand
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/ZeeBiharJharkhand.m3u8
 
-#EXTINF:-1 tvg-id="ts814" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Bioskop.png" tvg-language="Bhojpuri" group-title="Movies",Zee Biskope
+#EXTINF:-1 tvg-id="Zee.Bioskop.in" tvg-name="Zee.Bioskop.in" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Bioskop.png" tvg-language="Bhojpuri" group-title="Movies",Zee Bioskop
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1540/master.m3u8
 
-#EXTINF:-1 tvg-id="ts175" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Bollywood.png" tvg-language="Hindi" group-title="Movies",Zee Bollywood
+#EXTINF:-1 tvg-id="ZEE.Bollywood.in" tvg-name="ZEE.Bollywood.in" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Bollywood.png" tvg-language="Hindi" group-title="Movies",Zee Bollywood
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1541/master.m3u8
 
-#EXTINF:-1 tvg-id="ts260" tvg-name="Zee Business" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Business.png" tvg-language="Hindi" group-title="Business News",Zee Business
+#EXTINF:-1 tvg-id="ZEE.BUSINESS.in" tvg-name="ZEE BUSINESS" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Business.png" tvg-language="Hindi" group-title="Business News",Zee Business
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/ZeeBusiness.m3u8
+
+#EXTINF:-1 tvg-id="ZEE.CAFE.HD.in" tvg-name="ZEE CAFE HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Cafe_HD.png" tvg-language="English" group-title="Entertainment",Zee Cafe HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://zee5.cdn.runn.tv/zfast/stream/zeecafehd/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ZEE.CAFE.in" tvg-name="ZEE CAFE" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Cafe.png" tvg-language="English" group-title="Entertainment",Zee Cafe HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://zee5.cdn.runn.tv/zfast/stream/zeecafe/playlist.m3u8
 
 #EXTINF:-1 tvg-id="IN21000014R" tvg-name="Zee Cine Classic" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Cine_Classic.png" tvg-language="Hindi" group-title="Movies",Zee Cine Classic
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
@@ -2208,26 +2216,26 @@ https://zee5.cdn.runn.tv/zfast/stream/zeecin/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://amg00862-amg00862c8-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0016/playlist.m3u8
 
-#EXTINF:-1 tvg-id="zee.cinema.hd" tvg-name="ZEE CINEMA HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Cinema_HD.png" tvg-language="Hindi" group-title="Movies",Zee Cinema HD
+#EXTINF:-1 tvg-id="ZEE.CINEMA.HD.in" tvg-name="ZEE CINEMA HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Cinema_HD.png" tvg-language="Hindi" group-title="Movies",Zee Cinema HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1577/master.m3u8
 
-#EXTINF:-1 tvg-id="zee.cinema" tvg-name="ZEE CINEMA" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Cinema.png" tvg-language="Hindi" group-title="Movies",Zee Cinema
+#EXTINF:-1 tvg-id="ZEE.CINEMA.in" tvg-name="ZEE CINEMA" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Cinema.png" tvg-language="Hindi" group-title="Movies",Zee Cinema
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1544/master.m3u8
 
 #EXTINF:-1 tvg-id="Zee Cinema International.hk" tvg-name="Zee Cinema International.hk" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Cinema_HD_APAC.png" tvg-language="Hindi" group-title="Movies",Zee Cinema HD APAC
 https://m3u-iptv.github.io/iptv/streams/ZeeCinemaHDAPAC.m3u8
 
-#EXTINF:-1 tvg-id="ts636" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Cinemalu_HD.png" tvg-language="Telugu" group-title="Movies",Zee Cinemalu HD
+#EXTINF:-1 tvg-id="ZEE.CINEMALU.HD.in" tvg-name="ZEE CINEMALU HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Cinemalu_HD.png" tvg-language="Telugu" group-title="Movies",Zee Cinemalu HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1546/master.m3u8
 
-#EXTINF:-1 tvg-id="ts252" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Cinemalu.png" tvg-language="Telugu" group-title="Movies",Zee Cinemalu
+#EXTINF:-1 tvg-id="ZEE.CINEMALU.in" tvg-name="ZEE CINEMALU" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Cinemalu.png" tvg-language="Telugu" group-title="Movies",Zee Cinemalu
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1545/master.m3u8
 
-#EXTINF:-1 tvg-id="ts727" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Classic.png" tvg-language="Hindi" group-title="Movies",Zee Classic
+#EXTINF:-1 tvg-id="ZEE.CLASSIC.in" tvg-name="ZEE CLASSIC" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Classic.png" tvg-language="Hindi" group-title="Movies",Zee Classic
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1547/master.m3u8
 
@@ -2239,7 +2247,7 @@ https://zee5.cdn.runn.tv/zfast/stream/zeecom/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://amg00862-amg00862c5-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0016/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ts262" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Delhi_NCR_Haryana.png" tvg-language="Hindi" group-title="News",Zee Delhi NCR Haryana
+#EXTINF:-1 tvg-id="ZEE.DELHI.NCR.HARYANA.in" tvg-name="ZEE DELHI NCR HARYANA" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Delhi_NCR_Haryana.png" tvg-language="Hindi" group-title="News",Zee Delhi NCR Haryana
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://vg-zeefta.akamaized.net/vglive-sk-395786/main.m3u8
 
@@ -2259,11 +2267,11 @@ https://zee5.cdn.runn.tv/zfast/stream/zeehor/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://amg00862-amg00862c7-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-amg00862c7-amgplt0016/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ts675" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Kannada_HD.png" tvg-language="Kannada" group-title="Entertainment",Zee Kannada HD
+#EXTINF:-1 tvg-id="ZEE.KANNADA.HD.in" tvg-name="ZEE KANNADA HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Kannada_HD.png" tvg-language="Kannada" group-title="Entertainment",Zee Kannada HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://yuppnimresmum.akamaized.net/28072023/smil:zeekannadahd.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 
-#EXTINF:-1 tvg-id="ts256" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Kannada.png" tvg-language="Kannada" group-title="Entertainment",Zee Kannada
+#EXTINF:-1 tvg-id="ZEE.KANNADA.in" tvg-name="ZEE KANNADA" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Kannada.png" tvg-language="Kannada" group-title="Entertainment",Zee Kannada
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1551/master.m3u8
 
@@ -2271,31 +2279,31 @@ http://cdn.pishow.tv/live/1551/master.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/ZeeKannadaNews.m3u8
 
-#EXTINF:-1 tvg-id="ts694" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Keralam_HD.png" tvg-language="Malayalam" group-title="Entertainment",Zee Keralam HD
+#EXTINF:-1 tvg-id="ZEE.KERALAM.HD.in" tvg-name="ZEE KERALAM HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Keralam_HD.png" tvg-language="Malayalam" group-title="Entertainment",Zee Keralam HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1553/master.m3u8
 
-#EXTINF:-1 tvg-id="ts684" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Keralam.png" tvg-language="Malayalam" group-title="Entertainment",Zee Keralam
+#EXTINF:-1 tvg-id="ZEE.KERALAM.in" tvg-name="ZEE KERALAM" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Keralam.png" tvg-language="Malayalam" group-title="Entertainment",Zee Keralam
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1552/master.m3u8
 
-#EXTINF:-1 tvg-id="ts512" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Madhya_Pradesh_Chhattisgarh.png" tvg-language="Hindi" group-title="News",Zee News Madhya Pradesh Chhattisgarh
+#EXTINF:-1 tvg-id="ZEE.MP.CHATTISGARH.in" tvg-name="ZEE MP CHATTISGARH" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Madhya_Pradesh_Chhattisgarh.png" tvg-language="Hindi" group-title="News",Zee News Madhya Pradesh Chhattisgarh
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://vg-zeefta.akamaized.net/vglive-sk-250092/main.m3u8
 
-#EXTINF:-1 tvg-id="ts501" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Marathi_HD.png" tvg-language="Marathi" group-title="Entertainment",Zee Marathi HD
+#EXTINF:-1 tvg-id="ZEE.MARATHI.HD.in" tvg-name="ZEE MARATHI HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Marathi_HD.png" tvg-language="Marathi" group-title="Entertainment",Zee Marathi HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/ZeeMarathiHD.m3u8
 
-#EXTINF:-1 tvg-id="ts251" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Marathi.png" tvg-language="Marathi" group-title="Entertainment",Zee Marathi
+#EXTINF:-1 tvg-id="ZEE.MARATHI.in" tvg-name="ZEE MARATHI" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Marathi.png" tvg-language="Marathi" group-title="Entertainment",Zee Marathi
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1554/master.m3u8
 
-#EXTINF:-1 tvg-id="ts1497" tvg-name="Zee News" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_News_HD.png" tvg-language="Hindi" group-title="News",Zee News HD
+#EXTINF:-1 tvg-id="ZEE.NEWS.in" tvg-name="ZEE NEWS" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_News_HD.png" tvg-language="Hindi" group-title="News",Zee News HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/ZeeNewsHD.m3u8
 
-#EXTINF:-1 tvg-id="ts259" tvg-name="Zee News" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_News.png" tvg-language="Hindi" group-title="News",Zee News
+#EXTINF:-1 tvg-id="ZEE.NEWS.in" tvg-name="ZEE NEWS" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_News.png" tvg-language="Hindi" group-title="News",Zee News
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/ZeeNews.m3u8
 
@@ -2303,19 +2311,19 @@ https://m3u-iptv.github.io/iptv/streams/ZeeNews.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1594/master.m3u8
 
-#EXTINF:-1 tvg-id="ts810" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Power.png" tvg-language="Kannada" group-title="Entertainment",Zee Power
+#EXTINF:-1 tvg-id="Zee.Picchar.in" tvg-name="Zee Picchar" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Power.png" tvg-language="Kannada" group-title="Entertainment",Zee Power
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1558/master.m3u8
 
-#EXTINF:-1 tvg-id="ts580" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Punjab_Haryana_Himachal.png" tvg-language="Punjabi" group-title="News",Zee_Punjab_Haryana_Himachal
+#EXTINF:-1 tvg-id="ZEE.PUNJAB.HARYANA.HIMACHAL.in" tvg-name="ZEE PUNJAB HARYANA HIMACHAL" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Punjab_Haryana_Himachal.png" tvg-language="Punjabi" group-title="News",Zee Punjab Haryana Himachal
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://vg-zeefta.akamaized.net/vglive-sk-311040/main.m3u8
 
-#EXTINF:-1 tvg-id="ts796" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Punjabi.png" tvg-language="Punjabi" group-title="Entertainment",Zee Punjabi
+#EXTINF:-1 tvg-id="Zee.Punjabi.in" tvg-name"Zee Punjabi" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Punjabi.png" tvg-language="Punjabi" group-title="Entertainment",Zee Punjabi
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1559/master.m3u8
 
-#EXTINF:-1 tvg-id="ts583" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Rajasthan.png" tvg-language="Hindi" group-title="News",Zee Rajasthan
+#EXTINF:-1 tvg-id="ZEE.RAJASTHAN.NEWS.in" tvg-name="ZEE RAJASTHAN NEWS" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Rajasthan.png" tvg-language="Hindi" group-title="News",Zee Rajasthan
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://vg-zeefta1.akamaized.net/vglive-sk-925510/main.m3u8
 
@@ -2324,7 +2332,7 @@ https://vg-zeefta1.akamaized.net/vglive-sk-925510/main.m3u8
 #KODIPROP:inputstream.adaptive.license_key=ecad0b097b574078a4a1bde24bfdb2e5:568bb13d04db4b738864f6c849474cd5
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeesarthak/default/main.mpd
 
-#EXTINF:-1 tvg-id="ts597" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Sarthak.png" tvg-language="Odia" group-title="Entertainment",Zee Sarthak
+#EXTINF:-1 tvg-id="ZEE.SARTHAK.in" tvg-name="ZEE SARTHAK" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Sarthak.png" tvg-language="Odia" group-title="Entertainment",Zee Sarthak
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1595/master.m3u8
 
@@ -2336,19 +2344,19 @@ https://zee5.cdn.runn.tv/zfast/stream/zeesfl/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://amg00862-amg00862c9-amgplt0016.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0016/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ts515" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Talkies_HD.png" tvg-language="Marathi" group-title="Movies",Zee Talkies HD
+#EXTINF:-1 tvg-id="ZEE.TALKIES.HD.in" tvg-name="ZEE TALKIES HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Talkies_HD.png" tvg-language="Marathi" group-title="Movies",Zee Talkies HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1562/master.m3u8
 
-#EXTINF:-1 tvg-id="ts249" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Talkies.png" tvg-language="Marathi" group-title="Movies",Zee Talkies
+#EXTINF:-1 tvg-id="ZEE.TALKIES.in" tvg-name="ZEE TALKIES" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Talkies.png" tvg-language="Marathi" group-title="Movies",Zee Talkies
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1561/master.m3u8
 
-#EXTINF:-1 tvg-id="ts608" tvg-name="Zee Tamil HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Tamil_HD.png" tvg-language="Tamil" group-title="Entertainment",Zee Tamil HD
+#EXTINF:-1 tvg-id="ZEE.TAMIL.HD.in" tvg-name="ZEE TAMIL HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Tamil_HD.png" tvg-language="Tamil" group-title="Entertainment",Zee Tamil HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/ZeeTamilHD.m3u8
 
-#EXTINF:-1 tvg-id="ts257" tvg-name="Zee Tamil" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Tamil.png" tvg-language="Tamil" group-title="Entertainment",Zee Tamil
+#EXTINF:-1 tvg-id="ZEE.TAMIL.in" tvg-name="ZEE TAMIL" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Tamil.png" tvg-language="Tamil" group-title="Entertainment",Zee Tamil
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1563/master.m3u8
 
@@ -2360,15 +2368,15 @@ https://zee5.cdn.runn.tv/zfast/stream/zeeathd/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/ZeeTamilNews.m3u8
 
-#EXTINF:-1 tvg-id="ts635" tvg-name="Zee Telugu HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Telugu_HD.png" tvg-language="Telugu" group-title="Entertainment",Zee Telugu HD
+#EXTINF:-1 tvg-id="ZEE.TELUGU.HD.in" tvg-name="ZEE TELUGU HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Telugu_HD.png" tvg-language="Telugu" group-title="Entertainment",Zee Telugu HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/ZeeTeluguHD.m3u8
 
-#EXTINF:-1 tvg-id="ts250" tvg-name="Zee Telugu HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Telugu.png" tvg-language="Telugu" group-title="Entertainment",Zee Telugu
+#EXTINF:-1 tvg-id="ZEE.TELUGU.in" tvg-name="ZEE TELUGU" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Telugu.png" tvg-language="Telugu" group-title="Entertainment",Zee Telugu
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1564/master.m3u8
 
-#EXTINF:-1 tvg-id="ts1288" tvg-name="Zee Telugu News" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Telugu_News.png" tvg-language="Telugu" group-title="News",Zee Telugu News
+#EXTINF:-1 tvg-id="ZEE.TELUGU.NEWS.in" tvg-name="ZEE TELUGU NEWS" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Telugu_News.png" tvg-language="Telugu" group-title="News",Zee Telugu News
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://d116gfrn8orazi.cloudfront.net/index.m3u8
 
@@ -2376,7 +2384,7 @@ https://d116gfrn8orazi.cloudfront.net/index.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1587/master.m3u8
 
-#EXTINF:-1 tvg-id="ts797" tvg-name="Zee Thirai" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Thirai.png" tvg-language="Tamil" group-title="Movies",Zee Thirai
+#EXTINF:-1 tvg-id="Zee.Thirai.in" tvg-name="Zee Thirai" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Thirai.png" tvg-language="Tamil" group-title="Movies",Zee Thirai
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1565/master.m3u8
 
@@ -2396,11 +2404,11 @@ https://m3u-iptv.github.io/iptv/streams/ZeeTVHDAPAC.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://c27f5265.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1hdF9aZWVUVkhEVUtHZXJtYW55X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ts637" tvg-name="Zee Uttar Pradesh Uttarakhand" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Uttar_Pradesh_Uttarakhand.png" tvg-language="Hindi" group-title="News",Zee Uttar Pradesh Uttarakhand
+#EXTINF:-1 tvg-id="ZEE.UTTAR.PRADESH.UTTARAKHAND.in" tvg-name="ZEE UTTAR PRADESH UTTARAKHAND" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Uttar_Pradesh_Uttarakhand.png" tvg-language="Hindi" group-title="News",Zee Uttar Pradesh Uttarakhand
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/ZeeUttarPradeshUttarakhand.m3u8
 
-#EXTINF:-1 tvg-id="ts248" tvg-name="Zee Yuva" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Yuva.png" tvg-language="Marathi" group-title="Entertainment",Zee Yuva
+#EXTINF:-1 tvg-id="ZEE.YUVA.in" tvg-name="ZEE YUVA" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Yuva.png" tvg-language="Marathi" group-title="Entertainment",Zee Yuva
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1567/master.m3u8
 
@@ -2408,7 +2416,7 @@ http://cdn.pishow.tv/live/1567/master.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1569/master.m3u8
 
-#EXTINF:-1 tvg-id="ts382" tvg-name="Zee Zest" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Zest.png" tvg-language="Hindi" group-title="LifeStyle",Zee Zest
+#EXTINF:-1 tvg-id="ZEE.ZEST.in" tvg-name="ZEE ZEST" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Zest.png" tvg-language="Hindi" group-title="LifeStyle",Zee Zest
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1568/master.m3u8
 
@@ -2428,7 +2436,7 @@ https://stream.ottlive.co.in/zingabad/index.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://ranacable.duckdns.org/ZodiakTv/index.m3u8
 
-#EXTINF:-1 tvg-id="Zoom.in" tvg-name="Zoom" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zoom.png" tvg-language="Hindi" group-title="Music",Zoom
+#EXTINF:-1 tvg-id="ZOOM.in" tvg-name="Zoom" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zoom.png" tvg-language="Hindi" group-title="Music",Zoom
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://d2esfk1pb9cdob.cloudfront.net/master.m3u8
 
