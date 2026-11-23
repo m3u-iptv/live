@@ -35,6 +35,118 @@ CHANNELS = {
         "name": "24 GHANTA",
         "url": "https://www.epgschedule.com/channel/24-ghanta/",
     },
+    "4tv.news": {
+        "name": "4TV NEWS ",
+        "url": "https://www.epgschedule.com/channel/4tv-news/",
+    },
+    "7s.music": {
+        "name": "7S Music",
+        "url": "https://www.epgschedule.com/channel/7s-music/",
+    },
+    "9x.jalwa": {
+        "name": "9X Jalwa",
+        "url": "https://www.epgschedule.com/channel/9x-jalwa/",
+    },
+    "9x.tashan": {
+        "name": "9X Tashan",
+        "url": "https://www.epgschedule.com/channel/9x-tashan/",
+    },
+    "9xm": {
+        "name": "9XM",
+        "url": "https://www.epgschedule.com/channel/9xm/",
+    },
+    "aadinath.tv": {
+        "name": "Aadinath TV",
+        "url": "https://www.epgschedule.com/channel/aadinath-tv/",
+    },
+    "aaj.ki.khabar": {
+        "name": "Aaj Ki Khabar",
+        "url": "https://www.epgschedule.com/channel/aaj-ki-khabar/",
+    },
+    "aaj.tak": {
+        "name": "Aaj Tak",
+        "url": "https://www.epgschedule.com/channel/aaj-tak/",
+    },
+    "aaj.tak.hd": {
+        "name": "Aaj Tak HD",
+        "url": "https://www.epgschedule.com/channel/aaj-tak-hd/",
+    },
+    "aakash.aath": {
+        "name": "Aakash Aath",
+        "url": "https://www.epgschedule.com/channel/aakash-aath/",
+    },
+    "aaseervatham.tv": {
+        "name": "Aaseervatham TV",
+        "url": "https://www.epgschedule.com/channel/aaseervatham-tv/",
+    },
+    "aastha": {
+        "name": "Aastha",
+        "url": "https://www.epgschedule.com/channel/aastha/",
+    },
+    "abc.australia": {
+        "name": "ABC Australia",
+        "url": "https://www.epgschedule.com/channel/abc-australia/",
+    },
+    "abn.andhra.jyothy": {
+        "name": "ABN Andhra Jyothy",
+        "url": "https://www.epgschedule.com/channel/abn-andhra-jyothy/",
+    },
+    "abp.ananda": {
+        "name": "ABP Annada",
+        "url": "https://www.epgschedule.com/channel/abp-ananda/",
+    },
+    "abp.asmita": {
+        "name": "ABP Asmita",
+        "url": "https://www.epgschedule.com/channel/abp-asmita/",
+    },
+    "abp.ganga": {
+        "name": "ABP Ganga",
+        "url": "https://tvgenie.in/abp-ganga-schedule",
+    },
+    "abp.majha": {
+        "name": "ABP Majha",
+        "url": "https://www.epgschedule.com/channel/abp-majha/",
+    },
+    "abp.news": {
+        "name": "ABP News",
+        "url": "https://www.epgschedule.com/channel/abp-news/",
+    },
+    "action.cinema": {
+        "name": "Action Cinema",
+        "url": "https://www.epgschedule.com/channel/action-cinema/",
+    },
+    "ad.free.anime": {
+        "name": "AD Free Anime",
+        "url": "https://www.epgschedule.com/channel/ad-free-anime/",
+    },
+    "adithya.tv": {
+        "name": "Adithya TV",
+        "url": "https://www.epgschedule.com/channel/adithya-tv/",
+    },
+    "al.jazeera": {
+        "name": "AL Jazeera",
+        "url": "https://www.epgschedule.com/channel/al-jazeera/",
+    },
+    "alankar": {
+        "name": "Alankar",
+        "url": "https://www.epgschedule.com/channel/alankar/",
+    },
+    "alif.laila": {
+        "name": "Alif Laila",
+        "url": "https://www.epgschedule.com/channel/alif-laila/",
+    },
+    "all.times.movies": {
+        "name": "ALL Times MOVIES",
+        "url": "https://www.epgschedule.com/channel/all-times-movies/",
+    },
+    "amrita.tv": {
+        "name": "Amrita TV",
+        "url": "https://www.epgschedule.com/channel/amrita-tv/",
+    },
+    "anaadi.tv": {
+        "name": "Anaadi TV",
+        "url": "https://www.epgschedule.com/channel/anaadi-tv/",
+    },
     "sony.aath": {
         "name": "SONY AATH",
         "url": "https://www.epgschedule.com/channel/sony-aath/",
