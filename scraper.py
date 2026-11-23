@@ -15,6 +15,26 @@ CHANNELS = {
         "name": "SONY Vizha",
         "url": "https://www.epgschedule.com/channel/sony-vizha/",
     },
+        "sony.wah": {
+        "name": "SONY Wah",
+        "url": "https://www.epgschedule.com/channel/sony-wah/",
+    },
+        "sony.yay": {
+        "name": "SONY Yay",
+        "url": "https://www.epgschedule.com/channel/sony-yay/",
+    },
+        "sony.pal": {
+        "name": "SONY Pal",
+        "url": "https://www.epgschedule.com/channel/sony-pal/",
+    },
+        "sony.sab": {
+        "name": "SONY Sab",
+        "url": "https://www.epgschedule.com/channel/sony-sab/",
+    },
+            "sony.sab.hd": {
+        "name": "SONY SAB HD",
+        "url": "https://www.epgschedule.com/channel/sony-sab-hd/",
+    },
 }
 
 IST = timezone(timedelta(hours=5, minutes=30))
