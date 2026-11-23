@@ -11,11 +11,10 @@ CHANNELS = {
         "name": "SONY Vizha HD",
         "url": "https://www.epgschedule.com/channel/sony-vizha-hd/",
     },
-    # Aur channels add karne ke liye neeche copy-paste karein:
-    # "adithya.tv": {
-    #     "name": "Adithya TV",
-    #     "url": "https://epgschedule.com",
-    # },
+    "sony.vizha": {
+        "name": "SONY Vizha",
+        "url": "https://www.epgschedule.com/channel/sony-vizha/",
+    },
 }
 
 IST = timezone(timedelta(hours=5, minutes=30))
