@@ -15,7 +15,7 @@ CHANNELS = {
         "name": "SONY BBC EARTH HD",
         "url": "https://www.epgschedule.com/channel/sony-bbc-earth-hd/",
     },
-    "sony.bbc.earth.hd": {
+    "sony.bbc.earth": {
         "name": "SONY BBC EARTH",
         "url": "https://www.epgschedule.com/channel/sony-bbc-earth/",
     },
@@ -31,14 +31,6 @@ CHANNELS = {
         "name": "SONY MARATHI",
         "url": "https://www.epgschedule.com/channel/sony-marathi/",
     },
-    "sony.max": {
-        "name": "SONY MAX",
-        "url": "https://www.epgschedule.com/channel/sony-max/",
-    },
-    "sony.max.hd": {
-        "name": "SONY MAX HD",
-        "url": "https://www.epgschedule.com/channel/sony-max-hd/",
-    },
     "sony.max.1": {
         "name": "SONY MAX 1",
         "url": "https://www.epgschedule.com/channel/sony-max-1/",
@@ -46,6 +38,14 @@ CHANNELS = {
     "sony.max.2": {
         "name": "SONY MAX 2",
         "url": "https://www.epgschedule.com/channel/sony-max-2/",
+    },
+    "sony.max.hd": {
+        "name": "SONY MAX HD",
+        "url": "https://www.epgschedule.com/channel/sony-max-hd/",
+    },
+    "sony.max": {
+        "name": "SONY MAX",
+        "url": "https://www.epgschedule.com/channel/sony-max/",
     },
     "sony.pal": {
         "name": "Sony Pal",
@@ -67,6 +67,50 @@ CHANNELS = {
         "name": "SONY SAB HD",
         "url": "https://www.epgschedule.com/channel/sony-sab-hd/",
     },
+    "sony.sports.1.hd": {
+        "name": "SONY SPORTS 1 HD",
+        "url": "https://www.epgschedule.com/channel/sony-sports-ten-1-hd/",
+    },
+    "sony.sports.1": {
+        "name": "SONY SPORTS 1",
+        "url": "https://www.epgschedule.com/channel/sony-sports-ten-1/",
+    },
+    "sony.sports.2.hd": {
+        "name": "SONY SPORTS 2 HD",
+        "url": "https://www.epgschedule.com/channel/sony-sports-ten-2-hd/",
+    },
+    "sony.sports.2": {
+        "name": "SONY SPORTS 2",
+        "url": "https://www.epgschedule.com/channel/sony-sports-ten-2/",
+    },
+    "sony.sports.3.hindi.hd": {
+        "name": "SONY SPORTS 3 HINDI HD",
+        "url": "https://www.epgschedule.com/channel/sony-sports-ten-3-hindi-hd/",
+    },
+    "sony.sports.3.hindi": {
+        "name": "SONY SPORTS 3 HINDI",
+        "url": "https://www.epgschedule.com/channel/sony-sports-ten-3-hindi/",
+    },
+    "sony.sports.4.kannada": {
+        "name": "SONY SPORTS 4 KANNADA",
+        "url": "https://www.epgschedule.com/channel/sony-sports-ten-4-kannada/",
+    },
+    "sony.sports.4.tamil": {
+        "name": "SONY SPORTS 4 TAMIL",
+        "url": "https://www.epgschedule.com/channel/sony-sports-ten-4-tamil/",
+    },
+    "sony.sports.4.telugu": {
+        "name": "SONY SPORTS 4 TELUGU",
+        "url": "https://www.epgschedule.com/channel/sony-sports-ten-4-telugu/",
+    },
+    "sony.sports.5.hd": {
+        "name": "SONY SPORTS 5 HD",
+        "url": "https://www.epgschedule.com/channel/sony-sports-ten-5-hd/",
+    },
+    "sony.sports.5": {
+        "name": "SONY SPORTS 5",
+        "url": "https://www.epgschedule.com/channel/sony-sports-ten-5/",
+    },
     "sony.wah": {
         "name": "SONY WAH",
         "url": "https://www.epgschedule.com/channel/sony-wah/",
@@ -82,6 +126,14 @@ CHANNELS = {
     "sony.vizha": {
         "name": "SONY Vizha",
         "url": "https://www.epgschedule.com/channel/sony-vizha/",
+    },
+    "zee.cinema.hd": {
+        "name": "ZEE CINEMA HD",
+        "url": "https://www.epgschedule.com/channel/zee-cinema-hd/",
+    },
+    "zee.cinema": {
+        "name": "ZEE CINEMA",
+        "url": "https://www.epgschedule.com/channel/zee-cinema/",
     },
 }
 
