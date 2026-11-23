@@ -7,6 +7,34 @@ from bs4 import BeautifulSoup
 import requests
 
 CHANNELS = {
+    "and.pictures": {
+        "name": "&PICTURES",
+        "url": "https://www.epgschedule.com/channel/andpictures/",
+    },
+    "and.pictures.hd": {
+        "name": "&PICTURES HD",
+        "url": "https://www.epgschedule.com/channel/andpictures-hd/",
+    },
+    "and.tv": {
+        "name": "&TV",
+        "url": "https://www.epgschedule.com/channel/andtv/",
+    },
+     "and.tv.hd": {
+        "name": "&TV HD",
+        "url": "https://www.epgschedule.com/channel/andtv-hd/",
+    },
+     "and.xplor.hd": {
+        "name": "&XPLOR HD",
+        "url": "https://www.epgschedule.com/channel/andxplor-hd/",
+    },
+     "10.tv": {
+        "name": "10 TV",
+        "url": "https://www.epgschedule.com/channel/10-tv/",
+    },
+     "24.ghanta": {
+        "name": "24 GHANTA",
+        "url": "https://www.epgschedule.com/channel/24-ghanta/",
+    },
     "sony.aath": {
         "name": "SONY AATH",
         "url": "https://www.epgschedule.com/channel/sony-aath/",
@@ -126,6 +154,46 @@ CHANNELS = {
     "sony.vizha": {
         "name": "SONY Vizha",
         "url": "https://www.epgschedule.com/channel/sony-vizha/",
+    },
+     "star.bharat.hd": {
+        "name": "STAR BHARAT HD",
+        "url": "https://www.epgschedule.com/channel/star-bharat-hd/",
+    },
+     "star.bharat": {
+        "name": "STAR BHARAT",
+        "url": "https://www.epgschedule.com/channel/star-bharat/",
+    },
+    "star.gold.hd": {
+        "name": "STAR GOLD HD",
+        "url": "https://www.epgschedule.com/channel/star-gold-hd/",
+    },
+     "star.gold": {
+        "name": "STAR GOLD",
+        "url": "https://www.epgschedule.com/channel/star-gold/",
+    },
+    "star.gold.2.hd": {
+        "name": "STAR GOLD 2 HD",
+        "url": "https://www.epgschedule.com/channel/star-gold-2-hd/",
+    },
+     "star.gold.2": {
+        "name": "STAR GOLD 2",
+        "url": "https://www.epgschedule.com/channel/star-gold-2/",
+    },
+     "star.gold.romance": {
+        "name": "STAR GOLD ROMANCE",
+        "url": "https://www.epgschedule.com/channel/star-gold-romance/",
+    },
+    "star.gold.select.hd": {
+        "name": "STAR GOLD SELECT HD",
+        "url": "https://www.epgschedule.com/channel/star-gold-select-hd/",
+    },
+    "star.gold.select": {
+        "name": "STAR GOLD SELECT",
+        "url": "https://www.epgschedule.com/channel/star-gold-select/",
+    },
+    "star.gold.thrills": {
+        "name": "STAR GOLD THRILLS",
+        "url": "https://www.epgschedule.com/channel/star-gold-thrills/",
     },
     "zee.cinema.hd": {
         "name": "ZEE CINEMA HD",
