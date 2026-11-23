@@ -61,7 +61,7 @@ CHANNELS = {
 }
 
 IST = timezone(timedelta(hours=5, minutes=30))
-TIME_PATTERN = re.compile(r"(\d{1,2}:\d{2}\s*[AP]M)\s*[–-]\s*(\d{1,2}:\d{2}\s*[AP]M)", re.I)
+TIME_PATTERN = re.compile(r"^(\d{1,2}:\d{2}\s*[AP]M)\s*[–-]\s*(\d{1,2}:\d{2}\s*[AP]M)$", re.I)
 
 
 def parse_schedule(url):
@@ -72,78 +72,76 @@ def parse_schedule(url):
     resp.raise_for_status()
 
     soup = BeautifulSoup(resp.text, "html.parser")
+    lines = [line.strip() for line in soup.stripped_strings if line.strip()]
 
-    # "Today's Schedule" heading dhoondhein
-    schedule_heading = None
-    for tag in soup.find_all(["h2", "h3", "div"]):
-        if "Today's Schedule" in tag.get_text():
-            schedule_heading = tag
+    # "Today's Schedule" ke baad se shuru karein
+    start_idx = 0
+    for i, line in enumerate(lines):
+        if "Today's Schedule" in line:
+            start_idx = i + 1
             break
+
+    # "Add Channel to Favorites on Telegram" jaise buttons skip karein
+    while start_idx < len(lines) and (
+        "Share on WhatsApp" in lines[start_idx]
+        or "Add Channel to Favorites" in lines[start_idx]
+    ):
+        start_idx += 1
 
     programs = []
     today_date = datetime.now(IST).replace(hour=0, minute=0, second=0, microsecond=0)
     current_date = today_date
     last_start_minutes = -1
+    block_start = start_idx
 
-    # Heading ke baad aane wale elements ko scan karein
-    search_area = schedule_heading.find_all_next() if schedule_heading else soup.find_all()
-
-    seen_slots = set()
-    for elem in search_area:
-        text = elem.get_text(" ", strip=True)
-        if "Related Channels" in text and elem.name in ["h2", "h3", "section"]:
+    for i in range(start_idx, len(lines)):
+        if "Related Channels" in lines[i]:
             break
 
-        # Sirf un chhote blocks/cards ko pakdein jisme ek hi time slot ho
-        matches = TIME_PATTERN.findall(text)
-        if len(matches) == 1 and len(text) < 600:
-            start_str, end_str = matches[0]
-            slot_key = f"{start_str}-{end_str}-{text[:30]}"
-            if slot_key in seen_slots:
+        match = TIME_PATTERN.match(lines[i])
+        if match:
+            chunk = lines[block_start:i]
+            block_start = i + 1
+            if not chunk:
                 continue
 
-            # Element ke andar ke text parts ko alag karein
-            parts = [p.strip() for p in elem.stripped_strings if p.strip()]
-            time_idx = -1
-            for idx, p in enumerate(parts):
-                if TIME_PATTERN.search(p):
-                    time_idx = idx
-                    break
+            raw_title = chunk[0]
+            # Agar "Started Yesterday" alag span/line mein ho toh merge karein
+            if len(chunk) > 1 and chunk[1] == "Started Yesterday":
+                raw_title = f"{raw_title} Started Yesterday"
+                desc = " ".join(chunk[2:]) if len(chunk) > 2 else raw_title
+            else:
+                desc = " ".join(chunk[1:]) if len(chunk) > 1 else raw_title
 
-            if time_idx >= 1:
-                seen_slots.add(slot_key)
-                raw_title = parts[0]
-                desc = " ".join(parts[1:time_idx]) if time_idx > 1 else raw_title
+            start_str, end_str = match.group(1), match.group(2)
+            s_time = datetime.strptime(start_str.upper(), "%I:%M %p")
+            e_time = datetime.strptime(end_str.upper(), "%I:%M %p")
+            start_minutes = s_time.hour * 60 + s_time.minute
 
-                s_time = datetime.strptime(start_str.upper(), "%I:%M %p")
-                e_time = datetime.strptime(end_str.upper(), "%I:%M %p")
-                start_minutes = s_time.hour * 60 + s_time.minute
+            if "Started Yesterday" in raw_title:
+                title = raw_title.replace("Started Yesterday", "").strip()
+                start_dt = (today_date - timedelta(days=1)).replace(
+                    hour=s_time.hour, minute=s_time.minute
+                )
+                end_dt = today_date.replace(hour=e_time.hour, minute=e_time.minute)
+                last_start_minutes = -1
+            else:
+                title = raw_title
+                if last_start_minutes != -1 and start_minutes < last_start_minutes:
+                    current_date += timedelta(days=1)
+                last_start_minutes = start_minutes
 
-                if "Started Yesterday" in raw_title or "Started Yesterday" in desc:
-                    title = raw_title.replace("Started Yesterday", "").strip()
-                    desc = desc.replace("Started Yesterday", "").strip()
-                    start_dt = (today_date - timedelta(days=1)).replace(
-                        hour=s_time.hour, minute=s_time.minute
-                    )
-                    end_dt = today_date.replace(hour=e_time.hour, minute=e_time.minute)
-                    last_start_minutes = -1
-                else:
-                    title = raw_title
-                    if last_start_minutes != -1 and start_minutes < last_start_minutes:
-                        current_date += timedelta(days=1)
-                    last_start_minutes = start_minutes
+                start_dt = current_date.replace(hour=s_time.hour, minute=s_time.minute)
+                end_dt = current_date.replace(hour=e_time.hour, minute=e_time.minute)
+                if end_dt <= start_dt:
+                    end_dt += timedelta(days=1)
 
-                    start_dt = current_date.replace(hour=s_time.hour, minute=s_time.minute)
-                    end_dt = current_date.replace(hour=e_time.hour, minute=e_time.minute)
-                    if end_dt <= start_dt:
-                        end_dt += timedelta(days=1)
-
-                programs.append({
-                    "title": title,
-                    "desc": desc,
-                    "start": start_dt.strftime("%Y%m%d%H%M%S +0530"),
-                    "stop": end_dt.strftime("%Y%m%d%H%M%S +0530"),
-                })
+            programs.append({
+                "title": title,
+                "desc": desc,
+                "start": start_dt.strftime("%Y%m%d%H%M%S +0530"),
+                "stop": end_dt.strftime("%Y%m%d%H%M%S +0530"),
+            })
 
     return programs
 
