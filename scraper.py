@@ -8,23 +8,23 @@ import requests
 
 CHANNELS = {
     "and.pictures": {
-        "name": "&PICTURES",
+        "name": "And Pictures",
         "url": "https://www.epgschedule.com/channel/andpictures/",
     },
     "and.pictures.hd": {
-        "name": "&PICTURES HD",
+        "name": "And Pictures HD",
         "url": "https://www.epgschedule.com/channel/andpictures-hd/",
     },
     "and.tv": {
-        "name": "&TV",
+        "name": "And TV",
         "url": "https://www.epgschedule.com/channel/andtv/",
     },
      "and.tv.hd": {
-        "name": "&TV HD",
+        "name": "And TV HD",
         "url": "https://www.epgschedule.com/channel/andtv-hd/",
     },
      "and.xplor.hd": {
-        "name": "&XPLOR HD",
+        "name": "And Xplor HD",
         "url": "https://www.epgschedule.com/channel/andxplor-hd/",
     },
      "10.tv": {
