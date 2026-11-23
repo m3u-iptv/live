@@ -7,6 +7,42 @@ import requests
 
 # Yahan apne channels ke ID aur URL add karein
 CHANNELS = {
+    "sony.max.1": {
+        "name": "SONY Max 1",
+        "url": "https://www.epgschedule.com/channel/sony-max-1/",
+    },
+    "sony.max.2": {
+        "name": "SONY Max 2",
+        "url": "https://www.epgschedule.com/channel/sony-max-2/",
+    },
+    "sony.max.hd": {
+        "name": "SONY Max HD",
+        "url": "https://www.epgschedule.com/channel/sony-max-hd/",
+    },
+    "sony.max": {
+        "name": "SONY Max",
+        "url": "https://www.epgschedule.com/channel/sony-max/",
+    },
+    "sony.pal": {
+        "name": "Sony Pal",
+        "url": "https://www.epgschedule.com/channel/sony-pal/",
+    },
+    "sony.pix.hd": {
+        "name": "SONY Pix HD",
+        "url": "https://www.epgschedule.com/channel/sony-pix-hd/",
+    },
+    "sony.pix": {
+        "name": "SONY Pix",
+        "url": "https://www.epgschedule.com/channel/sony-pix/",
+    },
+    "sony.sab.hd": {
+        "name": "SONY SAB HD",
+        "url": "https://www.epgschedule.com/channel/sony-sab-hd/",
+    },
+    "sony.sab": {
+        "name": "SONY SAB",
+        "url": "https://www.epgschedule.com/channel/sony-sab/",
+    },
     "sony.vizha.hd": {
         "name": "SONY Vizha HD",
         "url": "https://www.epgschedule.com/channel/sony-vizha-hd/",
@@ -15,25 +51,13 @@ CHANNELS = {
         "name": "SONY Vizha",
         "url": "https://www.epgschedule.com/channel/sony-vizha/",
     },
-        "sony.wah": {
-        "name": "SONY Wah",
+    "sony.wah": {
+        "name": "Sony Wah",
         "url": "https://www.epgschedule.com/channel/sony-wah/",
     },
-        "sony.yay": {
-        "name": "SONY Yay",
+    "sony.yay": {
+        "name": "Sony Yay",
         "url": "https://www.epgschedule.com/channel/sony-yay/",
-    },
-        "sony.pal": {
-        "name": "SONY Pal",
-        "url": "https://www.epgschedule.com/channel/sony-pal/",
-    },
-        "sony.sab": {
-        "name": "SONY Sab",
-        "url": "https://www.epgschedule.com/channel/sony-sab/",
-    },
-            "sony.sab.hd": {
-        "name": "SONY SAB HD",
-        "url": "https://www.epgschedule.com/channel/sony-sab-hd/",
     },
 }
 
