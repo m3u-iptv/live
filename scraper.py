@@ -8,19 +8,19 @@ import requests
 # Yahan apne channels ke ID aur URL add karein
 CHANNELS = {
     "sony.max.1": {
-        "name": "SONY Max 1",
+        "name": "SONY MAX 1",
         "url": "https://www.epgschedule.com/channel/sony-max-1/",
     },
     "sony.max.2": {
-        "name": "SONY Max 2",
+        "name": "SONY MAX 2",
         "url": "https://www.epgschedule.com/channel/sony-max-2/",
     },
     "sony.max.hd": {
-        "name": "SONY Max HD",
+        "name": "SONY MAX HD",
         "url": "https://www.epgschedule.com/channel/sony-max-hd/",
     },
     "sony.max": {
-        "name": "SONY Max",
+        "name": "SONY MAX",
         "url": "https://www.epgschedule.com/channel/sony-max/",
     },
     "sony.pal": {
@@ -28,11 +28,11 @@ CHANNELS = {
         "url": "https://www.epgschedule.com/channel/sony-pal/",
     },
     "sony.pix.hd": {
-        "name": "SONY Pix HD",
+        "name": "SONY PIX HD",
         "url": "https://www.epgschedule.com/channel/sony-pix-hd/",
     },
     "sony.pix": {
-        "name": "SONY Pix",
+        "name": "SONY PIX",
         "url": "https://www.epgschedule.com/channel/sony-pix/",
     },
     "sony.sab.hd": {
@@ -52,11 +52,11 @@ CHANNELS = {
         "url": "https://www.epgschedule.com/channel/sony-vizha/",
     },
     "sony.wah": {
-        "name": "Sony Wah",
+        "name": "SONY WAH",
         "url": "https://www.epgschedule.com/channel/sony-wah/",
     },
     "sony.yay": {
-        "name": "Sony Yay",
+        "name": "SONY YAY!",
         "url": "https://www.epgschedule.com/channel/sony-yay/",
     },
 }
