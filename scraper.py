@@ -147,23 +147,27 @@ CHANNELS = {
         "name": "Anaadi TV",
         "url": "https://www.epgschedule.com/channel/anaadi-tv/",
     },
+    "anb.news": {
+        "name": "ANB News",
+        "url": "https://www.epgschedule.com/channel/anb-news/",
+    },
     "sony.aath": {
         "name": "SONY AATH",
         "url": "https://www.epgschedule.com/channel/sony-aath/",
     },
-    "sony.bbc.earth.hd": {
+    "SonyBBCEarth.in@HD": {
         "name": "SONY BBC EARTH HD",
         "url": "https://www.epgschedule.com/channel/sony-bbc-earth-hd/",
     },
-    "sony.bbc.earth": {
+    "SonyBBCEarth.in@SD": {
         "name": "SONY BBC EARTH",
         "url": "https://www.epgschedule.com/channel/sony-bbc-earth/",
     },
-    "set.hd": {
+    "SET.in@HD": {
         "name": "SET HD",
         "url": "https://www.epgschedule.com/channel/set-hd/",
     },
-    "set": {
+    "SET.in@SD": {
         "name": "SET",
         "url": "https://www.epgschedule.com/channel/set/",
     },
