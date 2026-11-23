@@ -356,7 +356,7 @@ CHANNELS = {
         "url": "https://www.epgschedule.com/channel/star-maa-hd/",
     },
     "star.maa": {
-        "name": "STAR MAA",
+        "name": "STAR Maa",
         "url": "https://www.epgschedule.com/channel/star-maa/",
     },
     "star.maa.movies.hd": {
