@@ -163,7 +163,7 @@ https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="AasthaUKEurope" tvg-name="Aastha UK Europe" tvg-logo="https://m3u-iptv.github.io/iptv/images/Aastha_UK_Europe.png" tvg-language="Hindi" group-title="Religious",Aastha UK Europe
+#EXTINF:-1 tvg-id="Aastha.uk" tvg-name="Aastha UK Europe" tvg-logo="https://m3u-iptv.github.io/iptv/images/Aastha_UK_Europe.png" tvg-language="Hindi" group-title="Religious",Aastha UK Europe
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://aasthaott.akamaized.net/110923/smil:aasthauk.smil/playlist.m3u8
 
@@ -175,7 +175,7 @@ https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://raw.githubusercontent.com/m3u-iptv/live/main/streams/ABStarNews.m3u8
 
-#EXTINF:-1 tvg-id="ts1464" tvg-name="ABCAustralia.au@SD" tvg-logo="https://m3u-iptv.github.io/iptv/images/ABC_News_Australia.png" tvg-language="English" group-title="News",ABC News Australia
+#EXTINF:-1 tvg-id="ABC.Australia.hk" tvg-name="ABCAustralia.au@SD" tvg-logo="https://m3u-iptv.github.io/iptv/images/ABC_News_Australia.png" tvg-language="English" group-title="News",ABC News Australia
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index.m3u8
 
@@ -355,7 +355,7 @@ http://cdn.pishow.tv/live/1317/master.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1105/master.m3u8
 
-#EXTINF:-1 tvg-id="Animax.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Animax.png" tvg-language="English" group-title="Kids",Animax Asia India
+#EXTINF:-1 tvg-id="Animax.hk" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Animax.png" tvg-language="English" group-title="Kids",Animax Asia India
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8
 
@@ -1657,7 +1657,7 @@ http://cdn.pishow.tv/live/260/master.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/290/master.m3u8
 
-#EXTINF:-1 tvg-id="Sony.Yay" tvg-name="SONY YAY!" tvg-logo="https://m3u-iptv.github.io/iptv/images/Sony_Yay_Hindi.png" tvg-language="Hindi" group-title="Kids",SONY YAY! HINDI
+#EXTINF:-1 tvg-id="Sony.yay.in" tvg-name="SONY YAY!" tvg-logo="https://m3u-iptv.github.io/iptv/images/Sony_Yay_Hindi.png" tvg-language="Hindi" group-title="Kids",SONY YAY! HINDI
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/325/master.m3u8
 
@@ -1673,11 +1673,11 @@ http://cdn.pishow.tv/live/325/master.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-x37nhptwcba84.m3u8
 
-#EXTINF:-1 tvg-id="star.bharat.hd" tvg-name="STAR BHARAT HD" tvg-logo="https://dtil.tmsimg.com/assets/s159101_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Entertainment",STAR BHARAT HD
+#EXTINF:-1 tvg-id="STAR.BHARAT.HD.in" tvg-name="STAR BHARAT HD" tvg-logo="https://dtil.tmsimg.com/assets/s159101_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Entertainment",STAR BHARAT HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1189/master.m3u8
 
-#EXTINF:-1 tvg-id="star.bharat" tvg-name="STAR BHARAT" tvg-logo="https://dtil.tmsimg.com/assets/s159130_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Entertainment",STAR BHARAT
+#EXTINF:-1 tvg-id="STAR.BHARAT.in" tvg-name="STAR BHARAT" tvg-logo="https://dtil.tmsimg.com/assets/s159130_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Entertainment",STAR BHARAT
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/979/master.m3u8
 
@@ -1685,103 +1685,103 @@ http://cdn.pishow.tv/live/979/master.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/StarBharatUK.m3u8
 
-#EXTINF:-1 tvg-id="star.gold.hd" tvg-name="STAR GOLD HD" tvg-logo="https://dtil.tmsimg.com/assets/s143815_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD HD
+#EXTINF:-1 tvg-id="STAR.GOLD.HD.in" tvg-name="STAR GOLD HD" tvg-logo="https://dtil.tmsimg.com/assets/s143815_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1169/master.m3u8
 
-#EXTINF:-1 tvg-id="star.gold" tvg-name="STAR GOLD" tvg-logo="https://dtil.tmsimg.com/assets/s159131_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD
+#EXTINF:-1 tvg-id="STAR.GOLD.in" tvg-name="STAR GOLD" tvg-logo="https://dtil.tmsimg.com/assets/s159131_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1019/master.m3u8
 
-#EXTINF:-1 tvg-id="star.gold.2.hd" tvg-name="STAR GOLD 2 HD" tvg-logo="https://dtil.tmsimg.com/assets/s158297_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD 2 HD
+#EXTINF:-1 tvg-id="Star.Gold.2.in" tvg-name="STAR GOLD 2" tvg-logo="https://dtil.tmsimg.com/assets/s158297_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD 2 HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1632/master.m3u8
 
-#EXTINF:-1 tvg-id="star.gold.2" tvg-name="STAR GOLD 2"  tvg-logo="https://dtil.tmsimg.com/assets/s143814_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD 2
+#EXTINF:-1 tvg-id="Star.Gold.2.in" tvg-name="STAR GOLD 2"  tvg-logo="https://dtil.tmsimg.com/assets/s143814_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD 2
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1025/master.m3u8
 
-#EXTINF:-1 tvg-id="star.gold.romance" tvg-name="STAR GOLD ROMANCE" tvg-logo="https://dtil.tmsimg.com/assets/s158298_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD ROMANCE
+#EXTINF:-1 tvg-id="STAR.GOLD.ROMANCE.in" tvg-name="STAR GOLD ROMANCE" tvg-logo="https://dtil.tmsimg.com/assets/s158298_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD ROMANCE
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1009/master.m3u8
 
-#EXTINF:-1 tvg-id="star.gold.select.hd" tvg-name="STAR GOLD SELECT HD" tvg-logo="https://dtil.tmsimg.com/assets/s143817_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD SELECT HD
+#EXTINF:-1 tvg-id="Star.Gold.Select.HD.in" tvg-name="STAR GOLD SELECT HD" tvg-logo="https://dtil.tmsimg.com/assets/s143817_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD SELECT HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1181/master.m3u8
 
-#EXTINF:-1 tvg-id="star.gold.select" tvg-name="STAR GOLD SELECT" tvg-logo="https://dtil.tmsimg.com/assets/s143816_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD SELECT
+#EXTINF:-1 tvg-id="STAR.GOLD.SELECT.in" tvg-name="STAR GOLD SELECT" tvg-logo="https://dtil.tmsimg.com/assets/s143816_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD SELECT
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1309/master.m3u8
 
-#EXTINF:-1 tvg-id="star.gold.thrills" tvg-name="STAR GOLD THRILLS" tvg-logo="https://dtil.tmsimg.com/assets/s158822_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD THRILLS
+#EXTINF:-1 tvg-id="STAR.GOLD.THRILLS.in" tvg-name="STAR GOLD THRILLS" tvg-logo="https://dtil.tmsimg.com/assets/s158822_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR GOLD THRILLS
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1021/master.m3u8
 
-#EXTINF:-1 tvg-id="star.jalsha.hd" tvg-name="STAR JHALSHA HD" tvg-logo="https://dtil.tmsimg.com/assets/s143819_ld_h15_aa.png?lock=360x270" tvg-language="Bengali" group-title="Entertainment",STAR JALSHA HD
+#EXTINF:-1 tvg-id="STAR.JALSHA.HD.in" tvg-name="STAR JHALSHA HD" tvg-logo="https://dtil.tmsimg.com/assets/s143819_ld_h15_aa.png?lock=360x270" tvg-language="Bengali" group-title="Entertainment",STAR JALSHA HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8
 
-#EXTINF:-1 tvg-id="star.jalsha" tvg-name="STAR JHALSHA" tvg-logo="https://dtil.tmsimg.com/assets/s143818_ld_h15_aa.png?lock=360x270" tvg-language="Bengali" group-title="Entertainment",STAR JALSHA
+#EXTINF:-1 tvg-id="STAR.JALSHA.in" tvg-name="STAR JHALSHA" tvg-logo="https://dtil.tmsimg.com/assets/s143818_ld_h15_aa.png?lock=360x270" tvg-language="Bengali" group-title="Entertainment",STAR JALSHA
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1301/master.m3u8
 
-#EXTINF:-1 tvg-id="dish1430" tvg-logo="https://dtil.tmsimg.com/assets/s143219_ld_h15_aa.png?lock=360x270" tvg-language="Bengali" group-title="Movies",STAR JHALSHA MOVIES HD
+#EXTINF:-1 tvg-id="JALSHA.MOVIES.HD.in" tvg-name="JALSHA MOVIES HD" tvg-logo="https://dtil.tmsimg.com/assets/s143219_ld_h15_aa.png?lock=360x270" tvg-language="Bengali" group-title="Movies",STAR JHALSHA MOVIES HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1335/master.m3u8
 
-#EXTINF:-1 tvg-id="dish1431" tvg-logo="https://dtil.tmsimg.com/assets/s143218_ld_h15_aa.png?lock=360x270" tvg-language="Bengali" group-title="Movies",STAR JHALSHA MOVIES
+#EXTINF:-1 tvg-id="JALSHA.MOVIES.in" tvg-name="JALSHA MOVIES" tvg-logo="https://dtil.tmsimg.com/assets/s143218_ld_h15_aa.png?lock=360x270" tvg-language="Bengali" group-title="Movies",STAR JHALSHA MOVIES
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1069/master.m3u8
 
-#EXTINF:-1 tvg-id="star.kiran" tvg-name="STAR KIRAN" tvg-logo="https://dtil.tmsimg.com/assets/s143820_ld_h15_aa.png?lock=360x270" tvg-language="Odia" group-title="Entertainment",STAR KIRAN
+#EXTINF:-1 tvg-id="STAR.KIRAN.in" tvg-name="STAR KIRAN" tvg-logo="https://dtil.tmsimg.com/assets/s143820_ld_h15_aa.png?lock=360x270" tvg-language="Odia" group-title="Entertainment",STAR KIRAN
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/296/master.m3u8
 
-#EXTINF:-1 tvg-id="star.maa.hd" tvg-name="STAR MAA HD" tvg-logo="https://dtil.tmsimg.com/assets/s179620_ld_h15_aa.png?lock=360x270" tvg-language="Telugu" group-title="Entertainment",STAR MAA HD
+#EXTINF:-1 tvg-id="STAR.MAA.HD.in" tvg-name="STAR MAA HD" tvg-logo="https://dtil.tmsimg.com/assets/s179620_ld_h15_aa.png?lock=360x270" tvg-language="Telugu" group-title="Entertainment",STAR MAA HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starmaa1.smil/chunklist_b2628000.m3u8
 
-#EXTINF:-1 tvg-id="star.maa" tvg-name="STAR MAA" tvg-logo="https://dtil.tmsimg.com/assets/s143821_ld_h15_aa.png?lock=360x270" tvg-language="Telugu" group-title="Entertainment",STAR MAA
+#EXTINF:-1 tvg-id="STAR.MAA.in" tvg-name="STAR MAA" tvg-logo="https://dtil.tmsimg.com/assets/s143821_ld_h15_aa.png?lock=360x270" tvg-language="Telugu" group-title="Entertainment",STAR MAA
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/937/master.m3u8
 
-#EXTINF:-1 tvg-id="star.maa.gold" tvg-name="STAR MAA GOLD" tvg-logo="https://dtil.tmsimg.com/assets/s143822_ld_h15_aa.png?lock=360x270" tvg-language="Telugu" group-title="Movies",STAR MAA GOLD
+#EXTINF:-1 tvg-id="STAR.MAA.GOLD.in" tvg-name="STAR MAA GOLD" tvg-logo="https://dtil.tmsimg.com/assets/s143822_ld_h15_aa.png?lock=360x270" tvg-language="Telugu" group-title="Movies",STAR MAA GOLD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/949/master.m3u8
 
-#EXTINF:-1 tvg-id="star.maa.movies.hd" tvg-name="STAR MAA MOVIES HD" tvg-logo="https://dtil.tmsimg.com/assets/s143826_ld_h15_aa.png?lock=360x270" tvg-language="Telugu" group-title="Movies",STAR MAA MOVIES HD
+#EXTINF:-1 tvg-id="STAR.MAA.MOVIES.HD.in" tvg-name="STAR MAA MOVIES HD" tvg-logo="https://dtil.tmsimg.com/assets/s143826_ld_h15_aa.png?lock=360x270" tvg-language="Telugu" group-title="Movies",STAR MAA MOVIES HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8
 
-#EXTINF:-1 tvg-id="star.maa.movies" tvg-name="STAR MAA MOVIES" tvg-logo="https://dtil.tmsimg.com/assets/s143825_ld_h15_aa.png?lock=360x270" tvg-language="Telugu" group-title="Movies",STAR MAA MOVIES
+#EXTINF:-1 tvg-id="STAR.MAA.MOVIES.in" tvg-name="STAR MAA MOVIES" tvg-logo="https://dtil.tmsimg.com/assets/s143825_ld_h15_aa.png?lock=360x270" tvg-language="Telugu" group-title="Movies",STAR MAA MOVIES
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/947/master.m3u8
 
-#EXTINF:-1 tvg-id="star.maa.music" tvg-name="STAR MAA MUSIC" tvg-logo="https://dtil.tmsimg.com/assets/s143828_ld_h15_aa.png?lock=360x270" tvg-language="Telugu" group-title="Music",STAR MAA MUSIC
+#EXTINF:-1 tvg-id="STAR.MAA.MUSIC.in" tvg-name="STAR MAA MUSIC" tvg-logo="https://dtil.tmsimg.com/assets/s143828_ld_h15_aa.png?lock=360x270" tvg-language="Telugu" group-title="Music",STAR MAA MUSIC
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/951/master.m3u8
 
-#EXTINF:-1 tvg-id="star.movies.hd" tvg-name="STAR MOVIES HD" tvg-logo="https://dtil.tmsimg.com/assets/s143829_ld_h15_aa.png?lock=360x270" tvg-language="English" group-title="Movies",STAR MOVIES HD
+#EXTINF:-1 tvg-id="STAR.MOVIES.HD.in" tvg-name="STAR MOVIES HD" tvg-logo="https://dtil.tmsimg.com/assets/s143829_ld_h15_aa.png?lock=360x270" tvg-language="English" group-title="Movies",STAR MOVIES HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1209/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.MOVIES.in" tvg-logo="https://dtil.tmsimg.com/assets/s140069_ld_h15_aa.png?lock=360x270" tvg-language="English" group-title="Movies",STAR MOVIES
+#EXTINF:-1 tvg-id="STAR.MOVIES.in" tvg-name="STAR MOVIES" tvg-logo="https://dtil.tmsimg.com/assets/s140069_ld_h15_aa.png?lock=360x270" tvg-language="English" group-title="Movies",STAR MOVIES
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1113/master.m3u8
 
-#EXTINF:-1 tvg-id="star.movies.select.hd" tvg-name="STAR MOVIES SELECT HD" tvg-logo="https://dtil.tmsimg.com/assets/s143830_ld_h15_aa.png?lock=360x270" tvg-language="English" group-title="Movies",STAR MOVIES SELECT HD
+#EXTINF:-1 tvg-id="STAR.MOVIES.SELECT.HD.in" tvg-name="STAR MOVIES SELECT HD" tvg-logo="https://dtil.tmsimg.com/assets/s143830_ld_h15_aa.png?lock=360x270" tvg-language="English" group-title="Movies",STAR MOVIES SELECT HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1173/master.m3u8
 
-#EXTINF:-1 tvg-id="star.movies.select" tvg-name="STAR MOVIES SELECT" tvg-logo="https://dtil.tmsimg.com/assets/s158863_ld_h15_aa.png?lock=360x270" tvg-language="English" group-title="Movies",STAR MOVIES SELECT
+#EXTINF:-1 tvg-id="STAR.MOVIES.SELECT.in" tvg-name="STAR MOVIES SELECT" tvg-logo="https://dtil.tmsimg.com/assets/s158863_ld_h15_aa.png?lock=360x270" tvg-language="English" group-title="Movies",STAR MOVIES SELECT
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1585/master.m3u8
 
-#EXTINF:-1 tvg-id="star.plus.hd" tvg-name="STAR PLUS HD" tvg-logo="https://dtil.tmsimg.com/assets/s143832_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Entertainment",STAR PLUS HD
+#EXTINF:-1 tvg-id="STAR.PLUS.HD.in" tvg-name="STAR PLUS HD" tvg-logo="https://dtil.tmsimg.com/assets/s143832_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Entertainment",STAR PLUS HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1179/master.m3u8
 
-#EXTINF:-1 tvg-id="star.plus" tvg-name="STAR PLUS" tvg-logo="https://dtil.tmsimg.com/assets/s143831_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Entertainment",STAR PLUS
+#EXTINF:-1 tvg-id="STAR.PLUS.in" tvg-name="STAR PLUS" tvg-logo="https://dtil.tmsimg.com/assets/s143831_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Entertainment",STAR PLUS
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/977/master.m3u8
 
@@ -1789,11 +1789,11 @@ http://cdn.pishow.tv/live/977/master.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/StarPlusUK.m3u8
 
-#EXTINF:-1 tvg-id="star.pravah.hd" tvg-name="STAR PRAVAH HD" tvg-logo="https://dtil.tmsimg.com/assets/s143834_ld_h15_aa.png?lock=360x270" T tvg-language="Marathi" group-title="Entertainment",STAR PRAVAH HD
+#EXTINF:-1 tvg-id="STAR.PRAVAAH.HD.in" tvg-name="STAR PRAVAAH HD" tvg-logo="https://dtil.tmsimg.com/assets/s143834_ld_h15_aa.png?lock=360x270" T tvg-language="Marathi" group-title="Entertainment",STAR PRAVAH HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starpravah.smil/chunklist_b1928000.m3u8
 
-#EXTINF:-1 tvg-id="star.pravah" tvg-name="STAR PRAVAH" tvg-logo="https://dtil.tmsimg.com/assets/s143833_ld_h15_aa.png?lock=360x270" tvg-language="Marathi" group-title="Entertainment",STAR PRAVAH 
+#EXTINF:-1 tvg-id="STAR.PRAVAH.in" tvg-name="STAR PRAVAH" tvg-logo="https://dtil.tmsimg.com/assets/s143833_ld_h15_aa.png?lock=360x270" tvg-language="Marathi" group-title="Entertainment",STAR PRAVAH 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/381/master.m3u8
 
@@ -1801,153 +1801,153 @@ http://cdn.pishow.tv/live/381/master.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/321/master.m3u8
 
-#EXTINF:-1 tvg-id="3100" tvg-logo="https://dtil.tmsimg.com/assets/s143675_ld_h15_aa.png?lock=360x270" tvg-language="Marathi" group-title="Entertainment",STAR PRAVAH PICTURE
+#EXTINF:-1 tvg-id="star.pravah.pictures.hd" tvg-name="STAR PRAVAH PICTURES HD" tvg-logo="https://dtil.tmsimg.com/assets/s143675_ld_h15_aa.png?lock=360x270" tvg-language="Marathi" group-title="Entertainment",STAR PRAVAH PICTURE
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/421/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.1.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s143837_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS 1 HD
+#EXTINF:-1 tvg-id="STAR.SPORTS.1.HD.in" tvg-name="STAR SPORTS 1 HD" tvg-logo="https://dtil.tmsimg.com/assets/s143837_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS 1 HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1187/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.1.in" tvg-logo="https://dtil.tmsimg.com/assets/s143835_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS 1
+#EXTINF:-1 tvg-id="STAR.SPORTS.1.in" tvg-name="STAR SPORTS 1" tvg-logo="https://dtil.tmsimg.com/assets/s143835_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS 1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1065/master.m3u8
 
-#EXTINF:-1 tvg-id="StarSports1Bangla.in@SD" tvg-logo="https://i.imgur.com/HOECa0m.png" tvg-language="Bengali" group-title="Sports",STAR SPORTS 1 BANGLA
+#EXTINF:-1 tvg-id="StarSports1Bangla.in@SD" tvg-name="STAR SPORTS 1 BANGLA" tvg-logo="https://i.imgur.com/HOECa0m.png" tvg-language="Bengali" group-title="Sports",STAR SPORTS 1 BANGLA
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/StarSports1Bangla.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.1.HD.HINDI.in" tvg-logo="https://dtil.tmsimg.com/assets/s143838_ld_h15_aa.png?lock=720x540" tvg-language="Hindi" group-title="Sports",STAR SPORTS 1 HINDI HD
+#EXTINF:-1 tvg-id="STAR.SPORTS.1.HD.HINDI.in" tvg-name="STAR SPORTS 1 HD HINDI" tvg-logo="https://dtil.tmsimg.com/assets/s143838_ld_h15_aa.png?lock=720x540" tvg-language="Hindi" group-title="Sports",STAR SPORTS 1 HINDI HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1165/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.1.HINDI.in" tvg-logo="https://dtil.tmsimg.com/assets/s143839_ld_h15_aa.png?lock=720x540" tvg-language="Hindi" group-title="Sports",STAR SPORTS 1 HINDI
+#EXTINF:-1 tvg-id="STAR.SPORTS.1.HINDI.in" tvg-name="STAR SPORTS 1 HINDI" tvg-logo="https://dtil.tmsimg.com/assets/s143839_ld_h15_aa.png?lock=720x540" tvg-language="Hindi" group-title="Sports",STAR SPORTS 1 HINDI
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1067/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.1.KANNADA.in" tvg-logo="https://dtil.tmsimg.com/assets/s143840_ld_h15_aa.png?lock=720x540" tvg-language="Kannada" group-title="Sports",STAR SPORTS 1 KANNADA
+#EXTINF:-1 tvg-id="STAR.SPORTS.1.KANNADA.in" tvg-name="STAR SPORTS 1 KANNADA" tvg-logo="https://dtil.tmsimg.com/assets/s143840_ld_h15_aa.png?lock=720x540" tvg-language="Kannada" group-title="Sports",STAR SPORTS 1 KANNADA
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1373/master.m3u8
 
-#EXTINF:-1 tvg-id="StarSports1Marathi.in@SD" tvg-logo="https://i.imgur.com/zZrOkjZ.png" tvg-language="Marathi" group-title="Sports",STAR SPORTS 1 MARATHI
+#EXTINF:-1 tvg-id="Star.Sports.1.Marathi" tvg-name="STAR SPORTS 1 MARATHI" tvg-logo="https://i.imgur.com/zZrOkjZ.png" tvg-language="Marathi" group-title="Sports",STAR SPORTS 1 MARATHI
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/StarSports1Marathi.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.1.TAMIL.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s158299_ld_h15_aa.png?lock=720x540" tvg-language="Tamil" group-title="Sports",STAR SPORTS 1 TAMIL HD
+#EXTINF:-1 tvg-id="STAR.SPORTS.1.TAMIL.HD.in" tvg-name="STAR SPORTS 1 TAMIL HD" tvg-logo="https://dtil.tmsimg.com/assets/s158299_ld_h15_aa.png?lock=720x540" tvg-language="Tamil" group-title="Sports",STAR SPORTS 1 TAMIL HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1515/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.1.TAMIL.in" tvg-logo="https://dtil.tmsimg.com/assets/s143842_ld_h15_aa.png?lock=720x540" tvg-language="Tamil" group-title="Sports",STAR SPORTS 1 TAMIL
+#EXTINF:-1 tvg-id="STAR.SPORTS.1.TAMIL.in" tvg-name="STAR SPORTS 1 TAMIL" tvg-logo="https://dtil.tmsimg.com/assets/s143842_ld_h15_aa.png?lock=720x540" tvg-language="Tamil" group-title="Sports",STAR SPORTS 1 TAMIL
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1313/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.1.TELUGU.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s158300_ld_h15_aa.png?lock=720x540" tvg-language="Telugu" group-title="Sports",STAR SPORTS 1 TELUGU HD
+#EXTINF:-1 tvg-id="STAR.SPORTS.1.TELUGU.HD.in" tvg-name="STAR SPORTS 1 TELUGU HD" tvg-logo="https://dtil.tmsimg.com/assets/s158300_ld_h15_aa.png?lock=720x540" tvg-language="Telugu" group-title="Sports",STAR SPORTS 1 TELUGU HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1393/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.1.TELUGU.in" tvg-logo="https://dtil.tmsimg.com/assets/s143843_ld_h15_aa.png?lock=720x540" tvg-language="Telugu" group-title="Sports",STAR SPORTS 1 TELUGU
+#EXTINF:-1 tvg-id="STAR.SPORTS.1.TELUGU.in" tvg-name="STAR SPORTS 1 TELUGU" tvg-logo="https://dtil.tmsimg.com/assets/s143843_ld_h15_aa.png?lock=720x540" tvg-language="Telugu" group-title="Sports",STAR SPORTS 1 TELUGU
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1063/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.2.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s143845_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS 2 HD
+#EXTINF:-1 tvg-id="STAR.SPORTS.2.HD.in" tvg-name="STAR SPORTS 2 HD" tvg-logo="https://dtil.tmsimg.com/assets/s143845_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS 2 HD
 http://cdn.pishow.tv/live/1207/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.2.in" tvg-logo="https://dtil.tmsimg.com/assets/s143844_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS 2
+#EXTINF:-1 tvg-id="STAR.SPORTS.2.in" tvg-name="STAR SPORTS 2" tvg-logo="https://dtil.tmsimg.com/assets/s143844_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS 2
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1079/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.2.HINDI.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s143808_ld_h15_ab.png?lock=720x540" tvg-language="Hindi" group-title="Sports",STAR SPORTS 2 HINDI HD
+#EXTINF:-1 tvg-id="STAR.SPORTS.2.HINDI.HD.in" tvg-name="STAR SPORTS 2 HINDI HD" tvg-logo="https://dtil.tmsimg.com/assets/s143808_ld_h15_ab.png?lock=720x540" tvg-language="Hindi" group-title="Sports",STAR SPORTS 2 HINDI HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/377/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.2.HINDI.in" tvg-logo="https://dtil.tmsimg.com/assets/s143807_ld_h15_ac.png?lock=720x540" tvg-language="Hindi" group-title="Sports",STAR SPORTS 2 HINDI
+#EXTINF:-1 tvg-id="STAR.SPORTS.2.HINDI.in" tvg-name="STAR SPORTS 2 HINDI" tvg-logo="https://dtil.tmsimg.com/assets/s143807_ld_h15_ac.png?lock=720x540" tvg-language="Hindi" group-title="Sports",STAR SPORTS 2 HINDI
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/374/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.2.KANNADA.in" tvg-logo="https://dtil.tmsimg.com/assets/s143847_ld_h15_aa.png?lock=720x540" group-titletvg-language="Kannada" group-title="Sports",STAR SPORTS 2 KANNADA
+#EXTINF:-1 tvg-id="STAR.SPORTS.2.KANNADA.in" tvg-name="STAR SPORTS 2 KANNADA" tvg-logo="https://dtil.tmsimg.com/assets/s143847_ld_h15_aa.png?lock=720x540" group-titletvg-language="Kannada" group-title="Sports",STAR SPORTS 2 KANNADA
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1077/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.2.TAMIL.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s179407_ld_h15_aa.png?lock=720x540" tvg-language="Tamil" group-title="Sports",STAR SPORTS 2 TAMIL HD
+#EXTINF:-1 tvg-id="STAR.SPORTS.2.TAMIL.HD.in" tvg-name="STAR SPORTS 2 TAMIL HD" tvg-logo="https://dtil.tmsimg.com/assets/s179407_ld_h15_aa.png?lock=720x540" tvg-language="Tamil" group-title="Sports",STAR SPORTS 2 TAMIL HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1441/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.2.TAMIL.in" tvg-logo="https://dtil.tmsimg.com/assets/s158352_ld_h15_ab.png?lock=720x540" tvg-language="Tamil" group-title="Sports",STAR SPORTS 2 TAMIL
+#EXTINF:-1 tvg-id="STAR.SPORTS.2.TAMIL.in" tvg-name="STAR SPORTS 2 TAMIL" tvg-logo="https://dtil.tmsimg.com/assets/s158352_ld_h15_ab.png?lock=720x540" tvg-language="Tamil" group-title="Sports",STAR SPORTS 2 TAMIL
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1061/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.2.TELUGU.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s179406_ld_h15_aa.png?lock=720x540" tvg-language="Telugu" group-title="Sports",STAR SPORTS 2 TELUGU HD
+#EXTINF:-1 tvg-id="STAR.SPORTS.2.TELUGU.HD.in" tvg-name="STAR SPORTS 2 TELUGU HD" tvg-logo="https://dtil.tmsimg.com/assets/s179406_ld_h15_aa.png?lock=720x540" tvg-language="Telugu" group-title="Sports",STAR SPORTS 2 TELUGU HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1307/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.2.TELUGU.in" tvg-logo="https://dtil.tmsimg.com/assets/s158351_ld_h15_ab.png?lock=720x540" tvg-language="Telugu" group-title="Sports",STAR SPORTS 2 TELUGU 
+#EXTINF:-1 tvg-id="STAR.SPORTS.2.TELUGU.in" tvg-name="STAR SPORTS 2 TELUGU" tvg-logo="https://dtil.tmsimg.com/assets/s158351_ld_h15_ab.png?lock=720x540" tvg-language="Telugu" group-title="Sports",STAR SPORTS 2 TELUGU 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1329/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.3.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NYHBQ.png?lock=360x270" tvg-language="English" group-title="Sports",STAR SPORTS 3
+#EXTINF:-1 tvg-id="STAR.SPORTS.3.in" tvg-name="STAR SPORTS 3" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002NYHBQ.png?lock=360x270" tvg-language="English" group-title="Sports",STAR SPORTS 3
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1075/master.m3u8
 
-#EXTINF:-1 tvg-id="Star.Sports.Khel.in" tvg-logo="https://dtil.tmsimg.com/assets/s143809_ld_h15_ab.png?lock=720x540" tvg-language="Hindi" group-title="Sports",STAR SPORTS KHEL
+#EXTINF:-1 tvg-id="Star.Sports.Khel.in" tvg-name="Star Sports Khel" tvg-logo="https://dtil.tmsimg.com/assets/s143809_ld_h15_ab.png?lock=720x540" tvg-language="Hindi" group-title="Sports",STAR SPORTS KHEL
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/287/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.SELECT.1.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s143849_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS SELECT 1 HD
+#EXTINF:-1 tvg-id="STAR.SPORTS.SELECT.1.HD.in" tvg-name="STAR SPORTS SELECT 1 HD" tvg-logo="https://dtil.tmsimg.com/assets/s143849_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS SELECT 1 HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1175/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.SELECT.1.in" tvg-logo="https://dtil.tmsimg.com/assets/s143848_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS SELECT 1
+#EXTINF:-1 tvg-id="Star.Sports.Select.1.in" tvg-name="Star Sports Select 1" tvg-logo="https://dtil.tmsimg.com/assets/s143848_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS SELECT 1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1311/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.SELECT.2.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s143851_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS SELECT 2 HD
+#EXTINF:-1 tvg-id="STAR.SPORTS.SELECT.2.HD.in" tvg-name="STAR SPORTS SELECT 2 HD" tvg-logo="https://dtil.tmsimg.com/assets/s143851_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS SELECT 2 HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1183/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SPORTS.SELECT.2.in" tvg-logo="https://dtil.tmsimg.com/assets/s143850_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS SELECT
+#EXTINF:-1 tvg-id="STAR.SPORTS.SELECT.2.in" tvg-name="STAR SPORTS SELECT 2" tvg-logo="https://dtil.tmsimg.com/assets/s143850_ld_h15_aa.png?lock=720x540" tvg-language="English" group-title="Sports",STAR SPORTS SELECT
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1315/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SUVARNA.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s143853_ld_h15_aa.png?lock=360x270" tvg-language="Kannada" group-title="Entertainment",STAR SUVARNA HD
+#EXTINF:-1 tvg-id="STAR.SUVARNA.HD.in" tvg-name="STAR SUVARNA HD" tvg-logo="https://dtil.tmsimg.com/assets/s143853_ld_h15_aa.png?lock=360x270" tvg-language="Kannada" group-title="Entertainment",STAR SUVARNA HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1395/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SUVARNA.in" tvg-logo="https://dtil.tmsimg.com/assets/s143852_ld_h15_aa.png?lock=360x270" tvg-language="Kannada" group-title="Entertainment",STAR SUVARNA
+#EXTINF:-1 tvg-id="STAR.SUVARNA.in" tvg-name="STAR SUVARNA" tvg-logo="https://dtil.tmsimg.com/assets/s143852_ld_h15_aa.png?lock=360x270" tvg-language="Kannada" group-title="Entertainment",STAR SUVARNA
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1379/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.SUVARNA.PLUS.in" tvg-logo="https://dtil.tmsimg.com/assets/s143854_ld_h15_aa.png?lock=360x270" tvg-language="Kannada" group-title="Movies",STAR SUVARNA PLUS
+#EXTINF:-1 tvg-id="STAR.SUVARNA.PLUS.in" tvg-name="STAR SUVARNA PLUS" tvg-logo="https://dtil.tmsimg.com/assets/s143854_ld_h15_aa.png?lock=360x270" tvg-language="Kannada" group-title="Movies",STAR SUVARNA PLUS
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1371/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.UTSAV.in" tvg-logo="https://dtil.tmsimg.com/assets/s159132_ld_h15_aa.png?lock=360x270"  tvg-language="Hindi" group-title="Entertainment",STAR UTSAV
+#EXTINF:-1 tvg-id="STAR.UTSAV.in" tvg-name="STAR UTSAV" tvg-logo="https://dtil.tmsimg.com/assets/s159132_ld_h15_aa.png?lock=360x270"  tvg-language="Hindi" group-title="Entertainment",STAR UTSAV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1045/master.m3u8
 
-#EXTINF:-1 tvg-id="STAR.UTSAV.MOVIES.in" tvg-logo="https://dtil.tmsimg.com/assets/s143856_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR UTSAV MOVIES
+#EXTINF:-1 tvg-id="star.utsav.movies" tvg-name="Star Utsav Movies" tvg-logo="https://dtil.tmsimg.com/assets/s143856_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="Movies",STAR UTSAV MOVIES
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1023/master.m3u8
 
-#EXTINF:-1 tvg-id="dish2860" tvg-logo="https://dtil.tmsimg.com/assets/s144075_ld_h15_aa.png?lock=360x270" tvg-language="Tamil" group-title="Entertainment",STAR VIJAY HD
+#EXTINF:-1 tvg-id="VIJAY.HD.in" tvg-name="VIJAY HD" tvg-logo="https://dtil.tmsimg.com/assets/s144075_ld_h15_aa.png?lock=360x270" tvg-language="Tamil" group-title="Entertainment",STAR VIJAY TV HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1193/master.m3u8
 
-#EXTINF:-1 tvg-id="dish2861" tvg-logo="https://dtil.tmsimg.com/assets/s144079_ld_h15_aa.png?lock=360x270" tvg-language="Tamil" group-title="Entertainment",STAR VIJAY
+#EXTINF:-1 tvg-id="VIJAY.TV.in" tvg-name="VIJAY TV" tvg-logo="https://dtil.tmsimg.com/assets/s144079_ld_h15_aa.png?lock=360x270" tvg-language="Tamil" group-title="Entertainment",STAR VIJAY TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1303/master.m3u8
 
 #EXTINF:-1 tvg-id="Star.Vijay.HD.in" tvg-logo="https://dtil.tmsimg.com/assets/s144079_ld_h15_aa.png?lock=360x270"  tvg-language="Tamil" group-title="Entertainment",STAR VIJAY UK
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starvijayuk.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ts1176" tvg-logo="https://dtil.tmsimg.com/assets/s158319_ld_h15_aa.png?lock=360x270" tvg-language="Tamil" group-title="Movies",STAR VIJAY SUPER HD
+#EXTINF:-1 tvg-id="VIJAY.SUPER.HD.in" tvg-name="VIJAY SUPER HD" tvg-logo="https://dtil.tmsimg.com/assets/s158319_ld_h15_aa.png?lock=360x270" tvg-language="Tamil" group-title="Movies",STAR VIJAY SUPER HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1131/master.m3u8
 
-#EXTINF:-1 tvg-id="ts275" tvg-logo="https://dtil.tmsimg.com/assets/s144077_ld_h15_aa.png?lock=360x270" tvg-language="Tamil" group-title="Movies",STAR VIJAY SUPER 
+#EXTINF:-1 tvg-id="VIJAY.SUPER.in" tvg-name="VIJAY SUPER" tvg-logo="https://dtil.tmsimg.com/assets/s144077_ld_h15_aa.png?lock=360x270" tvg-language="Tamil" group-title="Movies",STAR VIJAY SUPER 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1295/master.m3u8
 
-#EXTINF:-1 tvg-id="ts906" tvg-logo="https://dtil.tmsimg.com/assets/s144078_ld_h15_aa.png?lock=360x270" tvg-language="Tamil" group-title="Entertainment",STAR VIJAY TAKKAR
+#EXTINF:-1 tvg-id="VIJAY.TAKKAR.in" tvg-name="VIJAY TAKKAR" tvg-logo="https://dtil.tmsimg.com/assets/s144078_ld_h15_aa.png?lock=360x270" tvg-language="Tamil" group-title="Entertainment",STAR VIJAY TAKKAR
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1305/master.m3u8
 
@@ -1955,17 +1955,172 @@ http://cdn.pishow.tv/live/1305/master.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8
 
-#EXTINF:-1 tvg-id="SteelbirdMusic.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Steelbird_Music.png" tvg-language="Punjabi" group-title="Music",STEEL BIRD MUSIC
+#EXTINF:-1 tvg-id="Steelbird.Music.in" tvg-name="Steelbird Music" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Steelbird_Music.png" tvg-language="Punjabi" group-title="Music",STEEL BIRD MUSIC
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
 
-#EXTINF:-1 tvg-id="SudarshanNews.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143870_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="News",SUDARSHAN NEWS
+#EXTINF:-1 tvg-id="SUDARSHAN.NEWS.in" tvg-name="SUDARSHAN NEWS" tvg-logo="https://dtil.tmsimg.com/assets/s143870_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="News",SUDARSHAN NEWS
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1a1/index.m3u8
+
+#EXTINF:-1 tvg-id="SUN.BANGLA.in" tvg-name="SUN BANGLA" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z0506.png?lock=720x540" tvg-language="Bengali" group-title="Entertainment",SUN BANGLA
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1478/master.m3u8
+
+#EXTINF:-1 tvg-id="GEMINI.TV.HD.in" tvg-name="GEMINI TV HD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031CXXC.png?lock=360x270" tvg-language="Telugu" group-title="Entertainment",SUN GEMINI HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1215/master.m3u8
+
+#EXTINF:-1 tvg-id="GEMINI.TV.in" tvg-name="GEMINI TV" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031CXTV.png?lock=360x270" tvg-language="Telugu" group-title="Entertainment",SUN GEMINI
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://ptuf.ridsys.in/riptv/live/GEMINI_TV/index.m3u8
+http://cdn.pishow.tv/live/935/master.m3u8
+
+#EXTINF:-1 tvg-id="GEMINI.COMEDY.in" tvg-name="GEMINI.COMEDY.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031GB57.png?lock=360x270" tvg-language="Telugu" group-title="Entertainment",SUN GEMINI COMEDY
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/941/master.m3u8
+
+#EXTINF:-1 tvg-id="GEMINI.LIFE.in" tvg-name="GEMINI LIFE" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031GB5H.png?lock=360x270" tvg-language="Telugu" group-title="Movies",SUN GEMINI LIFE
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/943/master.m3u8
+
+#EXTINF:-1 tvg-id="GEMINI.MOVIES.in" tvg-name="GEMINI MOVIES HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/2f08455c7548e283af9dd25d287b3ce9.png" tvg-language="Telugu" group-title="Movies",SUN GEMINI MOVIES HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1217/master.m3u8
+
+#EXTINF:-1 tvg-id="GEMINI.MOVIES.in" tvg-name="GEMINI.MOVIES.in" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031CZDC.png?lock=360x270" tvg-language="Telugu" group-title="Movies",SUN GEMINI MOVIES
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/939/master.m3u8
+
+#EXTINF:-1 tvg-id="GEMINI.MUSIC.in" tvg-name="GEMINI MUSIC HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Gemini_Music_HD.png" tvg-language="Telugu" group-title="Music",SUN GEMINI MUSIC HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1219/master.m3u8
+
+#EXTINF:-1 tvg-id="GEMINI.MUSIC.in" tvg-name="GEMINI MUSIC" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031GB4K.png?lock=360x270" tvg-language="Telugu" group-title="Music",SUN GEMINI MUSIC
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/953/master.m3u8
+
+#EXTINF:-1 tvg-id="SUN.LIFE.in" tvg-name="SUN LIFE" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z1JE4.png?lock=360x270" tvg-language="Tamil" group-title="Infotainment",SUN LIFE
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1349/master.m3u8
+
+#EXTINF:-1 tvg-id="Sun.Marathi.in" tvg-name="Sun Marathi" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z0769.png?lock=720x540" tvg-language="Marathi" group-title="Entertainment",SUN MARATHI
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/329/master.m3u8
+
+#EXTINF:-1 tvg-id="SUN.MUSIC.HD.in" tvg-name="SUN MUSIC HD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z1CL8.png?lock=360x270" tvg-language="Tamil" group-title="Music",SUN MUSIC HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1343/master.m3u8
+
+#EXTINF:-1 tvg-id="SUN.MUSIC.in" tvg-name="SUN MUSIC" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z0P8V.png?lock=360x270" tvg-language="Tamil" group-title="Music",SUN MUSIC
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1345/master.m3u8
+
+#EXTINF:-1 tvg-id="Sun.Neo.in" tvg-name="Sun Neo" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SUN_Neo.png" tvg-language="Hindi" group-title="Entertainment",SUN NEO HD
+http://27.116.22.53:5001/live/3088.m3u8
+
+#EXTINF:-1 tvg-id="Sun.Neo.in" tvg-name="Sun Neo" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z06B5.png?lock=720x540" tvg-language="Hindi" group-title="Entertainment",SUN NEO
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1485/master.m3u8
+#http://27.116.22.53:5001/live/3088.m3u8
+
+#EXTINF:-1 tvg-id="SUN.NEWS.in" tvg-name="SUN NEWS" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z0MBD.png?lock=360x270" tvg-language="Tamil" group-title="News",SUN NEWS
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1347/master.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="SURYA.HD.in" tvg-name="SURYA HD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031MCS3.png?lock=360x270" tvg-language="Malayalam" group-title="Entertainment",SUN SURYA HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1355/master.m3u8
+
+#EXTINF:-1 tvg-id="SURYA.TV.in" tvg-name="SURYA TV" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031MCMB.png?lock=360x270" tvg-language="Malayalam" group-title="Entertainment",SUN SURYA
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1357/master.m3u8
+
+#EXTINF:-1 tvg-id="SURYA.COMEDY.in" tvg-name="SURYA COMEDY" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031VF8V.png?lock=360x270" tvg-language="Malayalam" group-title="Entertainment",SUN SURYA COMEDY
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1363/master.m3u8
+
+#EXTINF:-1 tvg-id="SURYA.MOVIES.in" tvg-name="SURYA MOVIES" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031VF4G.png?lock=360x270" tvg-language="Malayalam" group-title="Movies",SUN SURYA MOVIES
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1361/master.m3u8
+
+#EXTINF:-1 tvg-id="SURYA.MUSIC.in" tvg-name="SURYA MUSIC" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031VF5P.png?lock=360x270" tvg-language="Malayalam" group-title="Music",SUN SURYA MUSIC
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1359/master.m3u8
+
+#EXTINF:-1 tvg-id="SUN.TV.HD.in" tvg-name="SUN TV HD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z0M0Y.png?lock=360x270" tvg-language="Tamil" group-title="Entertainment",SUN TV HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1351/master.m3u8
+
+#EXTINF:-1 tvg-id="SUN.TV.in" tvg-name="SUN TV" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002Z0DG5.png?lock=360x2700" tvg-language="Tamil" group-title="Entertainment",SUN TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1353/master.m3u8
+
+#EXTINF:-1 tvg-id="UDAYA.HD.in" tvg-name="UDAYA HD"  tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031GB5K.png?lock=360x270" tvg-language="Kannada" group-title="Entertainment",SUN UDAYA HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1589/master.m3u8
+
+#EXTINF:-1 tvg-id="UDAYA.TV.in" tvg-name="UDAYA TV" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031GB5V.png?lock=360x270" tvg-language="Kannada" group-title="Entertainment",SUN UDAYA
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1590/master.m3u8
+
+#EXTINF:-1 tvg-id="UDAYA.COMEDY.in" tvg-name="UDAYA COMEDY" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031GCT8.png?lock=360x270" tvg-language="Kannada" group-title="Entertainment",SUN UDAYA COMEDY
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1592/master.m3u8
+
+#EXTINF:-1 tvg-id="UDAYA.MOVIES.in" tvg-name="UDAYA MOVIES" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031GCSR.png?lock=360x270" tvg-language="Kannada" group-title="Movies",SUN UDAYA MOVIES
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1591/master.m3u8
+
+#EXTINF:-1 tvg-id="UDAYA.MUSIC.in" tvg-name="UDAYA MUSIC" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0031GCT0.png?lock=360x270" tvg-language="Kannada" group-title="Music",SUN UDAYA MUSIC
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+http://cdn.pishow.tv/live/1593/master.m3u8
+
+#EXTINF:-1 tvg-id="SUPER.HUNGAMA.in" tvg-name="SUPER HUNGAMA" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUPER_HUNGAMA/images/LOGO_HD/image.png" group-title="Kids",SUPER HUNGAMA (Multi-Lang)
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://raw.githubusercontent.com/m3u-iptv/live/main/streams/SuperHungama.m3u8
+
+#EXTINF:-1 tvg-id="SVBC.in" tvg-name="SVBC" tvg-logo="https://dtil.tmsimg.com/assets/s143889_ld_h9_ab.png?lock=720x540" tvg-language="Telugu" group-title="Religious",SVBC
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SVBC.2.in" tvg-name="SVBC 2" tvg-logo="https://dtil.tmsimg.com/assets/s143890_ld_h9_aa.png?lock=720x540" tvg-language="Tamil" group-title="Religious",SVBC 2
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SVBC3.in@SD" tvg-name="SVBC 3" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SVBC3.png" tvg-language="Kannada" group-title="Religious",SVBC 3
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SVBC4.in@SD" tvg-name="SVBC 4" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SVBC4.png" tvg-language="Hindi" group-title="Religious",SVBC 4
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-id="SwastikStories.in" tvg-name="Swastik Stories" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Swastik_Stories.png" tvg-language="Hindi" group-title="Entertainment",SWASTIK STORIES
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://amg14122-amg14122c1-amgplt0173.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg14122-amg14122c1-amgplt0173/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="TARANG.MUSIC.in" tvg-name="TARANG MUSIC" tvg-logo="https://i.imgur.com/oSm8zFD.png" tvg-language="Odia" group-title="Music",TARANG MUSIC
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://livetv.tarangplus.in/tarangmusic-origin/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TARANG.in" tvg-name="TARANG" tvg-logo="https://dtil.tmsimg.com/assets/s143927_ld_h15_aa.png?lock=720x540" tvg-language="Odia" group-title="Entertainment",TARANG TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://livetv.tarangplus.in/tarangtv-origin/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Thanthi.One.in" tvg-name="Thanthi One" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Thanthi_One.png" tvg-language="Tamil" group-title="Entertainment",THANTHI ONE
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://mumt07.tangotv.in/zHjX9OFlTHANTHIONE/index.m3u8
+
+#EXTINF:-1 tvg-id="Thanthi.TV.in" tvg-name="Thanthi TV" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/Thanthi_TV.png" tvg-language="Tamil" group-title="News",THANTHI TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://streams.tangotv.in/THANTHITV/ORIGIN/index.m3u8
 
 #EXTINF:-1 tvg-id="IN25000020M" tvg-name="The Jungle Book" tvg-logo="https://raw.githubusercontent.com/m3u-iptv/live/refs/heads/main/Images/The_Jungle_Book.png" tvg-language="Hindi" group-title="Kids",THE JUNGLE BOOK
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
@@ -1987,20 +2142,33 @@ https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-7bc7k87sjhz5z.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://mumt05.tangotv.in/87NeALx2THEQ/index.m3u8
 
-#EXTINF:-1 tvg-id="TimesNow.in" tvg-name="Times Now World" tvg-logo="https://dtil.tmsimg.com/assets/s144008_ld_h15_aa.png?lock=360x270" tvg-language="English" group-title="News",TIMES NOW
+#EXTINF:-1 tvg-id="TIMES.NOW.in" tvg-name="TIMES NOW" tvg-logo="https://dtil.tmsimg.com/assets/s144008_ld_h15_aa.png?lock=360x270" tvg-language="English" group-title="News",TIMES NOW
 https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/timesnow/timesnow_master.m3u8
 
 #EXTINF:-1 tvg-id="IN400059ZR" tvg-name="Times Now Navbharat" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TIMES_NOW_NAVBHARAT_HD/images/LOGO_HD/image.png" tvg-language="Hindi" group-title="News",TIMES NOW NAV BHARAT HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://yupprestreamliveus.akamaized.net/v1/vglive-sk-717514/main.m3u8
 
-#EXTINF:-1 tvg-id="IN400059ZR" tvg-name="Times Now Navbharat" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Times_Now_Navbharat.svg/1280px-Times_Now_Navbharat.svg.png" tvg-language="Hindi" group-title="News",TIMES NOW NAV BHARAT
+#EXTINF:-1 tvg-id="TIMES.NOW.NAVBHARAT.in" tvg-name="TIMES NOW NAVBHARAT" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Times_Now_Navbharat.svg/1280px-Times_Now_Navbharat.svg.png" tvg-language="Hindi" group-title="News",TIMES NOW NAV BHARAT
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://dp8vjjam4foas.cloudfront.net/master.m3u8
+
+
+#EXTINF:-1 tvg-id="TLC.HD.in" tvg-name="TLC HD" tvg-logo="" tvg-language="Hindi" group-title="LifeStyle",TLC HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://server.thelegitpro.in/tlchd/index.m3u8
+
+#EXTINF:-1 tvg-id="TLC.in" tvg-name="TLC" tvg-logo="" tvg-language="Hindi" group-title="LifeStyle",TLC
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://server.thelegitpro.in/tlchd/index.m3u8
 
 #EXTINF:-1 tvg-id="TNP.News.in" tvg-logo="https://dtil.tmsimg.com/assets/s158792_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="News",TNP NEWS
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://server.thelegitpro.in/tnpnews/tnpnews/index.m3u8
+
+#EXTINF:-1 tvg-id="T.NEWS.in" tvg-name="T NEWS" tvg-logo="https://dtil.tmsimg.com/assets/s143919_ld_h15_aa.png?lock=720x540" tvg-language="Telugu" group-title="News",T NEWS
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://cdn.pishow.tv/ott/live/385/master.m3u8
 
 #EXTINF:-1 tvg-id="TotalBhakti.in@SD" tvg-logo="https://bhaktiappproduction.s3.ap-south-1.amazonaws.com/videos/video/5802371total_bhakti_hd.png" tvg-language="Hindi" group-title="Religious",TOTAL BHAKTI
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
@@ -2014,13 +2182,17 @@ https://m3u-iptv.github.io/iptv/streams/TravelXP4KHDR.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://amg00416-amg00416c9-samsung-in-4882.playouts.now.amagi.tv/playlist/amg00416-travelxp-travelxphd-samsungin/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ts629" tvg-logo="https://dtil.tmsimg.com/assets/s144024_ld_h15_aa.png?lock=720x540" tvg-language="Kannada" group-title="News",TV5 KANNADA
+#EXTINF:-1 tvg-id="TRAVEL.XP.(SD).in" tvg-logo="" tvg-language="Hindi" group-title="Infotainment",TRAVEL XP (SD)
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://mumt07.tangotv.in/000/index.m3u8
+
+#EXTINF:-1 tvg-id="TV5.KANNADA.in" tvg-name="TV5 KANNADA" tvg-logo="https://dtil.tmsimg.com/assets/s144024_ld_h15_aa.png?lock=720x540" tvg-language="Kannada" group-title="News",TV5 KANNADA
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://mumt07.tangotv.in/zHjX9OFlTV5KANNADA/index.m3u8
 
-#EXTINF:-1 tvg-id="ts320" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TV5_TELUGU/images/LOGO_HD/image.png" tvg-language="Telugu" group-title="News",TV5 NEWS
+#EXTINF:-1 tvg-id="TV.5.News.in" tvg-name="TV 5 News" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TV5_TELUGU/images/LOGO_HD/image.png" tvg-language="Telugu" group-title="News",TV5 NEWS
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
-#https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/tv5_nim_https/110322/tv5/playlist.m3u8
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/tv5_nim_https/110322/tv5/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TV7Bharat.in@SD" tvg-logo="https://tv7bharat.tv/wp-content/uploads/2023/07/Logo-Bharat.jpg" tvg-language="Hindi" group-title="News",TV7 BHARAT
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
@@ -2030,23 +2202,23 @@ https://stream.ottlive.co.in/tv7bharat/index.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://d38ws2hnaao15k.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96c27a151/tv9_bangla/amg01106c1/hls.m3u8
 
-#EXTINF:-1 tvg-id="IN3800003SV" tvg-name="TV9 Bharatvarsh" tvg-logo="https://dtil.tmsimg.com/assets/s144027_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="News",TV9 BHARATVARSH
+#EXTINF:-1 tvg-id="TV9.Bharatvarsh.in" tvg-name="TV9 Bharatvarsh" tvg-logo="https://dtil.tmsimg.com/assets/s144027_ld_h15_aa.png?lock=360x270" tvg-language="Hindi" group-title="News",TV9 BHARATVARSH
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://d3tpjnkryx2q5h.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96c27a151/tv9_bharatvarsha/amg01106c2/hls.m3u8
 
-#EXTINF:-1 tvg-id="INBD1300012GJ" tvg-name="TV9 Gujarati" tvg-logo="https://dtil.tmsimg.com/assets/s144028_ld_h15_aa.png?lock=360x270" tvg-language="Gujarati" group-title="News",TV9 GUJARATI
+#EXTINF:-1 tvg-id="TV9.GUJARATI.in" tvg-name="TV9 GUJARATI" tvg-logo="https://dtil.tmsimg.com/assets/s144028_ld_h15_aa.png?lock=360x270" tvg-language="Gujarati" group-title="News",TV9 GUJARATI
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://d2tknfmcd4g45i.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96c27a151/tv9_gujarati/amg01106c6/hls.m3u8
 
-#EXTINF:-1 tvg-id="INBD2500003XT" tvg-name="TV9 Kannada" tvg-logo="https://dtil.tmsimg.com/assets/s144029_ld_h15_aa.png?lock=360x270" tvg-language="Kannada" group-title="News",TV9 KANNADA
+#EXTINF:-1 tvg-id="TV9.KANNADA.in" tvg-name="TV9 KANNADA" tvg-logo="https://dtil.tmsimg.com/assets/s144029_ld_h15_aa.png?lock=360x270" tvg-language="Kannada" group-title="News",TV9 KANNADA
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://d23iqqcgt0ptnh.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96c27a151/tv9_kannada/amg01106c5/hls.m3u8
 
-#EXTINF:-1 tvg-id="IN4000003V7" tvg-name="TV9 Marathi" tvg-logo="https://dtil.tmsimg.com/assets/s144030_ld_h15_aa.png?lock=360x270" tvg-language="Marathi" group-title="News",TV9 MARATHI
+#EXTINF:-1 tvg-id="TV9.MARATHI.in" tvg-name="TV9 MARATHI" tvg-logo="https://dtil.tmsimg.com/assets/s144030_ld_h15_aa.png?lock=360x270" tvg-language="Marathi" group-title="News",TV9 MARATHI
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://d2jguyssayopwj.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96c27a151/tv9_marathi/amg01106c7/hls.m3u8
 
-#EXTINF:-1 tvg-id="IN40000048N" tvg-name="TV9 Telugu" tvg-logo="https://dtil.tmsimg.com/assets/s144031_ld_h15_aa.png?lock=360x270" tvg-language="Telugu" group-title="News",TV9 TELUGU
+#EXTINF:-1 tvg-id="TV9.TELUGU.in" tvg-name="TV9 TELUGU" tvg-logo="https://dtil.tmsimg.com/assets/s144031_ld_h15_aa.png?lock=360x270" tvg-language="Telugu" group-title="News",TV9 TELUGU
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://d9bunlxvfduy3.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96c27a151/tv9_telugu/amg01106c4/hls.m3u8
 
@@ -2066,10 +2238,27 @@ https://stream.tv30bharat.com/hls/shree/bhattji.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://server.livelegitpro.in/bnews24/bnews24/video.m3u8
 
+#EXTINF:-1 tvg-id="V6.NEWS.in" tvg-name="V6 NEWS" tvg-logo="https://dtil.tmsimg.com/assets/s144047_ld_h15_aa.png?lock=720x540" tvg-language="Telugu" group-title="News",V6 NEWS
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/v6news_nim_https/140622/v6news/playlist.m3u8
+
+#EXTINF:-1 tvg-id="VASANTH.TV.in" tvg-name="VASANTH TV" tvg-logo="https://dtil.tmsimg.com/assets/s144068_ld_h15_aa.png?lock=720x540" tvg-language="Tamil" group-title="Entertainment",VASANTH TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://mumt04.tangotv.in/m18aqlK4VASANTHTV/index.m3u8
+
 #EXTINF:-1 tvg-id="Vedic" tvg-logo="https://dtil.tmsimg.com/assets/s144069_ld_h15_aa.png?lock=720x540" tvg-language="Hindi" group-title="Religious",VEDIC
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://mumt05.tangotv.in/87NeALx2VEDIC/index.m3u8
 
-#EXTINF:-1 tvg-id="ts497" tvg-logo="https://m3u-iptv.github.io/iptv/images/VTV_News.png" tvg-language="Gujarati" group-title="News",VTV News
+#EXTINF:-1 tvg-id="VELICHAM.TV.in" tvg-name="VELICHAM TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e4/Logo_of_Velicham_TV.png" tvg-language="Tamil" group-title="News",VELICHAM TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://mumt05.tangotv.in/87NeALx2VALICHAMPLUS/index.m3u8
+
+#EXTINF:-1 tvg-id="VISSA.TV.in" tvg-name="VISSA TV" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VISSA_TV/images/LOGO_HD/image.png" tvg-language="Telugu" group-title="Entertainment",VISSA TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://mumt07.tangotv.in/zHjX9OFlVISSATV/index.m3u8
+
+#EXTINF:-1 tvg-id="VTV.NEWS.in" tvg-name="VTV NEWS" tvg-logo="https://m3u-iptv.github.io/iptv/images/VTV_News.png" tvg-language="Gujarati" group-title="News",VTV News
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://d1msejlow1t3l4.cloudfront.net/fta/vtvgujarati/playlist.m3u8
 
@@ -2083,7 +2272,7 @@ https://yuppnimrestreammum.akamaized.net/181224/smil:wahpunjabi.smil/playlist.m3
 
 #EXTINF:-1 tvg-id="553" tvg-name="KairaliWe.in" tvg-logo="https://m3u-iptv.github.io/iptv/images/Wah_TV.png" group-title="Religious",We TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
-https://m3u-iptv.github.io/iptv/streams/WeTV.m3u8
+https://catchup.yuppcdn.net/amazonv2/36/preview/wetv/master/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="WeatherSpy.in@SD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Weather_SPY.png" tvg-language="English" group-title="Infotainment",Weather SPY
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
@@ -2101,7 +2290,11 @@ https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-merbcw141f2ka.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://mumt06.tangotv.in/qYyB8fXVWINTV/index.m3u8
 
-#EXTINF:-1 tvg-id="INBD4000058T" tvg-name="WION" tvg-logo="https://m3u-iptv.github.io/iptv/images/Wion.png" tvg-language="English" group-title="News" ,WION
+#EXTINF:-1 tvg-id="WE.TV.in" tvg-name="WE TV" tvg-logo="https://m3u-iptv.github.io/iptv/images/We_TV.png" tvg-language="0" group-title="0" ,WE TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
+https://vg-zeefta1.akamaized.net/main.m3u8
+
+#EXTINF:-1 tvg-id="WION.in" tvg-name="WION" tvg-logo="https://m3u-iptv.github.io/iptv/images/Wion.png" tvg-language="English" group-title="News" ,WION
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://vg-zeefta1.akamaized.net/vglive-sk-726180/main.m3u8
 
@@ -2307,7 +2500,7 @@ https://m3u-iptv.github.io/iptv/streams/ZeeNewsHD.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://m3u-iptv.github.io/iptv/streams/ZeeNews.m3u8
 
-#EXTINF:-1 tvg-id="ts1181" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Power_HD.png" tvg-language="Kannada" group-title="Entertainment",Zee Power HD
+#EXTINF:-1 tvg-id="Zee.Picchar.in" tvg-name="Zee Picchar" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Power_HD.png" tvg-language="Kannada" group-title="Entertainment",Zee Power HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1594/master.m3u8
 
@@ -2327,7 +2520,7 @@ http://cdn.pishow.tv/live/1559/master.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://vg-zeefta1.akamaized.net/vglive-sk-925510/main.m3u8
 
-#EXTINF:-1 tvg-id="ts597" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Sarthak_HD.png" tvg-language="Odia" group-title="Entertainment",Zee Sarthak HD
+#EXTINF:-1 tvg-id="ZEE.SARTHAK.in" tvg-name="ZEE SARTHAK HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Sarthak_HD.png" tvg-language="Odia" group-title="Entertainment",Zee Sarthak HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ecad0b097b574078a4a1bde24bfdb2e5:568bb13d04db4b738864f6c849474cd5
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeesarthak/default/main.mpd
@@ -2360,7 +2553,7 @@ https://m3u-iptv.github.io/iptv/streams/ZeeTamilHD.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1563/master.m3u8
 
-#EXTINF:-1 tvg-id="ZAthiradi" tvg-name="Z Athiradi" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Tamil_SD.png" tvg-language="Tamil" group-title="Movies",Zee Athiradi & Tamil
+#EXTINF:-1 tvg-id="ZAthiradi" tvg-name="Z Athiradi" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Tamil_SD.png" tvg-language="Tamil" group-title="Movies",Zee Tamil
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://zee5.cdn.runn.tv/zfast/stream/zeeathd/playlist.m3u8
 
@@ -2380,7 +2573,7 @@ http://cdn.pishow.tv/live/1564/master.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 https://d116gfrn8orazi.cloudfront.net/index.m3u8
 
-#EXTINF:-1 tvg-id="ts797" tvg-name="Zee Thirai HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Thirai_HD.png" tvg-language="Tamil" group-title="Movies",Zee Thirai HD
+#EXTINF:-1 tvg-id="Zee.Thirai.in" tvg-name="Zee Thirai HD" tvg-logo="https://m3u-iptv.github.io/iptv/images/Zee_Thirai_HD.png" tvg-language="Tamil" group-title="Movies",Zee Thirai HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; SM-G975F Build/QP1A.190711.020)
 http://cdn.pishow.tv/live/1587/master.m3u8
 
