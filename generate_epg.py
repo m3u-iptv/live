@@ -2,7 +2,9 @@ import gzip
 import re
 from datetime import datetime, timedelta, timezone
 import xml.etree.ElementTree as ET
-import requests
+scraper = cloudscraper.create_scraper()
+response = scraper.get(URL, timeout=15)
+
 from bs4 import BeautifulSoup
 
 URL = "https://dishnews.in/goldmines-bollywood-channel-movie-schedule/"
