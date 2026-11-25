@@ -2,8 +2,11 @@ name: Auto Update EPG
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Roz subah 5:30 AM IST par chalega
-  workflow_dispatch:    # Manual run karne ka button
+    - cron: '0 0 * * *' # Roz subah 5:30 AM IST
+  workflow_dispatch:
+
+permissions:
+  contents: write # File save karne ki direct permission
 
 jobs:
   build:
@@ -25,9 +28,9 @@ jobs:
 
       - name: Commit and push epg.xml.gz
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.name "github-actions[bot]"
           git add epg.xml.gz
-          git commit -m "Auto-update EPG" || exit 0
+          git commit -m "Update EPG $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
           
