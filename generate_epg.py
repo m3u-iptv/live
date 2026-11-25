@@ -1,6 +1,6 @@
 import gzip
 import re
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import xml.etree.ElementTree as ET
 import requests
 from bs4 import BeautifulSoup
@@ -10,11 +10,13 @@ CHANNEL_ID = "GoldminesBollywood.in"
 CHANNEL_NAME = "Goldmines Bollywood"
 
 def fetch_schedule():
-    headers = {"User-Agent": "Mozilla/5.0"}
-    response = requests.get(URL, headers=headers)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    response = requests.get(URL, headers=headers, timeout=15)
+    response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
     
-    # Webpage ke text se lines nikalna
     lines = [line.strip() for line in soup.get_text().split("\n") if line.strip()]
     
     programs = []
@@ -22,7 +24,6 @@ def fetch_schedule():
     
     for i, line in enumerate(lines):
         if time_pattern.match(line):
-            # Time se theek upar movie ka naam hota hai ("Hindi | Film" ko chhodkar)
             title = "Unknown Movie"
             for back in range(1, 4):
                 if i - back >= 0 and "Hindi | Film" not in lines[i - back] and "hindi movies" not in lines[i - back].lower():
@@ -40,19 +41,24 @@ def build_xmltv(programs):
     display_name = ET.SubElement(channel, "display-name", {"lang": "hi"})
     display_name.text = CHANNEL_NAME
     
-    # Aaj ki date (IST +0530) ke hisaab se timings set karna
-    today = datetime.now().strftime("%Y%m%d")
-    parsed_items = []
+    # Sahi Indian Standard Time (IST +05:30) set karna
+    ist = timezone(timedelta(hours=5, minutes=30))
+    today = datetime.now(ist).strftime("%Y%m%d")
     
+    parsed_items = []
     for p in programs:
         dt = datetime.strptime(f"{today} {p['time_str']}", "%Y%m%d %I:%M%p")
         parsed_items.append((dt, p["title"]))
         
     for i in range(len(parsed_items)):
         start_dt, title = parsed_items[i]
-        # Agle program ka start time hi is program ka stop time hoga
+        
+        # Agle program ka start time uthana
         if i + 1 < len(parsed_items):
             stop_dt = parsed_items[i + 1][0]
+            # Agar agla program agle din (midnight ke baad) ka ho
+            if stop_dt <= start_dt:
+                stop_dt += timedelta(days=1)
         else:
             stop_dt = start_dt + timedelta(hours=2, minutes=30)
             
@@ -73,5 +79,8 @@ def build_xmltv(programs):
 
 if __name__ == "__main__":
     data = fetch_schedule()
-    build_xmltv(data)
-    print("epg.xml.gz generated successfully!")
+    if not data:
+        print("Warning: Koi schedule nahi mila!")
+    else:
+        build_xmltv(data)
+        print(f"Success: {len(data)} programs ke saath epg.xml.gz update ho gaya!")
