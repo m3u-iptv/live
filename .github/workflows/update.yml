@@ -1,0 +1,33 @@
+name: Auto Update EPG
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Roz subah 5:30 AM IST par chalega
+  workflow_dispatch:    # Manual run karne ka button
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install libraries
+        run: pip install requests beautifulsoup4
+
+      - name: Run EPG Script
+        run: python generate_epg.py
+
+      - name: Commit and push epg.xml.gz
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add epg.xml.gz
+          git commit -m "Auto-update EPG" || exit 0
+          git push
+          
